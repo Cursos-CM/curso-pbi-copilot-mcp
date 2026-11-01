@@ -1,0 +1,50 @@
+# Publica el material del curso a partir de _publicar/paquete.txz:
+# desempaqueta, regenera los CSV de datos (deterministas), verifica sus
+# huellas SHA-256, confirma los archivos y publica CursoPBI.zip como versión.
+name: Publicar material
+
+on:
+  push:
+    paths:
+      - "_publicar/**"
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Desempaquetar y regenerar datos
+        run: |
+          mkdir -p /tmp/p
+          tar xJf _publicar/paquete.txz -C /tmp/p
+          python3 /tmp/p/_gen/gen_data.py /tmp/p/CursoPBI/Datos
+          (cd /tmp/p/CursoPBI/Datos && sha256sum -c /tmp/p/_gen/datos.sha256)
+          mv /tmp/p/_gen /tmp/gen
+
+      - name: Copiar al repositorio y confirmar
+        run: |
+          cp -a /tmp/p/. .
+          git rm -r --quiet _publicar
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "$(head -n1 /tmp/gen/release.txt | cut -d'|' -f2)"
+          git push
+
+      - name: Publicar CursoPBI.zip
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=$(head -n1 /tmp/gen/release.txt | cut -d'|' -f1)
+          TITULO=$(head -n1 /tmp/gen/release.txt | cut -d'|' -f2)
+          (cd /tmp/p && zip -qr /tmp/CursoPBI.zip CursoPBI)
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" /tmp/CursoPBI.zip --clobber
+            gh release edit "$TAG" --title "$TITULO" --notes-file /tmp/gen/release_notes.md --latest
+          else
+            gh release create "$TAG" /tmp/CursoPBI.zip --target main --title "$TITULO" --notes-file /tmp/gen/release_notes.md --latest
+          fi
