@@ -1,0 +1,53 @@
+relationship 819b72c2-2c64-5ac3-a6ba-8bbfb71375f7
+	fromColumn: FACT_Ventas.FechaOrden
+	toColumn: Calendario.Fecha
+
+relationship 46bdec4d-3a4c-5dd8-bb98-096930ff79fc
+	fromColumn: FACT_Ventas.cust_id
+	toColumn: Cliente.cust_id
+
+relationship 59965a10-4b11-5d3f-b713-4dbce0487762
+	fromColumn: FACT_Ventas.ProductoKey
+	toColumn: dim_producto.ProductoKey
+
+relationship 54cd5c8e-c761-5cf7-880e-605fe5528474
+	fromColumn: FACT_Ventas.TiendaKey
+	toColumn: tbl_Tienda.TiendaKey
+
+relationship 978b19d4-7afd-5c0d-a6ec-41d47fbd148e
+	fromColumn: dim_producto.SubcategoriaKey
+	toColumn: dim_subcategoria.SubcategoriaKey
+
+relationship 0b185ebc-4158-5236-b26c-ca3b1a5a2520
+	fromColumn: fact_devoluciones.ProductoKey
+	toColumn: dim_producto.ProductoKey
+
+relationship 6f161e70-a30b-5085-a067-8aac1dde1553
+	isActive: false
+	fromColumn: FACT_Ventas.FechaEnvio
+	toColumn: Calendario.Fecha
+
+relationship dda92350-a145-5e07-9f2e-7ac03696212f
+	fromColumn: fact_devoluciones.FechaDevolucion
+	toColumn: Calendario.Fecha
+
+relationship 8a363bd0-bb4c-5893-aae5-e47ba2ac7725
+	fromColumn: fact_devoluciones.TiendaKey
+	toColumn: tbl_Tienda.TiendaKey
+
+relationship cb009e44-4a14-5b41-9714-ebbca0bb765f
+	fromColumn: dim_subcategoria.Categoria
+	toColumn: Categoria.Categoria
+
+relationship d12ef27f-b597-51ce-87a2-0866b91bb635
+	fromColumn: Presupuesto.Categoria
+	toColumn: Categoria.Categoria
+
+relationship 69ffa29b-3ac0-5dbd-8e47-3243d9334cf5
+	fromColumn: Presupuesto.TiendaKey
+	toColumn: tbl_Tienda.TiendaKey
+
+relationship a725fd2b-fb9a-5a51-b714-45886b021588
+	fromColumn: Presupuesto.FechaPresupuesto
+	toColumn: Calendario.Fecha
+

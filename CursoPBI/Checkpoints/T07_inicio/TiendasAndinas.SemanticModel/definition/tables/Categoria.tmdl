@@ -1,0 +1,25 @@
+table Categoria
+	lineageTag: 9a8f6819-4b97-5b6b-9b1b-34020d0a8aea
+
+	column Categoria
+		dataType: string
+		lineageTag: 7a72ec17-a00d-50c0-ba12-9c0a0098a79d
+		summarizeBy: none
+		sourceColumn: Categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Categoria = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "dim_subcategoria.csv"),[Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    SoloCategoria = Table.SelectColumns(Encabezados, {"Categoria"}),
+				    Distintas = Table.Distinct(SoloCategoria),
+				    Tipos = Table.TransformColumnTypes(Distintas, {{"Categoria", type text}}, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

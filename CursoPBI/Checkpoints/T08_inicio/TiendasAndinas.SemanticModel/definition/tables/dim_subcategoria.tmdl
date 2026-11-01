@@ -1,0 +1,41 @@
+table dim_subcategoria
+	lineageTag: 5aa12e22-29ca-5a48-b3d9-9c84d730352c
+
+	column SubcategoriaKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 53644409-d226-5062-b1fb-c6ddc4ad8606
+		summarizeBy: none
+		sourceColumn: SubcategoriaKey
+
+		annotation SummarizationSetBy = User
+
+	column Subcategoria
+		dataType: string
+		lineageTag: 0b01034a-b6c1-585f-bed1-5ad4bd75fafa
+		summarizeBy: none
+		sourceColumn: Subcategoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column Categoria
+		dataType: string
+		lineageTag: e0df8b39-37a1-5fd9-be7b-2b0f5f013dd3
+		summarizeBy: none
+		sourceColumn: Categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_subcategoria = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "dim_subcategoria.csv"),[Delimiter=",", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"SubcategoriaKey", Int64.Type}, {"Subcategoria", type text}, {"Categoria", type text}}, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

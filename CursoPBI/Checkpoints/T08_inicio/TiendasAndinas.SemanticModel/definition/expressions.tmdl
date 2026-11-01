@@ -1,0 +1,7 @@
+expression RutaDatos = "C:\CursoPBI\Datos\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 7e7dd421-d900-5428-b2ce-f27fa24d6da6
+
+	annotation PBI_ResultType = Text
+
+	annotation PBI_NavigationStepName = Navegación
+

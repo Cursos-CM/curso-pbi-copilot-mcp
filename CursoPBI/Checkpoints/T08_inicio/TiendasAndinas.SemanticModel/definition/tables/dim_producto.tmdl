@@ -1,0 +1,77 @@
+table dim_producto
+	lineageTag: 08504a7c-1a3d-52d0-ba97-e07c90412aab
+
+	column ProductoKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d604b841-c51f-5a48-9b1b-4610f677a650
+		summarizeBy: none
+		sourceColumn: ProductoKey
+
+		annotation SummarizationSetBy = User
+
+	column Producto
+		dataType: string
+		lineageTag: 9c6ba9bb-b5a9-5123-bf1a-c9c9505c79ad
+		summarizeBy: none
+		sourceColumn: Producto
+
+		annotation SummarizationSetBy = Automatic
+
+	column SubcategoriaKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d9f19cae-5a0a-51bf-80a1-91ec14317a39
+		summarizeBy: none
+		sourceColumn: SubcategoriaKey
+
+		annotation SummarizationSetBy = User
+
+	column Marca
+		dataType: string
+		lineageTag: d660dbb6-be04-5edc-8765-d1bb56d06751
+		summarizeBy: none
+		sourceColumn: Marca
+
+		annotation SummarizationSetBy = Automatic
+
+	column Color
+		dataType: string
+		lineageTag: 0c037258-9e22-5b94-b82a-cf32c8975411
+		summarizeBy: none
+		sourceColumn: Color
+
+		annotation SummarizationSetBy = Automatic
+
+	column PrecioLista
+		dataType: double
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 266f9cf0-4d64-5851-af82-596fdb5ecbae
+		summarizeBy: none
+		sourceColumn: PrecioLista
+
+		annotation SummarizationSetBy = User
+
+	column CostoEstandar
+		dataType: double
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: b77cad13-9361-55da-9bce-8094244e92bf
+		summarizeBy: none
+		sourceColumn: CostoEstandar
+
+		annotation SummarizationSetBy = User
+
+	partition dim_producto = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "dim_producto.csv"),[Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"ProductoKey", Int64.Type}, {"Producto", type text}, {"SubcategoriaKey", Int64.Type}, {"Marca", type text}, {"Color", type text}, {"PrecioLista", type number}, {"CostoEstandar", type number}}, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

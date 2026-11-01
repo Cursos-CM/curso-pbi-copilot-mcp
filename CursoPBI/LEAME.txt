@@ -1,0 +1,18 @@
+﻿CURSO: Modelado semántico de Power BI asistido por IA con GitHub Copilot y MCP
+Materiales de laboratorio - Tiendas Andinas (datos ficticios)
+
+1. Descomprima este paquete en C:\CursoPBI (la ruta por defecto del parámetro RutaDatos es C:\CursoPBI\Datos\).
+2. Ejecute: powershell -ExecutionPolicy Bypass -File C:\CursoPBI\Verificar-Entorno.ps1
+3. Abra C:\CursoPBI\TiendasAndinas\TiendasAndinas.pbip en Power BI Desktop y actualice los datos.
+
+Carpetas:
+  Datos\           CSV de origen (UTF-8, separador coma, decimales con punto)
+  TiendasAndinas\  Proyecto PBIP de trabajo (estado inicial, con errores sembrados a propósito)
+  Checkpoints\     Puntos de partida de cada laboratorio (T05, T06, T07, T08)
+  Solucion\        Resultado esperado del laboratorio final (se publica el Día 4)
+  Prompts\         Biblioteca base: .github\copilot-instructions.md y .github\prompts\*.prompt.md
+  ValoresEsperados.md  Cifras de control para validar medidas
+
+Si usa otra carpeta, cambie el parámetro RutaDatos en Power BI Desktop
+(Inicio > Transformar datos > Editar parámetros) y termine la ruta con "\".
+Todos los datos son ficticios.

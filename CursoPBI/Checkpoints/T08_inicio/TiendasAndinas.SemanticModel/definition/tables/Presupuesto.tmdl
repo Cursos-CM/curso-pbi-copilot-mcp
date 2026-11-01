@@ -1,0 +1,74 @@
+table Presupuesto
+	lineageTag: 7c4ceb3a-fa80-57a5-b4a1-960615c357a2
+
+	column Anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: f292bc1a-95c0-58b5-8458-bec6c7e62cc1
+		summarizeBy: none
+		sourceColumn: Anio
+
+		annotation SummarizationSetBy = User
+
+	column Mes
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 3493ac35-28dc-59b6-900f-744c676e04b0
+		summarizeBy: none
+		sourceColumn: Mes
+
+		annotation SummarizationSetBy = User
+
+	column TiendaKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: b0e84959-a8ce-53c8-b2e6-73b92d8e79c2
+		summarizeBy: none
+		sourceColumn: TiendaKey
+
+		annotation SummarizationSetBy = User
+
+	column Categoria
+		dataType: string
+		isHidden
+		lineageTag: de21ce3f-04b9-504f-858d-c7b111ac3fbb
+		summarizeBy: none
+		sourceColumn: Categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column ValorPresupuesto
+		dataType: double
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 0951e378-ce5b-5e69-add7-e95d8ec40942
+		summarizeBy: none
+		sourceColumn: ValorPresupuesto
+
+		annotation SummarizationSetBy = User
+
+	column FechaPresupuesto = DATE(Presupuesto[Anio], Presupuesto[Mes], 1)
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: 0bdfc7a7-1535-504f-994e-7e48aec630b9
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition Presupuesto = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "Presupuesto.csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"Anio", Int64.Type}, {"Mes", Int64.Type}, {"TiendaKey", Int64.Type}, {"Categoria", type text}, {"ValorPresupuesto", type number}}, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

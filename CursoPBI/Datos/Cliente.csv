@@ -1,0 +1,2401 @@
+cust_id,NombreCliente,Genero,FechaNacimiento,Segmento,Ciudad,Departamento,FechaRegistro
+1,Sebastián Gómez Ortiz,M,1956-11-26,Frecuente,Bogotá,Cundinamarca,2023-01-26
+2,Santiago Sánchez López,M,1999-10-10,Ocasional,Cali,Valle del Cauca,2022-08-12
+3,Isabella Ortiz Jiménez,M,1993-09-22,Ocasional,Barranquilla,Atlántico,2019-01-31
+4,Julián Rojas Ospina,M,1997-04-28,Ocasional,Bucaramanga,Santander,2022-12-13
+5,Luisa Cárdenas Castro,F,1960-04-01,Premium,Barranquilla,Atlántico,2023-01-21
+6,Ricardo Vargas Díaz,F,1961-11-10,Frecuente,Manizales,Caldas,2024-07-16
+7,Paula Ramírez Gómez,F,1994-09-07,Frecuente,Manizales,Caldas,2021-09-07
+8,Valentina Vargas Ortiz,F,1986-05-10,Premium,Bogotá,Cundinamarca,2019-03-05
+9,Natalia López Restrepo,F,1966-11-04,Ocasional,Bogotá,Cundinamarca,2018-06-02
+10,Sofía Rodríguez Sánchez,F,1974-07-21,Frecuente,Medellín,Antioquia,2020-10-09
+11,Santiago Torres Castro,F,1984-12-25,Frecuente,Manizales,Caldas,2021-03-24
+12,María García Castro,M,1994-08-13,Ocasional,Bogotá,Cundinamarca,2023-03-01
+13,Ana Martínez Rodríguez,M,1995-05-20,Frecuente,Villavicencio,Meta,2025-09-15
+14,Luisa Pérez Martínez,F,1967-07-25,Frecuente,Pereira,Risaralda,2023-04-02
+15,Ricardo Ospina Ospina,M,1966-12-13,Frecuente,Zipaquirá,Cundinamarca,2019-02-09
+16,Sebastián Moreno Ospina,F,1983-12-25,Ocasional,Manizales,Caldas,2019-05-12
+17,Isabella García Rodríguez,F,1966-03-10,Premium,Cartagena,Bolívar,2020-02-20
+18,Julián Rojas Torres,M,1960-04-04,Ocasional,Cali,Valle del Cauca,2023-04-28
+19,Carlos Hernández Gómez,F,1968-06-05,Ocasional,Bogotá,Cundinamarca,2023-06-04
+20,Óscar Castro Gómez,F,2002-01-15,Corporativo,Cartagena,Bolívar,2018-06-14
+21,Laura Castro Ospina,F,1974-01-03,Frecuente,Zipaquirá,Cundinamarca,2022-11-28
+22,Julián Vargas Vargas,M,2003-10-19,Ocasional,Villavicencio,Meta,2018-06-26
+23,Ricardo Rojas Ortiz,F,1958-12-03,Ocasional,Villavicencio,Meta,2022-03-16
+24,Ana Torres Torres,F,2004-11-09,Frecuente,Zipaquirá,Cundinamarca,2020-02-22
+25,Ana García López,F,2000-02-07,Ocasional,Pereira,Risaralda,2022-10-16
+26,Andrés Díaz Gómez,M,1967-02-02,Frecuente,Manizales,Caldas,2024-10-28
+27,Mateo Díaz Ramírez,M,1972-12-26,Ocasional,Zipaquirá,Cundinamarca,2020-12-27
+28,Isabella Castro Pérez,F,1987-06-27,Ocasional,Barranquilla,Atlántico,2023-03-10
+29,Paula Ospina Rojas,M,1991-01-23,Ocasional,Pereira,Risaralda,2025-10-04
+30,Camila García Ortiz,M,1997-06-12,Frecuente,Barranquilla,Atlántico,2024-03-12
+31,Paula Sánchez Moreno,F,1985-07-19,Frecuente,Manizales,Caldas,2023-05-03
+32,Santiago Pérez Díaz,M,1955-08-13,Ocasional,Bogotá,Cundinamarca,2024-10-30
+33,Mateo Jiménez Moreno,M,1996-05-16,Ocasional,Cartagena,Bolívar,2018-10-22
+34,Óscar Restrepo Ortiz,M,1988-01-03,Corporativo,Cartagena,Bolívar,2024-11-18
+35,Mateo Jiménez Pérez,F,1974-04-12,Ocasional,Bucaramanga,Santander,2025-06-28
+36,Óscar Cárdenas Díaz,M,1984-03-21,Ocasional,Barranquilla,Atlántico,2023-08-29
+37,Santiago Restrepo López,M,1994-11-07,Ocasional,Cali,Valle del Cauca,2018-02-21
+38,Ricardo Castro Jiménez,M,1979-04-20,Frecuente,Barranquilla,Atlántico,2022-07-26
+39,Natalia Ortiz García,F,1976-12-01,Frecuente,Cali,Valle del Cauca,2018-01-13
+40,Juan Rojas López,M,1982-11-12,Premium,Zipaquirá,Cundinamarca,2021-05-31
+41,Carlos Castro Moreno,M,1995-03-24,Frecuente,Cartagena,Bolívar,2024-01-20
+42,Isabella Jiménez Sánchez,F,1955-08-10,Frecuente,Manizales,Caldas,2020-10-11
+43,Felipe Sánchez Vargas,M,1970-11-20,Ocasional,Medellín,Antioquia,2022-11-19
+44,Luisa Martínez Sánchez,F,1961-06-20,Frecuente,Medellín,Antioquia,2019-06-07
+45,Isabella Gómez Pérez,F,1989-10-09,Frecuente,Cartagena,Bolívar,2018-08-26
+46,Mariana Castro Ospina,M,1989-01-14,Frecuente,Cartagena,Bolívar,2025-04-07
+47,Luisa Hernández López,M,1956-04-02,Ocasional,Manizales,Caldas,2023-06-22
+48,Mariana Díaz Castro,F,1962-12-12,Ocasional,Bucaramanga,Santander,2019-09-10
+49,Valentina Vargas Castro,F,1988-02-21,Premium,Bucaramanga,Santander,2025-10-21
+50,Sofía Vargas López,M,1976-11-27,Ocasional,Villavicencio,Meta,2023-01-21
+51,Daniela Castro Vargas,M,2004-08-17,Frecuente,Bucaramanga,Santander,2019-02-25
+52,Santiago García Díaz,M,1962-01-03,Frecuente,Zipaquirá,Cundinamarca,2022-12-08
+53,Carlos Gómez Restrepo,M,1999-07-19,Frecuente,Zipaquirá,Cundinamarca,2024-01-29
+54,Natalia Rojas Ramírez,M,1986-06-23,Frecuente,Pereira,Risaralda,2021-08-20
+55,Julián Cárdenas Martínez,M,2004-06-18,Ocasional,Cartagena,Bolívar,2025-04-19
+56,Laura López Castro,F,1955-10-27,Ocasional,Manizales,Caldas,2021-11-05
+57,Laura Díaz Cárdenas,M,1955-04-25,Ocasional,Villavicencio,Meta,2019-08-27
+58,Camila Rodríguez López,M,2003-06-19,Ocasional,Bogotá,Cundinamarca,2022-04-24
+59,Luisa López García,F,1956-09-01,Ocasional,Medellín,Antioquia,2024-12-19
+60,Valentina Díaz Restrepo,F,1964-05-22,Frecuente,Cartagena,Bolívar,2021-09-24
+61,Felipe Cárdenas Rodríguez,M,1999-09-25,Frecuente,Cali,Valle del Cauca,2021-02-06
+62,Luisa Jiménez Gómez,F,2001-11-01,Corporativo,Bogotá,Cundinamarca,2023-07-21
+63,Sebastián Castro Rodríguez,F,1985-07-07,Frecuente,Bogotá,Cundinamarca,2023-10-30
+64,Julián Díaz Restrepo,M,1981-09-20,Ocasional,Manizales,Caldas,2019-03-06
+65,Felipe Torres Martínez,F,1994-05-05,Premium,Cali,Valle del Cauca,2018-05-30
+66,Tomás Torres Jiménez,F,1974-03-17,Ocasional,Manizales,Caldas,2023-12-12
+67,Óscar Castro Jiménez,M,1998-05-23,Ocasional,Bogotá,Cundinamarca,2024-11-08
+68,Carlos Torres Torres,M,2000-03-08,Ocasional,Cali,Valle del Cauca,2024-11-29
+69,Diego Rodríguez Martínez,F,1988-11-04,Ocasional,Zipaquirá,Cundinamarca,2025-04-12
+70,Andrés Cárdenas Cárdenas,M,1973-04-16,Ocasional,Zipaquirá,Cundinamarca,2018-07-22
+71,Ana Martínez Torres,F,1960-03-08,Ocasional,Cali,Valle del Cauca,2025-11-14
+72,Santiago Ortiz Ortiz,F,1965-07-14,Frecuente,Manizales,Caldas,2025-09-14
+73,Carlos Ospina Rodríguez,F,1971-05-16,Ocasional,Medellín,Antioquia,2025-08-28
+74,Tomás Sánchez Ramírez,M,1959-07-21,Ocasional,Cartagena,Bolívar,2024-06-21
+75,Tomás Castro Hernández,M,1988-04-01,Ocasional,Barranquilla,Atlántico,2020-02-18
+76,Ricardo Rojas Castro,M,1983-01-05,Ocasional,Manizales,Caldas,2019-09-28
+77,Óscar Jiménez Ortiz,F,1962-01-28,Ocasional,Zipaquirá,Cundinamarca,2024-02-01
+78,Ricardo Gómez Rojas,F,1964-04-19,Frecuente,Cartagena,Bolívar,2024-09-15
+79,Daniela García Rojas,M,1960-03-25,Ocasional,Cali,Valle del Cauca,2024-03-11
+80,Diego Cárdenas Ortiz,M,1990-12-28,Frecuente,Bucaramanga,Santander,2025-09-04
+81,Tomás Cárdenas Restrepo,F,1999-08-26,Corporativo,Medellín,Antioquia,2021-06-26
+82,Sebastián López López,M,1979-08-18,Ocasional,Bucaramanga,Santander,2023-09-15
+83,Mariana Torres Ospina,M,1963-12-19,Ocasional,Villavicencio,Meta,2021-06-02
+84,Ana Restrepo Hernández,M,1996-12-15,Ocasional,Bogotá,Cundinamarca,2024-06-12
+85,Andrés Gómez Martínez,F,1976-10-26,Premium,Barranquilla,Atlántico,2019-08-05
+86,Sebastián Cárdenas García,M,1999-09-23,Frecuente,Villavicencio,Meta,2018-11-29
+87,Óscar Gómez Ospina,F,1974-11-05,Premium,Villavicencio,Meta,2020-02-03
+88,Óscar Moreno Rojas,F,1981-11-12,Frecuente,Bucaramanga,Santander,2024-11-30
+89,Ricardo Sánchez Gómez,F,1988-04-12,Ocasional,Bogotá,Cundinamarca,2024-03-09
+90,Luisa Torres Ospina,F,1983-07-10,Ocasional,Pereira,Risaralda,2024-05-19
+91,Sofía Ramírez Cárdenas,F,2001-06-01,Ocasional,Cali,Valle del Cauca,2020-05-09
+92,María Sánchez Gómez,M,2000-04-20,Ocasional,Barranquilla,Atlántico,2023-04-19
+93,Sebastián Ortiz García,F,1960-12-06,Frecuente,Barranquilla,Atlántico,2025-10-17
+94,Juan Vargas Castro,F,1975-05-25,Ocasional,Barranquilla,Atlántico,2022-07-16
+95,Daniela Pérez Ortiz,M,2005-07-13,Premium,Cartagena,Bolívar,2024-12-15
+96,Diego López Ospina,F,1978-08-28,Frecuente,Pereira,Risaralda,2019-01-22
+97,Mariana Jiménez Hernández,F,1992-09-10,Frecuente,Barranquilla,Atlántico,2020-11-08
+98,Óscar Vargas Martínez,F,2000-11-22,Frecuente,Zipaquirá,Cundinamarca,2019-10-22
+99,Isabella Castro López,F,1958-10-06,Frecuente,Villavicencio,Meta,2019-05-06
+100,Ricardo Vargas Ramírez,F,1972-05-23,Ocasional,Cali,Valle del Cauca,2019-11-03
+101,Diego Vargas Ospina,F,1997-10-05,Premium,Pereira,Risaralda,2024-07-28
+102,Natalia Gómez López,M,1993-09-17,Ocasional,Barranquilla,Atlántico,2024-06-18
+103,Ana Torres Ospina,F,1984-08-24,Ocasional,Cali,Valle del Cauca,2020-04-30
+104,Felipe Ortiz Ramírez,M,2005-10-21,Ocasional,Cartagena,Bolívar,2024-10-05
+105,Paula Martínez Hernández,F,1971-04-21,Corporativo,Zipaquirá,Cundinamarca,2020-08-11
+106,Luisa Torres Ospina,F,1974-11-10,Frecuente,Manizales,Caldas,2020-12-19
+107,Valentina Gómez Sánchez,M,1971-12-20,Frecuente,Zipaquirá,Cundinamarca,2021-08-25
+108,Felipe Díaz García,F,1971-12-01,Ocasional,Villavicencio,Meta,2023-09-14
+109,Ricardo Gómez Torres,M,1974-12-25,Ocasional,Cali,Valle del Cauca,2025-06-12
+110,Daniela Hernández Rodríguez,F,1972-07-07,Frecuente,Pereira,Risaralda,2025-08-01
+111,Isabella Martínez Gómez,M,1966-01-03,Frecuente,Medellín,Antioquia,2020-07-13
+112,Diego Jiménez Torres,M,1964-10-21,Ocasional,Bucaramanga,Santander,2021-11-02
+113,Mateo Restrepo López,F,1984-08-08,Frecuente,Cartagena,Bolívar,2022-09-22
+114,Juan Gómez Torres,F,1978-04-08,Ocasional,Zipaquirá,Cundinamarca,2021-02-18
+115,Luisa Ramírez Rojas,F,1963-10-08,Ocasional,Cartagena,Bolívar,2020-03-03
+116,Ana Vargas Rojas,M,1966-01-06,Frecuente,Zipaquirá,Cundinamarca,2021-09-08
+117,Julián Díaz Ramírez,M,1988-09-18,Corporativo,Bogotá,Cundinamarca,2023-04-13
+118,Juan Vargas Díaz,F,1999-08-05,Frecuente,Cartagena,Bolívar,2019-08-23
+119,Laura Sánchez Martínez,M,1959-10-28,Frecuente,Medellín,Antioquia,2019-01-26
+120,Andrés López Torres,M,1970-02-19,Ocasional,Bucaramanga,Santander,2022-05-19
+121,María Gómez López,F,1982-03-09,Premium,Zipaquirá,Cundinamarca,2023-01-08
+122,Andrés Martínez Sánchez,M,1977-02-28,Frecuente,Cartagena,Bolívar,2022-12-12
+123,Carlos Ortiz Jiménez,M,1959-09-08,Ocasional,Barranquilla,Atlántico,2020-07-14
+124,Mariana Martínez Cárdenas,F,1957-10-06,Ocasional,Bucaramanga,Santander,2021-07-27
+125,Luisa Cárdenas Rodríguez,M,1957-06-09,Ocasional,Villavicencio,Meta,2025-06-20
+126,Diego Ortiz Torres,F,1978-12-06,Premium,Cali,Valle del Cauca,2019-01-24
+127,Mateo García Restrepo,F,1970-11-19,Ocasional,Manizales,Caldas,2019-07-17
+128,Sebastián García Rodríguez,F,2005-11-10,Premium,Barranquilla,Atlántico,2025-05-16
+129,Daniela Vargas Rojas,F,1955-08-14,Ocasional,Villavicencio,Meta,2019-11-28
+130,Valentina Gómez Jiménez,F,1993-05-24,Frecuente,Bucaramanga,Santander,2021-12-10
+131,Luisa Moreno Ortiz,M,1967-04-03,Ocasional,Villavicencio,Meta,2020-09-07
+132,Isabella Cárdenas Ramírez,M,1990-08-02,Ocasional,Manizales,Caldas,2021-12-06
+133,Luisa Díaz Castro,M,1985-06-18,Frecuente,Barranquilla,Atlántico,2018-02-07
+134,Sofía Sánchez Castro,F,1984-07-12,Corporativo,Zipaquirá,Cundinamarca,2020-11-14
+135,Andrés Gómez Díaz,M,1992-07-27,Ocasional,Cartagena,Bolívar,2019-05-16
+136,Camila Martínez García,F,1959-08-14,Frecuente,Cartagena,Bolívar,2022-06-11
+137,Laura Sánchez Ramírez,F,1959-04-18,Premium,Barranquilla,Atlántico,2020-05-19
+138,Santiago Rojas Martínez,M,1999-09-25,Ocasional,Barranquilla,Atlántico,2020-10-02
+139,Laura Rodríguez Torres,M,2002-09-02,Ocasional,Manizales,Caldas,2023-06-21
+140,Santiago Rojas Pérez,M,1995-06-13,Frecuente,Villavicencio,Meta,2024-09-21
+141,Felipe Martínez García,F,2004-08-08,Corporativo,Villavicencio,Meta,2020-11-12
+142,Ricardo Torres Jiménez,M,1993-09-20,Ocasional,Pereira,Risaralda,2020-02-23
+143,Diego Ortiz Torres,M,1966-06-25,Frecuente,Zipaquirá,Cundinamarca,2020-06-25
+144,Laura Ramírez Torres,F,1999-08-06,Frecuente,Cali,Valle del Cauca,2018-11-04
+145,Luisa Jiménez López,F,1999-10-12,Premium,Bucaramanga,Santander,2023-08-02
+146,Felipe Rojas Ospina,F,2004-11-12,Ocasional,Bogotá,Cundinamarca,2023-01-30
+147,Andrés Restrepo Gómez,F,2003-01-04,Premium,Manizales,Caldas,2024-07-16
+148,Tomás Rojas Hernández,M,1989-01-14,Ocasional,Villavicencio,Meta,2018-07-15
+149,Laura Jiménez Rodríguez,M,1980-01-23,Frecuente,Medellín,Antioquia,2025-10-28
+150,Santiago Restrepo Martínez,F,2000-10-19,Ocasional,Manizales,Caldas,2020-11-14
+151,Daniela Rojas López,F,1988-11-13,Premium,Villavicencio,Meta,2024-03-08
+152,Luisa Restrepo Ortiz,F,2004-04-05,Premium,Bucaramanga,Santander,2021-02-19
+153,Paula Torres Díaz,F,1994-07-12,Corporativo,Barranquilla,Atlántico,2023-07-22
+154,Felipe Rojas Rodríguez,M,1984-07-01,Ocasional,Villavicencio,Meta,2021-03-21
+155,Mariana Castro Ramírez,M,2002-10-10,Premium,Villavicencio,Meta,2025-06-19
+156,Sofía Pérez Martínez,F,1990-04-09,Frecuente,Barranquilla,Atlántico,2018-11-07
+157,Juan Torres López,M,1960-11-14,Ocasional,Medellín,Antioquia,2022-02-02
+158,Mateo Castro Castro,M,1976-01-14,Ocasional,Cali,Valle del Cauca,2023-07-16
+159,Laura Rodríguez Restrepo,M,2000-09-02,Frecuente,Zipaquirá,Cundinamarca,2025-11-09
+160,Sofía Ospina Martínez,M,2004-10-23,Ocasional,Cali,Valle del Cauca,2020-08-01
+161,Luisa Castro Jiménez,M,1991-04-13,Ocasional,Manizales,Caldas,2024-07-19
+162,Laura Sánchez Díaz,F,1966-07-11,Ocasional,Bogotá,Cundinamarca,2018-01-13
+163,Natalia Cárdenas Sánchez,F,1960-09-27,Ocasional,Bucaramanga,Santander,2021-06-06
+164,Isabella Castro Jiménez,F,1975-03-09,Ocasional,Medellín,Antioquia,2018-05-06
+165,Laura Restrepo Cárdenas,F,1998-06-26,Premium,Bucaramanga,Santander,2023-02-14
+166,Ana Díaz Castro,F,1974-06-06,Ocasional,Bucaramanga,Santander,2020-01-13
+167,Andrés Cárdenas Ramírez,M,1995-09-28,Ocasional,Pereira,Risaralda,2019-05-27
+168,Mariana Castro Restrepo,F,1972-03-19,Premium,Medellín,Antioquia,2023-07-16
+169,Diego Gómez Vargas,M,1971-08-06,Ocasional,Villavicencio,Meta,2020-01-13
+170,Daniela Martínez Ramírez,F,2004-11-15,Frecuente,Bucaramanga,Santander,2020-09-13
+171,Carlos Ramírez Torres,M,1962-10-25,Ocasional,Cali,Valle del Cauca,2024-06-15
+172,Ana Ramírez Cárdenas,M,1964-06-25,Corporativo,Cartagena,Bolívar,2020-12-25
+173,Mateo Rojas Restrepo,F,1997-02-14,Ocasional,Medellín,Antioquia,2025-04-26
+174,Sofía Jiménez Torres,M,2004-08-09,Ocasional,Bucaramanga,Santander,2018-06-07
+175,Laura García Hernández,F,1990-07-19,Ocasional,Cartagena,Bolívar,2020-03-23
+176,Carlos García Sánchez,M,2001-11-13,Frecuente,Manizales,Caldas,2020-02-14
+177,Sofía López Martínez,F,1956-04-01,Ocasional,Cartagena,Bolívar,2019-07-27
+178,Diego Ospina Rodríguez,F,1983-07-14,Corporativo,Bucaramanga,Santander,2023-04-03
+179,Natalia Castro Pérez,M,1969-11-08,Frecuente,Cali,Valle del Cauca,2018-10-03
+180,Carlos García Díaz,M,2003-03-07,Ocasional,Medellín,Antioquia,2019-06-14
+181,Daniela Martínez Martínez,F,1985-12-12,Frecuente,Cali,Valle del Cauca,2020-10-22
+182,Daniela Rodríguez Ospina,F,1960-05-13,Ocasional,Barranquilla,Atlántico,2024-01-02
+183,Mariana López Cárdenas,F,1970-08-13,Frecuente,Medellín,Antioquia,2023-02-14
+184,Natalia García López,M,1986-10-15,Ocasional,Cartagena,Bolívar,2023-08-24
+185,Sofía García Hernández,M,2004-12-04,Corporativo,Villavicencio,Meta,2019-04-07
+186,Juan Jiménez Hernández,M,1980-02-10,Corporativo,Cali,Valle del Cauca,2019-08-19
+187,Sofía Restrepo Rodríguez,M,1971-02-26,Ocasional,Villavicencio,Meta,2022-05-17
+188,Carlos Pérez Gómez,F,1968-11-04,Ocasional,Bogotá,Cundinamarca,2025-06-30
+189,Óscar Moreno Gómez,M,1968-09-15,Frecuente,Medellín,Antioquia,2021-07-12
+190,Ana Vargas Moreno,M,1970-07-20,Corporativo,Barranquilla,Atlántico,2024-08-03
+191,Mateo Rojas Ramírez,F,1960-04-03,Ocasional,Zipaquirá,Cundinamarca,2024-01-19
+192,Diego Gómez Díaz,F,1960-02-11,Frecuente,Cali,Valle del Cauca,2021-10-27
+193,Valentina Torres Rojas,F,1961-05-04,Frecuente,Barranquilla,Atlántico,2018-11-22
+194,Andrés Gómez Rojas,M,1961-12-07,Frecuente,Medellín,Antioquia,2019-11-01
+195,Natalia Torres Sánchez,M,1979-08-28,Premium,Manizales,Caldas,2023-05-23
+196,Mariana Vargas Rojas,F,1980-06-21,Ocasional,Cali,Valle del Cauca,2020-03-22
+197,Valentina Martínez Restrepo,M,1957-10-28,Ocasional,Bogotá,Cundinamarca,2021-01-19
+198,Mariana Jiménez Rodríguez,M,1958-07-21,Ocasional,Cartagena,Bolívar,2023-12-09
+199,María Ospina Rojas,F,1965-03-09,Ocasional,Cali,Valle del Cauca,2025-10-15
+200,Tomás Díaz Sánchez,M,1986-07-14,Frecuente,Bucaramanga,Santander,2021-05-21
+201,Carlos Gómez Hernández,M,1986-12-19,Premium,Zipaquirá,Cundinamarca,2024-07-21
+202,Santiago Torres Jiménez,F,2000-04-23,Ocasional,Bogotá,Cundinamarca,2023-04-11
+203,Diego Ortiz Gómez,M,1994-02-27,Frecuente,Villavicencio,Meta,2023-05-15
+204,Andrés Sánchez Moreno,M,1975-11-06,Ocasional,Villavicencio,Meta,2018-09-11
+205,Mariana Restrepo Martínez,M,1980-07-01,Ocasional,Bucaramanga,Santander,2022-03-25
+206,Valentina Díaz Ramírez,M,1973-04-26,Ocasional,Barranquilla,Atlántico,2018-02-25
+207,Mateo Restrepo Pérez,M,1965-04-22,Frecuente,Cartagena,Bolívar,2021-03-14
+208,Andrés Moreno Rodríguez,F,2003-03-15,Ocasional,Manizales,Caldas,2025-10-15
+209,Andrés Sánchez García,F,2000-11-10,Ocasional,Zipaquirá,Cundinamarca,2021-10-02
+210,Santiago Rodríguez López,F,1989-08-17,Corporativo,Cartagena,Bolívar,2019-12-13
+211,Paula Hernández Cárdenas,F,1976-03-07,Ocasional,Cali,Valle del Cauca,2023-01-12
+212,Andrés Cárdenas Moreno,M,1999-06-01,Ocasional,Manizales,Caldas,2019-04-23
+213,Camila Torres Rodríguez,F,1997-04-12,Ocasional,Bogotá,Cundinamarca,2019-03-09
+214,María Castro López,F,1960-01-15,Premium,Manizales,Caldas,2024-05-22
+215,Mateo Jiménez López,F,1965-05-16,Frecuente,Bucaramanga,Santander,2024-01-05
+216,Mateo Ramírez Torres,M,1995-11-22,Ocasional,Villavicencio,Meta,2023-11-26
+217,Sebastián Ramírez Pérez,M,2000-12-21,Frecuente,Bucaramanga,Santander,2018-04-12
+218,Natalia Castro Ortiz,M,1997-08-22,Frecuente,Zipaquirá,Cundinamarca,2020-08-30
+219,Diego Castro Ortiz,M,2002-06-17,Ocasional,Pereira,Risaralda,2025-07-31
+220,Luisa Díaz Díaz,F,1979-08-06,Premium,Cali,Valle del Cauca,2018-11-08
+221,María Jiménez Díaz,F,1984-03-05,Ocasional,Cartagena,Bolívar,2025-07-14
+222,Luisa Pérez Jiménez,M,1955-05-13,Ocasional,Cali,Valle del Cauca,2025-10-23
+223,Mateo Moreno Rojas,M,1992-12-18,Premium,Pereira,Risaralda,2018-02-04
+224,Camila Jiménez Castro,F,1961-02-19,Ocasional,Cali,Valle del Cauca,2025-03-15
+225,Ana Rodríguez Pérez,M,2002-03-19,Ocasional,Manizales,Caldas,2018-03-05
+226,Ricardo López Ramírez,M,1955-01-12,Premium,Zipaquirá,Cundinamarca,2021-03-18
+227,Camila Martínez Sánchez,M,1990-02-13,Ocasional,Manizales,Caldas,2021-11-20
+228,Sebastián Torres Pérez,M,1983-07-23,Ocasional,Villavicencio,Meta,2025-09-13
+229,Tomás López Hernández,M,1978-06-16,Frecuente,Bucaramanga,Santander,2022-07-10
+230,Laura Rojas López,M,1987-07-09,Ocasional,Zipaquirá,Cundinamarca,2020-11-13
+231,Carlos Ospina Vargas,M,1998-05-20,Premium,Zipaquirá,Cundinamarca,2021-07-01
+232,Paula Martínez Rodríguez,M,2001-07-20,Ocasional,Medellín,Antioquia,2023-02-28
+233,Felipe Pérez Rojas,F,1985-01-16,Frecuente,Bucaramanga,Santander,2022-07-28
+234,Felipe Sánchez Díaz,M,1993-04-08,Ocasional,Pereira,Risaralda,2025-09-14
+235,Carlos Martínez Castro,M,1963-05-14,Ocasional,Barranquilla,Atlántico,2025-01-02
+236,Carlos Ramírez García,F,1956-09-23,Premium,Villavicencio,Meta,2020-11-20
+237,Andrés Hernández Gómez,M,1993-07-16,Frecuente,Bogotá,Cundinamarca,2025-06-14
+238,Ana Pérez Díaz,F,1997-02-14,Frecuente,Pereira,Risaralda,2022-10-15
+239,Felipe Moreno Restrepo,M,2002-01-23,Ocasional,Bogotá,Cundinamarca,2020-01-20
+240,Andrés Rojas Ramírez,M,1973-10-22,Ocasional,Pereira,Risaralda,2025-07-30
+241,Ana Restrepo Martínez,F,1984-01-10,Frecuente,Manizales,Caldas,2018-04-06
+242,Ricardo Ortiz Martínez,F,1970-05-02,Ocasional,Medellín,Antioquia,2025-01-17
+243,Valentina López Moreno,F,1969-04-08,Corporativo,Manizales,Caldas,2018-10-15
+244,Mariana Vargas Rojas,M,1999-11-22,Ocasional,Cartagena,Bolívar,2025-02-09
+245,Óscar Cárdenas Ortiz,M,1961-07-22,Ocasional,Zipaquirá,Cundinamarca,2019-12-10
+246,Daniela Ortiz Rodríguez,M,1995-03-02,Premium,Bogotá,Cundinamarca,2020-11-16
+247,Natalia García Rodríguez,M,2003-12-18,Frecuente,Bucaramanga,Santander,2022-06-18
+248,Valentina Sánchez Hernández,M,1974-02-02,Frecuente,Bogotá,Cundinamarca,2018-05-30
+249,Laura Cárdenas García,F,1961-03-02,Premium,Cali,Valle del Cauca,2019-09-16
+250,Juan Ramírez Restrepo,M,1989-12-13,Frecuente,Manizales,Caldas,2024-09-13
+251,Carlos Ortiz Rodríguez,M,1999-12-11,Ocasional,Cartagena,Bolívar,2021-11-25
+252,Sebastián Torres Hernández,M,1980-11-25,Frecuente,Pereira,Risaralda,2022-06-15
+253,Andrés Díaz Ortiz,M,1970-09-10,Ocasional,Cartagena,Bolívar,2023-08-31
+254,Mariana Ortiz Castro,F,1975-06-11,Premium,Medellín,Antioquia,2025-05-04
+255,Andrés Restrepo Moreno,F,1959-11-19,Corporativo,Barranquilla,Atlántico,2021-10-22
+256,Santiago Rojas Ortiz,F,1990-01-05,Frecuente,Pereira,Risaralda,2019-04-12
+257,Paula Ospina Cárdenas,F,2005-06-05,Ocasional,Zipaquirá,Cundinamarca,2021-04-10
+258,Laura Gómez García,F,1957-05-28,Ocasional,Villavicencio,Meta,2018-02-13
+259,Santiago Torres Martínez,M,1961-11-23,Ocasional,Cali,Valle del Cauca,2021-01-22
+260,Diego Jiménez Castro,F,1975-06-26,Ocasional,Bogotá,Cundinamarca,2021-03-25
+261,Santiago Ortiz Vargas,F,1960-12-05,Ocasional,Zipaquirá,Cundinamarca,2019-10-11
+262,Valentina Pérez Cárdenas,F,1994-03-02,Ocasional,Manizales,Caldas,2018-05-04
+263,Tomás Ospina Gómez,F,1958-12-24,Frecuente,Cali,Valle del Cauca,2024-05-18
+264,Natalia Sánchez Sánchez,F,1978-09-19,Frecuente,Medellín,Antioquia,2022-03-23
+265,Daniela Martínez Gómez,M,1978-12-21,Premium,Cali,Valle del Cauca,2024-09-23
+266,Paula Torres García,F,2002-11-09,Premium,Cali,Valle del Cauca,2023-06-28
+267,Juan Torres Pérez,M,1995-05-16,Ocasional,Barranquilla,Atlántico,2021-06-29
+268,Tomás Díaz Gómez,M,1973-07-05,Frecuente,Bucaramanga,Santander,2021-01-30
+269,Laura Martínez Martínez,M,1999-10-02,Ocasional,Medellín,Antioquia,2022-06-07
+270,Luisa Ospina Moreno,M,1964-10-24,Ocasional,Medellín,Antioquia,2020-07-29
+271,Tomás Moreno Rojas,M,1980-10-13,Ocasional,Bucaramanga,Santander,2021-08-03
+272,Carlos García García,F,1992-05-09,Frecuente,Manizales,Caldas,2024-03-26
+273,María Restrepo Rojas,M,1985-11-21,Corporativo,Villavicencio,Meta,2020-08-22
+274,Isabella Hernández Hernández,M,1992-09-18,Premium,Bogotá,Cundinamarca,2020-10-20
+275,Camila Díaz Moreno,M,1979-03-19,Frecuente,Medellín,Antioquia,2022-08-09
+276,Valentina Moreno Ospina,F,1996-02-13,Ocasional,Pereira,Risaralda,2021-05-11
+277,Felipe Martínez Ortiz,M,1989-07-19,Frecuente,Pereira,Risaralda,2021-10-26
+278,Ricardo Ospina Gómez,M,1971-01-08,Premium,Medellín,Antioquia,2018-03-05
+279,Andrés Ospina Torres,F,2003-02-07,Ocasional,Manizales,Caldas,2019-10-07
+280,Sofía Cárdenas Castro,M,2001-05-18,Premium,Villavicencio,Meta,2025-01-30
+281,Sebastián Castro Sánchez,F,1971-03-18,Frecuente,Villavicencio,Meta,2025-07-04
+282,Mateo Ospina Ospina,M,2003-05-11,Ocasional,Cartagena,Bolívar,2019-03-29
+283,Carlos Hernández Díaz,M,1994-01-03,Ocasional,Manizales,Caldas,2018-07-12
+284,Andrés Castro Díaz,F,2003-09-26,Ocasional,Bucaramanga,Santander,2024-10-25
+285,Tomás Castro Torres,M,1980-02-20,Frecuente,Manizales,Caldas,2025-08-09
+286,Sofía Hernández Torres,F,1972-09-20,Ocasional,Bucaramanga,Santander,2024-09-02
+287,Santiago Gómez Ortiz,F,1997-04-19,Ocasional,Zipaquirá,Cundinamarca,2023-12-28
+288,Sofía Ospina Restrepo,M,1962-11-15,Ocasional,Zipaquirá,Cundinamarca,2021-06-25
+289,Ricardo Vargas Restrepo,M,1976-08-20,Premium,Medellín,Antioquia,2023-06-21
+290,Isabella Jiménez Moreno,F,1998-06-16,Corporativo,Zipaquirá,Cundinamarca,2020-08-13
+291,Ricardo López Gómez,F,1972-12-15,Ocasional,Medellín,Antioquia,2018-05-24
+292,Mateo Martínez Hernández,F,1959-02-20,Frecuente,Cartagena,Bolívar,2018-07-02
+293,María Jiménez Ortiz,F,1960-10-08,Frecuente,Cali,Valle del Cauca,2022-04-17
+294,Laura Rodríguez Gómez,F,1999-03-21,Frecuente,Cali,Valle del Cauca,2023-04-16
+295,Natalia Torres Torres,M,2004-04-05,Frecuente,Manizales,Caldas,2022-03-11
+296,Carlos Ortiz Moreno,F,2001-04-23,Ocasional,Pereira,Risaralda,2025-05-19
+297,Felipe Restrepo Vargas,F,1987-11-01,Premium,Villavicencio,Meta,2021-04-24
+298,Juan Gómez Rojas,M,1956-10-26,Ocasional,Bogotá,Cundinamarca,2022-12-08
+299,Valentina Restrepo Vargas,M,1993-01-13,Premium,Bucaramanga,Santander,2021-04-28
+300,Julián García Ortiz,M,1966-11-06,Ocasional,Cali,Valle del Cauca,2022-06-05
+301,Juan Díaz Ortiz,F,2003-01-19,Frecuente,Barranquilla,Atlántico,2023-02-04
+302,Ricardo Rojas Ramírez,M,2001-03-21,Ocasional,Pereira,Risaralda,2019-03-29
+303,Felipe Vargas Ospina,F,1959-10-01,Premium,Bucaramanga,Santander,2023-08-25
+304,Ana López Torres,F,2003-09-23,Ocasional,Bogotá,Cundinamarca,2022-05-30
+305,Diego Ospina García,M,1994-05-02,Ocasional,Zipaquirá,Cundinamarca,2023-12-16
+306,Valentina Restrepo Cárdenas,F,1991-11-01,Frecuente,Villavicencio,Meta,2022-12-26
+307,Óscar López Cárdenas,F,2000-05-02,Ocasional,Barranquilla,Atlántico,2018-12-01
+308,Julián Díaz Castro,M,1992-08-10,Premium,Medellín,Antioquia,2025-04-18
+309,Julián Torres Hernández,F,1983-04-01,Ocasional,Bucaramanga,Santander,2023-11-06
+310,Camila Martínez Restrepo,F,1960-04-07,Frecuente,Cartagena,Bolívar,2021-12-05
+311,Tomás Castro Ramírez,M,1980-03-27,Ocasional,Pereira,Risaralda,2019-11-26
+312,Mariana Ospina Jiménez,F,1973-07-01,Ocasional,Manizales,Caldas,2024-12-27
+313,Mariana Moreno Ramírez,M,1986-05-28,Corporativo,Bogotá,Cundinamarca,2019-06-04
+314,Felipe Ortiz Pérez,M,1974-08-04,Ocasional,Cali,Valle del Cauca,2024-12-09
+315,Tomás Restrepo Ramírez,F,2004-07-13,Ocasional,Barranquilla,Atlántico,2020-02-07
+316,Luisa Hernández Ramírez,F,1986-04-26,Frecuente,Barranquilla,Atlántico,2018-01-09
+317,María Restrepo Moreno,F,1965-11-26,Premium,Barranquilla,Atlántico,2022-02-07
+318,Julián Moreno Jiménez,M,1982-03-02,Ocasional,Bogotá,Cundinamarca,2020-05-11
+319,Mateo Moreno López,F,1958-09-23,Corporativo,Villavicencio,Meta,2018-12-13
+320,María Moreno Rodríguez,F,1981-11-07,Frecuente,Cartagena,Bolívar,2024-11-10
+321,Andrés García Hernández,F,2004-01-18,Corporativo,Villavicencio,Meta,2025-02-08
+322,Natalia Ramírez Gómez,F,1992-09-13,Frecuente,Bucaramanga,Santander,2021-11-13
+323,Laura Moreno Gómez,F,1992-06-09,Frecuente,Barranquilla,Atlántico,2020-09-05
+324,Daniela Sánchez Ortiz,F,1990-05-25,Premium,Pereira,Risaralda,2018-01-28
+325,Daniela López Sánchez,F,1999-03-14,Ocasional,Manizales,Caldas,2023-09-09
+326,Mateo Torres Castro,M,1972-12-26,Frecuente,Cali,Valle del Cauca,2025-08-23
+327,María López López,F,1992-08-16,Frecuente,Bogotá,Cundinamarca,2021-12-31
+328,Sofía Rodríguez Moreno,M,2005-08-24,Premium,Barranquilla,Atlántico,2020-09-12
+329,Mariana Jiménez Rodríguez,M,1970-11-12,Premium,Pereira,Risaralda,2018-09-24
+330,Camila Gómez Ospina,F,1972-08-21,Frecuente,Cali,Valle del Cauca,2025-08-08
+331,Juan Pérez Rodríguez,M,1977-06-25,Ocasional,Medellín,Antioquia,2025-02-05
+332,Felipe Jiménez Martínez,F,1963-07-10,Premium,Cali,Valle del Cauca,2020-12-26
+333,Juan Moreno Pérez,M,1958-07-28,Ocasional,Barranquilla,Atlántico,2023-01-22
+334,Carlos Castro Castro,M,1974-05-20,Corporativo,Barranquilla,Atlántico,2018-01-17
+335,Carlos Vargas Martínez,F,2004-05-16,Frecuente,Medellín,Antioquia,2020-01-30
+336,Sofía Vargas Restrepo,M,1958-09-23,Frecuente,Cali,Valle del Cauca,2020-04-20
+337,Sebastián Pérez Díaz,M,1995-07-18,Frecuente,Cartagena,Bolívar,2023-02-16
+338,Julián Hernández Castro,M,1967-04-02,Ocasional,Cartagena,Bolívar,2021-05-27
+339,Laura Restrepo Sánchez,F,1993-12-19,Corporativo,Medellín,Antioquia,2023-01-17
+340,Santiago García López,F,2001-04-05,Frecuente,Barranquilla,Atlántico,2023-07-05
+341,Mateo Sánchez Jiménez,F,1984-05-25,Premium,Bucaramanga,Santander,2020-10-09
+342,Óscar Rodríguez Jiménez,M,1974-02-26,Premium,Pereira,Risaralda,2020-08-24
+343,Juan Díaz Torres,F,1991-09-15,Frecuente,Bucaramanga,Santander,2024-02-22
+344,Diego Rojas Hernández,M,1990-05-18,Ocasional,Barranquilla,Atlántico,2024-07-16
+345,Paula Pérez Torres,F,1971-02-04,Ocasional,Zipaquirá,Cundinamarca,2025-12-09
+346,Mariana Torres García,F,1981-12-08,Ocasional,Cartagena,Bolívar,2025-10-17
+347,Sofía Díaz Rodríguez,F,1964-05-27,Frecuente,Cali,Valle del Cauca,2019-12-06
+348,Tomás García Castro,F,1998-06-15,Ocasional,Bucaramanga,Santander,2025-12-08
+349,Felipe Ospina Ortiz,M,1989-02-16,Frecuente,Cali,Valle del Cauca,2025-02-27
+350,Laura Pérez Vargas,M,1993-11-25,Frecuente,Cartagena,Bolívar,2023-02-14
+351,Julián Gómez Cárdenas,M,1972-02-12,Premium,Zipaquirá,Cundinamarca,2020-04-08
+352,Juan Restrepo Restrepo,F,1961-10-06,Ocasional,Zipaquirá,Cundinamarca,2018-10-18
+353,Sofía Martínez Vargas,M,1995-12-11,Ocasional,Cartagena,Bolívar,2021-09-01
+354,Julián López López,F,2005-12-10,Frecuente,Manizales,Caldas,2019-10-07
+355,Diego Restrepo Torres,M,1994-12-09,Frecuente,Zipaquirá,Cundinamarca,2023-09-05
+356,Isabella Pérez Rojas,F,1982-11-24,Premium,Zipaquirá,Cundinamarca,2023-10-26
+357,Paula Martínez Ospina,F,1979-08-14,Frecuente,Bucaramanga,Santander,2022-05-13
+358,Julián Rodríguez Pérez,F,1961-12-16,Ocasional,Bogotá,Cundinamarca,2023-06-03
+359,Carlos Gómez Martínez,F,1955-02-20,Premium,Manizales,Caldas,2023-07-17
+360,Paula Martínez Sánchez,F,1991-10-05,Frecuente,Pereira,Risaralda,2019-03-16
+361,Diego Sánchez Martínez,F,1974-01-07,Ocasional,Medellín,Antioquia,2023-06-06
+362,Isabella Castro Martínez,M,1998-01-02,Premium,Medellín,Antioquia,2021-10-02
+363,Óscar Gómez Jiménez,F,1991-10-23,Frecuente,Barranquilla,Atlántico,2022-02-27
+364,María Ospina Pérez,F,1967-08-22,Ocasional,Zipaquirá,Cundinamarca,2020-02-11
+365,Paula Vargas Vargas,M,1966-11-25,Ocasional,Barranquilla,Atlántico,2018-01-03
+366,Julián Restrepo Sánchez,F,1988-10-03,Frecuente,Bogotá,Cundinamarca,2024-08-11
+367,Daniela Moreno Martínez,F,1970-02-20,Ocasional,Bucaramanga,Santander,2025-05-10
+368,Ricardo Castro Jiménez,M,1979-07-27,Frecuente,Manizales,Caldas,2022-12-02
+369,María Ospina Gómez,M,1977-07-18,Ocasional,Bucaramanga,Santander,2025-05-27
+370,Daniela Ramírez López,F,1990-09-11,Frecuente,Bucaramanga,Santander,2018-09-29
+371,Andrés Díaz García,M,1957-04-11,Ocasional,Bogotá,Cundinamarca,2022-06-15
+372,Sofía Ospina Restrepo,M,1998-12-08,Premium,Cali,Valle del Cauca,2025-05-29
+373,Andrés Díaz Sánchez,M,2000-11-24,Ocasional,Cali,Valle del Cauca,2024-12-25
+374,Ana Cárdenas Vargas,F,1990-10-09,Ocasional,Villavicencio,Meta,2019-10-13
+375,Diego Ospina Martínez,F,2002-07-15,Ocasional,Medellín,Antioquia,2019-04-07
+376,Ana Cárdenas Jiménez,M,1978-11-15,Premium,Medellín,Antioquia,2018-06-09
+377,Mariana Cárdenas Restrepo,M,1995-06-18,Ocasional,Villavicencio,Meta,2023-10-27
+378,Diego Hernández Castro,M,1990-11-21,Frecuente,Medellín,Antioquia,2020-08-14
+379,Paula Sánchez Rojas,F,1992-03-12,Premium,Bogotá,Cundinamarca,2020-07-17
+380,Sofía Rodríguez Pérez,F,1979-10-17,Ocasional,Barranquilla,Atlántico,2025-08-07
+381,Natalia Ramírez Vargas,M,1967-11-17,Frecuente,Medellín,Antioquia,2019-01-20
+382,Camila Ospina Hernández,F,1994-05-27,Ocasional,Zipaquirá,Cundinamarca,2025-07-18
+383,Isabella Restrepo Díaz,F,1979-04-26,Frecuente,Bucaramanga,Santander,2021-04-04
+384,Isabella Ramírez Torres,F,1980-02-25,Ocasional,Medellín,Antioquia,2023-04-05
+385,Valentina Gómez Ortiz,F,2002-05-14,Frecuente,Bucaramanga,Santander,2025-08-12
+386,Sebastián Rojas García,F,1982-01-17,Ocasional,Cartagena,Bolívar,2018-12-28
+387,Camila López López,F,1960-02-24,Ocasional,Bucaramanga,Santander,2021-03-09
+388,Sofía Restrepo Castro,F,1995-01-17,Frecuente,Medellín,Antioquia,2018-02-08
+389,Laura Ramírez Rodríguez,M,1980-05-25,Ocasional,Bogotá,Cundinamarca,2022-01-16
+390,Laura Martínez García,M,1992-12-12,Frecuente,Barranquilla,Atlántico,2024-02-14
+391,María Sánchez Rojas,M,1969-10-02,Premium,Cartagena,Bolívar,2025-01-11
+392,Valentina Pérez Ospina,M,1993-10-18,Frecuente,Medellín,Antioquia,2024-04-28
+393,Santiago Cárdenas García,M,1982-10-19,Ocasional,Medellín,Antioquia,2022-10-17
+394,Carlos Díaz Restrepo,M,1998-12-23,Frecuente,Barranquilla,Atlántico,2022-11-11
+395,Mariana Moreno Hernández,F,1978-10-10,Ocasional,Bucaramanga,Santander,2019-03-10
+396,María Torres López,F,1970-07-04,Frecuente,Zipaquirá,Cundinamarca,2020-12-14
+397,Santiago Jiménez Ramírez,M,1985-10-02,Premium,Medellín,Antioquia,2025-02-27
+398,Natalia Díaz Cárdenas,M,1989-06-19,Ocasional,Zipaquirá,Cundinamarca,2018-10-20
+399,Diego Gómez Castro,F,1956-06-10,Frecuente,Cartagena,Bolívar,2022-07-24
+400,Isabella Rojas Rodríguez,M,1982-07-20,Ocasional,Bogotá,Cundinamarca,2025-10-04
+401,Mariana Moreno García,M,1973-02-21,Ocasional,Cartagena,Bolívar,2024-01-28
+402,Laura Rojas Sánchez,M,1985-08-25,Premium,Cartagena,Bolívar,2022-02-20
+403,Paula Pérez Jiménez,F,1991-12-23,Frecuente,Pereira,Risaralda,2025-09-10
+404,Julián Moreno Ramírez,M,1968-09-02,Premium,Zipaquirá,Cundinamarca,2024-02-15
+405,Andrés Cárdenas Cárdenas,M,1974-07-04,Premium,Villavicencio,Meta,2025-05-21
+406,Carlos Torres Castro,F,1992-09-20,Premium,Villavicencio,Meta,2018-04-20
+407,Paula Ospina Cárdenas,F,1959-05-23,Ocasional,Pereira,Risaralda,2024-03-13
+408,Juan Díaz Rodríguez,M,1984-11-11,Ocasional,Bucaramanga,Santander,2023-12-13
+409,María Sánchez García,F,1964-09-26,Frecuente,Pereira,Risaralda,2025-06-20
+410,Diego García López,M,1970-02-16,Ocasional,Cartagena,Bolívar,2018-09-18
+411,Sofía Jiménez López,M,1992-07-07,Premium,Villavicencio,Meta,2019-11-23
+412,María Rojas Vargas,M,1984-03-24,Frecuente,Pereira,Risaralda,2025-05-28
+413,Juan Rojas Pérez,M,1999-10-05,Ocasional,Barranquilla,Atlántico,2023-11-24
+414,Ricardo Ospina Ospina,M,1994-04-10,Frecuente,Medellín,Antioquia,2025-07-21
+415,Andrés Sánchez Torres,M,1998-06-09,Ocasional,Cartagena,Bolívar,2021-06-30
+416,Camila López Sánchez,M,1976-02-13,Frecuente,Bucaramanga,Santander,2019-08-19
+417,Óscar Restrepo Torres,M,1968-05-06,Ocasional,Pereira,Risaralda,2021-08-01
+418,Natalia López García,F,2005-12-01,Ocasional,Villavicencio,Meta,2023-11-06
+419,Paula Sánchez Jiménez,M,1994-07-07,Frecuente,Cartagena,Bolívar,2021-02-28
+420,Ricardo Torres Jiménez,F,1996-11-18,Ocasional,Barranquilla,Atlántico,2022-07-08
+421,Daniela Martínez Díaz,M,1958-05-24,Ocasional,Medellín,Antioquia,2021-01-11
+422,Diego Ospina Díaz,F,1987-07-17,Frecuente,Cali,Valle del Cauca,2019-06-09
+423,Ricardo López Castro,F,1982-06-22,Premium,Cali,Valle del Cauca,2021-02-16
+424,Mariana López Ramírez,M,1970-08-17,Ocasional,Bogotá,Cundinamarca,2023-03-13
+425,Andrés Sánchez Castro,F,1958-11-25,Frecuente,Pereira,Risaralda,2022-03-10
+426,Santiago Ramírez Rodríguez,M,1973-05-28,Ocasional,Villavicencio,Meta,2023-02-11
+427,Ricardo Ospina Vargas,M,1991-02-20,Ocasional,Zipaquirá,Cundinamarca,2021-07-14
+428,Ricardo Ospina Martínez,M,2000-11-16,Ocasional,Manizales,Caldas,2023-12-06
+429,Julián Sánchez Vargas,M,2005-10-26,Corporativo,Medellín,Antioquia,2025-04-27
+430,Sofía Ramírez Ramírez,F,2000-08-17,Corporativo,Villavicencio,Meta,2025-03-08
+431,Valentina García Martínez,F,2003-04-05,Frecuente,Bogotá,Cundinamarca,2024-06-10
+432,Laura Gómez Hernández,F,1997-04-28,Ocasional,Zipaquirá,Cundinamarca,2018-10-07
+433,Julián Restrepo Ramírez,M,1973-03-09,Premium,Bogotá,Cundinamarca,2023-12-12
+434,Luisa Ramírez Díaz,M,1990-01-08,Ocasional,Barranquilla,Atlántico,2024-11-17
+435,Carlos López Moreno,F,2000-08-07,Ocasional,Pereira,Risaralda,2022-09-14
+436,Mariana García Castro,F,2000-10-15,Frecuente,Bogotá,Cundinamarca,2023-11-29
+437,Paula Ortiz Rojas,F,2004-09-19,Frecuente,Zipaquirá,Cundinamarca,2018-09-24
+438,Mariana Moreno Hernández,M,1997-08-22,Frecuente,Bogotá,Cundinamarca,2018-07-05
+439,Carlos Rodríguez Gómez,F,1971-12-15,Ocasional,Villavicencio,Meta,2019-10-02
+440,Juan Rojas García,M,1998-02-18,Frecuente,Manizales,Caldas,2024-01-29
+441,Camila Vargas Martínez,F,1961-10-15,Frecuente,Zipaquirá,Cundinamarca,2024-08-21
+442,Carlos Díaz Ramírez,M,1989-08-06,Corporativo,Barranquilla,Atlántico,2020-05-16
+443,Andrés Castro Sánchez,M,2005-11-03,Ocasional,Cali,Valle del Cauca,2024-05-16
+444,Mariana García Hernández,F,1985-09-14,Ocasional,Manizales,Caldas,2020-01-11
+445,Daniela Rodríguez Ramírez,M,1987-04-19,Premium,Cali,Valle del Cauca,2019-08-23
+446,Felipe Moreno Díaz,M,1964-10-10,Frecuente,Bogotá,Cundinamarca,2022-10-23
+447,Valentina Hernández Restrepo,M,1985-04-02,Premium,Bucaramanga,Santander,2023-03-13
+448,Mariana Hernández Rojas,F,1981-07-07,Ocasional,Manizales,Caldas,2024-05-29
+449,Santiago Gómez Ospina,M,1974-11-20,Corporativo,Bucaramanga,Santander,2020-02-24
+450,Carlos Gómez Torres,F,1955-04-16,Ocasional,Cali,Valle del Cauca,2021-04-13
+451,Ana Ortiz Moreno,F,1989-02-12,Ocasional,Medellín,Antioquia,2022-07-12
+452,Paula Gómez Martínez,M,1969-12-15,Frecuente,Villavicencio,Meta,2022-12-05
+453,Isabella Gómez Rojas,F,1994-11-15,Ocasional,Barranquilla,Atlántico,2020-05-09
+454,Paula Jiménez Gómez,F,1985-12-01,Ocasional,Cartagena,Bolívar,2023-06-26
+455,Juan Rojas Vargas,F,1955-08-10,Frecuente,Medellín,Antioquia,2022-09-04
+456,Camila García Cárdenas,M,2002-09-22,Frecuente,Manizales,Caldas,2025-07-07
+457,Mariana Hernández Ortiz,F,1993-06-17,Frecuente,Medellín,Antioquia,2021-06-24
+458,Diego Jiménez Ramírez,M,1963-08-02,Corporativo,Villavicencio,Meta,2019-01-05
+459,Diego Díaz Hernández,F,1957-08-26,Ocasional,Bucaramanga,Santander,2019-12-08
+460,Carlos Ramírez Díaz,M,1972-02-22,Frecuente,Zipaquirá,Cundinamarca,2019-07-08
+461,Camila Ramírez Jiménez,M,1988-09-22,Ocasional,Cali,Valle del Cauca,2023-11-06
+462,Luisa López Martínez,M,1981-09-11,Frecuente,Zipaquirá,Cundinamarca,2024-09-04
+463,María Martínez Torres,M,2004-08-04,Frecuente,Villavicencio,Meta,2021-01-30
+464,Diego Ospina Jiménez,M,1980-09-20,Ocasional,Cali,Valle del Cauca,2023-08-09
+465,Valentina Pérez García,M,2003-05-19,Frecuente,Villavicencio,Meta,2022-10-21
+466,Santiago Rodríguez Hernández,F,1994-09-11,Premium,Medellín,Antioquia,2018-03-26
+467,Mateo Rojas Gómez,M,1992-04-03,Ocasional,Villavicencio,Meta,2025-06-30
+468,Daniela Sánchez García,F,1986-03-03,Ocasional,Medellín,Antioquia,2020-04-15
+469,Ana Hernández Sánchez,M,1962-01-21,Frecuente,Zipaquirá,Cundinamarca,2021-01-22
+470,Camila Restrepo Díaz,F,2001-07-22,Ocasional,Bucaramanga,Santander,2019-11-10
+471,Óscar Sánchez Cárdenas,F,1982-02-23,Ocasional,Barranquilla,Atlántico,2018-11-27
+472,Carlos Martínez Díaz,M,1965-10-04,Premium,Cali,Valle del Cauca,2023-01-17
+473,Laura Torres Vargas,M,1955-05-01,Frecuente,Bucaramanga,Santander,2023-05-30
+474,Paula Ospina Díaz,F,1981-04-15,Ocasional,Bucaramanga,Santander,2018-10-07
+475,Tomás Hernández Hernández,F,1984-05-21,Ocasional,Manizales,Caldas,2022-11-14
+476,Luisa Ortiz Torres,M,1969-10-23,Premium,Zipaquirá,Cundinamarca,2023-02-23
+477,Carlos Rodríguez Jiménez,F,1994-09-07,Frecuente,Cali,Valle del Cauca,2019-12-01
+478,Julián Ortiz Restrepo,F,1998-12-25,Ocasional,Cartagena,Bolívar,2020-10-06
+479,Óscar Torres López,F,1970-12-01,Ocasional,Bogotá,Cundinamarca,2018-05-14
+480,Sebastián Ospina Castro,M,1971-05-16,Ocasional,Zipaquirá,Cundinamarca,2023-02-19
+481,Andrés Ortiz Rojas,F,1983-10-04,Ocasional,Zipaquirá,Cundinamarca,2025-09-12
+482,Sofía Gómez Rodríguez,F,1971-08-07,Frecuente,Manizales,Caldas,2021-04-18
+483,Daniela Jiménez Martínez,M,1962-07-25,Premium,Zipaquirá,Cundinamarca,2020-04-03
+484,Paula Rojas Restrepo,F,1984-06-07,Ocasional,Barranquilla,Atlántico,2019-07-27
+485,Carlos Rodríguez Gómez,F,1995-06-10,Ocasional,Villavicencio,Meta,2023-03-21
+486,María Restrepo Vargas,M,1955-07-04,Frecuente,Bucaramanga,Santander,2023-03-24
+487,Paula Ramírez Moreno,F,1990-10-13,Ocasional,Barranquilla,Atlántico,2023-06-15
+488,Mariana Rodríguez Gómez,F,1981-09-04,Corporativo,Barranquilla,Atlántico,2023-08-05
+489,Mateo Ospina Gómez,M,1972-11-21,Ocasional,Bogotá,Cundinamarca,2021-11-14
+490,María Castro Cárdenas,M,1966-06-18,Premium,Barranquilla,Atlántico,2024-06-24
+491,Diego Díaz Pérez,F,1998-04-28,Frecuente,Villavicencio,Meta,2024-08-05
+492,Isabella Ortiz Hernández,F,1971-11-27,Frecuente,Cali,Valle del Cauca,2020-10-12
+493,Juan Cárdenas Sánchez,F,1992-01-09,Premium,Bogotá,Cundinamarca,2025-05-28
+494,Ana Hernández Díaz,M,1961-02-22,Frecuente,Villavicencio,Meta,2021-10-17
+495,Juan Ospina Martínez,F,1976-05-13,Premium,Medellín,Antioquia,2020-10-08
+496,Sofía García Ramírez,F,1977-12-16,Frecuente,Bucaramanga,Santander,2022-12-27
+497,Ricardo Vargas Cárdenas,F,1968-10-15,Frecuente,Cartagena,Bolívar,2018-03-18
+498,Camila Cárdenas Jiménez,M,1991-07-02,Ocasional,Barranquilla,Atlántico,2018-07-24
+499,Laura Ospina García,M,2001-03-08,Ocasional,Villavicencio,Meta,2021-07-21
+500,Valentina Rodríguez Vargas,M,1968-12-19,Ocasional,Villavicencio,Meta,2022-01-31
+501,Andrés Ramírez Ortiz,F,1964-05-10,Frecuente,Bucaramanga,Santander,2025-01-30
+502,Natalia Gómez Ramírez,M,1986-03-02,Frecuente,Manizales,Caldas,2019-10-23
+503,Daniela Díaz Jiménez,F,1975-06-24,Premium,Pereira,Risaralda,2025-09-21
+504,Laura Torres Ospina,F,1971-07-09,Frecuente,Pereira,Risaralda,2025-03-06
+505,Sebastián Ospina Pérez,M,1980-05-09,Corporativo,Barranquilla,Atlántico,2019-07-29
+506,Sebastián Ortiz Jiménez,F,1983-04-03,Ocasional,Pereira,Risaralda,2024-11-18
+507,Valentina Rojas García,F,1989-02-21,Ocasional,Zipaquirá,Cundinamarca,2024-09-15
+508,Santiago Rodríguez Rojas,F,1993-04-02,Corporativo,Cartagena,Bolívar,2022-12-10
+509,Ricardo Moreno Rojas,F,1978-05-10,Frecuente,Cali,Valle del Cauca,2018-08-21
+510,Luisa Torres Ortiz,F,1973-09-20,Premium,Manizales,Caldas,2021-01-04
+511,María Vargas Gómez,M,1985-01-18,Ocasional,Bogotá,Cundinamarca,2025-09-25
+512,Carlos Jiménez Cárdenas,M,1979-06-02,Corporativo,Manizales,Caldas,2020-12-19
+513,Laura Pérez Martínez,M,1996-02-09,Ocasional,Cali,Valle del Cauca,2020-11-23
+514,Ricardo Gómez Ortiz,F,1960-12-17,Frecuente,Bogotá,Cundinamarca,2025-01-25
+515,Mariana Ramírez López,M,2001-06-20,Ocasional,Pereira,Risaralda,2020-02-13
+516,Óscar Vargas Sánchez,M,1999-08-11,Frecuente,Cali,Valle del Cauca,2023-12-06
+517,Natalia Gómez García,F,2000-09-07,Corporativo,Cartagena,Bolívar,2024-06-11
+518,Sofía Moreno Pérez,M,1960-12-12,Ocasional,Zipaquirá,Cundinamarca,2025-11-27
+519,Valentina Ramírez Hernández,M,1972-04-01,Frecuente,Bogotá,Cundinamarca,2020-01-23
+520,Diego Hernández Hernández,M,1968-11-09,Frecuente,Cartagena,Bolívar,2020-04-07
+521,Sebastián Rojas Gómez,F,1970-09-08,Ocasional,Cali,Valle del Cauca,2019-08-12
+522,Felipe Sánchez Cárdenas,M,1957-09-20,Ocasional,Cartagena,Bolívar,2022-11-02
+523,Isabella Cárdenas Castro,M,1998-10-07,Premium,Barranquilla,Atlántico,2025-10-07
+524,Natalia Jiménez Ramírez,F,1964-05-22,Ocasional,Bogotá,Cundinamarca,2025-11-13
+525,Daniela Sánchez Torres,M,1985-12-16,Ocasional,Villavicencio,Meta,2024-03-28
+526,Carlos Rodríguez Ramírez,M,1967-08-20,Premium,Cali,Valle del Cauca,2021-02-05
+527,Andrés López Rojas,M,2002-08-23,Frecuente,Cali,Valle del Cauca,2018-10-03
+528,Mateo Hernández Rodríguez,M,1983-01-01,Ocasional,Cartagena,Bolívar,2023-03-11
+529,Juan Martínez Vargas,F,1993-02-26,Ocasional,Manizales,Caldas,2023-02-17
+530,Isabella Vargas Rodríguez,M,1956-11-02,Frecuente,Manizales,Caldas,2023-03-15
+531,Luisa Jiménez Moreno,M,1985-12-04,Ocasional,Bucaramanga,Santander,2020-04-30
+532,Laura Castro López,F,1958-04-22,Ocasional,Cali,Valle del Cauca,2019-07-15
+533,Juan García Jiménez,M,1956-01-15,Corporativo,Barranquilla,Atlántico,2019-12-11
+534,Óscar Hernández Jiménez,M,1997-11-04,Ocasional,Medellín,Antioquia,2018-10-25
+535,Santiago Vargas Díaz,M,1964-04-24,Premium,Villavicencio,Meta,2019-01-05
+536,Juan García Martínez,M,2004-09-21,Frecuente,Medellín,Antioquia,2024-03-09
+537,Santiago García Rodríguez,F,1987-06-07,Ocasional,Barranquilla,Atlántico,2021-05-20
+538,Laura García Ospina,M,1989-09-04,Frecuente,Villavicencio,Meta,2022-07-31
+539,María Ortiz Ramírez,M,1992-04-22,Ocasional,Cartagena,Bolívar,2021-05-10
+540,Natalia Pérez Rojas,M,1962-05-15,Ocasional,Pereira,Risaralda,2021-01-18
+541,Ana Ortiz Moreno,M,1959-09-05,Frecuente,Cartagena,Bolívar,2018-07-28
+542,Diego Ospina Rojas,M,1984-06-13,Frecuente,Cali,Valle del Cauca,2025-04-26
+543,Luisa Torres Sánchez,M,2001-05-08,Ocasional,Villavicencio,Meta,2023-12-26
+544,Luisa Torres Jiménez,F,1971-09-12,Frecuente,Medellín,Antioquia,2023-03-25
+545,Sofía Rodríguez Rodríguez,M,1980-08-20,Premium,Zipaquirá,Cundinamarca,2018-04-10
+546,Paula Rodríguez Ospina,F,1987-01-09,Ocasional,Barranquilla,Atlántico,2020-03-07
+547,Sofía Hernández Cárdenas,M,1967-04-04,Ocasional,Barranquilla,Atlántico,2022-10-04
+548,Diego Ortiz Castro,M,1958-03-10,Frecuente,Barranquilla,Atlántico,2025-01-18
+549,Felipe Rojas Rojas,M,1957-10-02,Frecuente,Zipaquirá,Cundinamarca,2024-04-13
+550,Paula Hernández Restrepo,M,1968-05-26,Frecuente,Barranquilla,Atlántico,2022-06-21
+551,Paula Ramírez Cárdenas,F,1970-10-19,Frecuente,Villavicencio,Meta,2022-05-03
+552,María Castro García,F,1958-12-11,Ocasional,Cartagena,Bolívar,2024-09-02
+553,Tomás Ramírez Restrepo,M,1988-09-28,Ocasional,Pereira,Risaralda,2019-01-10
+554,Ana Rojas Martínez,M,1986-12-12,Frecuente,Bucaramanga,Santander,2021-08-20
+555,Carlos López Ospina,M,1982-12-08,Frecuente,Villavicencio,Meta,2022-07-29
+556,Juan López Hernández,M,1971-03-01,Ocasional,Barranquilla,Atlántico,2019-07-18
+557,Ana Rodríguez Hernández,F,2005-03-28,Ocasional,Cartagena,Bolívar,2024-05-20
+558,Mariana Castro López,M,2000-05-15,Premium,Barranquilla,Atlántico,2022-04-24
+559,Paula Ramírez Moreno,F,1969-08-21,Ocasional,Bucaramanga,Santander,2018-12-25
+560,Santiago Martínez Ramírez,F,1961-04-11,Corporativo,Cartagena,Bolívar,2020-05-25
+561,Sofía Ospina Jiménez,M,1973-04-26,Ocasional,Manizales,Caldas,2021-03-23
+562,Mateo López Torres,F,1979-03-08,Ocasional,Barranquilla,Atlántico,2020-06-09
+563,Ana Rojas Martínez,F,1997-09-27,Premium,Villavicencio,Meta,2024-11-20
+564,Mariana Ortiz Moreno,M,1997-06-17,Premium,Cartagena,Bolívar,2023-04-21
+565,Carlos Gómez Pérez,F,1960-05-20,Premium,Cartagena,Bolívar,2025-03-13
+566,Carlos Rodríguez Martínez,M,1996-03-01,Ocasional,Pereira,Risaralda,2018-02-06
+567,Ana Torres Ospina,M,2000-12-02,Ocasional,Villavicencio,Meta,2019-05-29
+568,Felipe Rojas Rojas,M,1993-11-25,Frecuente,Bucaramanga,Santander,2024-01-13
+569,Luisa Martínez Jiménez,M,1961-01-02,Ocasional,Cali,Valle del Cauca,2020-08-23
+570,Santiago Hernández Sánchez,M,1984-11-09,Ocasional,Manizales,Caldas,2018-09-05
+571,Ana Moreno Gómez,M,1964-08-28,Frecuente,Barranquilla,Atlántico,2024-06-18
+572,Felipe Rodríguez Gómez,M,1994-10-20,Corporativo,Cali,Valle del Cauca,2023-04-01
+573,Mateo Restrepo Rodríguez,F,2003-11-19,Frecuente,Cartagena,Bolívar,2018-01-04
+574,Felipe Hernández Cárdenas,M,1963-03-28,Ocasional,Bucaramanga,Santander,2020-04-05
+575,María Ramírez Ospina,F,1984-07-16,Frecuente,Barranquilla,Atlántico,2025-03-24
+576,Sebastián Moreno Pérez,M,1995-07-16,Ocasional,Zipaquirá,Cundinamarca,2025-01-24
+577,Valentina Ortiz Ramírez,M,1958-04-05,Ocasional,Bogotá,Cundinamarca,2019-09-28
+578,Isabella Ospina Rodríguez,F,1956-11-22,Frecuente,Cartagena,Bolívar,2025-09-21
+579,Paula Díaz Vargas,F,1987-05-11,Corporativo,Bogotá,Cundinamarca,2020-10-25
+580,Felipe Pérez Castro,F,1969-04-23,Ocasional,Pereira,Risaralda,2021-12-10
+581,María Ramírez Jiménez,F,1987-01-05,Ocasional,Zipaquirá,Cundinamarca,2023-04-02
+582,Ricardo Hernández Gómez,F,1958-04-06,Frecuente,Bucaramanga,Santander,2024-12-21
+583,Andrés Pérez Ortiz,M,1983-12-25,Frecuente,Manizales,Caldas,2021-12-28
+584,Mateo Castro Hernández,M,1999-10-26,Frecuente,Manizales,Caldas,2018-04-14
+585,Tomás Rodríguez Moreno,M,1959-08-14,Frecuente,Cartagena,Bolívar,2020-07-10
+586,Sebastián López Cárdenas,F,1986-12-18,Corporativo,Villavicencio,Meta,2019-04-08
+587,Diego Castro Gómez,M,1979-09-19,Ocasional,Bucaramanga,Santander,2024-07-18
+588,Natalia Gómez Jiménez,F,1996-12-21,Frecuente,Zipaquirá,Cundinamarca,2019-08-06
+589,Tomás Vargas Gómez,F,2004-12-10,Premium,Cartagena,Bolívar,2023-05-12
+590,Sebastián Ortiz Ramírez,M,1991-10-08,Ocasional,Medellín,Antioquia,2019-04-19
+591,Isabella García Díaz,M,1977-04-09,Ocasional,Cartagena,Bolívar,2022-06-16
+592,Andrés Torres Sánchez,M,1968-03-22,Ocasional,Cali,Valle del Cauca,2021-02-10
+593,Ricardo Martínez Sánchez,F,1958-03-02,Frecuente,Zipaquirá,Cundinamarca,2019-10-08
+594,Julián Castro Gómez,F,1989-10-05,Ocasional,Zipaquirá,Cundinamarca,2025-10-19
+595,Sofía Martínez Vargas,F,1975-11-11,Frecuente,Barranquilla,Atlántico,2022-12-07
+596,Diego Jiménez Díaz,F,1988-12-22,Ocasional,Cali,Valle del Cauca,2020-07-17
+597,Luisa Hernández Ospina,M,1960-01-28,Frecuente,Zipaquirá,Cundinamarca,2025-02-15
+598,Mateo Rodríguez Hernández,M,1964-03-11,Frecuente,Medellín,Antioquia,2019-06-24
+599,Ricardo Hernández Rojas,F,1992-03-06,Ocasional,Villavicencio,Meta,2024-01-05
+600,Juan Rodríguez Pérez,F,1960-04-16,Ocasional,Cali,Valle del Cauca,2024-05-25
+601,Ana Ramírez Vargas,F,1958-08-23,Ocasional,Bucaramanga,Santander,2019-07-02
+602,Carlos Rodríguez Cárdenas,M,1995-08-25,Frecuente,Zipaquirá,Cundinamarca,2024-08-15
+603,Ricardo Pérez Martínez,M,2001-06-02,Frecuente,Zipaquirá,Cundinamarca,2020-03-24
+604,Tomás Vargas Hernández,F,1965-04-15,Ocasional,Bucaramanga,Santander,2023-03-18
+605,Santiago Pérez Hernández,M,2002-05-17,Ocasional,Pereira,Risaralda,2022-04-23
+606,Carlos Hernández Ramírez,F,1996-06-27,Frecuente,Medellín,Antioquia,2025-01-31
+607,Ana Hernández Cárdenas,M,1956-02-18,Corporativo,Pereira,Risaralda,2022-10-13
+608,Daniela Ramírez Restrepo,M,2002-01-02,Frecuente,Pereira,Risaralda,2022-07-05
+609,Mateo Rojas Ramírez,M,1993-02-22,Frecuente,Bucaramanga,Santander,2022-06-30
+610,Sofía Martínez López,F,1972-07-19,Ocasional,Bucaramanga,Santander,2021-07-06
+611,Luisa Díaz García,F,2005-11-19,Corporativo,Pereira,Risaralda,2018-01-02
+612,Paula Jiménez Ramírez,M,2003-04-11,Frecuente,Bucaramanga,Santander,2018-10-26
+613,Óscar Rojas Rodríguez,M,1996-07-24,Ocasional,Cali,Valle del Cauca,2019-10-22
+614,Sebastián Jiménez Martínez,F,1986-11-24,Ocasional,Bogotá,Cundinamarca,2022-05-22
+615,Daniela Vargas Castro,M,1978-06-13,Premium,Bogotá,Cundinamarca,2025-11-15
+616,Julián Ramírez Moreno,F,2001-10-22,Corporativo,Bucaramanga,Santander,2021-08-28
+617,Luisa Ramírez Vargas,M,1962-09-05,Frecuente,Manizales,Caldas,2019-06-07
+618,Sebastián Rodríguez Martínez,M,1976-10-26,Frecuente,Barranquilla,Atlántico,2025-08-02
+619,Luisa Hernández Jiménez,F,2001-05-06,Ocasional,Bucaramanga,Santander,2019-08-29
+620,Santiago García Sánchez,F,1999-08-02,Premium,Barranquilla,Atlántico,2022-12-25
+621,Natalia Torres Ospina,F,1977-01-05,Ocasional,Bogotá,Cundinamarca,2021-08-05
+622,Natalia Vargas Gómez,M,2001-10-03,Ocasional,Cartagena,Bolívar,2024-03-15
+623,Sofía López Torres,M,1982-04-12,Premium,Bucaramanga,Santander,2022-06-23
+624,Óscar Gómez Rojas,M,1994-03-18,Ocasional,Bogotá,Cundinamarca,2023-06-24
+625,Mariana López Vargas,F,1993-04-05,Frecuente,Manizales,Caldas,2019-09-07
+626,Natalia Vargas Díaz,M,1966-07-05,Ocasional,Cali,Valle del Cauca,2020-08-02
+627,Natalia Díaz Moreno,M,1969-04-22,Frecuente,Manizales,Caldas,2025-09-10
+628,Camila Rojas Díaz,M,1977-01-16,Ocasional,Pereira,Risaralda,2025-10-27
+629,Isabella Martínez Hernández,F,2000-11-15,Corporativo,Medellín,Antioquia,2023-07-28
+630,Mariana Sánchez Ramírez,M,2005-08-07,Ocasional,Pereira,Risaralda,2020-01-16
+631,María Rodríguez Martínez,M,1959-03-17,Ocasional,Cali,Valle del Cauca,2023-01-21
+632,Paula Restrepo Cárdenas,F,1976-08-10,Frecuente,Medellín,Antioquia,2021-09-14
+633,Mariana Vargas Ospina,M,1992-09-01,Ocasional,Cali,Valle del Cauca,2022-07-10
+634,Carlos Castro Vargas,M,2002-09-02,Premium,Bucaramanga,Santander,2023-11-08
+635,Natalia Gómez Ospina,F,2002-04-02,Ocasional,Medellín,Antioquia,2022-05-14
+636,Felipe López Rodríguez,M,1993-09-04,Premium,Cali,Valle del Cauca,2020-12-30
+637,Felipe Ramírez Ramírez,M,1999-06-17,Premium,Bogotá,Cundinamarca,2019-02-08
+638,Andrés Ramírez Moreno,M,1973-06-25,Ocasional,Pereira,Risaralda,2021-03-23
+639,Daniela Restrepo Rojas,F,1976-09-05,Frecuente,Pereira,Risaralda,2023-07-09
+640,Diego Pérez López,M,2004-04-23,Ocasional,Medellín,Antioquia,2021-04-09
+641,Sebastián Martínez Vargas,F,1977-11-05,Frecuente,Cali,Valle del Cauca,2024-12-26
+642,Tomás Rodríguez Moreno,F,1976-04-22,Frecuente,Zipaquirá,Cundinamarca,2022-06-09
+643,Sebastián Sánchez Rojas,F,1990-04-07,Frecuente,Cali,Valle del Cauca,2024-05-04
+644,Julián Restrepo Rojas,F,1957-08-07,Premium,Cartagena,Bolívar,2019-03-10
+645,Paula Jiménez Ospina,F,1976-02-05,Corporativo,Cali,Valle del Cauca,2018-08-13
+646,Diego Castro Torres,F,1997-07-28,Ocasional,Barranquilla,Atlántico,2025-09-18
+647,Carlos Pérez Rodríguez,F,1987-04-25,Ocasional,Barranquilla,Atlántico,2024-10-12
+648,Tomás Gómez Hernández,F,1991-07-01,Frecuente,Medellín,Antioquia,2019-08-22
+649,Laura López Pérez,F,1970-01-21,Ocasional,Bucaramanga,Santander,2022-09-08
+650,Paula Pérez Rojas,M,2005-02-08,Ocasional,Medellín,Antioquia,2018-01-28
+651,Andrés López Díaz,F,1980-06-13,Frecuente,Cartagena,Bolívar,2024-03-13
+652,Sebastián García Díaz,M,1998-05-23,Ocasional,Villavicencio,Meta,2023-08-05
+653,Mateo Vargas Castro,M,2001-06-15,Frecuente,Zipaquirá,Cundinamarca,2023-11-29
+654,Felipe López Pérez,M,1975-04-19,Ocasional,Medellín,Antioquia,2022-02-26
+655,Daniela Díaz Restrepo,M,1966-03-26,Ocasional,Medellín,Antioquia,2025-05-17
+656,Ana Ortiz Rojas,F,1984-10-20,Ocasional,Villavicencio,Meta,2021-04-27
+657,Carlos Castro Castro,M,1994-03-22,Ocasional,Pereira,Risaralda,2021-11-02
+658,Julián Restrepo Ortiz,M,1964-10-05,Frecuente,Cali,Valle del Cauca,2020-02-03
+659,Mateo Restrepo Vargas,M,1959-11-04,Frecuente,Medellín,Antioquia,2022-01-05
+660,Felipe Cárdenas Ospina,M,1999-03-19,Corporativo,Cartagena,Bolívar,2023-10-26
+661,Isabella Gómez Gómez,M,1991-09-16,Premium,Pereira,Risaralda,2022-12-22
+662,Andrés López Restrepo,M,1975-09-13,Corporativo,Barranquilla,Atlántico,2024-10-30
+663,Sebastián Rojas García,F,1982-06-13,Ocasional,Cartagena,Bolívar,2021-09-08
+664,Daniela Martínez Cárdenas,M,1994-04-26,Premium,Bucaramanga,Santander,2022-05-15
+665,Daniela Torres Gómez,F,2003-01-26,Ocasional,Pereira,Risaralda,2022-01-16
+666,Mateo Ospina Restrepo,M,1964-09-10,Ocasional,Medellín,Antioquia,2025-01-02
+667,Laura Rodríguez Pérez,M,1968-02-13,Ocasional,Barranquilla,Atlántico,2022-05-19
+668,Valentina Ospina Gómez,M,2004-04-09,Ocasional,Bucaramanga,Santander,2025-02-04
+669,Carlos Torres Restrepo,M,1972-01-05,Ocasional,Manizales,Caldas,2025-11-06
+670,Andrés Rojas Pérez,M,1978-03-03,Frecuente,Cartagena,Bolívar,2020-09-13
+671,Sofía Rojas Moreno,M,1963-06-08,Frecuente,Cartagena,Bolívar,2019-06-14
+672,Paula García Díaz,M,1984-07-05,Ocasional,Cartagena,Bolívar,2024-07-22
+673,Óscar López Rojas,M,2001-12-03,Ocasional,Bogotá,Cundinamarca,2024-07-09
+674,Sebastián Sánchez Cárdenas,M,1994-02-05,Ocasional,Cali,Valle del Cauca,2024-05-24
+675,Santiago Hernández Pérez,M,1961-03-16,Frecuente,Cali,Valle del Cauca,2025-11-08
+676,Natalia Hernández Pérez,F,1973-04-02,Frecuente,Manizales,Caldas,2023-01-27
+677,Isabella Sánchez Hernández,F,2003-11-19,Ocasional,Villavicencio,Meta,2023-04-01
+678,Valentina Pérez Rojas,M,1987-05-25,Ocasional,Bogotá,Cundinamarca,2025-01-07
+679,Camila Rojas Díaz,M,1984-03-07,Frecuente,Medellín,Antioquia,2021-03-31
+680,Laura López Martínez,M,1960-04-02,Frecuente,Manizales,Caldas,2023-08-15
+681,Mateo Hernández Díaz,F,1985-07-08,Corporativo,Bucaramanga,Santander,2022-03-25
+682,Ricardo López Sánchez,M,1957-01-02,Ocasional,Medellín,Antioquia,2021-12-19
+683,Ricardo Ortiz Díaz,M,1981-01-08,Ocasional,Pereira,Risaralda,2024-11-29
+684,Mateo Gómez Hernández,F,1984-05-14,Ocasional,Villavicencio,Meta,2023-07-15
+685,Juan Sánchez Moreno,F,1963-12-27,Ocasional,Barranquilla,Atlántico,2019-08-31
+686,Juan Ospina García,M,1982-06-02,Ocasional,Villavicencio,Meta,2022-02-19
+687,Juan Ospina Rojas,F,2001-12-21,Ocasional,Pereira,Risaralda,2018-08-19
+688,Sebastián Torres López,M,2000-09-13,Ocasional,Medellín,Antioquia,2018-01-08
+689,Camila Rojas Cárdenas,F,1996-07-21,Ocasional,Cali,Valle del Cauca,2022-03-17
+690,Isabella Vargas Ospina,M,1968-03-24,Frecuente,Bogotá,Cundinamarca,2021-02-13
+691,Mateo Pérez Ortiz,F,1973-05-26,Frecuente,Medellín,Antioquia,2019-09-25
+692,Carlos Vargas García,F,1983-02-21,Frecuente,Cali,Valle del Cauca,2024-11-05
+693,Natalia Cárdenas Hernández,M,1972-06-09,Corporativo,Barranquilla,Atlántico,2019-06-15
+694,Ricardo Gómez López,F,1986-11-21,Ocasional,Villavicencio,Meta,2018-08-05
+695,Julián Sánchez Jiménez,M,1955-04-10,Ocasional,Medellín,Antioquia,2023-06-16
+696,Óscar Cárdenas Rodríguez,M,2003-12-05,Ocasional,Cartagena,Bolívar,2022-09-20
+697,Luisa Cárdenas López,F,1987-07-04,Corporativo,Medellín,Antioquia,2020-05-24
+698,Juan Gómez Ortiz,M,1982-02-20,Ocasional,Pereira,Risaralda,2025-01-27
+699,Valentina Sánchez Vargas,F,1974-07-23,Ocasional,Barranquilla,Atlántico,2024-05-06
+700,Valentina Restrepo Vargas,F,1973-07-06,Ocasional,Zipaquirá,Cundinamarca,2021-10-16
+701,Ricardo Ospina Jiménez,F,1974-03-24,Frecuente,Bucaramanga,Santander,2019-05-15
+702,Luisa Sánchez Hernández,F,1961-09-26,Ocasional,Bogotá,Cundinamarca,2020-08-22
+703,Laura Moreno Moreno,M,1989-02-21,Premium,Bogotá,Cundinamarca,2019-08-31
+704,Isabella Cárdenas Moreno,M,1973-11-02,Frecuente,Bogotá,Cundinamarca,2023-08-22
+705,Carlos Sánchez García,M,1959-07-06,Ocasional,Medellín,Antioquia,2019-08-18
+706,Sebastián Díaz Vargas,M,1979-01-07,Ocasional,Bucaramanga,Santander,2018-10-04
+707,Andrés Ortiz Jiménez,F,2002-03-14,Frecuente,Cartagena,Bolívar,2021-07-15
+708,Ricardo Torres Ramírez,M,2004-01-02,Frecuente,Bucaramanga,Santander,2019-11-28
+709,Diego Castro Gómez,M,1967-02-09,Ocasional,Zipaquirá,Cundinamarca,2018-04-06
+710,María García Rojas,F,2005-07-04,Ocasional,Cartagena,Bolívar,2021-12-19
+711,Sofía Jiménez Restrepo,F,1972-01-22,Frecuente,Cartagena,Bolívar,2022-04-10
+712,Isabella García Sánchez,F,1977-07-20,Ocasional,Bucaramanga,Santander,2021-10-30
+713,Sebastián Vargas Cárdenas,M,1981-04-25,Frecuente,Manizales,Caldas,2020-08-16
+714,Mariana Rodríguez Jiménez,F,1962-04-04,Premium,Zipaquirá,Cundinamarca,2018-01-24
+715,Sofía Torres Rodríguez,F,1982-02-07,Corporativo,Villavicencio,Meta,2022-01-30
+716,Camila Torres Ortiz,F,1965-04-23,Corporativo,Medellín,Antioquia,2018-01-02
+717,Óscar Restrepo Rodríguez,M,1999-10-04,Ocasional,Barranquilla,Atlántico,2024-12-12
+718,Sofía Hernández Sánchez,M,1998-08-10,Premium,Medellín,Antioquia,2023-10-21
+719,Julián López Jiménez,M,1978-09-25,Ocasional,Manizales,Caldas,2021-01-09
+720,Sebastián Vargas Ospina,M,1981-06-08,Frecuente,Cartagena,Bolívar,2021-11-27
+721,Valentina Rojas Vargas,M,1975-09-03,Premium,Manizales,Caldas,2018-05-25
+722,Isabella Martínez Ramírez,F,1958-07-18,Ocasional,Villavicencio,Meta,2021-06-24
+723,María Cárdenas Gómez,M,1965-07-01,Frecuente,Villavicencio,Meta,2021-09-16
+724,Isabella Jiménez Martínez,M,1993-10-27,Ocasional,Medellín,Antioquia,2018-03-19
+725,Tomás López Rodríguez,F,1956-07-20,Ocasional,Cali,Valle del Cauca,2025-10-28
+726,Carlos Gómez Ortiz,F,1978-10-26,Ocasional,Bogotá,Cundinamarca,2022-10-15
+727,Ana Martínez Rojas,F,1958-10-13,Ocasional,Medellín,Antioquia,2021-04-23
+728,Sebastián Díaz Pérez,F,1964-09-12,Frecuente,Cali,Valle del Cauca,2025-04-12
+729,Ricardo Díaz Díaz,F,1978-12-02,Frecuente,Medellín,Antioquia,2021-02-18
+730,Carlos Castro Ortiz,F,1967-05-26,Ocasional,Cali,Valle del Cauca,2022-11-08
+731,María Sánchez Ramírez,M,1997-01-25,Ocasional,Pereira,Risaralda,2025-01-15
+732,Santiago Castro Díaz,F,1971-07-20,Corporativo,Bogotá,Cundinamarca,2024-01-14
+733,Daniela Ramírez Restrepo,M,1979-10-06,Ocasional,Medellín,Antioquia,2018-04-21
+734,Valentina Gómez Sánchez,F,1969-06-25,Frecuente,Zipaquirá,Cundinamarca,2021-07-20
+735,Mateo Ramírez García,M,1990-12-05,Ocasional,Bogotá,Cundinamarca,2025-07-17
+736,Laura Torres Ospina,F,1998-10-17,Ocasional,Villavicencio,Meta,2020-04-17
+737,Juan Ortiz Ramírez,F,1956-06-02,Frecuente,Cartagena,Bolívar,2023-07-04
+738,Sofía Rojas Vargas,F,1993-08-16,Frecuente,Manizales,Caldas,2019-11-13
+739,Ana Castro Vargas,M,2004-12-16,Premium,Bogotá,Cundinamarca,2022-04-18
+740,Santiago Restrepo Ramírez,F,1969-09-23,Ocasional,Bucaramanga,Santander,2022-10-23
+741,Sebastián Vargas Ortiz,M,1971-01-03,Ocasional,Barranquilla,Atlántico,2025-01-11
+742,Paula Vargas Moreno,M,1964-11-23,Ocasional,Bucaramanga,Santander,2018-07-23
+743,Juan Torres Gómez,F,1974-06-14,Ocasional,Cali,Valle del Cauca,2020-02-01
+744,Camila Sánchez Vargas,F,2001-02-03,Premium,Zipaquirá,Cundinamarca,2019-11-06
+745,Felipe López Ospina,M,1988-03-22,Ocasional,Bucaramanga,Santander,2020-09-16
+746,Andrés Sánchez Torres,M,1993-08-27,Premium,Cali,Valle del Cauca,2018-08-17
+747,Ana Hernández Sánchez,M,1957-04-10,Corporativo,Villavicencio,Meta,2021-04-16
+748,Julián Castro García,F,1986-02-26,Frecuente,Pereira,Risaralda,2025-01-26
+749,Ana Martínez Restrepo,M,1967-08-14,Ocasional,Manizales,Caldas,2018-11-28
+750,Óscar Rodríguez Díaz,F,1966-05-08,Frecuente,Zipaquirá,Cundinamarca,2022-03-29
+751,Mateo Sánchez Martínez,F,1996-05-26,Ocasional,Bucaramanga,Santander,2022-11-07
+752,Óscar Torres Gómez,F,1996-05-11,Premium,Cali,Valle del Cauca,2022-04-14
+753,Natalia Gómez Martínez,F,1960-05-03,Ocasional,Medellín,Antioquia,2021-08-16
+754,Óscar Pérez Ospina,M,1958-01-15,Ocasional,Cali,Valle del Cauca,2019-03-14
+755,Mateo Restrepo Ortiz,M,2001-10-12,Frecuente,Cartagena,Bolívar,2020-05-20
+756,Andrés Ospina García,M,1973-08-24,Ocasional,Bogotá,Cundinamarca,2022-09-27
+757,Valentina Sánchez Díaz,M,1968-01-03,Premium,Manizales,Caldas,2023-12-30
+758,Ricardo Ramírez Castro,M,2002-06-12,Frecuente,Bucaramanga,Santander,2025-11-08
+759,Isabella Díaz Restrepo,F,2005-12-11,Ocasional,Pereira,Risaralda,2023-01-21
+760,Valentina Castro Rojas,F,2002-09-13,Ocasional,Bucaramanga,Santander,2024-11-17
+761,María Sánchez Rodríguez,F,1956-08-18,Ocasional,Barranquilla,Atlántico,2021-10-17
+762,Camila Vargas Martínez,M,2000-09-04,Frecuente,Manizales,Caldas,2018-05-05
+763,Santiago Ortiz Hernández,F,1986-04-12,Corporativo,Medellín,Antioquia,2018-07-24
+764,Juan Martínez Gómez,M,1968-10-03,Ocasional,Medellín,Antioquia,2020-05-12
+765,Luisa Rojas Moreno,M,1988-05-14,Frecuente,Zipaquirá,Cundinamarca,2018-02-18
+766,Andrés Díaz García,M,1967-08-17,Ocasional,Zipaquirá,Cundinamarca,2019-12-22
+767,María Ramírez Ospina,M,1981-05-25,Premium,Bucaramanga,Santander,2025-03-03
+768,Carlos Ospina Hernández,F,1977-03-11,Ocasional,Bucaramanga,Santander,2024-06-16
+769,Luisa Hernández García,F,1983-04-18,Ocasional,Zipaquirá,Cundinamarca,2020-01-27
+770,Óscar López Martínez,M,1966-07-22,Ocasional,Pereira,Risaralda,2022-06-15
+771,Juan García López,F,1966-05-20,Ocasional,Cali,Valle del Cauca,2023-07-30
+772,Isabella Restrepo Ortiz,M,1976-10-17,Ocasional,Pereira,Risaralda,2018-09-14
+773,Óscar García Ospina,M,1957-02-08,Premium,Medellín,Antioquia,2018-05-11
+774,Ricardo Vargas Moreno,F,1969-02-11,Ocasional,Bogotá,Cundinamarca,2024-04-19
+775,Tomás Jiménez Pérez,M,1961-01-28,Premium,Bucaramanga,Santander,2023-08-23
+776,Mateo Vargas Pérez,M,1981-09-13,Ocasional,Pereira,Risaralda,2023-07-21
+777,Mateo Díaz Ortiz,M,1988-11-21,Corporativo,Manizales,Caldas,2021-04-26
+778,Sebastián Rodríguez Sánchez,M,1957-11-17,Ocasional,Zipaquirá,Cundinamarca,2020-07-14
+779,Diego Sánchez Ortiz,M,1977-10-03,Ocasional,Bogotá,Cundinamarca,2025-10-18
+780,Sofía Torres Martínez,M,1995-01-16,Ocasional,Zipaquirá,Cundinamarca,2019-03-11
+781,Daniela Gómez Ospina,F,1997-01-16,Frecuente,Cartagena,Bolívar,2023-01-28
+782,María Sánchez Hernández,M,1980-07-28,Frecuente,Bucaramanga,Santander,2020-11-23
+783,Isabella Moreno Hernández,F,1990-09-24,Frecuente,Pereira,Risaralda,2018-12-05
+784,Isabella García Díaz,M,1994-05-26,Corporativo,Villavicencio,Meta,2021-05-27
+785,María Moreno Ospina,M,2003-04-01,Ocasional,Manizales,Caldas,2020-12-16
+786,Felipe Díaz Rojas,F,1962-03-11,Ocasional,Bucaramanga,Santander,2025-08-30
+787,Julián Rodríguez Moreno,F,2002-01-09,Ocasional,Zipaquirá,Cundinamarca,2022-11-14
+788,Felipe Díaz Ramírez,M,2002-04-20,Ocasional,Bucaramanga,Santander,2024-05-07
+789,Daniela Gómez Rodríguez,M,1955-07-17,Corporativo,Zipaquirá,Cundinamarca,2018-05-14
+790,Laura Gómez Castro,F,1976-11-01,Frecuente,Manizales,Caldas,2023-08-03
+791,Diego Cárdenas Hernández,F,1990-11-28,Frecuente,Pereira,Risaralda,2018-03-07
+792,Juan Gómez Ortiz,F,1966-02-25,Premium,Villavicencio,Meta,2018-09-03
+793,Mateo Hernández Restrepo,F,1988-09-06,Frecuente,Cartagena,Bolívar,2022-09-29
+794,Isabella Castro Martínez,F,1956-03-21,Ocasional,Bogotá,Cundinamarca,2025-11-06
+795,Julián Gómez Ospina,F,2000-12-10,Ocasional,Zipaquirá,Cundinamarca,2022-11-18
+796,Carlos Gómez López,F,1962-01-22,Ocasional,Cali,Valle del Cauca,2018-08-10
+797,Laura Martínez Castro,M,1969-05-15,Ocasional,Bucaramanga,Santander,2019-07-09
+798,Isabella Moreno Sánchez,M,2001-07-14,Frecuente,Cali,Valle del Cauca,2024-07-07
+799,Mariana López García,F,1959-05-09,Frecuente,Villavicencio,Meta,2018-11-04
+800,Natalia Restrepo Díaz,M,1995-07-14,Frecuente,Cartagena,Bolívar,2024-10-06
+801,Camila Sánchez Hernández,F,1989-04-04,Frecuente,Manizales,Caldas,2018-09-07
+802,Carlos Restrepo Vargas,F,1993-04-13,Frecuente,Bucaramanga,Santander,2018-11-09
+803,Óscar Jiménez Restrepo,M,1977-06-03,Premium,Bogotá,Cundinamarca,2022-02-26
+804,Andrés Rodríguez Rodríguez,M,1978-08-15,Ocasional,Bucaramanga,Santander,2024-10-13
+805,Ricardo Ramírez Ramírez,M,2001-10-09,Frecuente,Pereira,Risaralda,2021-10-08
+806,Felipe Vargas Castro,F,1984-06-21,Corporativo,Villavicencio,Meta,2019-08-24
+807,Daniela López Pérez,F,1997-09-26,Frecuente,Cartagena,Bolívar,2020-03-23
+808,Paula Martínez López,F,1966-03-18,Frecuente,Zipaquirá,Cundinamarca,2025-11-19
+809,Óscar Ramírez Castro,F,2002-09-21,Frecuente,Cali,Valle del Cauca,2023-03-06
+810,Isabella Ramírez Restrepo,M,1955-08-15,Ocasional,Barranquilla,Atlántico,2019-02-03
+811,Paula Sánchez Sánchez,F,1994-01-14,Frecuente,Medellín,Antioquia,2024-10-31
+812,Ricardo Jiménez Torres,F,1983-08-20,Frecuente,Pereira,Risaralda,2021-05-18
+813,Diego Hernández Gómez,F,1970-05-18,Frecuente,Pereira,Risaralda,2025-04-10
+814,Camila Rodríguez Cárdenas,F,1962-11-21,Frecuente,Zipaquirá,Cundinamarca,2020-09-07
+815,Mateo García Rodríguez,F,1997-03-22,Premium,Medellín,Antioquia,2025-07-14
+816,Camila Hernández Sánchez,F,1958-12-15,Ocasional,Bucaramanga,Santander,2023-08-01
+817,Sofía Rodríguez Pérez,M,1994-03-09,Ocasional,Manizales,Caldas,2022-01-30
+818,Diego Rodríguez Díaz,F,1963-03-16,Frecuente,Cartagena,Bolívar,2024-01-29
+819,Andrés Cárdenas Ospina,M,1979-06-14,Premium,Pereira,Risaralda,2023-09-26
+820,Sebastián Gómez Restrepo,F,1960-04-11,Ocasional,Cartagena,Bolívar,2020-07-09
+821,Carlos Gómez Ospina,M,1974-05-01,Ocasional,Pereira,Risaralda,2022-12-08
+822,Laura Torres Hernández,F,1989-06-07,Premium,Medellín,Antioquia,2023-12-20
+823,Tomás Ospina García,M,1998-05-05,Frecuente,Cali,Valle del Cauca,2020-12-03
+824,Valentina Rodríguez Hernández,M,1966-09-03,Frecuente,Cali,Valle del Cauca,2023-01-26
+825,Juan Sánchez Sánchez,M,1963-04-04,Ocasional,Manizales,Caldas,2025-05-08
+826,Sofía Sánchez Pérez,F,1990-04-09,Premium,Barranquilla,Atlántico,2024-03-29
+827,Isabella Vargas Rodríguez,F,2004-09-06,Frecuente,Bucaramanga,Santander,2022-06-07
+828,Sofía Rodríguez Rojas,M,1957-03-08,Ocasional,Barranquilla,Atlántico,2025-07-05
+829,María Castro Sánchez,F,1999-02-04,Frecuente,Medellín,Antioquia,2024-06-04
+830,Julián Moreno Gómez,M,1984-09-21,Ocasional,Cartagena,Bolívar,2023-12-01
+831,Felipe Cárdenas Vargas,M,1955-02-26,Ocasional,Pereira,Risaralda,2019-08-20
+832,Daniela Castro Ospina,M,1986-10-11,Premium,Villavicencio,Meta,2020-02-16
+833,Sofía Jiménez Pérez,M,1961-04-03,Ocasional,Bogotá,Cundinamarca,2019-07-18
+834,Paula Hernández Rodríguez,M,1976-07-03,Ocasional,Medellín,Antioquia,2020-03-25
+835,Tomás López Rodríguez,F,1961-01-05,Ocasional,Bucaramanga,Santander,2022-03-01
+836,Ricardo Jiménez García,M,1968-04-19,Ocasional,Cali,Valle del Cauca,2021-07-04
+837,Valentina Cárdenas Rodríguez,F,2004-11-05,Ocasional,Barranquilla,Atlántico,2025-05-07
+838,Tomás Castro López,M,2003-05-12,Ocasional,Pereira,Risaralda,2020-09-07
+839,Carlos Torres Rojas,M,1988-12-10,Frecuente,Zipaquirá,Cundinamarca,2018-07-25
+840,Santiago Moreno Ortiz,M,1993-01-08,Premium,Pereira,Risaralda,2020-05-25
+841,Carlos Ortiz Gómez,M,1990-03-12,Ocasional,Barranquilla,Atlántico,2020-08-16
+842,Sebastián García Pérez,F,1981-10-12,Ocasional,Manizales,Caldas,2023-07-31
+843,Julián Pérez Castro,M,1987-02-13,Premium,Villavicencio,Meta,2021-08-11
+844,Santiago Gómez Hernández,F,1964-01-10,Ocasional,Barranquilla,Atlántico,2023-09-26
+845,Tomás Hernández López,M,1972-11-17,Ocasional,Zipaquirá,Cundinamarca,2020-08-12
+846,Óscar Rojas Castro,M,2000-10-22,Frecuente,Zipaquirá,Cundinamarca,2025-06-10
+847,Sebastián Cárdenas Hernández,F,1987-11-13,Ocasional,Cali,Valle del Cauca,2018-09-23
+848,Mariana Hernández Ortiz,F,1981-02-10,Frecuente,Medellín,Antioquia,2025-11-10
+849,Paula Rojas Restrepo,F,1982-02-06,Frecuente,Zipaquirá,Cundinamarca,2025-07-02
+850,Daniela García Martínez,F,1995-03-10,Ocasional,Pereira,Risaralda,2025-03-25
+851,María Ortiz Gómez,F,1962-04-07,Ocasional,Villavicencio,Meta,2018-06-26
+852,Tomás Hernández Rodríguez,M,1998-08-11,Ocasional,Zipaquirá,Cundinamarca,2024-01-20
+853,Luisa Vargas Gómez,M,2004-08-14,Frecuente,Medellín,Antioquia,2022-09-07
+854,Santiago Castro Rodríguez,F,1987-02-04,Ocasional,Villavicencio,Meta,2025-04-14
+855,Ana Rojas Rodríguez,F,1995-07-02,Frecuente,Bogotá,Cundinamarca,2025-10-24
+856,María Ramírez Hernández,M,2004-01-25,Ocasional,Bucaramanga,Santander,2019-03-04
+857,Sebastián García Rojas,M,1990-04-26,Ocasional,Manizales,Caldas,2025-10-15
+858,Camila Castro Hernández,M,1972-02-01,Corporativo,Medellín,Antioquia,2019-03-29
+859,Sebastián Castro Sánchez,M,2004-10-21,Ocasional,Manizales,Caldas,2024-07-27
+860,Mateo Martínez Martínez,F,1989-12-10,Frecuente,Bogotá,Cundinamarca,2019-03-26
+861,Isabella García Vargas,M,1993-09-06,Frecuente,Zipaquirá,Cundinamarca,2022-03-08
+862,Juan Sánchez Castro,F,1979-04-06,Corporativo,Zipaquirá,Cundinamarca,2024-02-14
+863,Daniela Castro Restrepo,M,1972-07-18,Premium,Cartagena,Bolívar,2018-12-10
+864,Diego Moreno Sánchez,M,1982-09-10,Frecuente,Manizales,Caldas,2025-02-09
+865,Santiago García Rojas,M,1973-12-26,Ocasional,Bucaramanga,Santander,2019-04-19
+866,Juan García Torres,F,1958-03-20,Frecuente,Villavicencio,Meta,2020-09-14
+867,Isabella Ortiz García,M,1990-03-03,Frecuente,Bogotá,Cundinamarca,2024-09-07
+868,Mateo Gómez Jiménez,F,1959-05-08,Ocasional,Cartagena,Bolívar,2025-08-23
+869,Sebastián Rodríguez Cárdenas,M,1985-02-05,Ocasional,Zipaquirá,Cundinamarca,2021-05-03
+870,Diego Ortiz López,F,1961-09-06,Ocasional,Barranquilla,Atlántico,2019-04-04
+871,Carlos Hernández Cárdenas,M,1975-02-16,Ocasional,Barranquilla,Atlántico,2025-08-16
+872,Daniela Moreno Gómez,F,1993-11-08,Frecuente,Barranquilla,Atlántico,2019-10-27
+873,Felipe Jiménez García,F,1994-03-25,Frecuente,Bogotá,Cundinamarca,2023-02-08
+874,Diego Gómez García,F,1977-11-04,Ocasional,Medellín,Antioquia,2020-01-28
+875,Juan Vargas Rojas,M,1988-09-03,Frecuente,Bogotá,Cundinamarca,2019-04-27
+876,Carlos Vargas Restrepo,M,1981-12-17,Frecuente,Cali,Valle del Cauca,2022-12-14
+877,Santiago Gómez Moreno,F,1971-08-06,Corporativo,Cali,Valle del Cauca,2018-01-23
+878,Paula Torres Vargas,M,1957-05-07,Ocasional,Cali,Valle del Cauca,2020-03-13
+879,Natalia Restrepo Sánchez,M,1970-04-25,Premium,Cartagena,Bolívar,2019-02-02
+880,Sofía Castro Castro,M,1976-07-21,Frecuente,Cali,Valle del Cauca,2023-12-17
+881,Valentina Cárdenas Pérez,M,1984-06-20,Ocasional,Cartagena,Bolívar,2023-07-09
+882,Daniela Martínez García,M,1966-09-26,Ocasional,Zipaquirá,Cundinamarca,2019-10-30
+883,Felipe Restrepo Ortiz,M,1978-08-25,Ocasional,Barranquilla,Atlántico,2024-07-26
+884,Daniela Rojas Pérez,F,1991-11-13,Frecuente,Villavicencio,Meta,2018-02-20
+885,Felipe Díaz Sánchez,F,1958-11-13,Ocasional,Manizales,Caldas,2021-02-28
+886,Santiago Hernández López,F,2003-12-20,Ocasional,Zipaquirá,Cundinamarca,2020-11-17
+887,Diego Gómez Cárdenas,M,1987-05-20,Frecuente,Pereira,Risaralda,2018-11-06
+888,Mateo Sánchez Ortiz,F,1959-11-25,Ocasional,Pereira,Risaralda,2021-01-28
+889,Isabella Jiménez Restrepo,F,1999-12-26,Frecuente,Bucaramanga,Santander,2025-10-28
+890,Paula García Ospina,M,1971-01-19,Frecuente,Barranquilla,Atlántico,2024-06-28
+891,Sofía García Ramírez,M,1977-08-21,Premium,Cali,Valle del Cauca,2020-02-28
+892,Mariana Pérez Hernández,M,1968-07-19,Ocasional,Medellín,Antioquia,2020-03-12
+893,Ricardo Díaz Sánchez,M,1977-10-02,Ocasional,Medellín,Antioquia,2019-01-01
+894,Mariana Ramírez Ospina,F,1959-11-12,Ocasional,Bucaramanga,Santander,2018-10-12
+895,Sebastián Cárdenas López,M,1957-10-20,Frecuente,Villavicencio,Meta,2024-07-11
+896,Paula Jiménez Pérez,M,1993-09-20,Ocasional,Pereira,Risaralda,2021-07-11
+897,Óscar Moreno Vargas,M,1955-12-14,Frecuente,Bogotá,Cundinamarca,2021-08-06
+898,Sebastián Pérez Castro,F,1995-07-28,Ocasional,Manizales,Caldas,2025-04-06
+899,Diego Cárdenas Pérez,M,2000-01-28,Ocasional,Zipaquirá,Cundinamarca,2018-07-19
+900,Carlos Rodríguez Restrepo,M,1994-08-13,Premium,Pereira,Risaralda,2025-08-14
+901,Luisa Jiménez Ramírez,F,1965-08-09,Premium,Barranquilla,Atlántico,2018-05-17
+902,Luisa Martínez Martínez,M,1968-02-24,Frecuente,Zipaquirá,Cundinamarca,2018-12-18
+903,Daniela Hernández Vargas,M,2001-09-12,Frecuente,Barranquilla,Atlántico,2018-03-19
+904,Valentina Díaz Pérez,M,1960-11-22,Ocasional,Cartagena,Bolívar,2022-04-17
+905,Luisa Ospina Rojas,M,1992-10-10,Frecuente,Bogotá,Cundinamarca,2023-01-28
+906,Luisa Hernández Restrepo,F,1957-12-12,Ocasional,Manizales,Caldas,2021-01-21
+907,María Rojas Ospina,M,1989-02-27,Ocasional,Cartagena,Bolívar,2022-01-21
+908,Natalia Martínez Hernández,F,1976-03-06,Frecuente,Medellín,Antioquia,2021-03-17
+909,Valentina Pérez Restrepo,F,1995-11-25,Ocasional,Cali,Valle del Cauca,2020-09-26
+910,Felipe Cárdenas Hernández,F,1999-05-14,Ocasional,Bucaramanga,Santander,2020-06-09
+911,Felipe Pérez Vargas,F,1988-10-28,Frecuente,Bucaramanga,Santander,2018-09-07
+912,Tomás Martínez Ortiz,M,1978-08-19,Frecuente,Pereira,Risaralda,2022-09-29
+913,Mateo Ortiz Sánchez,M,2001-05-27,Frecuente,Villavicencio,Meta,2019-12-28
+914,Santiago Restrepo Ramírez,F,1960-08-08,Frecuente,Cartagena,Bolívar,2020-09-11
+915,Valentina Rojas Torres,M,1973-02-12,Frecuente,Zipaquirá,Cundinamarca,2025-01-26
+916,María Rodríguez Castro,F,1988-03-10,Frecuente,Manizales,Caldas,2019-12-03
+917,Daniela Ramírez Rojas,M,1965-11-09,Premium,Medellín,Antioquia,2023-05-16
+918,Camila Torres Cárdenas,F,1981-11-09,Frecuente,Manizales,Caldas,2025-05-23
+919,Sebastián Ospina Gómez,F,1998-04-23,Corporativo,Cali,Valle del Cauca,2018-04-27
+920,Mateo Martínez Pérez,M,1988-05-18,Frecuente,Bucaramanga,Santander,2019-08-15
+921,Óscar Ortiz Jiménez,M,1986-05-15,Ocasional,Villavicencio,Meta,2021-04-06
+922,Julián Rojas Cárdenas,M,1986-01-20,Ocasional,Medellín,Antioquia,2019-07-24
+923,Andrés Vargas Cárdenas,F,1975-09-12,Ocasional,Cartagena,Bolívar,2024-11-23
+924,Ricardo Ortiz Torres,F,1980-05-13,Ocasional,Cali,Valle del Cauca,2021-04-02
+925,Paula Gómez Cárdenas,M,1977-11-14,Ocasional,Medellín,Antioquia,2022-10-10
+926,Carlos López Hernández,F,1999-08-10,Ocasional,Villavicencio,Meta,2021-04-26
+927,Óscar Hernández Restrepo,M,1986-04-23,Frecuente,Cartagena,Bolívar,2018-09-10
+928,Diego García Rodríguez,M,1964-10-12,Ocasional,Villavicencio,Meta,2018-08-25
+929,Luisa Restrepo Vargas,F,1971-06-15,Frecuente,Cali,Valle del Cauca,2023-01-12
+930,Luisa Castro Ortiz,M,1956-01-12,Ocasional,Cartagena,Bolívar,2023-09-27
+931,Valentina Ortiz Pérez,M,1984-02-08,Frecuente,Manizales,Caldas,2019-09-23
+932,Luisa López García,M,1958-04-10,Frecuente,Manizales,Caldas,2021-10-10
+933,Julián Rojas Díaz,F,1990-07-27,Frecuente,Barranquilla,Atlántico,2022-05-25
+934,Carlos Moreno Ospina,F,1997-02-26,Corporativo,Bogotá,Cundinamarca,2019-12-07
+935,Diego Martínez Torres,F,1984-12-11,Ocasional,Manizales,Caldas,2020-11-11
+936,Felipe Sánchez Moreno,M,1998-07-21,Ocasional,Bogotá,Cundinamarca,2022-09-22
+937,Laura Castro Ospina,M,1957-10-27,Frecuente,Cali,Valle del Cauca,2022-04-29
+938,Sofía Ospina Rodríguez,F,1978-07-18,Premium,Bucaramanga,Santander,2020-03-15
+939,Paula Ortiz García,F,1968-02-14,Premium,Cartagena,Bolívar,2021-12-07
+940,Óscar Castro Torres,F,1956-12-16,Ocasional,Manizales,Caldas,2023-01-06
+941,Ana Gómez Restrepo,M,1972-02-09,Ocasional,Bucaramanga,Santander,2022-05-27
+942,Óscar Pérez Ospina,F,2001-07-16,Corporativo,Barranquilla,Atlántico,2024-05-27
+943,Julián Gómez Castro,F,2003-10-21,Ocasional,Zipaquirá,Cundinamarca,2023-06-29
+944,María García Hernández,M,1987-04-21,Premium,Bogotá,Cundinamarca,2019-04-25
+945,Andrés Rojas Hernández,F,1989-05-04,Ocasional,Bogotá,Cundinamarca,2022-09-21
+946,Ana Rodríguez Gómez,F,1994-07-14,Ocasional,Pereira,Risaralda,2018-09-02
+947,Luisa Moreno Pérez,M,2000-01-27,Ocasional,Medellín,Antioquia,2019-02-02
+948,Carlos Moreno López,F,2005-01-06,Ocasional,Pereira,Risaralda,2023-02-24
+949,Felipe Díaz Ramírez,M,1979-08-02,Ocasional,Manizales,Caldas,2025-03-31
+950,Mariana Rodríguez Jiménez,M,1956-07-18,Frecuente,Villavicencio,Meta,2022-05-21
+951,Ricardo Vargas Moreno,M,1962-05-26,Ocasional,Bogotá,Cundinamarca,2019-06-04
+952,Laura Sánchez García,M,1971-01-18,Ocasional,Pereira,Risaralda,2024-10-28
+953,Sofía Moreno Ospina,M,2001-08-03,Frecuente,Manizales,Caldas,2024-08-14
+954,Felipe Moreno López,F,1978-02-18,Ocasional,Pereira,Risaralda,2024-04-11
+955,Natalia Moreno Jiménez,M,1985-06-02,Ocasional,Zipaquirá,Cundinamarca,2020-04-07
+956,Paula Sánchez Restrepo,F,1974-11-01,Frecuente,Cali,Valle del Cauca,2025-01-18
+957,Sebastián Rodríguez Torres,F,1997-12-10,Ocasional,Zipaquirá,Cundinamarca,2024-03-04
+958,Andrés Moreno Vargas,M,1978-07-12,Premium,Cartagena,Bolívar,2020-12-02
+959,Sebastián Vargas Ramírez,M,2004-04-10,Frecuente,Cali,Valle del Cauca,2024-08-06
+960,Juan Díaz Rojas,M,1999-11-27,Frecuente,Cali,Valle del Cauca,2024-03-12
+961,Mariana Díaz Rodríguez,M,1958-03-15,Frecuente,Medellín,Antioquia,2019-07-17
+962,Laura García Ospina,F,1956-06-11,Ocasional,Zipaquirá,Cundinamarca,2024-07-22
+963,Felipe Martínez Hernández,F,1961-08-26,Ocasional,Barranquilla,Atlántico,2023-05-23
+964,María Hernández Ospina,F,2003-03-06,Frecuente,Bucaramanga,Santander,2022-05-05
+965,Ana Vargas García,F,1987-02-10,Ocasional,Cali,Valle del Cauca,2023-05-20
+966,Andrés Hernández Rojas,F,1968-05-05,Ocasional,Cartagena,Bolívar,2019-11-25
+967,Tomás López Jiménez,M,1962-12-09,Ocasional,Bogotá,Cundinamarca,2023-11-10
+968,María Restrepo Vargas,F,1997-09-21,Frecuente,Manizales,Caldas,2023-07-22
+969,Juan Martínez Sánchez,M,1977-02-08,Ocasional,Manizales,Caldas,2024-04-05
+970,María Díaz Ramírez,F,1998-09-20,Frecuente,Bucaramanga,Santander,2021-02-11
+971,Isabella Restrepo García,M,1980-05-22,Ocasional,Cartagena,Bolívar,2024-06-06
+972,Mateo Torres Gómez,F,2000-01-23,Corporativo,Bucaramanga,Santander,2024-01-20
+973,Daniela Moreno Moreno,M,1965-06-04,Ocasional,Cartagena,Bolívar,2024-08-24
+974,Diego Moreno Ramírez,F,1977-03-04,Frecuente,Barranquilla,Atlántico,2022-08-14
+975,Felipe Martínez Ortiz,F,2005-09-26,Ocasional,Zipaquirá,Cundinamarca,2019-11-23
+976,Daniela Hernández Jiménez,M,1970-01-04,Premium,Medellín,Antioquia,2018-09-30
+977,Sofía Pérez Gómez,F,1989-04-22,Ocasional,Villavicencio,Meta,2019-08-13
+978,María Moreno Vargas,M,1955-10-01,Premium,Medellín,Antioquia,2025-07-06
+979,Andrés Hernández Díaz,M,1988-06-02,Ocasional,Cali,Valle del Cauca,2019-01-14
+980,Sofía Castro Jiménez,M,1992-04-04,Frecuente,Cartagena,Bolívar,2022-07-03
+981,Ana Díaz Ortiz,M,1988-08-02,Frecuente,Cartagena,Bolívar,2022-12-11
+982,Isabella Rojas Pérez,M,2005-10-09,Ocasional,Bogotá,Cundinamarca,2021-08-06
+983,Mateo Rodríguez López,M,1966-04-28,Ocasional,Cali,Valle del Cauca,2023-01-28
+984,Óscar Martínez Restrepo,M,1968-09-20,Ocasional,Pereira,Risaralda,2020-02-20
+985,Juan Pérez Castro,F,1961-10-06,Premium,Medellín,Antioquia,2019-01-01
+986,Andrés Sánchez Rojas,F,1985-04-17,Frecuente,Zipaquirá,Cundinamarca,2020-11-25
+987,Ricardo Ortiz Moreno,F,1965-08-24,Ocasional,Barranquilla,Atlántico,2018-05-07
+988,Camila Castro Vargas,F,1963-12-18,Frecuente,Villavicencio,Meta,2025-03-24
+989,Mariana Ospina Rodríguez,M,1973-03-18,Ocasional,Pereira,Risaralda,2020-08-31
+990,Mariana Jiménez Cárdenas,F,1994-05-25,Corporativo,Bucaramanga,Santander,2018-05-21
+991,Daniela Torres Vargas,M,1955-03-10,Ocasional,Barranquilla,Atlántico,2024-03-19
+992,Diego López Castro,F,1960-09-15,Frecuente,Cali,Valle del Cauca,2022-12-27
+993,Isabella Ramírez Martínez,F,1967-01-12,Ocasional,Pereira,Risaralda,2025-10-30
+994,Julián Rodríguez Martínez,M,1961-08-17,Ocasional,Zipaquirá,Cundinamarca,2022-01-17
+995,Camila Ospina Cárdenas,F,1994-08-27,Premium,Cali,Valle del Cauca,2025-01-16
+996,Natalia Gómez López,F,1957-01-25,Ocasional,Medellín,Antioquia,2018-08-21
+997,Carlos Rojas García,F,1988-03-17,Premium,Barranquilla,Atlántico,2020-10-06
+998,Valentina López Rodríguez,M,1987-07-14,Ocasional,Medellín,Antioquia,2018-01-13
+999,Valentina Pérez Cárdenas,F,2003-11-15,Ocasional,Manizales,Caldas,2018-08-21
+1000,Diego Sánchez Hernández,M,1971-07-26,Frecuente,Bogotá,Cundinamarca,2018-12-02
+1001,Daniela Díaz Rodríguez,F,1986-09-28,Ocasional,Villavicencio,Meta,2018-12-27
+1002,Daniela Vargas Pérez,F,2004-12-04,Frecuente,Villavicencio,Meta,2019-11-21
+1003,Valentina Sánchez Ramírez,M,1969-11-18,Frecuente,Barranquilla,Atlántico,2023-06-17
+1004,Óscar Díaz Ortiz,F,1964-01-22,Frecuente,Bogotá,Cundinamarca,2022-02-04
+1005,Laura Sánchez Ortiz,M,1991-01-10,Premium,Zipaquirá,Cundinamarca,2025-07-16
+1006,Isabella Hernández Martínez,F,1969-04-05,Frecuente,Manizales,Caldas,2024-07-29
+1007,Natalia López Díaz,M,1958-10-23,Ocasional,Zipaquirá,Cundinamarca,2020-01-13
+1008,Isabella Gómez Cárdenas,M,1960-10-27,Ocasional,Cali,Valle del Cauca,2020-03-20
+1009,Ricardo Martínez López,M,1999-08-07,Ocasional,Pereira,Risaralda,2022-08-25
+1010,María Torres López,M,2004-01-21,Frecuente,Manizales,Caldas,2023-03-03
+1011,Camila Sánchez Rojas,F,1972-06-07,Frecuente,Cartagena,Bolívar,2021-07-06
+1012,Laura Rodríguez Ospina,M,1983-07-05,Ocasional,Villavicencio,Meta,2018-07-28
+1013,María Cárdenas Castro,M,1980-09-28,Ocasional,Bucaramanga,Santander,2019-02-27
+1014,María Restrepo Ramírez,M,2001-03-03,Ocasional,Medellín,Antioquia,2023-05-25
+1015,Juan Rojas Jiménez,M,1963-01-03,Corporativo,Cartagena,Bolívar,2024-04-25
+1016,Carlos Sánchez Ortiz,F,2000-06-16,Ocasional,Bogotá,Cundinamarca,2021-08-13
+1017,Diego Ospina Torres,M,1975-05-15,Frecuente,Bucaramanga,Santander,2024-09-27
+1018,Camila Ortiz Gómez,M,1995-10-16,Ocasional,Manizales,Caldas,2018-10-06
+1019,Juan Torres Ortiz,F,1957-05-25,Ocasional,Manizales,Caldas,2021-02-27
+1020,María Torres Díaz,M,1987-08-16,Frecuente,Cali,Valle del Cauca,2018-02-22
+1021,María Cárdenas Castro,F,1985-02-17,Ocasional,Bucaramanga,Santander,2018-11-22
+1022,Mariana Gómez Ortiz,F,1964-02-16,Frecuente,Cartagena,Bolívar,2021-11-21
+1023,Valentina Ortiz Moreno,M,1979-12-26,Ocasional,Bucaramanga,Santander,2020-06-27
+1024,Laura Gómez Díaz,F,1984-12-26,Frecuente,Pereira,Risaralda,2025-02-27
+1025,Luisa Restrepo Restrepo,M,1965-02-26,Ocasional,Bucaramanga,Santander,2022-10-01
+1026,Ricardo Ortiz Castro,F,1989-01-16,Premium,Manizales,Caldas,2023-09-27
+1027,Luisa Hernández Torres,M,1998-07-22,Ocasional,Manizales,Caldas,2021-02-02
+1028,Santiago García Ramírez,F,1967-11-11,Ocasional,Pereira,Risaralda,2023-03-05
+1029,Sebastián Rojas Cárdenas,F,1975-10-13,Frecuente,Manizales,Caldas,2024-04-10
+1030,Andrés Díaz García,M,1966-01-03,Ocasional,Pereira,Risaralda,2019-05-31
+1031,Daniela Pérez López,F,1983-01-19,Premium,Medellín,Antioquia,2021-11-29
+1032,Valentina Sánchez Ortiz,F,1979-11-25,Ocasional,Manizales,Caldas,2019-01-21
+1033,Camila Ospina Torres,F,1968-07-25,Frecuente,Cartagena,Bolívar,2022-06-02
+1034,Daniela Cárdenas Pérez,F,1981-06-22,Ocasional,Cali,Valle del Cauca,2022-06-25
+1035,Laura Vargas Ospina,F,1991-02-03,Premium,Pereira,Risaralda,2024-11-08
+1036,Diego Jiménez Cárdenas,M,1972-07-15,Corporativo,Cali,Valle del Cauca,2025-10-24
+1037,Óscar Ramírez Ortiz,M,1986-01-03,Premium,Bogotá,Cundinamarca,2022-01-03
+1038,Ana Gómez Gómez,M,1988-12-26,Ocasional,Bogotá,Cundinamarca,2024-09-21
+1039,Paula Torres Ramírez,M,1983-11-23,Ocasional,Cali,Valle del Cauca,2023-07-15
+1040,Isabella Sánchez Sánchez,M,1957-10-01,Premium,Barranquilla,Atlántico,2020-11-08
+1041,Natalia Sánchez Rojas,F,1968-12-04,Frecuente,Bogotá,Cundinamarca,2023-07-06
+1042,Mateo Rodríguez Sánchez,M,1978-05-08,Frecuente,Medellín,Antioquia,2021-06-30
+1043,Juan Cárdenas López,M,1989-05-02,Frecuente,Bucaramanga,Santander,2022-08-16
+1044,Ricardo Restrepo Castro,F,1958-12-28,Ocasional,Manizales,Caldas,2023-03-12
+1045,Juan Pérez Ospina,M,1990-12-28,Ocasional,Manizales,Caldas,2021-12-15
+1046,Tomás Pérez Torres,F,1967-01-20,Ocasional,Manizales,Caldas,2022-08-31
+1047,Sebastián Ospina Vargas,F,1999-07-21,Corporativo,Pereira,Risaralda,2025-11-01
+1048,Santiago Díaz Ospina,M,1980-08-25,Frecuente,Zipaquirá,Cundinamarca,2023-04-06
+1049,Felipe Pérez Jiménez,M,1994-11-01,Ocasional,Cartagena,Bolívar,2024-12-15
+1050,Tomás Martínez Moreno,F,2004-01-02,Ocasional,Cartagena,Bolívar,2021-08-10
+1051,Natalia López Sánchez,F,1980-05-03,Frecuente,Pereira,Risaralda,2024-09-08
+1052,Luisa Cárdenas Díaz,F,1969-01-17,Ocasional,Zipaquirá,Cundinamarca,2020-01-29
+1053,María Moreno García,F,1960-01-12,Premium,Pereira,Risaralda,2018-03-12
+1054,Óscar Martínez Díaz,F,1985-12-19,Ocasional,Bucaramanga,Santander,2025-06-30
+1055,Santiago Vargas López,F,1991-09-10,Frecuente,Villavicencio,Meta,2020-03-05
+1056,Mateo Torres Martínez,F,1981-06-27,Ocasional,Bogotá,Cundinamarca,2024-02-03
+1057,María Gómez Torres,F,1983-12-14,Ocasional,Cartagena,Bolívar,2025-05-04
+1058,Tomás Cárdenas García,F,1955-04-02,Frecuente,Bogotá,Cundinamarca,2018-04-10
+1059,Natalia Jiménez Ospina,M,1991-06-22,Premium,Bogotá,Cundinamarca,2025-02-15
+1060,Luisa Cárdenas Rodríguez,F,2004-12-05,Frecuente,Zipaquirá,Cundinamarca,2020-01-10
+1061,Sebastián Pérez García,M,1996-03-04,Ocasional,Bogotá,Cundinamarca,2018-12-16
+1062,Daniela Ortiz Ortiz,M,1958-06-22,Ocasional,Cartagena,Bolívar,2024-02-04
+1063,Julián Jiménez Díaz,F,1978-11-14,Ocasional,Medellín,Antioquia,2018-02-08
+1064,Óscar Ortiz Ramírez,F,1962-11-05,Ocasional,Cali,Valle del Cauca,2019-04-20
+1065,Andrés Castro Hernández,F,1995-01-05,Frecuente,Manizales,Caldas,2022-07-08
+1066,Sofía Ospina Díaz,M,1968-04-17,Frecuente,Cali,Valle del Cauca,2021-05-22
+1067,Natalia Ortiz Cárdenas,F,1980-04-01,Frecuente,Cali,Valle del Cauca,2020-10-23
+1068,Daniela Pérez Ramírez,F,1998-04-02,Ocasional,Zipaquirá,Cundinamarca,2025-10-18
+1069,Paula Sánchez Rojas,F,1992-11-12,Ocasional,Zipaquirá,Cundinamarca,2018-03-09
+1070,Carlos Castro Pérez,M,1955-08-15,Frecuente,Medellín,Antioquia,2020-08-22
+1071,Carlos Cárdenas Vargas,F,2001-03-23,Ocasional,Pereira,Risaralda,2021-04-12
+1072,María Hernández Díaz,M,1959-03-20,Ocasional,Bogotá,Cundinamarca,2024-04-29
+1073,Julián Ramírez Jiménez,F,2000-06-19,Ocasional,Cali,Valle del Cauca,2024-04-27
+1074,Camila Rojas López,F,1983-01-02,Frecuente,Bucaramanga,Santander,2022-07-23
+1075,Tomás Castro Ortiz,F,2000-04-27,Ocasional,Villavicencio,Meta,2022-09-15
+1076,Andrés Rojas Moreno,F,1999-07-01,Ocasional,Bogotá,Cundinamarca,2020-10-17
+1077,María Hernández Martínez,M,1998-05-25,Ocasional,Bucaramanga,Santander,2024-12-30
+1078,Valentina Sánchez Jiménez,F,1976-02-05,Premium,Manizales,Caldas,2025-09-19
+1079,Paula Ortiz Rojas,F,1982-07-16,Ocasional,Villavicencio,Meta,2024-12-23
+1080,Sebastián Gómez Rojas,F,1959-05-15,Ocasional,Bogotá,Cundinamarca,2025-06-10
+1081,María Vargas Castro,F,1971-04-21,Ocasional,Villavicencio,Meta,2022-09-23
+1082,Santiago López Jiménez,F,2004-11-27,Frecuente,Bogotá,Cundinamarca,2023-07-20
+1083,Daniela Ospina Jiménez,M,1987-12-20,Ocasional,Medellín,Antioquia,2019-02-02
+1084,Juan Torres Ospina,M,1973-07-04,Ocasional,Manizales,Caldas,2025-01-02
+1085,Óscar Jiménez Hernández,M,1978-06-17,Ocasional,Manizales,Caldas,2025-09-25
+1086,Diego Ramírez Cárdenas,F,1968-05-22,Ocasional,Cartagena,Bolívar,2023-08-18
+1087,Laura Díaz Rodríguez,F,1959-11-25,Ocasional,Cartagena,Bolívar,2025-06-17
+1088,Ana Ortiz Castro,F,1978-09-24,Ocasional,Bucaramanga,Santander,2021-09-13
+1089,Julián Torres Ortiz,F,1971-02-13,Frecuente,Pereira,Risaralda,2020-01-14
+1090,Camila Torres Ramírez,F,1975-10-11,Ocasional,Medellín,Antioquia,2024-11-27
+1091,Carlos Ortiz Restrepo,M,1968-03-03,Ocasional,Barranquilla,Atlántico,2018-12-18
+1092,Ricardo Torres Ospina,M,1958-03-27,Ocasional,Zipaquirá,Cundinamarca,2023-08-09
+1093,Julián Hernández Hernández,F,1967-08-08,Ocasional,Barranquilla,Atlántico,2018-09-29
+1094,Diego Castro Ospina,M,1973-06-04,Ocasional,Manizales,Caldas,2020-07-19
+1095,María Moreno Ospina,M,1965-08-23,Frecuente,Medellín,Antioquia,2022-12-12
+1096,Valentina Vargas Pérez,F,2001-01-15,Ocasional,Pereira,Risaralda,2022-01-27
+1097,Isabella Torres Castro,F,1976-06-18,Premium,Bucaramanga,Santander,2025-09-04
+1098,Carlos Ospina Vargas,M,1988-10-02,Frecuente,Villavicencio,Meta,2023-07-05
+1099,Mateo Castro García,M,1989-12-16,Ocasional,Pereira,Risaralda,2020-09-02
+1100,Julián Ortiz Martínez,F,1995-03-06,Ocasional,Zipaquirá,Cundinamarca,2018-07-30
+1101,Mateo García Rodríguez,F,2002-09-24,Frecuente,Medellín,Antioquia,2020-02-13
+1102,María Jiménez Moreno,M,1982-06-16,Frecuente,Bogotá,Cundinamarca,2020-02-12
+1103,Mariana Ortiz Rojas,M,1981-06-27,Ocasional,Pereira,Risaralda,2021-10-19
+1104,Diego Castro Ospina,F,1967-04-21,Ocasional,Cartagena,Bolívar,2023-07-19
+1105,Carlos Moreno Pérez,M,1991-06-28,Premium,Villavicencio,Meta,2025-10-12
+1106,Diego Ortiz Castro,F,1979-12-26,Corporativo,Bucaramanga,Santander,2019-05-03
+1107,Mateo Sánchez Rodríguez,M,1973-05-03,Ocasional,Manizales,Caldas,2022-09-17
+1108,Andrés Cárdenas Jiménez,F,1978-05-22,Ocasional,Bucaramanga,Santander,2019-08-21
+1109,Laura Cárdenas Ramírez,M,2001-09-28,Ocasional,Zipaquirá,Cundinamarca,2025-03-02
+1110,Felipe Ortiz Gómez,M,1962-06-13,Ocasional,Cali,Valle del Cauca,2025-12-08
+1111,Mateo Ospina Cárdenas,F,1991-01-14,Frecuente,Bogotá,Cundinamarca,2020-09-10
+1112,Andrés Sánchez Ospina,F,1998-05-20,Frecuente,Medellín,Antioquia,2023-02-19
+1113,Andrés García Ortiz,M,1959-06-03,Frecuente,Medellín,Antioquia,2019-12-06
+1114,Mariana Sánchez Ramírez,M,1979-11-20,Corporativo,Barranquilla,Atlántico,2021-07-23
+1115,Óscar Vargas Torres,F,1980-05-23,Corporativo,Barranquilla,Atlántico,2018-02-01
+1116,Paula Castro García,M,1992-03-10,Ocasional,Cartagena,Bolívar,2022-05-28
+1117,Valentina López Ortiz,F,1989-02-18,Frecuente,Villavicencio,Meta,2022-07-29
+1118,Diego Ramírez Torres,M,1997-09-10,Ocasional,Medellín,Antioquia,2019-04-16
+1119,Valentina Cárdenas Moreno,F,1976-10-09,Frecuente,Bogotá,Cundinamarca,2018-02-06
+1120,Carlos Moreno Ospina,F,2001-12-12,Premium,Pereira,Risaralda,2020-12-25
+1121,Carlos Hernández Rojas,F,1996-11-15,Corporativo,Barranquilla,Atlántico,2021-10-24
+1122,Laura Martínez Jiménez,F,1980-12-10,Ocasional,Pereira,Risaralda,2023-08-03
+1123,Paula Pérez Jiménez,F,1978-02-28,Ocasional,Cali,Valle del Cauca,2021-03-30
+1124,Valentina Cárdenas Rodríguez,M,1978-01-24,Premium,Cartagena,Bolívar,2024-11-13
+1125,Sofía Ospina Vargas,M,1990-10-18,Corporativo,Manizales,Caldas,2022-11-22
+1126,Tomás Rojas García,F,1965-07-01,Corporativo,Barranquilla,Atlántico,2025-03-13
+1127,María Moreno Restrepo,F,1973-02-27,Ocasional,Villavicencio,Meta,2022-05-16
+1128,Juan Ramírez Martínez,M,2002-05-04,Frecuente,Bogotá,Cundinamarca,2021-10-21
+1129,Natalia García Gómez,F,1975-10-25,Ocasional,Villavicencio,Meta,2024-10-21
+1130,Sofía Torres López,F,1999-11-10,Ocasional,Barranquilla,Atlántico,2018-08-21
+1131,Paula Ortiz Torres,M,1965-05-15,Ocasional,Bogotá,Cundinamarca,2018-11-30
+1132,Laura Castro Jiménez,M,1975-07-01,Frecuente,Medellín,Antioquia,2025-10-05
+1133,Natalia Cárdenas Ramírez,F,1959-09-07,Ocasional,Manizales,Caldas,2024-02-09
+1134,Mateo Gómez Gómez,F,1996-04-03,Ocasional,Zipaquirá,Cundinamarca,2023-12-29
+1135,Daniela Castro García,M,1965-05-22,Ocasional,Zipaquirá,Cundinamarca,2020-02-09
+1136,Ana Restrepo Torres,F,1982-08-07,Ocasional,Cali,Valle del Cauca,2022-12-22
+1137,Natalia Castro Restrepo,M,1993-02-28,Ocasional,Bucaramanga,Santander,2018-10-31
+1138,Juan Moreno López,F,1987-09-19,Frecuente,Zipaquirá,Cundinamarca,2024-02-05
+1139,Isabella Ramírez Martínez,M,1977-06-12,Ocasional,Barranquilla,Atlántico,2022-06-06
+1140,Daniela Cárdenas Castro,M,1975-08-20,Premium,Medellín,Antioquia,2024-04-13
+1141,Ricardo Díaz Martínez,M,1990-12-27,Frecuente,Bucaramanga,Santander,2025-10-21
+1142,Felipe Torres Hernández,F,1961-10-27,Ocasional,Zipaquirá,Cundinamarca,2020-10-11
+1143,Óscar Hernández Gómez,M,1988-01-08,Frecuente,Cartagena,Bolívar,2025-12-01
+1144,Laura Ramírez García,M,1958-10-25,Ocasional,Barranquilla,Atlántico,2023-06-26
+1145,Diego Pérez Ortiz,F,1971-04-05,Ocasional,Manizales,Caldas,2018-03-13
+1146,Óscar Cárdenas Jiménez,M,1966-12-04,Corporativo,Barranquilla,Atlántico,2019-03-24
+1147,Camila Ramírez Ortiz,F,1982-10-17,Premium,Bogotá,Cundinamarca,2018-10-16
+1148,Juan Restrepo Cárdenas,M,1958-03-12,Ocasional,Bucaramanga,Santander,2021-04-13
+1149,Paula Torres Ospina,M,1975-06-20,Frecuente,Villavicencio,Meta,2022-10-01
+1150,Tomás Cárdenas Sánchez,M,1998-01-24,Frecuente,Bucaramanga,Santander,2022-03-05
+1151,Diego Rodríguez Cárdenas,M,1999-10-24,Frecuente,Medellín,Antioquia,2018-06-15
+1152,Valentina Castro Ospina,M,1987-08-14,Ocasional,Bucaramanga,Santander,2019-06-06
+1153,Sebastián Pérez Martínez,M,1980-10-03,Frecuente,Pereira,Risaralda,2019-05-03
+1154,Ricardo García Rojas,M,1977-03-10,Ocasional,Bogotá,Cundinamarca,2018-01-05
+1155,Felipe Rojas Martínez,M,1996-02-14,Ocasional,Bogotá,Cundinamarca,2025-09-19
+1156,Sofía Pérez López,M,1990-05-23,Premium,Manizales,Caldas,2018-02-05
+1157,Sofía Restrepo Ospina,M,1958-03-21,Ocasional,Manizales,Caldas,2020-09-22
+1158,Valentina Castro García,F,1990-04-06,Frecuente,Villavicencio,Meta,2021-04-22
+1159,Valentina Restrepo Torres,M,1965-04-28,Premium,Manizales,Caldas,2020-11-30
+1160,María Restrepo López,F,1981-04-08,Ocasional,Manizales,Caldas,2024-04-17
+1161,Ricardo Sánchez Vargas,M,1981-11-10,Premium,Medellín,Antioquia,2018-06-19
+1162,Juan Cárdenas Ospina,F,1986-02-14,Ocasional,Villavicencio,Meta,2025-11-14
+1163,Felipe Gómez Cárdenas,F,1965-07-06,Ocasional,Medellín,Antioquia,2022-02-14
+1164,Sebastián Vargas Gómez,M,1978-12-14,Ocasional,Medellín,Antioquia,2020-01-08
+1165,Carlos Restrepo Gómez,M,2003-07-24,Ocasional,Manizales,Caldas,2019-05-29
+1166,Natalia López Restrepo,M,1980-02-19,Ocasional,Manizales,Caldas,2022-08-08
+1167,Natalia Gómez Ospina,F,1989-01-14,Frecuente,Bucaramanga,Santander,2018-04-02
+1168,Carlos Hernández Rodríguez,M,1994-08-14,Ocasional,Manizales,Caldas,2025-08-28
+1169,Ana Cárdenas Restrepo,M,1993-04-14,Frecuente,Manizales,Caldas,2018-03-13
+1170,Sebastián Torres Ramírez,M,1973-08-23,Ocasional,Manizales,Caldas,2022-09-20
+1171,Ricardo Ospina Ortiz,F,1959-10-23,Frecuente,Villavicencio,Meta,2019-11-09
+1172,Ana Restrepo Ospina,M,1963-06-01,Ocasional,Barranquilla,Atlántico,2025-10-30
+1173,Felipe Cárdenas Hernández,M,1979-06-21,Frecuente,Cartagena,Bolívar,2021-03-22
+1174,Carlos Rojas Pérez,F,1989-08-10,Frecuente,Medellín,Antioquia,2025-01-19
+1175,Mateo Jiménez Ospina,M,1978-04-27,Ocasional,Villavicencio,Meta,2018-09-30
+1176,Tomás Moreno Ospina,M,1960-03-03,Corporativo,Bogotá,Cundinamarca,2020-02-27
+1177,Julián López Jiménez,M,1967-06-28,Premium,Barranquilla,Atlántico,2020-06-05
+1178,Sebastián Rodríguez Hernández,M,1957-12-01,Ocasional,Medellín,Antioquia,2021-01-14
+1179,Daniela Sánchez Hernández,F,1983-10-25,Corporativo,Barranquilla,Atlántico,2023-04-28
+1180,Santiago Ospina Martínez,F,1959-04-02,Premium,Cali,Valle del Cauca,2022-02-04
+1181,Sofía Sánchez Ortiz,M,1992-05-06,Premium,Villavicencio,Meta,2023-08-02
+1182,Andrés Jiménez Rojas,M,1986-07-17,Frecuente,Cartagena,Bolívar,2024-07-14
+1183,Camila Moreno Gómez,F,1957-07-25,Corporativo,Cartagena,Bolívar,2023-11-14
+1184,María Díaz Rodríguez,F,1959-08-19,Ocasional,Villavicencio,Meta,2019-10-23
+1185,María Ramírez Sánchez,F,1977-01-22,Premium,Zipaquirá,Cundinamarca,2024-10-12
+1186,Santiago Hernández Castro,F,1984-09-28,Frecuente,Pereira,Risaralda,2022-04-13
+1187,Paula Castro Ospina,F,1979-02-09,Ocasional,Cali,Valle del Cauca,2021-01-30
+1188,Camila Gómez Cárdenas,M,2000-12-26,Frecuente,Cartagena,Bolívar,2024-09-17
+1189,Tomás Díaz Pérez,F,1957-04-22,Frecuente,Medellín,Antioquia,2020-12-23
+1190,Ana Martínez Vargas,F,1960-09-19,Frecuente,Pereira,Risaralda,2025-05-15
+1191,Santiago Castro Restrepo,M,1958-01-01,Ocasional,Pereira,Risaralda,2024-05-09
+1192,Juan Castro Restrepo,M,1966-02-23,Frecuente,Bogotá,Cundinamarca,2018-10-05
+1193,Julián Ospina Díaz,F,1976-03-16,Ocasional,Bogotá,Cundinamarca,2021-01-06
+1194,María Restrepo Castro,M,1964-12-06,Ocasional,Bucaramanga,Santander,2020-11-10
+1195,Diego Ramírez García,M,2001-02-11,Corporativo,Pereira,Risaralda,2025-01-05
+1196,Luisa Rojas Rodríguez,M,1968-12-03,Ocasional,Villavicencio,Meta,2024-10-10
+1197,Santiago López Restrepo,F,1999-05-05,Ocasional,Pereira,Risaralda,2020-09-24
+1198,Luisa Gómez Restrepo,F,1956-04-06,Ocasional,Manizales,Caldas,2021-05-16
+1199,Isabella Rojas Restrepo,F,1984-03-11,Ocasional,Cali,Valle del Cauca,2022-10-09
+1200,Julián Martínez Vargas,M,1964-10-06,Ocasional,Manizales,Caldas,2021-03-23
+1201,Camila Restrepo Hernández,F,1974-07-05,Ocasional,Bucaramanga,Santander,2019-11-24
+1202,Camila López Pérez,F,1963-12-07,Frecuente,Villavicencio,Meta,2018-03-18
+1203,Juan Ospina Rodríguez,F,1966-06-22,Ocasional,Villavicencio,Meta,2024-11-10
+1204,Mateo Torres Rodríguez,M,1991-09-15,Frecuente,Manizales,Caldas,2023-10-06
+1205,Daniela Pérez Sánchez,F,1961-11-09,Ocasional,Manizales,Caldas,2024-10-30
+1206,María Gómez Pérez,F,1988-10-07,Ocasional,Villavicencio,Meta,2023-01-15
+1207,Diego Cárdenas Torres,M,1972-05-04,Ocasional,Cali,Valle del Cauca,2018-07-24
+1208,Valentina Pérez Pérez,M,1961-08-02,Ocasional,Medellín,Antioquia,2020-07-29
+1209,Julián Pérez Díaz,F,1976-04-19,Premium,Cartagena,Bolívar,2024-08-26
+1210,Óscar Rojas Cárdenas,F,1955-12-07,Premium,Manizales,Caldas,2020-11-22
+1211,Ricardo Díaz Gómez,F,1989-06-18,Ocasional,Pereira,Risaralda,2021-10-22
+1212,Óscar Sánchez Restrepo,F,1982-04-11,Premium,Cali,Valle del Cauca,2020-11-18
+1213,Luisa Díaz Díaz,M,1961-06-17,Ocasional,Bogotá,Cundinamarca,2023-05-14
+1214,Carlos Moreno Hernández,F,1970-02-26,Ocasional,Pereira,Risaralda,2023-10-02
+1215,Juan Díaz Vargas,M,1958-02-21,Corporativo,Manizales,Caldas,2022-05-31
+1216,Isabella Moreno García,F,1989-09-23,Ocasional,Villavicencio,Meta,2020-03-16
+1217,Camila Castro Hernández,M,1987-11-10,Premium,Zipaquirá,Cundinamarca,2024-10-31
+1218,Daniela López Sánchez,M,2002-10-16,Frecuente,Bucaramanga,Santander,2023-03-09
+1219,Tomás Hernández Gómez,F,1992-01-14,Ocasional,Bucaramanga,Santander,2024-12-22
+1220,Luisa García García,M,1966-05-02,Ocasional,Cartagena,Bolívar,2019-11-09
+1221,Ricardo Gómez Restrepo,F,1991-06-01,Ocasional,Zipaquirá,Cundinamarca,2018-02-07
+1222,Juan Gómez Pérez,M,2000-01-11,Premium,Bogotá,Cundinamarca,2024-07-13
+1223,Natalia Díaz Ramírez,F,1970-01-17,Corporativo,Bogotá,Cundinamarca,2021-03-15
+1224,Andrés López Cárdenas,F,1981-07-05,Corporativo,Villavicencio,Meta,2024-06-20
+1225,Laura Cárdenas Cárdenas,M,1998-10-25,Frecuente,Pereira,Risaralda,2025-07-25
+1226,Isabella Díaz Sánchez,F,1959-11-03,Ocasional,Cartagena,Bolívar,2021-11-07
+1227,Mateo López Vargas,F,1956-10-13,Frecuente,Zipaquirá,Cundinamarca,2021-01-16
+1228,Diego Castro Gómez,F,1981-08-03,Ocasional,Barranquilla,Atlántico,2021-04-16
+1229,Ricardo Vargas Díaz,M,2002-06-10,Ocasional,Medellín,Antioquia,2018-03-05
+1230,Isabella Pérez Martínez,M,1972-08-20,Frecuente,Cali,Valle del Cauca,2021-09-04
+1231,Mateo Pérez Pérez,M,1998-01-12,Corporativo,Pereira,Risaralda,2021-03-03
+1232,Valentina García Ospina,F,1960-06-13,Premium,Cartagena,Bolívar,2019-09-08
+1233,Juan Ospina Rodríguez,M,1967-12-25,Ocasional,Villavicencio,Meta,2018-12-13
+1234,Juan Ospina Díaz,M,1999-02-23,Ocasional,Villavicencio,Meta,2022-09-24
+1235,Natalia Ospina López,M,2003-04-12,Premium,Bogotá,Cundinamarca,2019-02-03
+1236,Luisa Ortiz Ortiz,F,2001-10-19,Ocasional,Bogotá,Cundinamarca,2025-08-30
+1237,Mateo Gómez Ramírez,F,1975-10-15,Ocasional,Villavicencio,Meta,2019-12-18
+1238,Juan Martínez Hernández,M,1957-02-09,Frecuente,Bogotá,Cundinamarca,2019-02-08
+1239,Óscar Castro Jiménez,F,1963-07-02,Corporativo,Bucaramanga,Santander,2018-02-19
+1240,Diego Díaz Cárdenas,M,1997-09-02,Ocasional,Cartagena,Bolívar,2022-02-23
+1241,Luisa Martínez Restrepo,M,1978-01-03,Ocasional,Bogotá,Cundinamarca,2022-08-28
+1242,Julián López Moreno,F,2004-03-17,Ocasional,Barranquilla,Atlántico,2022-12-10
+1243,Mateo Torres Hernández,F,1996-07-08,Ocasional,Manizales,Caldas,2024-03-22
+1244,Sebastián Vargas Torres,F,1990-05-23,Corporativo,Medellín,Antioquia,2021-08-01
+1245,Natalia Vargas Ortiz,M,2002-07-20,Ocasional,Cartagena,Bolívar,2021-04-04
+1246,María Moreno Ramírez,F,1994-09-24,Ocasional,Bogotá,Cundinamarca,2021-07-28
+1247,Carlos Ramírez Gómez,M,1981-09-26,Premium,Barranquilla,Atlántico,2020-03-19
+1248,Valentina Jiménez García,F,1991-08-24,Ocasional,Zipaquirá,Cundinamarca,2020-09-26
+1249,Santiago Moreno Restrepo,F,1996-12-15,Ocasional,Pereira,Risaralda,2022-09-15
+1250,Valentina Hernández Moreno,F,1978-07-19,Ocasional,Cartagena,Bolívar,2023-11-18
+1251,Óscar García Rodríguez,M,1955-02-20,Frecuente,Pereira,Risaralda,2022-02-24
+1252,Luisa García Martínez,F,1994-04-17,Ocasional,Villavicencio,Meta,2021-07-14
+1253,Paula Pérez López,F,1968-04-23,Frecuente,Villavicencio,Meta,2020-02-16
+1254,Valentina Ospina Torres,F,1962-07-13,Ocasional,Villavicencio,Meta,2020-08-27
+1255,Daniela Martínez Rodríguez,M,1985-03-14,Ocasional,Barranquilla,Atlántico,2021-12-01
+1256,Valentina Castro Gómez,F,1963-04-24,Frecuente,Bogotá,Cundinamarca,2022-03-22
+1257,Santiago Gómez Jiménez,F,1991-01-25,Frecuente,Bogotá,Cundinamarca,2022-09-05
+1258,Carlos Díaz Ospina,F,1988-06-03,Ocasional,Cartagena,Bolívar,2020-08-14
+1259,Valentina Cárdenas Martínez,F,1972-06-10,Frecuente,Pereira,Risaralda,2023-10-26
+1260,Valentina Rodríguez Ospina,M,1999-08-16,Ocasional,Cartagena,Bolívar,2020-07-02
+1261,Óscar Hernández Torres,F,1978-07-17,Frecuente,Bogotá,Cundinamarca,2021-09-19
+1262,Luisa Díaz Ospina,F,1968-04-03,Frecuente,Barranquilla,Atlántico,2024-09-19
+1263,Felipe Cárdenas Ortiz,M,1972-02-03,Corporativo,Barranquilla,Atlántico,2025-05-09
+1264,Paula Torres Sánchez,F,1955-05-26,Corporativo,Barranquilla,Atlántico,2025-09-11
+1265,María Vargas Moreno,F,1964-01-03,Ocasional,Cali,Valle del Cauca,2023-08-19
+1266,Paula Ramírez Ramírez,M,1989-04-11,Ocasional,Medellín,Antioquia,2021-03-05
+1267,Felipe Ortiz Hernández,F,1985-02-20,Frecuente,Manizales,Caldas,2020-01-18
+1268,María Díaz Moreno,F,1961-07-23,Frecuente,Medellín,Antioquia,2023-01-28
+1269,Tomás Moreno Díaz,F,1996-05-07,Ocasional,Pereira,Risaralda,2025-08-12
+1270,Luisa Martínez Moreno,F,1996-08-06,Premium,Medellín,Antioquia,2025-02-01
+1271,Luisa Gómez Sánchez,M,1957-12-27,Ocasional,Manizales,Caldas,2018-09-10
+1272,Mateo Cárdenas Hernández,M,1978-05-27,Frecuente,Medellín,Antioquia,2025-06-18
+1273,Valentina Moreno Jiménez,M,1990-05-24,Premium,Cali,Valle del Cauca,2019-08-22
+1274,Óscar Ortiz Vargas,F,1996-12-17,Ocasional,Medellín,Antioquia,2021-11-02
+1275,Tomás Rojas Sánchez,F,1981-07-04,Ocasional,Villavicencio,Meta,2023-04-12
+1276,Natalia García Rodríguez,M,1985-10-12,Ocasional,Villavicencio,Meta,2019-03-27
+1277,María Ortiz Martínez,M,1989-04-12,Ocasional,Bogotá,Cundinamarca,2021-01-27
+1278,Mateo López Ramírez,F,1998-01-17,Frecuente,Cartagena,Bolívar,2019-04-12
+1279,Ricardo Sánchez Rodríguez,F,1985-03-26,Corporativo,Cartagena,Bolívar,2022-09-04
+1280,Natalia Cárdenas Rojas,F,1981-01-17,Ocasional,Cartagena,Bolívar,2022-04-21
+1281,Carlos Martínez Cárdenas,M,1995-01-06,Premium,Medellín,Antioquia,2020-11-19
+1282,Diego Hernández Castro,M,1975-01-21,Corporativo,Zipaquirá,Cundinamarca,2018-05-14
+1283,Sebastián Castro Gómez,M,2003-07-12,Ocasional,Cartagena,Bolívar,2022-06-03
+1284,María Rodríguez Ramírez,M,2005-01-10,Ocasional,Bogotá,Cundinamarca,2024-01-13
+1285,Sofía Díaz Castro,M,1974-12-11,Frecuente,Manizales,Caldas,2021-11-27
+1286,Julián López Ortiz,M,1967-10-20,Ocasional,Manizales,Caldas,2020-08-25
+1287,Camila Rojas Ortiz,F,1960-07-16,Frecuente,Pereira,Risaralda,2019-05-29
+1288,Paula Jiménez Cárdenas,F,2004-10-09,Frecuente,Bogotá,Cundinamarca,2024-03-20
+1289,Daniela Rojas Cárdenas,M,1961-09-03,Corporativo,Pereira,Risaralda,2024-05-25
+1290,Mariana Rodríguez Ortiz,M,1973-07-18,Frecuente,Bucaramanga,Santander,2022-03-12
+1291,Mateo Torres Gómez,F,2005-07-01,Ocasional,Pereira,Risaralda,2023-10-13
+1292,Felipe Castro Díaz,M,2005-10-26,Frecuente,Villavicencio,Meta,2022-08-01
+1293,Juan Rojas Moreno,M,1974-09-23,Ocasional,Zipaquirá,Cundinamarca,2020-06-19
+1294,María Rodríguez Pérez,F,1962-06-28,Frecuente,Cartagena,Bolívar,2018-11-16
+1295,Ana Ramírez Ramírez,M,1985-01-12,Ocasional,Cali,Valle del Cauca,2023-12-18
+1296,Óscar Sánchez Restrepo,F,1963-01-27,Ocasional,Pereira,Risaralda,2021-03-04
+1297,Laura Sánchez Pérez,M,2000-11-07,Ocasional,Pereira,Risaralda,2018-11-08
+1298,Andrés Rojas Rojas,M,1991-08-28,Ocasional,Manizales,Caldas,2022-04-26
+1299,Carlos Restrepo Díaz,F,1995-03-05,Premium,Cartagena,Bolívar,2023-10-07
+1300,Luisa Ospina Ramírez,F,1980-03-13,Ocasional,Bogotá,Cundinamarca,2023-04-25
+1301,Óscar López Gómez,F,1991-11-04,Ocasional,Pereira,Risaralda,2022-10-19
+1302,Paula Hernández Moreno,F,1963-10-24,Frecuente,Cartagena,Bolívar,2020-07-23
+1303,Camila Sánchez Ramírez,M,1996-11-09,Ocasional,Medellín,Antioquia,2025-12-07
+1304,Ricardo Rojas Ospina,F,1964-12-18,Premium,Cali,Valle del Cauca,2025-02-02
+1305,Óscar Rodríguez Vargas,F,1994-09-13,Ocasional,Villavicencio,Meta,2024-06-08
+1306,Julián Torres Castro,M,1998-12-12,Ocasional,Barranquilla,Atlántico,2022-02-28
+1307,Luisa Rodríguez Castro,F,1967-06-04,Ocasional,Manizales,Caldas,2020-10-30
+1308,Sofía Sánchez Ospina,M,1989-10-26,Ocasional,Cartagena,Bolívar,2019-08-28
+1309,Juan Vargas Rodríguez,F,1999-01-14,Ocasional,Manizales,Caldas,2025-03-14
+1310,Sebastián Restrepo Ospina,M,1963-02-22,Frecuente,Zipaquirá,Cundinamarca,2025-01-11
+1311,Natalia Torres Castro,M,1994-09-22,Premium,Zipaquirá,Cundinamarca,2021-09-12
+1312,Felipe Gómez Rodríguez,F,1993-02-13,Frecuente,Pereira,Risaralda,2018-01-11
+1313,Mateo Gómez López,F,1986-04-25,Premium,Zipaquirá,Cundinamarca,2021-09-30
+1314,Ana Ortiz Jiménez,M,1969-08-26,Ocasional,Pereira,Risaralda,2018-04-17
+1315,Mateo Martínez Hernández,M,1962-02-21,Ocasional,Manizales,Caldas,2020-01-03
+1316,Sofía Ramírez Restrepo,F,2003-01-01,Ocasional,Pereira,Risaralda,2024-01-10
+1317,Isabella García Díaz,F,1956-12-09,Frecuente,Cartagena,Bolívar,2018-11-30
+1318,Diego Restrepo Torres,F,1990-07-02,Ocasional,Medellín,Antioquia,2021-05-10
+1319,Juan Sánchez Ramírez,M,1969-09-17,Ocasional,Manizales,Caldas,2024-08-06
+1320,Mateo Ortiz Restrepo,F,2005-12-27,Ocasional,Cali,Valle del Cauca,2018-08-25
+1321,Diego López Sánchez,F,1975-02-21,Frecuente,Zipaquirá,Cundinamarca,2023-10-01
+1322,Mateo Ospina Hernández,M,1992-06-10,Ocasional,Barranquilla,Atlántico,2018-07-14
+1323,Ricardo Moreno Rodríguez,M,1978-08-28,Ocasional,Zipaquirá,Cundinamarca,2021-08-08
+1324,Isabella Martínez Ospina,F,1982-06-28,Premium,Bucaramanga,Santander,2025-05-02
+1325,María Ortiz Rojas,F,1961-04-15,Ocasional,Medellín,Antioquia,2025-09-28
+1326,Luisa Ospina Restrepo,M,1985-11-14,Ocasional,Villavicencio,Meta,2021-10-18
+1327,Laura García Jiménez,M,1958-12-13,Frecuente,Pereira,Risaralda,2025-07-11
+1328,Daniela Torres Díaz,F,1967-06-14,Ocasional,Cali,Valle del Cauca,2023-11-14
+1329,Carlos López Pérez,M,1999-07-25,Frecuente,Bogotá,Cundinamarca,2024-10-05
+1330,Diego Pérez Jiménez,M,1987-08-11,Frecuente,Bogotá,Cundinamarca,2018-08-09
+1331,Isabella Castro Moreno,M,1997-11-02,Ocasional,Bucaramanga,Santander,2021-11-24
+1332,Natalia Ospina Díaz,M,1957-05-24,Corporativo,Bogotá,Cundinamarca,2018-03-06
+1333,Santiago Martínez Gómez,M,1961-06-01,Frecuente,Cali,Valle del Cauca,2022-06-12
+1334,Daniela Sánchez Ramírez,F,1984-03-01,Frecuente,Cartagena,Bolívar,2019-02-10
+1335,Daniela Rojas García,F,1981-03-07,Frecuente,Bogotá,Cundinamarca,2022-05-02
+1336,Óscar Moreno Ospina,M,1968-08-17,Ocasional,Villavicencio,Meta,2025-03-07
+1337,Luisa García Rojas,M,1983-11-10,Frecuente,Cali,Valle del Cauca,2024-11-13
+1338,Luisa Moreno Gómez,M,1956-11-16,Ocasional,Bogotá,Cundinamarca,2018-04-02
+1339,Julián Castro Castro,M,1969-08-12,Frecuente,Cali,Valle del Cauca,2025-04-03
+1340,Luisa Ramírez Ramírez,M,1973-04-27,Ocasional,Cartagena,Bolívar,2019-06-28
+1341,Natalia López Pérez,M,1983-01-13,Ocasional,Villavicencio,Meta,2023-01-11
+1342,Daniela Cárdenas García,F,2000-11-26,Frecuente,Villavicencio,Meta,2021-02-13
+1343,Natalia García García,M,1997-07-12,Ocasional,Cali,Valle del Cauca,2023-04-14
+1344,Carlos Moreno Castro,F,1971-11-08,Frecuente,Bucaramanga,Santander,2020-03-18
+1345,Carlos Torres Ramírez,F,1972-04-05,Ocasional,Pereira,Risaralda,2025-11-21
+1346,Mariana Moreno Ortiz,M,1999-06-04,Corporativo,Barranquilla,Atlántico,2023-04-17
+1347,Luisa Rojas Sánchez,F,1994-02-08,Ocasional,Pereira,Risaralda,2020-10-29
+1348,Laura Ramírez Rodríguez,M,1973-12-08,Ocasional,Medellín,Antioquia,2021-05-23
+1349,Daniela Cárdenas Cárdenas,M,1969-04-16,Frecuente,Manizales,Caldas,2022-12-30
+1350,Valentina Jiménez Pérez,F,2001-07-24,Ocasional,Villavicencio,Meta,2024-02-27
+1351,Santiago Cárdenas Rojas,M,1989-11-24,Ocasional,Cartagena,Bolívar,2025-09-12
+1352,Ricardo Restrepo Sánchez,F,1987-02-02,Corporativo,Pereira,Risaralda,2023-06-15
+1353,Carlos López López,F,2005-09-11,Frecuente,Zipaquirá,Cundinamarca,2024-08-07
+1354,Juan Castro García,M,2002-04-08,Ocasional,Bucaramanga,Santander,2024-07-26
+1355,Paula Vargas Hernández,M,1983-03-26,Corporativo,Villavicencio,Meta,2023-03-17
+1356,Felipe Cárdenas Rojas,F,2003-05-15,Ocasional,Cartagena,Bolívar,2019-06-24
+1357,Carlos Rodríguez López,F,1976-11-13,Frecuente,Pereira,Risaralda,2018-07-26
+1358,Felipe Cárdenas Ramírez,M,1964-04-14,Premium,Manizales,Caldas,2024-07-18
+1359,Luisa Torres Sánchez,M,1986-10-18,Ocasional,Medellín,Antioquia,2022-09-12
+1360,Daniela Moreno López,F,1982-04-24,Ocasional,Pereira,Risaralda,2021-12-20
+1361,Laura Rojas García,F,2004-03-19,Frecuente,Zipaquirá,Cundinamarca,2020-05-06
+1362,María Moreno Gómez,F,1957-09-11,Premium,Cali,Valle del Cauca,2020-01-14
+1363,Juan García Rodríguez,F,1958-01-17,Frecuente,Villavicencio,Meta,2023-12-16
+1364,Mariana Ortiz Ospina,M,1996-04-15,Corporativo,Barranquilla,Atlántico,2021-04-02
+1365,Camila Restrepo Rojas,F,1981-07-24,Premium,Bogotá,Cundinamarca,2018-07-09
+1366,Ana Vargas Cárdenas,F,1980-11-11,Premium,Cartagena,Bolívar,2022-09-30
+1367,Ana Gómez Díaz,F,1992-08-03,Ocasional,Barranquilla,Atlántico,2023-08-12
+1368,Mariana Martínez López,M,1959-09-20,Frecuente,Manizales,Caldas,2024-05-14
+1369,Felipe García Sánchez,M,1981-11-20,Ocasional,Medellín,Antioquia,2025-11-30
+1370,Felipe Restrepo Castro,M,2004-01-08,Premium,Cali,Valle del Cauca,2021-01-26
+1371,Ana Gómez Rodríguez,F,1979-10-27,Premium,Villavicencio,Meta,2018-06-05
+1372,Paula Ramírez Torres,M,1992-11-19,Frecuente,Bogotá,Cundinamarca,2020-12-21
+1373,Paula Vargas Moreno,F,2005-05-10,Ocasional,Cali,Valle del Cauca,2024-05-11
+1374,Ricardo Sánchez Hernández,M,1977-10-11,Frecuente,Pereira,Risaralda,2019-10-30
+1375,Andrés Rodríguez Castro,M,1985-01-06,Ocasional,Cartagena,Bolívar,2024-02-18
+1376,Sofía Rodríguez Pérez,M,1958-09-11,Frecuente,Zipaquirá,Cundinamarca,2021-05-02
+1377,Diego Vargas Castro,F,1958-09-23,Corporativo,Manizales,Caldas,2023-03-27
+1378,Ana Pérez Ospina,F,1981-08-04,Frecuente,Medellín,Antioquia,2023-07-14
+1379,Luisa Rojas Jiménez,F,1973-09-01,Frecuente,Pereira,Risaralda,2024-03-03
+1380,Luisa Gómez López,M,2001-03-16,Frecuente,Medellín,Antioquia,2018-03-26
+1381,Laura García Rodríguez,F,1961-02-02,Ocasional,Cartagena,Bolívar,2019-05-06
+1382,Natalia Hernández Martínez,M,1968-10-04,Premium,Bogotá,Cundinamarca,2020-07-21
+1383,Andrés López Díaz,M,1956-07-03,Corporativo,Pereira,Risaralda,2025-01-06
+1384,Ricardo Vargas Díaz,F,1994-05-17,Frecuente,Barranquilla,Atlántico,2021-10-18
+1385,Sofía Rojas Rodríguez,F,1972-03-15,Ocasional,Zipaquirá,Cundinamarca,2025-05-13
+1386,Julián Ortiz Ospina,F,1979-04-10,Ocasional,Bucaramanga,Santander,2024-05-06
+1387,Valentina Torres Cárdenas,M,1991-01-11,Premium,Cali,Valle del Cauca,2025-02-07
+1388,María Cárdenas Ospina,F,1956-06-25,Ocasional,Cartagena,Bolívar,2019-06-08
+1389,Luisa Ospina García,M,1981-02-20,Ocasional,Zipaquirá,Cundinamarca,2023-07-31
+1390,Felipe Castro Díaz,M,2000-07-07,Premium,Barranquilla,Atlántico,2024-12-25
+1391,Laura Jiménez Rodríguez,M,1958-03-26,Ocasional,Bogotá,Cundinamarca,2020-03-02
+1392,Ricardo Rodríguez Pérez,M,1993-01-11,Frecuente,Medellín,Antioquia,2019-07-04
+1393,Carlos Restrepo Sánchez,F,1965-07-02,Premium,Manizales,Caldas,2023-10-18
+1394,Felipe Ramírez Rodríguez,F,1983-06-09,Ocasional,Cali,Valle del Cauca,2018-12-05
+1395,Felipe Castro Vargas,M,1996-06-21,Premium,Bogotá,Cundinamarca,2025-10-12
+1396,Isabella Moreno Hernández,F,1972-06-20,Ocasional,Manizales,Caldas,2024-04-06
+1397,Óscar Sánchez Jiménez,F,2002-09-15,Ocasional,Barranquilla,Atlántico,2022-07-03
+1398,Natalia Vargas Ospina,M,1976-01-01,Frecuente,Manizales,Caldas,2020-06-22
+1399,Daniela Moreno Ospina,F,1991-03-12,Frecuente,Pereira,Risaralda,2018-07-21
+1400,Ana Sánchez Ramírez,M,1984-07-04,Frecuente,Cali,Valle del Cauca,2021-07-06
+1401,Sebastián López López,F,2002-05-06,Corporativo,Pereira,Risaralda,2022-06-27
+1402,Santiago Castro Sánchez,F,2004-01-19,Frecuente,Villavicencio,Meta,2023-12-06
+1403,Ricardo Cárdenas López,M,1980-03-28,Ocasional,Pereira,Risaralda,2021-12-15
+1404,Felipe Díaz Moreno,F,1995-03-28,Corporativo,Villavicencio,Meta,2018-09-07
+1405,Sebastián Ospina Gómez,M,2003-02-03,Frecuente,Barranquilla,Atlántico,2023-08-03
+1406,Valentina Sánchez López,M,2001-02-01,Frecuente,Cartagena,Bolívar,2019-03-15
+1407,Luisa Rojas Ramírez,M,1972-11-17,Frecuente,Medellín,Antioquia,2018-05-04
+1408,Julián Jiménez Ortiz,M,1985-06-24,Ocasional,Barranquilla,Atlántico,2020-06-07
+1409,Diego López Cárdenas,M,1964-06-21,Frecuente,Medellín,Antioquia,2023-04-02
+1410,Santiago Castro Gómez,F,1987-12-22,Ocasional,Manizales,Caldas,2019-09-05
+1411,Luisa Torres Vargas,M,2004-01-13,Ocasional,Medellín,Antioquia,2020-05-08
+1412,Laura Hernández Ortiz,F,1958-04-22,Ocasional,Medellín,Antioquia,2020-10-17
+1413,María Gómez Gómez,F,1968-10-01,Ocasional,Villavicencio,Meta,2021-04-22
+1414,Ana Gómez Ospina,M,2000-12-19,Frecuente,Medellín,Antioquia,2025-09-04
+1415,Valentina Díaz Ortiz,M,1985-04-03,Premium,Zipaquirá,Cundinamarca,2018-11-20
+1416,Óscar Vargas Sánchez,F,1995-11-16,Frecuente,Bucaramanga,Santander,2024-01-10
+1417,Carlos Gómez Torres,F,1990-12-12,Premium,Manizales,Caldas,2019-09-15
+1418,Daniela Rodríguez Restrepo,F,1996-08-22,Frecuente,Medellín,Antioquia,2018-07-03
+1419,Isabella Ospina Ospina,F,1981-11-15,Ocasional,Medellín,Antioquia,2025-12-04
+1420,Andrés Ortiz Pérez,F,1968-08-08,Ocasional,Medellín,Antioquia,2019-08-08
+1421,Diego Jiménez Rodríguez,F,1996-05-11,Corporativo,Villavicencio,Meta,2023-06-11
+1422,Sofía López Hernández,F,1971-01-23,Ocasional,Manizales,Caldas,2022-07-11
+1423,Daniela Díaz Martínez,M,1993-11-23,Frecuente,Barranquilla,Atlántico,2018-01-08
+1424,Ana Ramírez Díaz,F,1965-01-26,Ocasional,Zipaquirá,Cundinamarca,2020-11-27
+1425,Diego García Díaz,F,1977-07-01,Corporativo,Cartagena,Bolívar,2021-04-14
+1426,Sofía Ospina Ortiz,M,1982-06-27,Ocasional,Medellín,Antioquia,2020-02-05
+1427,Sofía Rojas Sánchez,M,2000-01-08,Premium,Bogotá,Cundinamarca,2022-05-21
+1428,Natalia Vargas Castro,F,1960-08-21,Ocasional,Pereira,Risaralda,2020-11-07
+1429,Sebastián Cárdenas Pérez,M,1973-03-25,Ocasional,Pereira,Risaralda,2025-04-21
+1430,Santiago Ortiz Jiménez,F,1992-02-15,Corporativo,Medellín,Antioquia,2019-06-17
+1431,Tomás García Rodríguez,M,1988-06-18,Frecuente,Manizales,Caldas,2024-10-11
+1432,Julián Ortiz Rodríguez,M,1968-01-05,Ocasional,Cartagena,Bolívar,2023-09-26
+1433,Natalia Ospina Rodríguez,F,1983-10-24,Corporativo,Cali,Valle del Cauca,2023-01-22
+1434,Tomás Hernández López,M,1971-12-27,Premium,Medellín,Antioquia,2021-08-06
+1435,Santiago Castro Ortiz,F,1970-05-10,Ocasional,Pereira,Risaralda,2025-04-09
+1436,Paula Moreno Jiménez,F,1990-09-27,Ocasional,Zipaquirá,Cundinamarca,2025-04-27
+1437,Tomás Hernández López,F,1960-11-24,Premium,Cartagena,Bolívar,2018-12-18
+1438,Daniela López Restrepo,M,1958-12-27,Frecuente,Medellín,Antioquia,2018-10-29
+1439,Tomás López Ramírez,F,1979-01-10,Premium,Barranquilla,Atlántico,2021-02-15
+1440,María Ramírez Ortiz,M,1957-12-12,Ocasional,Villavicencio,Meta,2025-05-08
+1441,Mariana López Torres,M,1956-12-11,Premium,Zipaquirá,Cundinamarca,2023-07-05
+1442,Santiago Ramírez Rojas,M,1963-05-01,Ocasional,Cartagena,Bolívar,2025-03-17
+1443,Luisa Jiménez Cárdenas,M,1985-02-25,Premium,Barranquilla,Atlántico,2023-03-05
+1444,Sofía Hernández Vargas,M,2002-05-23,Ocasional,Barranquilla,Atlántico,2023-11-03
+1445,Camila Moreno Castro,F,1961-10-15,Frecuente,Barranquilla,Atlántico,2018-07-19
+1446,Andrés Ramírez Rodríguez,M,1971-07-26,Ocasional,Manizales,Caldas,2018-05-31
+1447,Mariana Sánchez Cárdenas,F,1965-07-01,Ocasional,Villavicencio,Meta,2020-11-22
+1448,Isabella Vargas Hernández,M,1992-01-22,Premium,Cartagena,Bolívar,2025-11-10
+1449,Natalia Gómez Gómez,M,1985-10-14,Ocasional,Villavicencio,Meta,2024-09-30
+1450,Juan Díaz Castro,F,1973-01-12,Ocasional,Zipaquirá,Cundinamarca,2024-02-06
+1451,Laura Díaz Díaz,M,1991-05-27,Ocasional,Villavicencio,Meta,2023-05-13
+1452,Luisa Rodríguez Martínez,M,1987-05-21,Ocasional,Cali,Valle del Cauca,2024-02-04
+1453,Santiago Torres Martínez,M,1957-06-13,Ocasional,Barranquilla,Atlántico,2023-08-07
+1454,Mateo López Pérez,M,1996-05-22,Premium,Cali,Valle del Cauca,2021-03-19
+1455,Ana Cárdenas Rojas,M,1988-12-09,Ocasional,Medellín,Antioquia,2020-09-20
+1456,Carlos García Pérez,M,1957-02-12,Frecuente,Zipaquirá,Cundinamarca,2019-07-06
+1457,Sofía López Torres,F,1997-05-10,Ocasional,Cartagena,Bolívar,2019-02-03
+1458,Sebastián Díaz Cárdenas,F,2005-12-23,Frecuente,Barranquilla,Atlántico,2025-10-28
+1459,Luisa Pérez Moreno,F,1979-04-07,Ocasional,Bogotá,Cundinamarca,2020-03-13
+1460,Diego Moreno Ramírez,F,1975-06-01,Frecuente,Bucaramanga,Santander,2020-02-15
+1461,Daniela Rojas Pérez,M,1990-08-28,Ocasional,Zipaquirá,Cundinamarca,2018-12-24
+1462,Juan Martínez Vargas,M,1966-12-11,Frecuente,Villavicencio,Meta,2019-10-16
+1463,Sebastián Vargas Díaz,F,1974-11-13,Ocasional,Zipaquirá,Cundinamarca,2018-05-11
+1464,María Restrepo Vargas,F,1975-04-02,Corporativo,Barranquilla,Atlántico,2018-11-07
+1465,Paula Díaz Castro,M,1966-11-09,Frecuente,Cartagena,Bolívar,2025-06-14
+1466,Juan García Ortiz,F,1977-01-21,Ocasional,Cartagena,Bolívar,2025-01-29
+1467,Diego Martínez Ortiz,M,1972-01-21,Ocasional,Medellín,Antioquia,2018-09-23
+1468,María Rodríguez Rojas,M,1964-10-04,Frecuente,Zipaquirá,Cundinamarca,2025-03-26
+1469,Felipe Díaz García,M,1957-02-11,Premium,Cali,Valle del Cauca,2024-07-02
+1470,Ana Martínez Ortiz,F,2002-04-27,Premium,Cali,Valle del Cauca,2020-05-13
+1471,Isabella Gómez Ospina,F,1964-12-27,Ocasional,Cartagena,Bolívar,2018-12-13
+1472,Tomás Castro Vargas,M,1989-02-27,Frecuente,Zipaquirá,Cundinamarca,2022-11-19
+1473,Felipe Gómez Hernández,M,2004-09-23,Premium,Cali,Valle del Cauca,2019-07-13
+1474,Isabella Restrepo Restrepo,M,1983-06-13,Ocasional,Barranquilla,Atlántico,2025-05-10
+1475,Natalia Moreno Ramírez,M,1955-12-11,Frecuente,Cali,Valle del Cauca,2019-01-20
+1476,Daniela Moreno Torres,M,1960-11-16,Frecuente,Bucaramanga,Santander,2022-01-02
+1477,Santiago Pérez Ortiz,F,1983-04-21,Premium,Zipaquirá,Cundinamarca,2019-06-10
+1478,Andrés Martínez Ospina,F,1960-12-24,Ocasional,Pereira,Risaralda,2024-11-18
+1479,Valentina Cárdenas Ramírez,M,1972-07-08,Ocasional,Villavicencio,Meta,2024-06-10
+1480,Óscar García Sánchez,F,2002-01-17,Ocasional,Cali,Valle del Cauca,2021-12-28
+1481,Felipe Hernández Jiménez,M,1977-02-06,Ocasional,Villavicencio,Meta,2023-09-04
+1482,Mariana López Ramírez,M,1955-02-07,Ocasional,Zipaquirá,Cundinamarca,2022-06-01
+1483,Santiago Gómez Castro,F,1957-01-15,Frecuente,Zipaquirá,Cundinamarca,2020-05-05
+1484,Andrés López Rojas,F,2000-05-19,Premium,Cartagena,Bolívar,2023-01-16
+1485,Ana Díaz Vargas,F,1988-07-09,Ocasional,Barranquilla,Atlántico,2018-02-02
+1486,Andrés Cárdenas Jiménez,F,1962-12-02,Frecuente,Manizales,Caldas,2021-03-26
+1487,Diego López López,F,1983-09-10,Ocasional,Cartagena,Bolívar,2019-02-27
+1488,Daniela Rodríguez García,F,1990-05-28,Corporativo,Barranquilla,Atlántico,2019-02-02
+1489,Isabella Hernández Gómez,M,1998-08-11,Ocasional,Barranquilla,Atlántico,2020-11-12
+1490,Carlos Moreno Díaz,F,1991-09-20,Ocasional,Villavicencio,Meta,2025-07-13
+1491,Laura Ospina López,M,2003-01-05,Ocasional,Cartagena,Bolívar,2021-09-26
+1492,Daniela Jiménez Torres,F,1960-05-08,Corporativo,Cartagena,Bolívar,2024-06-28
+1493,Mateo Ortiz Rojas,M,1969-12-02,Corporativo,Manizales,Caldas,2021-12-14
+1494,Natalia Ramírez Vargas,M,1961-06-24,Ocasional,Barranquilla,Atlántico,2022-09-25
+1495,Andrés Ramírez Rodríguez,M,1965-10-06,Frecuente,Medellín,Antioquia,2018-08-28
+1496,Isabella Ospina Ortiz,F,1962-02-03,Premium,Bucaramanga,Santander,2024-07-09
+1497,Ricardo Vargas Jiménez,M,1955-11-06,Frecuente,Pereira,Risaralda,2021-08-23
+1498,Paula Cárdenas Moreno,M,1968-09-28,Frecuente,Manizales,Caldas,2018-02-02
+1499,Natalia Hernández Ortiz,M,1992-10-04,Ocasional,Bogotá,Cundinamarca,2025-02-04
+1500,Ana Martínez Ospina,F,1957-01-22,Frecuente,Bucaramanga,Santander,2023-11-06
+1501,Valentina Castro López,M,1955-04-13,Premium,Zipaquirá,Cundinamarca,2021-11-16
+1502,Sofía Ospina Restrepo,M,1991-03-27,Ocasional,Pereira,Risaralda,2018-11-27
+1503,Juan Vargas Martínez,M,1986-10-15,Frecuente,Villavicencio,Meta,2018-12-24
+1504,Paula Castro Sánchez,M,1993-05-14,Corporativo,Zipaquirá,Cundinamarca,2018-05-31
+1505,Natalia Jiménez Restrepo,M,1996-11-20,Corporativo,Bucaramanga,Santander,2023-02-21
+1506,Óscar Rodríguez Rodríguez,M,1965-11-18,Ocasional,Villavicencio,Meta,2024-05-04
+1507,Carlos Torres García,M,1956-06-12,Ocasional,Cartagena,Bolívar,2023-12-18
+1508,Juan Ortiz Moreno,F,1983-05-13,Ocasional,Bogotá,Cundinamarca,2025-04-08
+1509,Felipe Ospina Rodríguez,M,1983-08-27,Frecuente,Bogotá,Cundinamarca,2020-09-04
+1510,Julián Ospina Cárdenas,F,1964-02-04,Frecuente,Barranquilla,Atlántico,2021-10-28
+1511,Luisa Sánchez Ospina,M,1984-09-05,Premium,Bogotá,Cundinamarca,2023-06-10
+1512,Natalia Ospina Ramírez,F,1991-11-16,Ocasional,Medellín,Antioquia,2020-12-25
+1513,Daniela Vargas Hernández,M,1979-10-27,Ocasional,Cali,Valle del Cauca,2025-01-05
+1514,Sofía Ortiz Ramírez,F,1957-02-26,Ocasional,Barranquilla,Atlántico,2025-01-24
+1515,Laura Vargas Castro,M,1977-04-22,Frecuente,Barranquilla,Atlántico,2024-02-19
+1516,Paula Castro Castro,F,1971-11-12,Frecuente,Bucaramanga,Santander,2021-06-12
+1517,Felipe Torres Ospina,F,1986-10-09,Frecuente,Cali,Valle del Cauca,2020-01-28
+1518,Andrés Torres Torres,M,1971-09-07,Corporativo,Pereira,Risaralda,2020-04-11
+1519,Mateo Moreno Torres,M,1981-04-20,Ocasional,Manizales,Caldas,2024-04-28
+1520,Natalia Moreno Castro,F,1982-10-22,Ocasional,Pereira,Risaralda,2022-01-14
+1521,Camila Sánchez Ortiz,M,2000-02-15,Frecuente,Pereira,Risaralda,2018-06-16
+1522,Diego Pérez Ortiz,F,1964-01-21,Ocasional,Manizales,Caldas,2018-10-14
+1523,Santiago Gómez Martínez,F,1963-12-24,Ocasional,Cartagena,Bolívar,2023-10-18
+1524,Óscar Jiménez García,M,1996-05-21,Ocasional,Barranquilla,Atlántico,2025-10-07
+1525,Mariana Vargas Hernández,F,1975-12-07,Ocasional,Villavicencio,Meta,2018-04-15
+1526,Óscar Jiménez Hernández,F,1974-01-25,Ocasional,Bucaramanga,Santander,2022-10-31
+1527,Sofía Moreno López,F,1987-06-19,Corporativo,Villavicencio,Meta,2020-06-03
+1528,Natalia Restrepo Moreno,F,1989-06-21,Ocasional,Pereira,Risaralda,2020-03-03
+1529,Daniela Díaz Rodríguez,M,1987-08-20,Frecuente,Barranquilla,Atlántico,2020-09-16
+1530,Diego Ortiz Díaz,F,1981-08-02,Ocasional,Cali,Valle del Cauca,2022-01-18
+1531,Natalia Vargas García,F,1996-03-05,Ocasional,Medellín,Antioquia,2025-06-15
+1532,Sofía Ramírez Cárdenas,M,1985-08-09,Ocasional,Villavicencio,Meta,2025-02-25
+1533,Óscar Rodríguez Castro,F,1982-12-06,Ocasional,Bucaramanga,Santander,2021-02-20
+1534,Tomás Cárdenas Restrepo,F,1991-09-08,Frecuente,Villavicencio,Meta,2023-07-13
+1535,Tomás Ortiz Ramírez,M,1972-02-10,Frecuente,Cali,Valle del Cauca,2019-02-11
+1536,Paula Hernández Torres,F,1992-04-03,Ocasional,Bucaramanga,Santander,2021-08-31
+1537,Sebastián Gómez Moreno,F,1995-12-16,Ocasional,Barranquilla,Atlántico,2020-07-14
+1538,Isabella Rojas Gómez,M,1976-10-17,Corporativo,Bucaramanga,Santander,2020-02-10
+1539,Santiago Pérez Moreno,M,1994-05-15,Ocasional,Medellín,Antioquia,2025-09-21
+1540,Andrés Cárdenas Sánchez,M,1980-10-26,Frecuente,Zipaquirá,Cundinamarca,2018-06-18
+1541,Luisa Rodríguez Torres,F,1988-01-06,Ocasional,Cali,Valle del Cauca,2021-05-13
+1542,Daniela Rodríguez Ramírez,M,1956-08-12,Corporativo,Barranquilla,Atlántico,2019-05-03
+1543,Mariana Jiménez Rodríguez,F,1997-04-20,Premium,Bucaramanga,Santander,2018-08-08
+1544,Santiago Ortiz Pérez,M,1964-03-22,Frecuente,Cali,Valle del Cauca,2021-09-29
+1545,Ana Hernández Jiménez,M,2002-06-20,Ocasional,Pereira,Risaralda,2019-10-26
+1546,Luisa García Pérez,F,1964-03-04,Frecuente,Pereira,Risaralda,2023-04-07
+1547,Mariana Gómez Díaz,M,1956-11-09,Frecuente,Cali,Valle del Cauca,2018-02-08
+1548,Tomás Hernández Ortiz,F,1996-04-01,Ocasional,Manizales,Caldas,2019-04-09
+1549,Sebastián Moreno Martínez,M,1970-01-08,Ocasional,Barranquilla,Atlántico,2022-12-17
+1550,Felipe Rojas Jiménez,M,2005-05-23,Premium,Barranquilla,Atlántico,2023-07-03
+1551,Luisa Torres Cárdenas,M,1995-05-07,Ocasional,Medellín,Antioquia,2023-01-05
+1552,Juan López Rodríguez,F,1980-03-14,Frecuente,Zipaquirá,Cundinamarca,2024-02-29
+1553,Sofía López Ortiz,F,2002-09-10,Premium,Villavicencio,Meta,2025-02-21
+1554,Isabella Pérez Rojas,M,2002-04-24,Frecuente,Manizales,Caldas,2024-01-25
+1555,Natalia Restrepo Díaz,F,1973-09-10,Frecuente,Cali,Valle del Cauca,2025-05-22
+1556,Óscar Hernández Hernández,F,1993-06-17,Ocasional,Medellín,Antioquia,2025-05-16
+1557,Mariana Gómez Gómez,F,1990-01-02,Ocasional,Manizales,Caldas,2025-02-18
+1558,Laura Ospina Jiménez,F,1979-02-19,Ocasional,Barranquilla,Atlántico,2018-11-13
+1559,Tomás García Cárdenas,M,1993-11-02,Ocasional,Villavicencio,Meta,2021-06-25
+1560,Juan Cárdenas Gómez,M,1993-04-22,Ocasional,Cartagena,Bolívar,2020-01-24
+1561,Andrés Moreno Pérez,M,1965-08-17,Frecuente,Cali,Valle del Cauca,2025-02-25
+1562,Valentina García Torres,F,1969-09-06,Corporativo,Barranquilla,Atlántico,2018-03-27
+1563,Paula Ospina Hernández,M,1965-05-18,Ocasional,Zipaquirá,Cundinamarca,2022-10-16
+1564,Julián López Jiménez,M,1955-09-11,Ocasional,Barranquilla,Atlántico,2019-05-19
+1565,Diego Gómez Jiménez,M,1971-06-17,Premium,Manizales,Caldas,2019-09-03
+1566,Andrés Jiménez Ortiz,F,1992-09-13,Frecuente,Medellín,Antioquia,2023-03-19
+1567,Daniela García Restrepo,F,1989-07-15,Ocasional,Bucaramanga,Santander,2020-07-24
+1568,Valentina Ospina López,F,1995-11-11,Ocasional,Bogotá,Cundinamarca,2020-08-09
+1569,Valentina Ospina Gómez,M,1974-08-04,Frecuente,Bucaramanga,Santander,2019-10-28
+1570,Paula Hernández Ospina,F,1971-06-17,Corporativo,Cali,Valle del Cauca,2019-03-07
+1571,Diego Restrepo García,M,1999-10-21,Ocasional,Pereira,Risaralda,2019-01-22
+1572,Laura Restrepo García,F,2003-04-27,Frecuente,Zipaquirá,Cundinamarca,2025-10-17
+1573,Ana Rodríguez Ospina,F,1984-09-04,Frecuente,Villavicencio,Meta,2023-09-12
+1574,Ana Gómez Ramírez,M,1982-01-09,Frecuente,Pereira,Risaralda,2020-08-15
+1575,Isabella Cárdenas Ortiz,F,1977-03-16,Frecuente,Pereira,Risaralda,2024-03-07
+1576,Mateo Moreno Vargas,M,1994-02-08,Frecuente,Manizales,Caldas,2023-05-16
+1577,Andrés Vargas Ospina,F,1963-01-10,Ocasional,Cali,Valle del Cauca,2022-10-12
+1578,Luisa Castro García,F,2004-06-05,Frecuente,Zipaquirá,Cundinamarca,2018-07-28
+1579,Mariana Hernández Torres,F,1987-09-10,Frecuente,Medellín,Antioquia,2020-01-25
+1580,Sofía Castro Rojas,F,1980-04-09,Premium,Cartagena,Bolívar,2020-05-03
+1581,Natalia Sánchez Pérez,M,2004-10-28,Premium,Manizales,Caldas,2021-05-19
+1582,Julián Castro Gómez,M,1997-09-26,Corporativo,Cali,Valle del Cauca,2024-01-22
+1583,Juan Martínez Torres,M,1956-12-07,Frecuente,Barranquilla,Atlántico,2019-09-09
+1584,Santiago López Torres,F,1991-12-25,Frecuente,Zipaquirá,Cundinamarca,2020-01-05
+1585,Mariana Rodríguez Cárdenas,M,1973-09-04,Corporativo,Barranquilla,Atlántico,2022-12-23
+1586,Sofía Gómez García,F,1973-01-17,Ocasional,Cali,Valle del Cauca,2024-01-26
+1587,Santiago Rodríguez López,M,1966-10-28,Ocasional,Bogotá,Cundinamarca,2025-01-27
+1588,Ricardo Rojas Rodríguez,F,1964-10-09,Ocasional,Barranquilla,Atlántico,2019-12-31
+1589,Sebastián Ospina Rodríguez,F,1974-02-02,Ocasional,Zipaquirá,Cundinamarca,2021-02-09
+1590,Sofía Jiménez Castro,F,1959-07-18,Ocasional,Bucaramanga,Santander,2024-07-09
+1591,Carlos Torres Restrepo,F,1967-03-12,Frecuente,Medellín,Antioquia,2021-01-28
+1592,Ana Ramírez Martínez,F,1986-05-02,Ocasional,Barranquilla,Atlántico,2023-04-24
+1593,Julián Ramírez Ospina,F,1961-12-11,Ocasional,Medellín,Antioquia,2024-09-08
+1594,Diego Pérez Díaz,M,2000-04-04,Ocasional,Bucaramanga,Santander,2021-10-26
+1595,Carlos Castro Martínez,F,1980-06-17,Ocasional,Zipaquirá,Cundinamarca,2020-05-28
+1596,Tomás Rojas Gómez,M,1965-04-19,Ocasional,Bogotá,Cundinamarca,2023-04-09
+1597,Óscar Pérez Ortiz,F,1964-12-17,Ocasional,Manizales,Caldas,2018-06-22
+1598,Daniela Gómez Jiménez,M,1966-08-16,Corporativo,Medellín,Antioquia,2020-05-28
+1599,Ricardo López García,F,1968-07-20,Ocasional,Pereira,Risaralda,2021-03-01
+1600,Paula Ospina Vargas,M,1993-09-25,Ocasional,Zipaquirá,Cundinamarca,2021-08-23
+1601,Paula López Ospina,M,1995-06-17,Corporativo,Manizales,Caldas,2024-04-04
+1602,Santiago Rodríguez Jiménez,F,1980-09-28,Frecuente,Medellín,Antioquia,2025-04-22
+1603,Tomás Gómez Sánchez,F,1998-08-11,Premium,Bogotá,Cundinamarca,2024-08-05
+1604,Sofía Ramírez Sánchez,M,1969-12-24,Ocasional,Bucaramanga,Santander,2020-02-19
+1605,Mateo Castro Pérez,M,1986-07-12,Frecuente,Cartagena,Bolívar,2023-06-06
+1606,Andrés Ortiz Moreno,M,1989-11-04,Frecuente,Bogotá,Cundinamarca,2020-05-22
+1607,María Moreno Vargas,M,1994-07-05,Frecuente,Barranquilla,Atlántico,2023-02-21
+1608,Juan Restrepo Ortiz,M,1995-08-22,Frecuente,Bucaramanga,Santander,2024-12-19
+1609,Ricardo López García,M,2004-05-24,Corporativo,Bogotá,Cundinamarca,2021-01-18
+1610,Juan Pérez Castro,F,1987-07-08,Ocasional,Bucaramanga,Santander,2018-04-12
+1611,Mateo Martínez Cárdenas,M,2005-01-24,Ocasional,Manizales,Caldas,2025-10-30
+1612,Óscar Ortiz Cárdenas,M,1965-11-07,Corporativo,Zipaquirá,Cundinamarca,2025-10-07
+1613,Sofía Hernández Gómez,M,1973-12-10,Ocasional,Pereira,Risaralda,2019-07-19
+1614,Ricardo Rodríguez Gómez,F,1978-05-04,Ocasional,Bucaramanga,Santander,2025-03-17
+1615,Mariana Castro Sánchez,F,1971-10-12,Frecuente,Pereira,Risaralda,2019-04-15
+1616,Laura Sánchez Rodríguez,M,1956-06-15,Premium,Medellín,Antioquia,2020-06-02
+1617,Ana Díaz Rodríguez,F,1970-04-08,Ocasional,Bucaramanga,Santander,2022-01-13
+1618,Sofía Vargas Cárdenas,F,1958-06-23,Ocasional,Cali,Valle del Cauca,2020-10-15
+1619,Valentina Hernández López,M,1985-06-20,Ocasional,Bogotá,Cundinamarca,2018-06-01
+1620,Mateo Cárdenas Moreno,M,1983-08-18,Ocasional,Barranquilla,Atlántico,2024-06-01
+1621,Paula Castro Martínez,F,1988-03-11,Corporativo,Cartagena,Bolívar,2020-07-22
+1622,María Hernández Torres,M,1989-10-14,Premium,Manizales,Caldas,2023-02-26
+1623,Natalia Ortiz Torres,M,1985-08-21,Ocasional,Villavicencio,Meta,2024-01-18
+1624,Isabella Martínez Sánchez,M,2002-04-12,Frecuente,Pereira,Risaralda,2021-03-04
+1625,Tomás Martínez López,F,1965-02-05,Frecuente,Zipaquirá,Cundinamarca,2022-01-25
+1626,Daniela Moreno Díaz,M,1966-07-26,Frecuente,Bucaramanga,Santander,2022-07-17
+1627,María Cárdenas Hernández,M,1997-10-27,Frecuente,Barranquilla,Atlántico,2019-08-25
+1628,Mateo Díaz Martínez,M,1997-01-08,Frecuente,Bucaramanga,Santander,2023-11-29
+1629,Diego Hernández Rodríguez,M,1965-04-01,Ocasional,Bucaramanga,Santander,2022-08-11
+1630,Andrés Cárdenas Torres,F,1960-06-19,Ocasional,Manizales,Caldas,2018-01-10
+1631,Daniela Ortiz Ramírez,F,1988-01-12,Ocasional,Villavicencio,Meta,2022-05-13
+1632,Carlos Rojas Torres,F,1968-12-03,Ocasional,Zipaquirá,Cundinamarca,2022-12-24
+1633,Valentina Rodríguez Cárdenas,F,1989-11-02,Ocasional,Bogotá,Cundinamarca,2023-11-22
+1634,Sofía Rodríguez Díaz,M,1961-09-15,Frecuente,Barranquilla,Atlántico,2021-10-17
+1635,Ricardo Restrepo Hernández,F,1985-07-17,Ocasional,Medellín,Antioquia,2021-01-29
+1636,Laura Cárdenas Moreno,M,1979-08-11,Ocasional,Manizales,Caldas,2019-05-30
+1637,Santiago Díaz García,M,1998-06-19,Corporativo,Bucaramanga,Santander,2021-03-07
+1638,Natalia Torres Sánchez,F,1995-01-24,Premium,Medellín,Antioquia,2020-02-04
+1639,Luisa Ospina López,F,1976-11-02,Ocasional,Barranquilla,Atlántico,2020-05-13
+1640,Andrés Torres Restrepo,M,1990-12-06,Premium,Zipaquirá,Cundinamarca,2023-07-07
+1641,Camila Vargas Torres,F,1980-12-03,Premium,Medellín,Antioquia,2021-03-29
+1642,Sebastián Gómez Cárdenas,F,2002-04-26,Frecuente,Medellín,Antioquia,2018-10-20
+1643,Daniela Restrepo Ospina,M,1997-07-28,Premium,Villavicencio,Meta,2018-05-31
+1644,Mateo Hernández Torres,M,1989-01-09,Corporativo,Medellín,Antioquia,2019-11-18
+1645,Ricardo Díaz Ortiz,F,1955-07-22,Ocasional,Barranquilla,Atlántico,2019-11-05
+1646,Diego Vargas Ramírez,F,1961-12-23,Corporativo,Bucaramanga,Santander,2025-04-08
+1647,Juan Ospina Ortiz,M,1960-09-16,Frecuente,Bogotá,Cundinamarca,2021-03-25
+1648,Ana García Ortiz,F,1966-01-05,Ocasional,Zipaquirá,Cundinamarca,2025-09-11
+1649,Diego Gómez Moreno,F,1990-02-24,Frecuente,Bogotá,Cundinamarca,2018-08-24
+1650,María Ramírez Jiménez,M,2004-12-18,Ocasional,Medellín,Antioquia,2023-10-04
+1651,Ana García Moreno,M,1985-07-11,Frecuente,Cali,Valle del Cauca,2022-09-10
+1652,Paula Cárdenas García,M,1998-02-25,Ocasional,Cartagena,Bolívar,2022-01-19
+1653,Mariana Moreno Díaz,F,1964-11-20,Frecuente,Zipaquirá,Cundinamarca,2022-06-19
+1654,Mateo Ramírez Restrepo,F,1976-06-09,Frecuente,Bogotá,Cundinamarca,2024-10-31
+1655,María García Pérez,M,1980-03-04,Frecuente,Medellín,Antioquia,2019-08-20
+1656,Mateo Ramírez Moreno,M,1997-06-09,Frecuente,Pereira,Risaralda,2024-05-16
+1657,Laura Torres Ospina,F,1997-06-21,Frecuente,Medellín,Antioquia,2024-10-02
+1658,Paula Hernández Sánchez,F,1995-01-22,Ocasional,Cartagena,Bolívar,2024-07-15
+1659,Santiago Rojas Vargas,M,1982-05-20,Ocasional,Pereira,Risaralda,2019-10-28
+1660,Sebastián Rodríguez Gómez,F,1955-12-03,Premium,Bucaramanga,Santander,2024-06-26
+1661,Paula Gómez García,F,1987-04-03,Frecuente,Barranquilla,Atlántico,2020-04-15
+1662,Ana Ospina Jiménez,F,1974-03-17,Frecuente,Villavicencio,Meta,2018-11-23
+1663,Andrés Rodríguez Moreno,F,1982-04-11,Corporativo,Cali,Valle del Cauca,2020-07-25
+1664,Sofía Hernández Ospina,F,1969-08-16,Corporativo,Cali,Valle del Cauca,2020-05-16
+1665,María Ortiz López,M,1958-11-27,Premium,Medellín,Antioquia,2020-02-25
+1666,Ricardo Torres Hernández,F,1978-02-13,Premium,Cali,Valle del Cauca,2019-05-03
+1667,Valentina Ortiz Restrepo,F,1974-05-09,Ocasional,Medellín,Antioquia,2021-12-14
+1668,María Sánchez Torres,M,1955-07-11,Ocasional,Zipaquirá,Cundinamarca,2024-07-02
+1669,Ana Ortiz Díaz,M,1969-12-25,Ocasional,Cartagena,Bolívar,2023-12-20
+1670,Felipe Hernández Martínez,M,1989-03-05,Frecuente,Cali,Valle del Cauca,2018-03-31
+1671,Óscar Castro Ramírez,F,1981-10-12,Frecuente,Bucaramanga,Santander,2021-03-28
+1672,Sofía Rodríguez Restrepo,M,1995-12-09,Ocasional,Villavicencio,Meta,2024-05-15
+1673,Óscar Hernández Restrepo,F,1958-12-10,Premium,Pereira,Risaralda,2024-11-03
+1674,Ana Ramírez Ospina,F,1991-02-01,Ocasional,Manizales,Caldas,2019-03-22
+1675,Mariana Martínez Sánchez,F,1986-11-10,Ocasional,Medellín,Antioquia,2024-04-22
+1676,Felipe Ortiz Moreno,M,1971-02-15,Frecuente,Cali,Valle del Cauca,2018-08-19
+1677,Tomás García Jiménez,F,1960-08-17,Ocasional,Bucaramanga,Santander,2019-02-20
+1678,Camila Ospina Moreno,M,1975-07-18,Ocasional,Manizales,Caldas,2024-11-15
+1679,Isabella Sánchez Torres,M,1955-01-13,Ocasional,Cartagena,Bolívar,2018-09-13
+1680,Camila Ortiz Rodríguez,M,1984-10-28,Ocasional,Pereira,Risaralda,2021-12-18
+1681,Daniela Sánchez Moreno,F,1958-09-20,Ocasional,Cali,Valle del Cauca,2018-08-29
+1682,Sebastián Rojas Jiménez,F,1996-07-05,Premium,Manizales,Caldas,2022-12-25
+1683,Natalia Rodríguez Rodríguez,F,1998-07-04,Frecuente,Cali,Valle del Cauca,2020-04-13
+1684,Ricardo Castro Díaz,F,1976-01-02,Ocasional,Barranquilla,Atlántico,2018-08-26
+1685,Santiago Restrepo Castro,M,1993-09-03,Premium,Cartagena,Bolívar,2020-03-24
+1686,Sebastián Ortiz Ramírez,M,1982-04-06,Ocasional,Bogotá,Cundinamarca,2022-10-17
+1687,Santiago Rodríguez Hernández,F,1960-05-18,Ocasional,Villavicencio,Meta,2019-10-05
+1688,Sebastián Jiménez López,M,1977-07-05,Ocasional,Zipaquirá,Cundinamarca,2023-07-18
+1689,Valentina Díaz Jiménez,M,2002-03-14,Frecuente,Manizales,Caldas,2021-10-22
+1690,Laura Rodríguez Castro,M,1959-12-21,Frecuente,Cali,Valle del Cauca,2024-12-08
+1691,María Moreno López,F,2005-06-05,Frecuente,Pereira,Risaralda,2025-10-19
+1692,Sofía Castro Pérez,M,1997-11-24,Ocasional,Pereira,Risaralda,2025-07-13
+1693,Ricardo Cárdenas Ospina,F,1957-11-23,Premium,Bucaramanga,Santander,2024-04-17
+1694,Ana Restrepo Moreno,F,1977-03-16,Frecuente,Bogotá,Cundinamarca,2020-12-23
+1695,Ana Sánchez Sánchez,M,1975-09-13,Premium,Manizales,Caldas,2021-02-22
+1696,Diego Moreno Rodríguez,M,1983-02-25,Frecuente,Cartagena,Bolívar,2025-05-29
+1697,Valentina Jiménez Hernández,F,1994-11-25,Ocasional,Bogotá,Cundinamarca,2021-06-01
+1698,Natalia Castro Jiménez,F,1970-05-01,Corporativo,Bogotá,Cundinamarca,2022-02-04
+1699,Óscar Cárdenas Torres,F,1995-05-09,Frecuente,Bogotá,Cundinamarca,2020-01-07
+1700,Sofía García Rodríguez,F,1981-08-14,Ocasional,Cali,Valle del Cauca,2023-05-29
+1701,María Rojas Rodríguez,F,1962-08-17,Premium,Villavicencio,Meta,2020-11-04
+1702,Luisa Hernández García,M,2004-05-25,Frecuente,Bogotá,Cundinamarca,2022-08-27
+1703,Juan Castro Restrepo,F,1993-02-24,Frecuente,Cali,Valle del Cauca,2022-07-12
+1704,Luisa Ortiz Pérez,F,1964-02-20,Premium,Medellín,Antioquia,2021-05-28
+1705,María Castro Rodríguez,M,1960-06-11,Premium,Cartagena,Bolívar,2020-05-16
+1706,Carlos López Pérez,M,1986-07-20,Ocasional,Pereira,Risaralda,2025-07-09
+1707,Felipe Ortiz Pérez,M,1993-04-15,Frecuente,Barranquilla,Atlántico,2020-02-15
+1708,Mateo Díaz Ortiz,F,1961-09-04,Frecuente,Zipaquirá,Cundinamarca,2019-02-02
+1709,Julián Ramírez Gómez,M,1985-02-27,Corporativo,Zipaquirá,Cundinamarca,2020-07-26
+1710,Santiago Martínez García,F,1997-11-06,Premium,Bogotá,Cundinamarca,2024-01-22
+1711,Paula Cárdenas Ramírez,F,1993-01-16,Premium,Manizales,Caldas,2025-11-08
+1712,Carlos Rojas Ortiz,M,1994-08-05,Frecuente,Pereira,Risaralda,2025-05-22
+1713,Sebastián Martínez Torres,M,1976-02-16,Premium,Cali,Valle del Cauca,2024-07-15
+1714,María Hernández Pérez,M,1979-11-18,Frecuente,Medellín,Antioquia,2020-10-14
+1715,Ricardo Díaz Pérez,M,1997-10-12,Corporativo,Zipaquirá,Cundinamarca,2025-10-09
+1716,Juan Ramírez Díaz,F,1958-01-23,Frecuente,Zipaquirá,Cundinamarca,2022-02-04
+1717,Óscar Vargas Ortiz,F,2001-10-04,Ocasional,Bucaramanga,Santander,2023-01-02
+1718,Ana García Ramírez,M,1997-06-12,Corporativo,Barranquilla,Atlántico,2020-12-15
+1719,Paula Castro López,M,1993-08-12,Corporativo,Cali,Valle del Cauca,2018-04-02
+1720,Julián Ospina García,F,1968-09-25,Frecuente,Bogotá,Cundinamarca,2020-02-09
+1721,Andrés Pérez Jiménez,F,1975-07-28,Frecuente,Zipaquirá,Cundinamarca,2022-12-14
+1722,Andrés Martínez Vargas,F,1969-09-22,Corporativo,Zipaquirá,Cundinamarca,2025-02-09
+1723,Daniela Pérez Castro,M,1996-12-25,Frecuente,Bogotá,Cundinamarca,2018-06-27
+1724,Carlos Rojas Gómez,M,1972-08-09,Premium,Barranquilla,Atlántico,2023-06-25
+1725,Santiago Castro Castro,M,1972-03-22,Frecuente,Medellín,Antioquia,2024-12-11
+1726,María Castro Gómez,F,1998-12-18,Ocasional,Bucaramanga,Santander,2019-11-29
+1727,Sebastián García Torres,F,1988-08-13,Corporativo,Bogotá,Cundinamarca,2024-03-14
+1728,Paula Castro Jiménez,F,2004-06-27,Premium,Bucaramanga,Santander,2018-05-24
+1729,Isabella Martínez López,M,1978-08-22,Frecuente,Pereira,Risaralda,2018-01-10
+1730,Julián Pérez Martínez,M,1978-10-20,Frecuente,Cali,Valle del Cauca,2019-08-24
+1731,Natalia Rojas Martínez,F,1966-08-07,Ocasional,Zipaquirá,Cundinamarca,2020-03-08
+1732,Santiago Martínez Rodríguez,F,1964-04-06,Ocasional,Zipaquirá,Cundinamarca,2024-02-25
+1733,Natalia Ospina Jiménez,F,1991-04-09,Corporativo,Cali,Valle del Cauca,2024-03-27
+1734,Diego Castro García,F,1992-04-13,Ocasional,Cali,Valle del Cauca,2023-04-30
+1735,Sebastián Gómez Cárdenas,M,1992-08-20,Ocasional,Cartagena,Bolívar,2024-10-25
+1736,Valentina Rojas Rojas,M,1981-01-19,Corporativo,Villavicencio,Meta,2025-03-18
+1737,Andrés Rodríguez Sánchez,F,1966-09-20,Ocasional,Cartagena,Bolívar,2025-03-05
+1738,Ana Vargas Moreno,M,1990-03-13,Ocasional,Cali,Valle del Cauca,2022-01-02
+1739,Mateo Rojas Rojas,F,1997-01-13,Frecuente,Cartagena,Bolívar,2019-11-20
+1740,Laura Ortiz Sánchez,F,1994-05-02,Frecuente,Pereira,Risaralda,2020-05-20
+1741,Laura Restrepo Díaz,F,1999-07-24,Corporativo,Barranquilla,Atlántico,2023-06-15
+1742,Sofía Rodríguez López,F,1972-06-16,Premium,Pereira,Risaralda,2024-12-08
+1743,María Gómez Gómez,M,1995-05-23,Ocasional,Zipaquirá,Cundinamarca,2019-07-30
+1744,Andrés Martínez Díaz,F,1968-08-28,Ocasional,Bogotá,Cundinamarca,2022-03-31
+1745,Ana Torres Martínez,F,1988-05-23,Frecuente,Medellín,Antioquia,2019-08-31
+1746,Daniela Díaz Castro,F,1966-10-25,Ocasional,Manizales,Caldas,2019-02-06
+1747,Santiago Rodríguez Ortiz,F,1960-05-16,Ocasional,Pereira,Risaralda,2018-01-28
+1748,Diego Ramírez Rojas,M,1957-02-25,Ocasional,Barranquilla,Atlántico,2022-07-30
+1749,Isabella Rojas García,F,2005-10-03,Frecuente,Zipaquirá,Cundinamarca,2021-01-15
+1750,Camila Vargas Rojas,F,1985-11-13,Ocasional,Barranquilla,Atlántico,2020-08-03
+1751,Paula Vargas Castro,M,1997-08-24,Premium,Bogotá,Cundinamarca,2020-01-08
+1752,Juan Ramírez Ospina,M,1989-05-07,Ocasional,Cartagena,Bolívar,2021-07-16
+1753,Andrés Restrepo Torres,F,1980-04-01,Ocasional,Bucaramanga,Santander,2019-11-16
+1754,Ricardo Ospina Díaz,M,1976-03-16,Ocasional,Villavicencio,Meta,2019-09-24
+1755,Luisa Pérez Moreno,F,2000-12-10,Ocasional,Cartagena,Bolívar,2021-11-26
+1756,Carlos Jiménez Hernández,M,1987-05-21,Ocasional,Zipaquirá,Cundinamarca,2023-06-28
+1757,Mariana Sánchez Rojas,F,1967-12-16,Corporativo,Pereira,Risaralda,2025-10-27
+1758,Camila Jiménez Torres,F,1987-07-20,Ocasional,Bucaramanga,Santander,2020-03-21
+1759,Valentina Hernández Hernández,F,1990-05-23,Ocasional,Cali,Valle del Cauca,2020-06-03
+1760,María Ramírez Díaz,F,1958-02-06,Premium,Bogotá,Cundinamarca,2025-11-07
+1761,Diego Hernández Ospina,F,1992-08-22,Frecuente,Manizales,Caldas,2025-08-17
+1762,Julián Torres García,F,2001-03-13,Corporativo,Pereira,Risaralda,2018-02-20
+1763,Ricardo Gómez Hernández,M,1977-10-27,Ocasional,Medellín,Antioquia,2021-08-14
+1764,Natalia López Díaz,M,1985-10-15,Frecuente,Manizales,Caldas,2019-08-13
+1765,Laura Rojas Jiménez,F,2001-05-11,Corporativo,Pereira,Risaralda,2021-09-01
+1766,Carlos García Rodríguez,M,1974-06-16,Ocasional,Villavicencio,Meta,2022-06-25
+1767,Carlos Cárdenas Rodríguez,F,2002-04-20,Corporativo,Bucaramanga,Santander,2019-05-26
+1768,Santiago Pérez Restrepo,F,1978-09-20,Ocasional,Manizales,Caldas,2021-05-08
+1769,Sofía Sánchez Gómez,M,1969-08-16,Ocasional,Medellín,Antioquia,2025-08-22
+1770,Sebastián Vargas Castro,M,1960-03-24,Ocasional,Cali,Valle del Cauca,2019-04-09
+1771,Diego Torres Gómez,F,1986-11-15,Frecuente,Cartagena,Bolívar,2019-01-10
+1772,Mariana Ramírez Vargas,M,1992-11-08,Frecuente,Manizales,Caldas,2019-09-29
+1773,Paula Restrepo Ospina,F,1985-12-28,Corporativo,Zipaquirá,Cundinamarca,2022-03-27
+1774,Juan Gómez Sánchez,M,1982-04-20,Frecuente,Barranquilla,Atlántico,2018-06-26
+1775,Sebastián Rodríguez Rojas,M,1973-02-15,Frecuente,Cali,Valle del Cauca,2024-03-26
+1776,Ricardo Ortiz Rodríguez,M,1988-09-05,Frecuente,Medellín,Antioquia,2018-03-30
+1777,Andrés Jiménez Rodríguez,M,1967-11-06,Frecuente,Medellín,Antioquia,2018-10-07
+1778,Luisa Ortiz Ramírez,M,2000-10-15,Ocasional,Zipaquirá,Cundinamarca,2019-04-06
+1779,Daniela Castro Rojas,F,1992-09-28,Frecuente,Zipaquirá,Cundinamarca,2019-10-25
+1780,Ana Moreno Restrepo,F,1965-10-13,Ocasional,Bucaramanga,Santander,2024-05-09
+1781,Daniela Ortiz Castro,F,1997-04-19,Frecuente,Cali,Valle del Cauca,2025-05-10
+1782,Valentina López Pérez,M,1960-05-03,Ocasional,Bucaramanga,Santander,2020-01-02
+1783,Laura Gómez Vargas,M,1957-03-02,Frecuente,Bucaramanga,Santander,2024-06-20
+1784,Andrés Vargas Pérez,F,2004-07-18,Frecuente,Manizales,Caldas,2024-02-04
+1785,Daniela Martínez Díaz,F,1969-01-18,Frecuente,Bucaramanga,Santander,2024-07-03
+1786,Daniela López Rojas,F,1967-03-19,Frecuente,Barranquilla,Atlántico,2019-10-09
+1787,Valentina Cárdenas Castro,F,1955-07-28,Ocasional,Manizales,Caldas,2022-05-10
+1788,Carlos García Castro,F,1999-09-28,Ocasional,Bogotá,Cundinamarca,2019-12-29
+1789,Natalia Cárdenas Castro,M,1970-04-13,Frecuente,Cali,Valle del Cauca,2023-06-13
+1790,Óscar Díaz Rojas,F,1982-12-14,Frecuente,Cartagena,Bolívar,2023-07-17
+1791,Daniela Martínez López,F,1973-01-13,Frecuente,Cartagena,Bolívar,2018-04-02
+1792,Ana Martínez Martínez,M,1987-12-05,Ocasional,Pereira,Risaralda,2018-12-18
+1793,Luisa Vargas Restrepo,M,1986-07-22,Ocasional,Bogotá,Cundinamarca,2018-07-16
+1794,Sofía Cárdenas Ortiz,F,1990-11-05,Ocasional,Cartagena,Bolívar,2024-02-01
+1795,Mateo Ortiz Ortiz,M,1989-02-14,Frecuente,Bucaramanga,Santander,2018-09-24
+1796,Mariana Hernández López,M,2003-05-15,Ocasional,Pereira,Risaralda,2018-01-10
+1797,Natalia Cárdenas Vargas,M,1965-05-22,Ocasional,Cali,Valle del Cauca,2021-04-11
+1798,Luisa Torres Vargas,F,1965-06-05,Ocasional,Zipaquirá,Cundinamarca,2024-12-06
+1799,Natalia Martínez Ramírez,F,1959-03-22,Premium,Pereira,Risaralda,2020-12-02
+1800,Andrés García Castro,F,2000-02-02,Corporativo,Manizales,Caldas,2023-12-19
+1801,Sebastián Cárdenas Martínez,F,2005-09-17,Ocasional,Manizales,Caldas,2020-05-16
+1802,Ana Martínez López,F,2001-03-10,Corporativo,Cali,Valle del Cauca,2023-12-17
+1803,Santiago Restrepo Ramírez,F,1962-08-01,Frecuente,Bucaramanga,Santander,2019-06-11
+1804,Tomás Hernández Restrepo,F,1964-06-16,Ocasional,Zipaquirá,Cundinamarca,2025-10-05
+1805,Natalia Sánchez Martínez,F,1957-09-12,Ocasional,Cali,Valle del Cauca,2022-09-23
+1806,Natalia Vargas Torres,F,1986-06-07,Ocasional,Pereira,Risaralda,2021-08-26
+1807,Diego Torres García,F,1969-06-16,Ocasional,Barranquilla,Atlántico,2020-04-27
+1808,Felipe Ospina López,M,1984-03-01,Frecuente,Pereira,Risaralda,2022-12-14
+1809,Laura Restrepo Vargas,M,1975-02-09,Premium,Bucaramanga,Santander,2023-08-30
+1810,Daniela Díaz Martínez,F,1977-09-26,Ocasional,Villavicencio,Meta,2021-11-14
+1811,Laura Restrepo Martínez,M,1985-03-24,Ocasional,Manizales,Caldas,2024-08-04
+1812,Carlos Hernández Ortiz,M,1963-03-18,Ocasional,Barranquilla,Atlántico,2020-06-01
+1813,Camila Rojas García,M,1992-05-21,Frecuente,Barranquilla,Atlántico,2020-06-14
+1814,María Hernández Díaz,F,1975-06-25,Ocasional,Medellín,Antioquia,2022-10-04
+1815,Natalia Ospina Castro,F,1984-04-18,Ocasional,Medellín,Antioquia,2019-01-27
+1816,Óscar Rodríguez García,M,1997-04-01,Ocasional,Bucaramanga,Santander,2021-10-22
+1817,Santiago López Moreno,F,1963-12-07,Corporativo,Pereira,Risaralda,2025-08-02
+1818,Juan Ramírez Vargas,M,1980-05-10,Frecuente,Villavicencio,Meta,2025-06-04
+1819,Sebastián Pérez Torres,M,1963-01-28,Frecuente,Pereira,Risaralda,2021-10-20
+1820,Valentina Hernández Sánchez,F,1996-07-05,Frecuente,Pereira,Risaralda,2023-02-01
+1821,Valentina García Ortiz,F,1979-02-27,Ocasional,Villavicencio,Meta,2025-07-09
+1822,Juan García Ortiz,M,1980-03-25,Ocasional,Cali,Valle del Cauca,2021-08-24
+1823,Daniela García Gómez,F,1984-04-06,Ocasional,Medellín,Antioquia,2019-01-28
+1824,Ana Restrepo Ortiz,M,1971-04-18,Frecuente,Bucaramanga,Santander,2024-07-16
+1825,María Ramírez Restrepo,F,1985-02-16,Frecuente,Barranquilla,Atlántico,2019-09-01
+1826,Isabella Díaz Hernández,F,1957-08-27,Frecuente,Pereira,Risaralda,2018-04-16
+1827,Julián Díaz Torres,F,1976-08-23,Ocasional,Cartagena,Bolívar,2019-01-13
+1828,Carlos Moreno Rodríguez,F,1983-07-10,Ocasional,Manizales,Caldas,2025-11-23
+1829,Sebastián Moreno Martínez,F,1986-03-06,Frecuente,Barranquilla,Atlántico,2022-10-12
+1830,Carlos Díaz Sánchez,F,1973-04-03,Corporativo,Barranquilla,Atlántico,2024-09-29
+1831,Sebastián Sánchez Jiménez,F,2004-10-14,Ocasional,Bucaramanga,Santander,2020-08-25
+1832,Sofía Hernández Moreno,M,1956-12-25,Frecuente,Barranquilla,Atlántico,2020-10-06
+1833,Ana Moreno Hernández,F,2003-08-02,Ocasional,Zipaquirá,Cundinamarca,2023-05-21
+1834,Óscar Ramírez Ospina,F,1987-06-12,Ocasional,Cali,Valle del Cauca,2020-11-08
+1835,Camila Gómez Ramírez,M,1996-07-27,Frecuente,Medellín,Antioquia,2019-06-26
+1836,Ricardo López Castro,F,1981-07-26,Ocasional,Bucaramanga,Santander,2023-09-23
+1837,Camila Rodríguez Rodríguez,M,1967-10-19,Corporativo,Cartagena,Bolívar,2023-10-01
+1838,Ana Ramírez Sánchez,M,1997-08-02,Premium,Pereira,Risaralda,2025-08-24
+1839,Luisa Rodríguez Torres,M,1967-02-16,Ocasional,Medellín,Antioquia,2024-03-08
+1840,Carlos Ortiz Cárdenas,M,1989-12-12,Ocasional,Zipaquirá,Cundinamarca,2021-05-04
+1841,Carlos Restrepo Torres,F,1994-11-07,Ocasional,Pereira,Risaralda,2019-09-09
+1842,Mateo Pérez Cárdenas,M,1993-06-28,Frecuente,Bogotá,Cundinamarca,2021-01-08
+1843,Diego Gómez Restrepo,M,1969-12-05,Ocasional,Villavicencio,Meta,2024-12-19
+1844,Sebastián Castro Castro,M,2003-01-21,Ocasional,Pereira,Risaralda,2022-10-11
+1845,Tomás Martínez Sánchez,M,1988-12-28,Ocasional,Manizales,Caldas,2024-01-18
+1846,Santiago Díaz Gómez,M,1995-12-25,Frecuente,Manizales,Caldas,2024-08-11
+1847,Santiago Restrepo García,F,1990-11-27,Frecuente,Zipaquirá,Cundinamarca,2025-08-26
+1848,Laura Vargas Jiménez,M,2002-11-01,Ocasional,Manizales,Caldas,2022-09-28
+1849,Isabella Rojas Díaz,F,1959-01-21,Premium,Cartagena,Bolívar,2019-05-26
+1850,Paula Ramírez García,M,1956-03-11,Ocasional,Bogotá,Cundinamarca,2021-08-13
+1851,Luisa Vargas Castro,M,2000-05-25,Premium,Bogotá,Cundinamarca,2020-09-08
+1852,Julián Ramírez Jiménez,F,1971-09-13,Corporativo,Medellín,Antioquia,2019-03-09
+1853,Paula Ortiz Sánchez,M,1969-12-21,Ocasional,Villavicencio,Meta,2021-03-19
+1854,María Moreno Rodríguez,M,1973-09-12,Frecuente,Zipaquirá,Cundinamarca,2021-03-02
+1855,Daniela Castro Hernández,F,1966-08-19,Frecuente,Barranquilla,Atlántico,2025-05-08
+1856,Santiago Restrepo Jiménez,M,1982-09-09,Premium,Pereira,Risaralda,2024-01-07
+1857,Santiago Moreno Moreno,F,2005-08-18,Premium,Barranquilla,Atlántico,2019-10-04
+1858,Óscar Sánchez Vargas,M,1991-10-17,Ocasional,Manizales,Caldas,2025-11-09
+1859,Natalia Castro Rodríguez,M,1994-12-06,Ocasional,Villavicencio,Meta,2021-04-22
+1860,Valentina Torres Castro,M,1983-07-03,Frecuente,Medellín,Antioquia,2021-04-16
+1861,Julián Jiménez Moreno,M,1991-06-21,Premium,Cartagena,Bolívar,2023-09-25
+1862,Mateo Moreno Gómez,M,1980-01-22,Ocasional,Barranquilla,Atlántico,2022-07-07
+1863,Daniela Ortiz Rodríguez,F,1999-10-23,Ocasional,Bucaramanga,Santander,2022-08-06
+1864,Mateo García Castro,F,1977-05-16,Ocasional,Zipaquirá,Cundinamarca,2019-05-18
+1865,María Díaz Martínez,F,1995-01-03,Ocasional,Cartagena,Bolívar,2023-02-08
+1866,Carlos Gómez Jiménez,M,1962-02-08,Ocasional,Barranquilla,Atlántico,2024-10-28
+1867,Laura Torres Díaz,M,1981-02-11,Ocasional,Cali,Valle del Cauca,2018-09-08
+1868,Sebastián Restrepo López,F,1959-01-02,Ocasional,Medellín,Antioquia,2021-05-03
+1869,Carlos Ospina Gómez,M,2005-02-07,Ocasional,Medellín,Antioquia,2019-12-08
+1870,Sebastián Pérez López,M,1996-05-23,Frecuente,Medellín,Antioquia,2025-10-07
+1871,Luisa Ospina Jiménez,F,1998-06-27,Ocasional,Manizales,Caldas,2019-12-05
+1872,Luisa Díaz Ospina,M,2004-02-25,Ocasional,Pereira,Risaralda,2025-06-25
+1873,Natalia Vargas Díaz,M,1998-03-05,Ocasional,Bucaramanga,Santander,2019-11-19
+1874,Laura Hernández Sánchez,M,1965-04-08,Frecuente,Cartagena,Bolívar,2019-09-26
+1875,Tomás López López,F,1965-12-03,Corporativo,Bogotá,Cundinamarca,2019-02-04
+1876,Natalia Ramírez Sánchez,M,1993-06-27,Ocasional,Bucaramanga,Santander,2024-01-21
+1877,Daniela Ramírez Ortiz,F,2004-05-06,Premium,Cali,Valle del Cauca,2023-03-08
+1878,Santiago Rojas Gómez,F,1966-05-21,Frecuente,Bucaramanga,Santander,2024-08-15
+1879,Óscar Pérez Pérez,M,1981-06-13,Premium,Bucaramanga,Santander,2019-12-26
+1880,Paula Sánchez Gómez,M,1983-07-01,Ocasional,Barranquilla,Atlántico,2021-11-24
+1881,Andrés Rodríguez Vargas,F,1976-12-24,Frecuente,Zipaquirá,Cundinamarca,2020-09-16
+1882,María Restrepo Rojas,M,1966-06-22,Ocasional,Medellín,Antioquia,2021-05-01
+1883,María Gómez Pérez,M,1988-11-26,Frecuente,Pereira,Risaralda,2023-03-24
+1884,Óscar Moreno Pérez,M,1964-07-24,Ocasional,Cartagena,Bolívar,2020-06-25
+1885,Isabella Díaz Gómez,F,1999-01-21,Ocasional,Barranquilla,Atlántico,2018-09-28
+1886,Valentina Torres Castro,F,1966-10-15,Ocasional,Zipaquirá,Cundinamarca,2024-01-23
+1887,María García Gómez,M,1983-04-11,Ocasional,Villavicencio,Meta,2018-10-07
+1888,Isabella Ospina Vargas,M,1997-10-13,Premium,Bogotá,Cundinamarca,2023-02-04
+1889,María Vargas Restrepo,F,1963-10-03,Frecuente,Cartagena,Bolívar,2024-10-16
+1890,Sebastián Pérez Rodríguez,M,1984-09-15,Ocasional,Zipaquirá,Cundinamarca,2018-05-09
+1891,Sebastián Martínez Jiménez,M,1996-06-23,Ocasional,Villavicencio,Meta,2021-07-12
+1892,Ricardo Vargas Díaz,F,1975-10-08,Ocasional,Villavicencio,Meta,2024-04-26
+1893,Sebastián Martínez Vargas,M,1956-01-19,Frecuente,Villavicencio,Meta,2022-12-19
+1894,Felipe Ramírez Rodríguez,M,1980-05-19,Ocasional,Zipaquirá,Cundinamarca,2022-10-29
+1895,Mateo Vargas Vargas,M,1968-11-05,Frecuente,Villavicencio,Meta,2025-12-09
+1896,Ana Vargas Ramírez,M,1995-07-04,Ocasional,Cartagena,Bolívar,2022-08-12
+1897,Santiago Ortiz Rojas,M,1994-03-04,Corporativo,Cartagena,Bolívar,2020-10-08
+1898,Tomás López Castro,F,2001-01-16,Ocasional,Bogotá,Cundinamarca,2024-05-12
+1899,Luisa Hernández Ortiz,F,1961-06-15,Ocasional,Villavicencio,Meta,2022-07-22
+1900,Juan Pérez Vargas,F,1993-02-19,Ocasional,Barranquilla,Atlántico,2022-12-20
+1901,Luisa Restrepo Vargas,M,1961-11-02,Frecuente,Villavicencio,Meta,2024-08-14
+1902,Juan Cárdenas Pérez,M,1984-07-22,Frecuente,Cartagena,Bolívar,2020-02-16
+1903,Tomás Ramírez Rodríguez,M,1956-10-07,Corporativo,Bucaramanga,Santander,2025-10-28
+1904,Andrés Rodríguez Díaz,M,1966-11-23,Ocasional,Pereira,Risaralda,2019-01-31
+1905,Julián Gómez Rojas,F,2000-11-28,Frecuente,Pereira,Risaralda,2021-04-30
+1906,Tomás Martínez Gómez,F,1964-03-11,Frecuente,Zipaquirá,Cundinamarca,2023-03-15
+1907,Laura Vargas Sánchez,F,1955-04-25,Ocasional,Cartagena,Bolívar,2018-11-14
+1908,Isabella Ospina Gómez,M,1966-12-11,Ocasional,Bucaramanga,Santander,2020-12-06
+1909,Óscar López Hernández,F,1981-07-20,Frecuente,Bucaramanga,Santander,2022-03-22
+1910,Camila Moreno Gómez,F,1977-09-27,Premium,Cartagena,Bolívar,2024-10-16
+1911,Sofía Gómez Pérez,M,1991-03-12,Premium,Zipaquirá,Cundinamarca,2022-01-06
+1912,Felipe Torres Torres,M,1993-02-22,Ocasional,Cali,Valle del Cauca,2022-06-21
+1913,María Torres Moreno,M,1957-11-14,Frecuente,Barranquilla,Atlántico,2018-09-25
+1914,Laura Ospina Martínez,F,1966-10-27,Premium,Cali,Valle del Cauca,2018-03-21
+1915,Julián Castro Cárdenas,F,1998-01-12,Ocasional,Bogotá,Cundinamarca,2022-10-18
+1916,Valentina Cárdenas Hernández,M,1960-10-05,Ocasional,Cartagena,Bolívar,2023-08-27
+1917,Juan Hernández Sánchez,F,1971-12-09,Frecuente,Medellín,Antioquia,2018-02-02
+1918,Julián Rodríguez Díaz,F,1971-09-08,Frecuente,Bucaramanga,Santander,2018-05-27
+1919,Santiago Rojas García,M,1989-06-10,Premium,Cali,Valle del Cauca,2025-10-14
+1920,Luisa Ospina Rojas,F,1971-07-22,Frecuente,Cartagena,Bolívar,2019-05-21
+1921,Óscar Moreno Hernández,M,1958-09-01,Frecuente,Pereira,Risaralda,2018-03-24
+1922,Isabella Restrepo Pérez,M,1957-07-25,Frecuente,Barranquilla,Atlántico,2025-01-19
+1923,Juan Restrepo Cárdenas,F,1997-02-18,Frecuente,Cali,Valle del Cauca,2021-12-11
+1924,Sofía Gómez Rodríguez,F,1981-11-25,Frecuente,Villavicencio,Meta,2020-06-22
+1925,Sebastián Vargas López,F,1980-01-24,Frecuente,Cali,Valle del Cauca,2024-03-04
+1926,Ricardo Torres Castro,M,1988-04-08,Ocasional,Barranquilla,Atlántico,2021-07-10
+1927,Ana López Rodríguez,M,1967-01-06,Premium,Bogotá,Cundinamarca,2024-03-06
+1928,Sofía Ospina Jiménez,F,1963-10-11,Ocasional,Villavicencio,Meta,2021-02-08
+1929,Valentina Martínez Pérez,F,1991-06-24,Ocasional,Bogotá,Cundinamarca,2024-09-18
+1930,Carlos Pérez Vargas,M,1984-08-10,Ocasional,Villavicencio,Meta,2021-12-24
+1931,Daniela Sánchez Vargas,M,1975-01-18,Ocasional,Cartagena,Bolívar,2022-12-28
+1932,Daniela Cárdenas Ramírez,M,1961-11-22,Frecuente,Zipaquirá,Cundinamarca,2020-08-01
+1933,Santiago López Jiménez,M,1983-06-07,Ocasional,Cali,Valle del Cauca,2019-12-28
+1934,Natalia Sánchez Castro,F,1970-07-04,Ocasional,Pereira,Risaralda,2020-09-17
+1935,Isabella Sánchez Díaz,F,1956-12-09,Ocasional,Pereira,Risaralda,2020-05-31
+1936,Ricardo Ortiz López,F,1984-12-02,Ocasional,Barranquilla,Atlántico,2019-06-05
+1937,Luisa Díaz Pérez,M,1969-06-15,Ocasional,Bucaramanga,Santander,2025-04-13
+1938,Valentina Ramírez Rodríguez,F,1958-09-10,Ocasional,Villavicencio,Meta,2019-05-26
+1939,Tomás Díaz Jiménez,M,1984-10-03,Premium,Bucaramanga,Santander,2023-09-21
+1940,María García Rodríguez,M,1990-02-25,Frecuente,Manizales,Caldas,2019-01-10
+1941,Tomás López Cárdenas,M,1963-11-27,Frecuente,Manizales,Caldas,2023-02-04
+1942,Andrés Ospina Sánchez,F,2003-09-28,Frecuente,Zipaquirá,Cundinamarca,2022-04-22
+1943,Sebastián Moreno Ortiz,F,2003-03-02,Frecuente,Manizales,Caldas,2025-03-02
+1944,Sofía Gómez Pérez,M,1998-12-06,Frecuente,Bogotá,Cundinamarca,2021-09-08
+1945,Sofía Sánchez Cárdenas,M,1977-10-15,Frecuente,Bogotá,Cundinamarca,2022-09-16
+1946,Paula Díaz García,F,1992-01-05,Ocasional,Manizales,Caldas,2023-07-21
+1947,Sofía Gómez Rojas,F,1994-09-15,Frecuente,Villavicencio,Meta,2023-11-14
+1948,Juan Rodríguez Sánchez,M,1977-11-13,Ocasional,Medellín,Antioquia,2020-07-07
+1949,Julián Hernández López,F,1989-11-10,Premium,Zipaquirá,Cundinamarca,2023-02-20
+1950,Isabella Pérez Torres,F,1990-05-26,Corporativo,Zipaquirá,Cundinamarca,2021-01-20
+1951,Julián Moreno Ramírez,F,1963-10-27,Ocasional,Cartagena,Bolívar,2024-04-02
+1952,Ana Torres Rodríguez,F,1988-04-17,Premium,Pereira,Risaralda,2025-02-08
+1953,Paula Gómez Torres,M,1967-12-12,Frecuente,Villavicencio,Meta,2021-04-08
+1954,Sofía García Restrepo,F,2001-11-02,Premium,Manizales,Caldas,2018-05-30
+1955,Luisa Martínez Cárdenas,M,1998-10-04,Ocasional,Manizales,Caldas,2019-05-20
+1956,Camila Ramírez García,M,1995-01-23,Frecuente,Zipaquirá,Cundinamarca,2024-11-03
+1957,Valentina Ospina Vargas,F,1976-09-13,Ocasional,Cali,Valle del Cauca,2018-02-13
+1958,Mateo López Cárdenas,F,2003-07-15,Ocasional,Bucaramanga,Santander,2025-05-07
+1959,Julián Pérez Ortiz,M,1978-09-09,Ocasional,Bogotá,Cundinamarca,2021-12-24
+1960,Santiago Ramírez Torres,F,1987-07-22,Ocasional,Bucaramanga,Santander,2021-01-18
+1961,Luisa García Restrepo,M,1982-11-12,Frecuente,Zipaquirá,Cundinamarca,2021-06-10
+1962,Tomás Restrepo Gómez,M,1966-11-03,Frecuente,Bucaramanga,Santander,2022-03-08
+1963,Juan Rodríguez Rojas,M,1961-05-07,Frecuente,Barranquilla,Atlántico,2019-04-18
+1964,Andrés García Pérez,F,1969-12-26,Frecuente,Cartagena,Bolívar,2022-10-09
+1965,Sebastián Ramírez Ramírez,M,1984-05-22,Premium,Zipaquirá,Cundinamarca,2022-08-11
+1966,Sebastián Díaz Ortiz,F,1961-02-05,Ocasional,Cartagena,Bolívar,2022-10-22
+1967,Mariana Hernández López,F,1975-08-12,Frecuente,Villavicencio,Meta,2019-08-09
+1968,Tomás Jiménez Ortiz,F,1964-11-20,Premium,Bogotá,Cundinamarca,2024-12-30
+1969,Ricardo Ramírez Pérez,M,1995-08-10,Frecuente,Zipaquirá,Cundinamarca,2018-01-30
+1970,Sofía Vargas Moreno,F,1999-11-27,Ocasional,Barranquilla,Atlántico,2021-11-07
+1971,Andrés Rodríguez Rodríguez,F,1990-03-02,Premium,Bucaramanga,Santander,2022-01-08
+1972,Andrés Rodríguez Díaz,M,1996-06-28,Frecuente,Cartagena,Bolívar,2025-02-26
+1973,Santiago Torres Restrepo,F,1974-05-21,Frecuente,Manizales,Caldas,2021-03-10
+1974,María Moreno Ortiz,M,1980-10-11,Frecuente,Pereira,Risaralda,2025-11-16
+1975,Ricardo Castro Castro,F,1998-03-09,Corporativo,Bogotá,Cundinamarca,2025-01-15
+1976,Mariana Ospina Rojas,M,1966-01-12,Frecuente,Cali,Valle del Cauca,2018-08-25
+1977,Natalia Cárdenas Ramírez,M,1990-06-03,Ocasional,Barranquilla,Atlántico,2020-06-08
+1978,Laura Sánchez Martínez,F,1986-01-09,Ocasional,Cartagena,Bolívar,2019-01-31
+1979,Diego Ramírez Castro,M,1965-06-24,Frecuente,Pereira,Risaralda,2021-07-25
+1980,María Rojas López,F,1959-02-18,Frecuente,Bogotá,Cundinamarca,2025-05-01
+1981,Óscar García Díaz,M,1997-10-17,Ocasional,Cartagena,Bolívar,2018-06-19
+1982,María Pérez Cárdenas,F,1971-07-19,Premium,Cartagena,Bolívar,2022-08-27
+1983,Sebastián Gómez Moreno,F,1992-07-25,Premium,Pereira,Risaralda,2023-12-07
+1984,Luisa Martínez Rojas,F,1962-11-26,Frecuente,Cartagena,Bolívar,2019-03-04
+1985,María Ortiz Díaz,M,2001-10-12,Frecuente,Manizales,Caldas,2025-11-16
+1986,Mariana Sánchez Moreno,M,1992-06-25,Ocasional,Zipaquirá,Cundinamarca,2022-01-24
+1987,Felipe Jiménez García,F,1967-05-16,Ocasional,Bogotá,Cundinamarca,2018-01-22
+1988,Valentina Ortiz Moreno,F,1973-03-18,Ocasional,Zipaquirá,Cundinamarca,2019-03-25
+1989,Santiago Jiménez Hernández,M,1956-10-26,Ocasional,Bogotá,Cundinamarca,2019-06-12
+1990,Camila Rodríguez Jiménez,M,1978-05-20,Frecuente,Villavicencio,Meta,2018-01-26
+1991,Camila García Rojas,F,1956-07-03,Ocasional,Bucaramanga,Santander,2021-05-31
+1992,Camila Ramírez Gómez,M,1983-04-11,Ocasional,Bucaramanga,Santander,2022-08-03
+1993,Juan Rojas Ortiz,F,1995-02-28,Frecuente,Cartagena,Bolívar,2018-03-26
+1994,Julián Jiménez Torres,M,2004-03-15,Ocasional,Manizales,Caldas,2021-09-17
+1995,Mariana Rodríguez Moreno,F,2001-06-21,Ocasional,Zipaquirá,Cundinamarca,2020-10-08
+1996,Carlos Castro Rodríguez,M,1956-03-05,Frecuente,Cali,Valle del Cauca,2019-11-09
+1997,Mariana López Sánchez,F,1988-02-04,Frecuente,Pereira,Risaralda,2018-10-03
+1998,Julián Díaz Moreno,F,2004-01-16,Ocasional,Bogotá,Cundinamarca,2021-08-30
+1999,Felipe Rojas Sánchez,F,1972-04-17,Ocasional,Zipaquirá,Cundinamarca,2025-04-05
+2000,Óscar Ortiz Ramírez,M,1989-05-06,Ocasional,Villavicencio,Meta,2022-03-15
+2001,Luisa Cárdenas García,M,1996-04-10,Frecuente,Pereira,Risaralda,2025-08-28
+2002,Paula Rodríguez Jiménez,M,1982-12-07,Ocasional,Cali,Valle del Cauca,2022-07-03
+2003,Felipe Restrepo Ortiz,F,1978-09-10,Ocasional,Cali,Valle del Cauca,2018-03-14
+2004,Ana López García,M,1986-08-17,Frecuente,Pereira,Risaralda,2023-01-15
+2005,Valentina Torres Sánchez,M,1988-01-02,Ocasional,Barranquilla,Atlántico,2018-08-30
+2006,Mariana García Gómez,M,1967-11-17,Ocasional,Villavicencio,Meta,2019-05-19
+2007,Daniela Moreno Gómez,M,1958-01-26,Ocasional,Pereira,Risaralda,2024-08-31
+2008,Tomás Vargas Moreno,F,1963-07-26,Ocasional,Manizales,Caldas,2023-02-24
+2009,Juan Rodríguez Castro,M,1963-07-07,Ocasional,Zipaquirá,Cundinamarca,2024-11-20
+2010,Luisa López García,F,2003-11-13,Ocasional,Cali,Valle del Cauca,2022-08-06
+2011,Julián Sánchez Rodríguez,F,1972-10-01,Premium,Cali,Valle del Cauca,2025-02-03
+2012,Camila Sánchez Díaz,M,1985-04-01,Ocasional,Medellín,Antioquia,2023-09-07
+2013,Sebastián Cárdenas Moreno,F,1997-05-04,Ocasional,Medellín,Antioquia,2019-10-13
+2014,Carlos Ortiz Jiménez,F,1964-07-02,Frecuente,Barranquilla,Atlántico,2025-09-02
+2015,Mariana Gómez López,F,1974-10-27,Ocasional,Cartagena,Bolívar,2022-04-08
+2016,Valentina Torres García,M,1987-09-03,Premium,Pereira,Risaralda,2021-04-12
+2017,Ana García Hernández,M,1977-02-27,Ocasional,Medellín,Antioquia,2020-12-22
+2018,Felipe Rodríguez Sánchez,M,1986-12-10,Premium,Cali,Valle del Cauca,2024-11-28
+2019,Mariana Castro Gómez,F,1999-06-08,Frecuente,Bogotá,Cundinamarca,2019-09-01
+2020,Sebastián Díaz García,F,1980-04-25,Frecuente,Cali,Valle del Cauca,2019-07-31
+2021,Mateo Castro Restrepo,F,1960-02-24,Ocasional,Manizales,Caldas,2022-12-18
+2022,Paula Torres García,M,1971-03-21,Frecuente,Pereira,Risaralda,2025-06-17
+2023,Santiago Gómez Pérez,F,1978-07-17,Ocasional,Cartagena,Bolívar,2025-04-21
+2024,María Moreno Ospina,F,1993-08-11,Frecuente,Pereira,Risaralda,2021-06-30
+2025,Andrés Hernández Ramírez,M,1972-06-27,Ocasional,Medellín,Antioquia,2023-01-27
+2026,Ana Torres Sánchez,M,1976-12-23,Ocasional,Cali,Valle del Cauca,2025-09-18
+2027,Natalia Hernández Moreno,F,2005-05-18,Frecuente,Bucaramanga,Santander,2018-03-22
+2028,Laura Jiménez Rodríguez,F,1999-05-10,Frecuente,Pereira,Risaralda,2022-08-23
+2029,Carlos Rodríguez Rodríguez,M,1973-03-11,Ocasional,Bogotá,Cundinamarca,2023-12-18
+2030,Camila Gómez Gómez,F,1992-09-27,Frecuente,Barranquilla,Atlántico,2018-01-29
+2031,Laura Restrepo Rodríguez,M,1992-06-07,Ocasional,Medellín,Antioquia,2018-10-02
+2032,Óscar Sánchez Hernández,M,2000-11-19,Corporativo,Bucaramanga,Santander,2018-05-14
+2033,Ricardo García Rojas,M,1969-06-09,Ocasional,Manizales,Caldas,2024-07-29
+2034,Camila Cárdenas Ospina,M,1981-10-23,Premium,Cartagena,Bolívar,2020-04-15
+2035,Felipe Castro García,M,1997-10-25,Ocasional,Medellín,Antioquia,2024-05-20
+2036,Paula Hernández Castro,F,1959-03-06,Frecuente,Cartagena,Bolívar,2024-05-27
+2037,Isabella Jiménez Jiménez,F,1989-03-18,Frecuente,Bogotá,Cundinamarca,2023-10-10
+2038,Mateo Hernández Restrepo,M,1967-03-06,Ocasional,Zipaquirá,Cundinamarca,2018-12-26
+2039,Camila Restrepo Rojas,M,2001-12-02,Frecuente,Barranquilla,Atlántico,2021-09-24
+2040,María Cárdenas Restrepo,M,1969-08-02,Frecuente,Medellín,Antioquia,2025-04-13
+2041,Diego García Ospina,F,1993-01-05,Ocasional,Pereira,Risaralda,2020-05-31
+2042,Ana Jiménez Jiménez,M,2000-10-18,Frecuente,Manizales,Caldas,2023-11-13
+2043,Sofía Vargas Gómez,M,2001-12-18,Corporativo,Cali,Valle del Cauca,2024-07-14
+2044,Valentina Moreno Hernández,M,1985-06-26,Ocasional,Cartagena,Bolívar,2024-08-11
+2045,Ricardo Torres Torres,M,1980-10-07,Ocasional,Medellín,Antioquia,2024-03-31
+2046,Natalia Martínez Moreno,F,1967-08-08,Ocasional,Barranquilla,Atlántico,2022-02-16
+2047,Mariana Ramírez Rojas,F,1965-05-12,Ocasional,Zipaquirá,Cundinamarca,2021-06-04
+2048,Luisa Martínez Hernández,M,1968-08-14,Frecuente,Zipaquirá,Cundinamarca,2023-11-28
+2049,Paula García López,M,1960-03-03,Ocasional,Pereira,Risaralda,2024-05-19
+2050,Sofía Rodríguez Rojas,M,1977-06-05,Frecuente,Pereira,Risaralda,2020-02-06
+2051,Camila García Restrepo,F,1978-06-18,Ocasional,Cartagena,Bolívar,2018-11-29
+2052,Camila Hernández Gómez,F,1992-04-03,Frecuente,Manizales,Caldas,2024-03-12
+2053,Óscar Jiménez García,M,1980-12-07,Ocasional,Cartagena,Bolívar,2021-06-13
+2054,Julián Hernández García,M,1984-06-14,Premium,Cali,Valle del Cauca,2019-12-28
+2055,Julián Restrepo Pérez,M,1994-04-27,Ocasional,Zipaquirá,Cundinamarca,2024-11-27
+2056,Mariana Hernández Restrepo,M,1995-10-05,Ocasional,Villavicencio,Meta,2023-01-03
+2057,Camila Díaz Pérez,M,1976-01-20,Ocasional,Villavicencio,Meta,2021-10-27
+2058,Mateo Hernández Pérez,F,1972-01-20,Ocasional,Manizales,Caldas,2021-06-07
+2059,María Ospina Torres,M,1998-08-16,Frecuente,Barranquilla,Atlántico,2023-04-03
+2060,Felipe Sánchez Ramírez,F,1958-02-12,Frecuente,Barranquilla,Atlántico,2018-01-11
+2061,Andrés Restrepo Rodríguez,M,2004-07-02,Ocasional,Cartagena,Bolívar,2024-06-10
+2062,María Restrepo Hernández,M,2000-03-25,Ocasional,Zipaquirá,Cundinamarca,2024-04-12
+2063,Luisa Ortiz Sánchez,F,1989-09-21,Frecuente,Medellín,Antioquia,2024-12-16
+2064,Ana Restrepo Cárdenas,F,1990-07-05,Ocasional,Zipaquirá,Cundinamarca,2025-06-25
+2065,Sofía Cárdenas Rojas,F,1997-08-09,Ocasional,Cali,Valle del Cauca,2018-05-23
+2066,Mateo Díaz Restrepo,M,1978-05-25,Ocasional,Villavicencio,Meta,2021-06-30
+2067,Sofía Martínez Restrepo,M,1991-10-07,Frecuente,Bucaramanga,Santander,2023-05-03
+2068,Julián García Sánchez,F,1996-01-16,Ocasional,Medellín,Antioquia,2021-02-17
+2069,Ricardo Díaz Ramírez,F,1996-03-13,Ocasional,Cali,Valle del Cauca,2020-01-22
+2070,Julián Castro Ospina,M,1958-11-21,Frecuente,Villavicencio,Meta,2021-12-07
+2071,Sofía López Hernández,F,2002-01-04,Ocasional,Zipaquirá,Cundinamarca,2021-12-16
+2072,Mateo Hernández Torres,F,1991-07-02,Frecuente,Medellín,Antioquia,2024-05-24
+2073,Ana Martínez Ospina,F,1977-05-17,Premium,Medellín,Antioquia,2019-05-29
+2074,Sofía Martínez Martínez,F,2002-11-20,Frecuente,Barranquilla,Atlántico,2021-08-09
+2075,Paula Hernández Vargas,F,1994-12-21,Ocasional,Barranquilla,Atlántico,2018-05-16
+2076,Luisa Gómez Ortiz,F,1992-08-23,Frecuente,Cartagena,Bolívar,2024-04-27
+2077,Ricardo Sánchez Hernández,M,1971-02-04,Ocasional,Manizales,Caldas,2025-02-21
+2078,Ana López Jiménez,M,1985-03-27,Frecuente,Cartagena,Bolívar,2025-02-23
+2079,Carlos Hernández Martínez,F,1999-12-16,Frecuente,Bucaramanga,Santander,2023-03-28
+2080,Andrés Jiménez Jiménez,F,1971-12-20,Ocasional,Pereira,Risaralda,2019-04-08
+2081,Paula Restrepo Moreno,M,1994-04-01,Premium,Bucaramanga,Santander,2021-05-26
+2082,Paula Gómez García,M,1984-03-14,Ocasional,Zipaquirá,Cundinamarca,2020-07-20
+2083,Luisa Hernández Hernández,M,1999-03-05,Corporativo,Pereira,Risaralda,2025-01-10
+2084,Mateo Martínez Sánchez,M,1975-01-24,Ocasional,Manizales,Caldas,2025-02-02
+2085,Juan Torres Ramírez,M,1992-08-19,Ocasional,Cartagena,Bolívar,2025-06-07
+2086,Daniela Restrepo Rojas,F,2005-07-19,Ocasional,Bogotá,Cundinamarca,2024-07-27
+2087,Natalia Rodríguez Ospina,F,1992-10-05,Ocasional,Barranquilla,Atlántico,2023-11-18
+2088,Carlos Cárdenas Ortiz,F,1995-06-08,Corporativo,Barranquilla,Atlántico,2019-11-05
+2089,Daniela Hernández Cárdenas,F,1998-12-03,Ocasional,Villavicencio,Meta,2025-01-13
+2090,Natalia Hernández López,M,1993-01-05,Ocasional,Villavicencio,Meta,2023-12-22
+2091,Felipe Pérez Hernández,M,1963-10-18,Frecuente,Cali,Valle del Cauca,2019-10-30
+2092,Juan Hernández Díaz,F,1988-03-25,Frecuente,Manizales,Caldas,2018-05-06
+2093,Santiago Pérez Gómez,F,2004-12-27,Ocasional,Bucaramanga,Santander,2025-03-24
+2094,María Torres Cárdenas,F,1970-11-17,Ocasional,Cali,Valle del Cauca,2023-12-23
+2095,Felipe Sánchez Hernández,F,1985-12-17,Frecuente,Manizales,Caldas,2020-03-28
+2096,Mateo Gómez Sánchez,F,1963-06-27,Corporativo,Manizales,Caldas,2020-03-06
+2097,Camila Pérez Rodríguez,M,1975-10-18,Premium,Cartagena,Bolívar,2021-05-08
+2098,Ricardo López Martínez,F,1991-09-23,Frecuente,Villavicencio,Meta,2022-02-02
+2099,Julián Ortiz Moreno,M,1965-08-17,Ocasional,Bogotá,Cundinamarca,2022-11-06
+2100,Tomás Ospina García,F,1984-03-15,Corporativo,Bucaramanga,Santander,2021-05-16
+2101,Ricardo López Ortiz,F,1963-07-06,Frecuente,Cali,Valle del Cauca,2021-07-23
+2102,Luisa Pérez Torres,M,1976-04-05,Frecuente,Barranquilla,Atlántico,2024-08-22
+2103,María Sánchez García,F,2000-02-05,Ocasional,Manizales,Caldas,2020-12-08
+2104,Tomás Moreno Ramírez,F,1993-02-04,Frecuente,Medellín,Antioquia,2022-09-27
+2105,Camila Gómez Moreno,F,1957-03-01,Ocasional,Villavicencio,Meta,2018-01-05
+2106,Isabella García Sánchez,F,1989-10-08,Ocasional,Cartagena,Bolívar,2024-01-18
+2107,Sebastián Castro Martínez,M,1955-01-05,Ocasional,Bucaramanga,Santander,2019-12-23
+2108,Juan López Moreno,M,1972-06-23,Frecuente,Bogotá,Cundinamarca,2020-11-16
+2109,Tomás Rojas Castro,F,1979-10-02,Frecuente,Cartagena,Bolívar,2025-12-04
+2110,María Torres Hernández,F,1979-08-01,Ocasional,Barranquilla,Atlántico,2025-01-23
+2111,Diego Moreno Torres,F,1959-07-21,Frecuente,Manizales,Caldas,2020-01-02
+2112,Andrés Ramírez Castro,F,2004-03-04,Premium,Cartagena,Bolívar,2024-01-18
+2113,Óscar Torres Martínez,M,1991-05-18,Ocasional,Pereira,Risaralda,2018-08-22
+2114,Laura Ramírez Gómez,F,1997-09-17,Premium,Villavicencio,Meta,2021-03-30
+2115,Laura Sánchez Rojas,M,2004-07-24,Ocasional,Cali,Valle del Cauca,2022-06-07
+2116,Julián Restrepo Moreno,F,1982-02-15,Premium,Barranquilla,Atlántico,2018-04-17
+2117,Óscar Sánchez Torres,M,1984-04-20,Frecuente,Cali,Valle del Cauca,2022-08-02
+2118,Daniela García Ortiz,F,1968-05-10,Ocasional,Villavicencio,Meta,2020-02-19
+2119,Santiago Jiménez Pérez,M,1981-04-03,Ocasional,Cartagena,Bolívar,2019-01-09
+2120,Juan Castro Ospina,F,1967-06-28,Frecuente,Bucaramanga,Santander,2022-12-08
+2121,Luisa Pérez Hernández,F,1993-05-24,Ocasional,Medellín,Antioquia,2019-04-11
+2122,Natalia Ospina Vargas,F,1966-03-25,Frecuente,Cali,Valle del Cauca,2024-09-08
+2123,Sofía Rodríguez Gómez,M,1987-08-27,Corporativo,Manizales,Caldas,2021-01-31
+2124,Camila Moreno Cárdenas,M,1990-09-01,Ocasional,Barranquilla,Atlántico,2025-04-09
+2125,Laura Martínez Rojas,F,1959-06-27,Ocasional,Bucaramanga,Santander,2025-02-22
+2126,Ricardo Cárdenas Vargas,M,1974-02-24,Ocasional,Bogotá,Cundinamarca,2025-07-15
+2127,Ricardo Rojas García,M,1985-01-01,Frecuente,Manizales,Caldas,2020-02-12
+2128,Juan Rojas Rojas,M,1966-09-16,Frecuente,Cali,Valle del Cauca,2019-12-09
+2129,Diego Gómez Pérez,M,2000-11-26,Frecuente,Bogotá,Cundinamarca,2019-08-30
+2130,María Rodríguez Gómez,M,1959-03-13,Ocasional,Manizales,Caldas,2024-01-27
+2131,Daniela Moreno Restrepo,M,1983-05-06,Ocasional,Bucaramanga,Santander,2018-11-25
+2132,Isabella Cárdenas Rodríguez,F,1981-10-28,Ocasional,Cartagena,Bolívar,2023-05-17
+2133,Luisa Castro Ramírez,F,1980-01-27,Frecuente,Cartagena,Bolívar,2021-05-03
+2134,Ana Vargas Cárdenas,M,1991-09-21,Ocasional,Zipaquirá,Cundinamarca,2022-03-11
+2135,Ana Jiménez Pérez,M,1988-07-10,Ocasional,Cartagena,Bolívar,2023-12-09
+2136,Ricardo Rodríguez García,M,1999-08-08,Frecuente,Bucaramanga,Santander,2019-09-30
+2137,Daniela Cárdenas Restrepo,M,1962-08-15,Frecuente,Bucaramanga,Santander,2019-04-29
+2138,Sebastián Ortiz Hernández,F,1963-12-01,Ocasional,Barranquilla,Atlántico,2023-04-20
+2139,Isabella Díaz Díaz,F,1993-11-22,Ocasional,Bucaramanga,Santander,2019-07-19
+2140,Sofía Vargas Rojas,F,2004-11-14,Frecuente,Manizales,Caldas,2024-01-30
+2141,Óscar Moreno Cárdenas,M,1996-11-01,Frecuente,Villavicencio,Meta,2024-05-03
+2142,Felipe Pérez Sánchez,F,1975-03-02,Premium,Cali,Valle del Cauca,2024-01-03
+2143,Luisa Díaz Díaz,M,1955-10-01,Corporativo,Bucaramanga,Santander,2022-04-23
+2144,Daniela Martínez Ospina,M,1997-09-22,Ocasional,Manizales,Caldas,2019-12-16
+2145,Mariana Ramírez Ramírez,F,1970-09-22,Frecuente,Manizales,Caldas,2021-06-11
+2146,Laura Díaz Restrepo,F,1961-03-13,Frecuente,Zipaquirá,Cundinamarca,2024-02-07
+2147,Sebastián Ortiz Rojas,M,1988-11-04,Ocasional,Cartagena,Bolívar,2019-10-08
+2148,Óscar Cárdenas Díaz,F,1995-09-06,Premium,Bogotá,Cundinamarca,2025-11-30
+2149,Natalia Torres Moreno,F,2002-01-08,Corporativo,Cartagena,Bolívar,2022-11-23
+2150,Luisa López Ramírez,F,1993-11-22,Frecuente,Pereira,Risaralda,2024-10-25
+2151,Carlos Pérez García,F,2004-06-23,Frecuente,Manizales,Caldas,2021-11-22
+2152,Mariana Ospina García,F,2005-12-01,Frecuente,Villavicencio,Meta,2025-04-15
+2153,Andrés Rodríguez López,F,1998-04-17,Frecuente,Cartagena,Bolívar,2019-05-09
+2154,Ricardo Gómez López,F,1979-04-17,Frecuente,Cartagena,Bolívar,2020-04-01
+2155,Andrés López López,M,2005-09-26,Premium,Medellín,Antioquia,2020-01-29
+2156,Mariana Pérez Ospina,M,1985-04-09,Premium,Manizales,Caldas,2024-11-07
+2157,Paula Hernández Sánchez,M,1967-06-08,Ocasional,Cali,Valle del Cauca,2021-07-05
+2158,Santiago Martínez Sánchez,F,1999-10-28,Frecuente,Bogotá,Cundinamarca,2022-05-05
+2159,Camila García Castro,M,1994-03-25,Frecuente,Zipaquirá,Cundinamarca,2025-08-26
+2160,Sofía Gómez Pérez,M,1969-01-21,Premium,Zipaquirá,Cundinamarca,2020-08-02
+2161,Laura Restrepo Restrepo,F,2004-02-22,Ocasional,Bucaramanga,Santander,2020-11-26
+2162,Sofía Martínez Sánchez,M,2005-12-09,Corporativo,Villavicencio,Meta,2020-06-09
+2163,Mariana Cárdenas Díaz,F,1999-05-16,Ocasional,Pereira,Risaralda,2022-10-15
+2164,Valentina García Moreno,F,1980-01-24,Frecuente,Cali,Valle del Cauca,2025-08-23
+2165,Daniela Díaz Díaz,F,1969-08-09,Ocasional,Cali,Valle del Cauca,2021-01-22
+2166,Daniela Rojas Restrepo,M,2005-02-15,Frecuente,Cartagena,Bolívar,2022-04-11
+2167,Natalia Gómez Jiménez,F,1980-05-26,Ocasional,Bucaramanga,Santander,2022-05-03
+2168,Ana Rojas García,M,1971-02-15,Frecuente,Villavicencio,Meta,2021-05-28
+2169,Valentina Rodríguez García,F,1998-08-06,Ocasional,Bucaramanga,Santander,2022-12-11
+2170,María López Rodríguez,M,1989-02-15,Ocasional,Cartagena,Bolívar,2023-12-10
+2171,María Vargas Hernández,M,1959-02-07,Ocasional,Zipaquirá,Cundinamarca,2019-09-09
+2172,Tomás Castro Ortiz,M,1969-07-06,Ocasional,Cali,Valle del Cauca,2020-12-22
+2173,Laura Castro Castro,F,1968-01-10,Ocasional,Medellín,Antioquia,2022-04-16
+2174,Valentina Jiménez Cárdenas,F,1983-07-08,Ocasional,Cali,Valle del Cauca,2023-09-05
+2175,Sofía Gómez Díaz,F,2003-07-02,Ocasional,Cartagena,Bolívar,2021-10-22
+2176,Mateo Ospina Jiménez,F,1985-02-25,Ocasional,Zipaquirá,Cundinamarca,2023-06-25
+2177,Valentina Rojas Moreno,M,1966-06-27,Ocasional,Medellín,Antioquia,2025-08-06
+2178,Camila Ospina Hernández,M,1987-02-27,Frecuente,Cartagena,Bolívar,2018-08-25
+2179,Sebastián Rojas Rodríguez,F,1997-09-12,Ocasional,Pereira,Risaralda,2018-01-18
+2180,Sofía Rojas García,M,1968-01-14,Frecuente,Barranquilla,Atlántico,2024-12-10
+2181,Isabella Ospina Rojas,M,1968-06-26,Ocasional,Cartagena,Bolívar,2024-01-09
+2182,Ana Cárdenas Ortiz,M,1977-10-12,Frecuente,Bucaramanga,Santander,2023-03-24
+2183,Ana Restrepo Martínez,F,1979-11-11,Ocasional,Bucaramanga,Santander,2023-08-14
+2184,Tomás Ortiz López,M,1962-09-07,Frecuente,Zipaquirá,Cundinamarca,2023-11-27
+2185,Sofía Hernández Sánchez,M,1960-09-23,Frecuente,Villavicencio,Meta,2024-11-24
+2186,Diego Ortiz Rodríguez,M,1981-01-06,Ocasional,Cartagena,Bolívar,2023-10-05
+2187,Isabella Vargas López,M,1962-05-01,Frecuente,Zipaquirá,Cundinamarca,2018-05-11
+2188,Carlos Restrepo Rojas,M,1956-03-14,Ocasional,Pereira,Risaralda,2018-09-28
+2189,Juan Pérez Rodríguez,F,1960-12-25,Premium,Barranquilla,Atlántico,2020-01-22
+2190,María Sánchez Vargas,F,2001-03-11,Ocasional,Cartagena,Bolívar,2025-05-19
+2191,Carlos Pérez Hernández,F,1966-03-23,Frecuente,Medellín,Antioquia,2021-09-09
+2192,Ana Vargas Gómez,M,1977-08-13,Corporativo,Zipaquirá,Cundinamarca,2018-01-03
+2193,Mariana Martínez Hernández,M,1981-08-03,Frecuente,Bogotá,Cundinamarca,2018-11-22
+2194,Luisa Ortiz Jiménez,M,1984-10-07,Frecuente,Barranquilla,Atlántico,2025-06-12
+2195,Juan López Pérez,M,1958-10-11,Frecuente,Manizales,Caldas,2021-03-22
+2196,Laura Ospina Vargas,M,1962-10-20,Ocasional,Bogotá,Cundinamarca,2024-01-22
+2197,Sofía Vargas Vargas,F,1989-10-21,Ocasional,Manizales,Caldas,2022-06-25
+2198,Ricardo Torres López,M,1998-05-25,Frecuente,Manizales,Caldas,2019-01-10
+2199,Daniela Cárdenas Rodríguez,F,1981-07-10,Frecuente,Bucaramanga,Santander,2021-08-04
+2200,María Vargas Cárdenas,F,1971-06-13,Corporativo,Barranquilla,Atlántico,2018-10-03
+2201,Camila Jiménez Castro,F,1955-10-25,Ocasional,Bucaramanga,Santander,2025-07-18
+2202,Sofía Jiménez Restrepo,M,1983-07-15,Frecuente,Cali,Valle del Cauca,2020-10-25
+2203,Natalia Ramírez Martínez,F,1967-02-24,Frecuente,Pereira,Risaralda,2019-12-19
+2204,Santiago Ospina Castro,F,1983-11-04,Ocasional,Manizales,Caldas,2019-11-20
+2205,Carlos Ospina Ramírez,F,1956-02-22,Ocasional,Bucaramanga,Santander,2018-10-03
+2206,Valentina López Castro,F,1970-10-02,Premium,Cali,Valle del Cauca,2024-02-27
+2207,Diego Ospina Díaz,F,1983-07-17,Ocasional,Barranquilla,Atlántico,2024-10-25
+2208,Ana Gómez Sánchez,F,1965-10-07,Premium,Villavicencio,Meta,2022-09-26
+2209,Diego Vargas Sánchez,M,1977-05-23,Premium,Pereira,Risaralda,2020-04-29
+2210,Laura Díaz Vargas,F,1964-04-24,Frecuente,Bogotá,Cundinamarca,2025-08-25
+2211,Paula Ortiz Rodríguez,M,1982-05-01,Ocasional,Zipaquirá,Cundinamarca,2025-04-28
+2212,Sebastián Torres Pérez,M,1968-12-28,Frecuente,Pereira,Risaralda,2024-11-09
+2213,Daniela Jiménez Ortiz,M,1978-11-07,Frecuente,Medellín,Antioquia,2021-04-17
+2214,Ana Ramírez Castro,F,1971-10-17,Ocasional,Barranquilla,Atlántico,2024-09-11
+2215,Sofía Ortiz Pérez,M,1979-06-03,Ocasional,Medellín,Antioquia,2022-10-12
+2216,María Cárdenas Martínez,F,1995-02-07,Ocasional,Cartagena,Bolívar,2018-03-05
+2217,Juan Vargas Ospina,F,1967-02-02,Ocasional,Villavicencio,Meta,2023-10-23
+2218,Diego Rojas Hernández,F,1978-05-18,Ocasional,Villavicencio,Meta,2018-10-22
+2219,Mateo Jiménez Ospina,F,1989-08-19,Ocasional,Bogotá,Cundinamarca,2019-07-20
+2220,Mariana Martínez Jiménez,M,1993-06-07,Ocasional,Pereira,Risaralda,2019-07-28
+2221,Juan Gómez García,F,1997-08-12,Frecuente,Pereira,Risaralda,2025-07-28
+2222,Andrés Moreno Ramírez,M,1966-12-20,Ocasional,Bogotá,Cundinamarca,2021-06-29
+2223,Ricardo Ospina Hernández,M,1960-11-08,Frecuente,Cali,Valle del Cauca,2022-02-14
+2224,Paula Cárdenas Gómez,M,1981-05-11,Ocasional,Medellín,Antioquia,2022-05-20
+2225,Luisa Cárdenas Sánchez,M,1998-01-19,Frecuente,Zipaquirá,Cundinamarca,2025-10-08
+2226,Sofía Rodríguez Martínez,F,1990-09-23,Ocasional,Bogotá,Cundinamarca,2018-03-15
+2227,Laura Rojas Sánchez,M,1985-10-10,Ocasional,Pereira,Risaralda,2022-03-23
+2228,Luisa Restrepo Vargas,M,1955-04-21,Premium,Pereira,Risaralda,2020-09-02
+2229,Carlos Rodríguez Ortiz,F,1964-06-19,Ocasional,Bogotá,Cundinamarca,2023-04-09
+2230,Natalia Sánchez Hernández,F,1972-04-15,Ocasional,Bogotá,Cundinamarca,2025-09-23
+2231,María López Hernández,F,1955-10-28,Premium,Villavicencio,Meta,2022-09-21
+2232,Óscar Vargas Sánchez,F,1978-10-23,Ocasional,Bucaramanga,Santander,2025-06-10
+2233,Tomás Cárdenas Cárdenas,F,1990-06-24,Frecuente,Cartagena,Bolívar,2018-04-22
+2234,Andrés Ramírez Restrepo,M,1976-06-07,Ocasional,Zipaquirá,Cundinamarca,2023-08-30
+2235,Ana Ramírez Díaz,F,1990-04-11,Premium,Manizales,Caldas,2018-06-15
+2236,Julián Pérez Ortiz,F,1965-04-09,Ocasional,Barranquilla,Atlántico,2020-09-07
+2237,Mariana Jiménez Restrepo,M,1995-08-06,Ocasional,Medellín,Antioquia,2023-06-09
+2238,Daniela Castro Castro,M,1980-03-12,Ocasional,Zipaquirá,Cundinamarca,2019-06-06
+2239,Óscar Ramírez Martínez,M,1962-07-25,Frecuente,Bucaramanga,Santander,2022-06-15
+2240,Daniela López Ortiz,M,1962-02-10,Ocasional,Pereira,Risaralda,2022-06-22
+2241,Felipe Cárdenas Torres,M,2003-11-28,Ocasional,Pereira,Risaralda,2020-06-23
+2242,Sebastián Sánchez Sánchez,M,1962-09-03,Ocasional,Cali,Valle del Cauca,2018-04-02
+2243,Luisa Díaz Cárdenas,M,1993-01-28,Frecuente,Bucaramanga,Santander,2019-12-12
+2244,Mariana Castro Pérez,M,2003-11-10,Frecuente,Bucaramanga,Santander,2022-09-08
+2245,Camila Martínez Rojas,F,1983-03-17,Ocasional,Manizales,Caldas,2024-05-06
+2246,Tomás Ortiz Hernández,M,1996-12-22,Ocasional,Cali,Valle del Cauca,2022-03-16
+2247,Julián Martínez Vargas,F,1961-10-08,Ocasional,Bogotá,Cundinamarca,2022-05-16
+2248,Natalia Martínez Martínez,M,1963-06-15,Ocasional,Zipaquirá,Cundinamarca,2021-09-23
+2249,Natalia Ramírez Vargas,M,1964-08-24,Ocasional,Villavicencio,Meta,2025-10-16
+2250,Laura Ortiz Restrepo,M,1979-02-15,Ocasional,Manizales,Caldas,2022-07-19
+2251,Luisa Ortiz Moreno,F,1980-08-27,Corporativo,Cali,Valle del Cauca,2023-10-30
+2252,Paula Martínez Sánchez,F,1961-08-01,Ocasional,Bogotá,Cundinamarca,2025-02-24
+2253,Valentina Díaz Ospina,M,2005-11-18,Ocasional,Cali,Valle del Cauca,2020-11-11
+2254,Tomás Cárdenas Sánchez,M,1985-09-06,Ocasional,Bogotá,Cundinamarca,2022-06-11
+2255,Laura Restrepo Ospina,M,1960-06-08,Frecuente,Bogotá,Cundinamarca,2021-11-28
+2256,Mateo Castro Rojas,M,1966-11-06,Frecuente,Zipaquirá,Cundinamarca,2021-04-28
+2257,Natalia Vargas Restrepo,F,2004-03-16,Ocasional,Villavicencio,Meta,2022-02-14
+2258,Felipe Hernández Cárdenas,M,1960-08-02,Corporativo,Pereira,Risaralda,2020-05-24
+2259,Sebastián Ortiz López,M,1961-08-03,Ocasional,Medellín,Antioquia,2022-09-15
+2260,Camila López Moreno,M,2000-10-04,Ocasional,Bucaramanga,Santander,2021-01-18
+2261,Diego Hernández Restrepo,F,1971-02-27,Premium,Manizales,Caldas,2022-08-22
+2262,María García Ramírez,M,1957-08-02,Premium,Cartagena,Bolívar,2025-04-06
+2263,Diego Vargas Jiménez,M,2001-12-01,Premium,Villavicencio,Meta,2024-08-13
+2264,Felipe Moreno Sánchez,F,1975-01-02,Ocasional,Medellín,Antioquia,2018-10-18
+2265,Julián López Rojas,F,1984-03-10,Ocasional,Bogotá,Cundinamarca,2024-12-31
+2266,Ana Rojas Rojas,F,1969-07-24,Ocasional,Medellín,Antioquia,2025-06-28
+2267,Sofía Ramírez Díaz,F,1966-08-17,Premium,Zipaquirá,Cundinamarca,2023-10-16
+2268,Daniela Castro Ramírez,M,1994-05-18,Corporativo,Bogotá,Cundinamarca,2020-09-09
+2269,Julián García García,F,1977-08-13,Ocasional,Medellín,Antioquia,2023-10-17
+2270,Sofía Castro García,F,1975-08-18,Ocasional,Pereira,Risaralda,2022-12-18
+2271,Sofía Díaz Martínez,M,1966-11-25,Ocasional,Villavicencio,Meta,2025-09-30
+2272,María Rodríguez Ospina,F,1996-04-08,Frecuente,Zipaquirá,Cundinamarca,2020-02-03
+2273,Valentina García Pérez,F,1970-05-02,Ocasional,Cartagena,Bolívar,2018-07-06
+2274,Mariana Torres García,M,1962-10-16,Premium,Villavicencio,Meta,2025-03-28
+2275,Juan Restrepo López,F,1959-11-16,Frecuente,Pereira,Risaralda,2024-04-03
+2276,Paula Díaz Torres,F,1985-07-12,Frecuente,Medellín,Antioquia,2022-09-08
+2277,Felipe Rodríguez Vargas,M,1972-06-02,Ocasional,Pereira,Risaralda,2018-07-16
+2278,Felipe Moreno Moreno,F,1999-02-26,Ocasional,Pereira,Risaralda,2023-06-26
+2279,Laura Rojas Torres,M,2003-05-09,Ocasional,Barranquilla,Atlántico,2019-04-22
+2280,Felipe Vargas Cárdenas,M,1977-06-21,Ocasional,Cartagena,Bolívar,2025-09-21
+2281,Mateo Ortiz Sánchez,M,1987-09-21,Ocasional,Cartagena,Bolívar,2022-07-07
+2282,Tomás López Gómez,F,1964-01-23,Ocasional,Pereira,Risaralda,2019-06-22
+2283,Santiago Ortiz Moreno,M,1972-02-19,Frecuente,Cartagena,Bolívar,2019-10-08
+2284,Ana Ramírez Rodríguez,M,1978-09-19,Frecuente,Cali,Valle del Cauca,2023-12-20
+2285,Diego Ramírez Hernández,F,1964-04-09,Ocasional,Cali,Valle del Cauca,2024-02-28
+2286,Sofía Rojas Moreno,F,1997-11-23,Ocasional,Manizales,Caldas,2025-11-16
+2287,Juan Gómez Pérez,F,1970-04-27,Frecuente,Bucaramanga,Santander,2019-01-09
+2288,Mariana Restrepo García,F,1994-03-14,Ocasional,Manizales,Caldas,2018-06-14
+2289,Carlos Sánchez Ospina,F,1969-01-22,Premium,Bucaramanga,Santander,2024-06-09
+2290,Camila Ramírez Moreno,F,1980-12-20,Frecuente,Medellín,Antioquia,2023-08-16
+2291,Andrés Restrepo Díaz,F,1994-10-23,Premium,Cali,Valle del Cauca,2020-08-31
+2292,Mateo Cárdenas Rojas,F,1974-10-18,Frecuente,Bucaramanga,Santander,2021-06-04
+2293,Óscar Ospina Ramírez,M,1957-08-24,Frecuente,Pereira,Risaralda,2021-09-30
+2294,Camila Vargas Rodríguez,F,1987-07-23,Ocasional,Zipaquirá,Cundinamarca,2023-08-20
+2295,Natalia Martínez Vargas,F,1984-05-16,Corporativo,Bogotá,Cundinamarca,2023-01-04
+2296,Óscar Restrepo Hernández,F,1955-02-15,Frecuente,Barranquilla,Atlántico,2023-05-01
+2297,Valentina Ortiz Díaz,F,2002-07-27,Ocasional,Manizales,Caldas,2020-12-17
+2298,Andrés López Ortiz,F,1960-06-11,Ocasional,Barranquilla,Atlántico,2025-06-19
+2299,Valentina Gómez Moreno,F,2002-10-26,Ocasional,Zipaquirá,Cundinamarca,2023-06-19
+2300,Paula Ortiz Hernández,M,1989-04-22,Ocasional,Zipaquirá,Cundinamarca,2021-01-16
+2301,Paula Jiménez Rojas,F,1978-07-11,Ocasional,Pereira,Risaralda,2018-07-20
+2302,Daniela Ramírez Restrepo,F,1978-09-05,Ocasional,Zipaquirá,Cundinamarca,2024-09-11
+2303,Carlos Ortiz Jiménez,M,1970-07-22,Premium,Cartagena,Bolívar,2025-12-05
+2304,Felipe Martínez Sánchez,F,1971-06-06,Ocasional,Bucaramanga,Santander,2024-10-21
+2305,Natalia López Díaz,F,1966-02-09,Ocasional,Bogotá,Cundinamarca,2023-07-18
+2306,Sebastián Rojas García,M,2005-05-15,Ocasional,Cartagena,Bolívar,2018-02-11
+2307,Paula Cárdenas Moreno,M,2000-06-07,Frecuente,Villavicencio,Meta,2024-04-13
+2308,Luisa Sánchez Sánchez,F,1982-04-24,Frecuente,Cartagena,Bolívar,2021-03-09
+2309,Valentina Martínez Martínez,F,1974-03-17,Ocasional,Bogotá,Cundinamarca,2018-10-26
+2310,Felipe Díaz Hernández,F,1971-05-22,Ocasional,Medellín,Antioquia,2019-04-17
+2311,Sofía Díaz Ortiz,F,1962-11-18,Frecuente,Pereira,Risaralda,2018-09-23
+2312,Ana Restrepo Restrepo,F,1964-08-07,Ocasional,Cali,Valle del Cauca,2022-11-03
+2313,Felipe Cárdenas Ospina,F,1982-08-27,Ocasional,Manizales,Caldas,2021-10-22
+2314,Óscar García Torres,M,1978-03-24,Ocasional,Bogotá,Cundinamarca,2018-07-29
+2315,Camila Moreno Moreno,F,1974-07-11,Premium,Cali,Valle del Cauca,2025-01-11
+2316,Juan Ramírez Castro,F,1972-06-16,Ocasional,Pereira,Risaralda,2025-06-28
+2317,Santiago Ospina Ospina,F,1971-10-18,Ocasional,Villavicencio,Meta,2024-11-12
+2318,Paula Ortiz Torres,F,1993-06-14,Frecuente,Medellín,Antioquia,2019-12-19
+2319,Ana Ortiz López,M,2000-06-18,Frecuente,Bogotá,Cundinamarca,2020-05-14
+2320,Paula Ospina Rodríguez,F,1996-04-23,Corporativo,Zipaquirá,Cundinamarca,2024-02-17
+2321,Camila Martínez Rojas,M,1983-03-01,Ocasional,Cartagena,Bolívar,2025-12-07
+2322,Valentina Ramírez Ramírez,F,1995-04-01,Frecuente,Bucaramanga,Santander,2018-01-03
+2323,Paula Sánchez Moreno,M,1960-11-23,Frecuente,Bucaramanga,Santander,2018-01-06
+2324,Diego Rodríguez Cárdenas,M,1976-10-19,Premium,Medellín,Antioquia,2018-12-11
+2325,Luisa Gómez Vargas,M,1996-08-18,Premium,Villavicencio,Meta,2020-11-29
+2326,Daniela Castro Rodríguez,F,1970-08-22,Frecuente,Pereira,Risaralda,2020-01-26
+2327,Sebastián Rojas Cárdenas,M,1965-08-16,Frecuente,Bogotá,Cundinamarca,2023-05-28
+2328,Óscar Rojas Díaz,M,2002-09-05,Premium,Villavicencio,Meta,2020-10-16
+2329,Juan Jiménez Pérez,M,2002-12-11,Ocasional,Villavicencio,Meta,2025-07-03
+2330,Valentina Moreno García,F,1957-02-09,Ocasional,Cali,Valle del Cauca,2024-08-26
+2331,Camila Restrepo Díaz,F,1988-05-11,Ocasional,Bucaramanga,Santander,2025-05-07
+2332,Sebastián Torres Díaz,F,1995-06-25,Frecuente,Barranquilla,Atlántico,2025-06-05
+2333,Tomás Cárdenas Torres,M,1988-01-17,Premium,Bogotá,Cundinamarca,2022-09-18
+2334,Camila Martínez Rojas,M,1998-02-12,Ocasional,Zipaquirá,Cundinamarca,2023-02-14
+2335,Sebastián Cárdenas Cárdenas,M,1972-03-17,Ocasional,Cali,Valle del Cauca,2022-08-28
+2336,Santiago García Díaz,F,2005-08-02,Ocasional,Pereira,Risaralda,2024-10-09
+2337,Valentina Pérez Moreno,F,1968-07-24,Premium,Cali,Valle del Cauca,2019-03-31
+2338,María López Restrepo,M,1992-01-11,Ocasional,Manizales,Caldas,2025-06-25
+2339,Paula Moreno Rojas,F,2000-09-08,Ocasional,Barranquilla,Atlántico,2019-05-21
+2340,Carlos Jiménez Moreno,M,1962-08-13,Premium,Barranquilla,Atlántico,2019-05-03
+2341,Diego García García,M,1959-06-28,Ocasional,Zipaquirá,Cundinamarca,2018-03-25
+2342,Diego Ospina Martínez,M,1991-06-03,Ocasional,Bucaramanga,Santander,2022-02-14
+2343,Tomás Rodríguez Rojas,F,1969-03-07,Ocasional,Cartagena,Bolívar,2021-10-08
+2344,Laura Restrepo Gómez,M,1998-09-04,Frecuente,Pereira,Risaralda,2021-10-02
+2345,Ricardo Torres García,M,1976-11-22,Frecuente,Barranquilla,Atlántico,2021-08-06
+2346,Isabella Ortiz Ortiz,M,1985-08-27,Premium,Medellín,Antioquia,2019-01-09
+2347,Mariana Ortiz Ramírez,M,1998-12-01,Frecuente,Medellín,Antioquia,2022-03-28
+2348,Daniela Cárdenas Hernández,F,1978-05-25,Ocasional,Manizales,Caldas,2019-09-23
+2349,Luisa Gómez López,F,1994-01-16,Frecuente,Zipaquirá,Cundinamarca,2024-04-16
+2350,Ana Sánchez García,F,1992-08-10,Ocasional,Pereira,Risaralda,2021-05-05
+2351,Diego García Moreno,F,1975-09-06,Frecuente,Zipaquirá,Cundinamarca,2024-12-27
+2352,Natalia Moreno Rodríguez,F,2004-07-02,Ocasional,Medellín,Antioquia,2025-01-27
+2353,Natalia Pérez Díaz,F,1966-03-21,Ocasional,Zipaquirá,Cundinamarca,2025-01-15
+2354,Tomás Rojas Ospina,M,1996-06-12,Ocasional,Cali,Valle del Cauca,2023-08-29
+2355,Valentina Sánchez Ortiz,M,1984-09-22,Ocasional,Cartagena,Bolívar,2022-06-26
+2356,María Moreno Castro,F,1979-07-13,Premium,Bucaramanga,Santander,2023-09-12
+2357,Felipe Vargas García,F,1995-01-27,Premium,Medellín,Antioquia,2023-05-07
+2358,Óscar Rodríguez López,F,2002-06-09,Premium,Barranquilla,Atlántico,2020-07-23
+2359,Camila Díaz Ramírez,F,2000-08-02,Ocasional,Bucaramanga,Santander,2022-01-01
+2360,Óscar Martínez Cárdenas,F,1974-09-15,Frecuente,Medellín,Antioquia,2025-03-02
+2361,Diego Cárdenas Pérez,F,1967-01-27,Frecuente,Villavicencio,Meta,2023-04-03
+2362,Carlos López García,M,1977-12-20,Frecuente,Manizales,Caldas,2021-09-08
+2363,Óscar López Rodríguez,M,1989-07-23,Ocasional,Villavicencio,Meta,2023-09-25
+2364,Diego Castro Moreno,F,1989-06-22,Corporativo,Zipaquirá,Cundinamarca,2025-09-08
+2365,Luisa Ortiz Jiménez,F,2000-06-11,Frecuente,Zipaquirá,Cundinamarca,2022-12-09
+2366,Juan Ramírez Moreno,M,1971-11-19,Ocasional,Barranquilla,Atlántico,2019-01-18
+2367,Felipe López García,F,1992-02-26,Premium,Cartagena,Bolívar,2023-07-26
+2368,Óscar Ramírez Sánchez,F,1991-10-11,Premium,Bucaramanga,Santander,2023-05-05
+2369,Ana García Jiménez,F,1957-02-01,Ocasional,Cartagena,Bolívar,2019-12-18
+2370,Santiago Torres Moreno,M,2004-12-23,Premium,Manizales,Caldas,2024-05-09
+2371,Natalia Díaz Moreno,M,1963-08-03,Ocasional,Barranquilla,Atlántico,2018-09-07
+2372,Ricardo Rodríguez Castro,F,1975-11-27,Ocasional,Cartagena,Bolívar,2021-08-08
+2373,Camila Cárdenas Hernández,M,2004-10-15,Ocasional,Pereira,Risaralda,2023-05-15
+2374,Luisa Jiménez Pérez,F,1960-07-18,Ocasional,Cartagena,Bolívar,2024-03-14
+2375,Valentina Moreno Rojas,M,1969-11-08,Ocasional,Bucaramanga,Santander,2021-04-14
+2376,Isabella Rodríguez Hernández,F,1975-11-28,Premium,Pereira,Risaralda,2024-03-19
+2377,Luisa Jiménez Díaz,F,1968-03-03,Ocasional,Manizales,Caldas,2019-06-25
+2378,Sebastián Castro Gómez,M,1961-11-06,Ocasional,Bucaramanga,Santander,2023-09-15
+2379,Mariana Jiménez Ramírez,M,2002-05-05,Frecuente,Bucaramanga,Santander,2019-04-09
+2380,Valentina Cárdenas Restrepo,M,1961-02-12,Frecuente,Barranquilla,Atlántico,2024-09-28
+2381,Ana Gómez Vargas,F,1961-08-02,Ocasional,Barranquilla,Atlántico,2018-02-02
+2382,Carlos Ospina Cárdenas,M,1965-06-01,Frecuente,Cali,Valle del Cauca,2020-05-10
+2383,Ana Martínez Cárdenas,M,1964-11-12,Ocasional,Medellín,Antioquia,2020-03-23
+2384,Luisa Ospina Rodríguez,F,1974-07-03,Ocasional,Manizales,Caldas,2020-11-17
+2385,María Cárdenas Rodríguez,M,1980-03-03,Ocasional,Zipaquirá,Cundinamarca,2019-08-28
+2386,Diego Martínez García,F,1964-01-02,Ocasional,Bogotá,Cundinamarca,2025-09-29
+2387,Ana Jiménez Torres,M,2003-09-14,Premium,Cartagena,Bolívar,2024-05-09
+2388,Santiago Moreno Torres,M,1959-12-08,Frecuente,Barranquilla,Atlántico,2021-06-05
+2389,Tomás Castro Hernández,M,1986-02-22,Premium,Barranquilla,Atlántico,2023-01-19
+2390,Sofía López Restrepo,M,1959-05-08,Corporativo,Barranquilla,Atlántico,2022-01-25
+2391,Mateo Rojas Ortiz,M,1997-08-12,Ocasional,Villavicencio,Meta,2019-02-14
+2392,Carlos Restrepo Ospina,F,2005-05-27,Ocasional,Villavicencio,Meta,2020-11-26
+2393,Daniela Restrepo Vargas,M,1969-01-18,Premium,Villavicencio,Meta,2023-01-09
+2394,Mariana Gómez Ospina,F,1962-07-13,Frecuente,Bucaramanga,Santander,2021-11-11
+2395,Sofía Díaz Rojas,M,1968-08-12,Corporativo,Cali,Valle del Cauca,2022-10-24
+2396,Camila Rojas Jiménez,M,1987-09-07,Ocasional,Medellín,Antioquia,2025-03-04
+2397,Diego Díaz Martínez,M,2001-05-15,Frecuente,Bogotá,Cundinamarca,2024-11-07
+2398,Camila Ospina Moreno,F,1999-04-19,Corporativo,Barranquilla,Atlántico,2023-08-22
+2399,Óscar Moreno Pérez,M,1974-08-06,Frecuente,Pereira,Risaralda,2018-01-24
+2400,Camila Cárdenas Martínez,F,1987-08-09,Frecuente,Bogotá,Cundinamarca,2018-05-21

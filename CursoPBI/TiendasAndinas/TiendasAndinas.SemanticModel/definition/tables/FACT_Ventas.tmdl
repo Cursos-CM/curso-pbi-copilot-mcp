@@ -1,0 +1,200 @@
+table FACT_Ventas
+	lineageTag: f49893e2-f93c-56e3-a7e6-705447df7feb
+
+	measure 'Total Ventas' = SUMX(FACT_Ventas, FACT_Ventas[Cantidad] * FACT_Ventas[precio unit] * (1 - FACT_Ventas[Descuento_Pct]))
+		lineageTag: 8abd3a7c-24a9-518e-bc9f-4403b6a71565
+
+	measure 'Ventas Totales' = SUMX(FACT_Ventas,FACT_Ventas[Cantidad]*FACT_Ventas[precio unit]*(1-FACT_Ventas[Descuento_Pct]))
+		lineageTag: 40e4a1f7-960a-522e-9529-33e2e4455288
+
+	measure Costo = SUMX(FACT_Ventas, FACT_Ventas[Cantidad] * FACT_Ventas[CostoUnitario])
+		lineageTag: f18ce31a-9b0a-5758-86b7-c280590e528a
+
+	measure margen = [Total Ventas] - [Costo]
+		lineageTag: e5dee703-6a09-5d81-abd6-fb18c2a3aa31
+
+	measure 'Margen %' = [margen] / [Total Ventas]
+		lineageTag: 1750ce73-c8a5-5331-9ca9-99f5d43efd22
+
+	measure 'Ventas Online' = SUMX(FILTER(FACT_Ventas, FACT_Ventas[Canal] = "Online"), FACT_Ventas[Cantidad] * FACT_Ventas[precio unit] * (1 - FACT_Ventas[Descuento_Pct]))
+		lineageTag: 35763ba7-360e-55e7-9ecb-b8a42ff559de
+
+	measure 'Ventas 2025' = CALCULATE([Total Ventas], Calendario[Anio] = 2025)
+		lineageTag: 2aa36429-9ead-53b5-8b23-f87e39aefb39
+
+	measure 'Ventas YTD' = TOTALYTD([Total Ventas], FACT_Ventas[FechaOrden])
+		lineageTag: 2e4f59e0-5958-51e9-b875-8e0236f871b2
+
+	measure 'Ventas AA' = CALCULATE([Total Ventas], SAMEPERIODLASTYEAR(Calendario[Fecha]))
+		lineageTag: 8d6bc51e-d603-5daa-8089-0233d6954c2e
+
+	measure '# Clientes' = DISTINCTCOUNT(FACT_Ventas[cust_id])
+		lineageTag: ffd45c83-26cd-5062-9ad5-4af3952aa1b4
+
+	measure 'Ticket Promedio' = [Total Ventas] / DISTINCTCOUNT(FACT_Ventas[NumOrden])
+		lineageTag: e9f0ca74-775d-5aed-8868-3aa17186267b
+
+	measure 'Unidades Devueltas' = SUM(fact_devoluciones[CantidadDevuelta])
+		lineageTag: 11722315-fc31-533d-be4e-d188d1e85de8
+
+	measure 'Tasa Devolucion' = [Unidades Devueltas] / SUM(FACT_Ventas[Cantidad])
+		lineageTag: 595f5269-78ed-5b68-bf77-0aa8d46e6445
+
+	measure Presupuesto = SUM(Presupuesto[ValorPresupuesto])
+		lineageTag: 26a47151-06dd-526c-9f25-d6d732199cf7
+
+	measure Cumplimiento = [Total Ventas]/[Presupuesto]
+		lineageTag: 68182326-8efc-5bc1-b4bb-516e0e57392b
+
+	measure Test = 1
+		lineageTag: a2ce08e0-d2a8-591e-83cb-2bc2ffb188d0
+
+	column NumOrden
+		dataType: int64
+		formatString: 0
+		lineageTag: 525866b7-01e2-5621-8299-34cd33f1df2a
+		summarizeBy: sum
+		sourceColumn: NumOrden
+
+		annotation SummarizationSetBy = Automatic
+
+	column LineaOrden
+		dataType: int64
+		formatString: 0
+		lineageTag: 0ed4411f-a235-51a2-8801-3bcdab896ea6
+		summarizeBy: sum
+		sourceColumn: LineaOrden
+
+		annotation SummarizationSetBy = Automatic
+
+	column FechaOrden
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3bd26653-e4d4-556b-b7ed-78dd41d57bab
+		summarizeBy: none
+		sourceColumn: FechaOrden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column FechaEnvio
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 392778dd-b0e5-5fcf-89e7-86e281327d01
+		summarizeBy: none
+		sourceColumn: FechaEnvio
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column cust_id
+		dataType: int64
+		formatString: 0
+		lineageTag: fd8bae28-5da8-5421-9d7d-1316aef39201
+		summarizeBy: sum
+		sourceColumn: cust_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductoKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 4eb5637d-5ca3-5343-b483-6bab24790156
+		summarizeBy: sum
+		sourceColumn: ProductoKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column TiendaKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 5b30e15d-9c42-5d30-a253-0e5c697ff48b
+		summarizeBy: sum
+		sourceColumn: TiendaKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column Canal
+		dataType: string
+		lineageTag: 2bdecdaf-ce38-5355-bf2a-5f17ff9438f7
+		summarizeBy: none
+		sourceColumn: Canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cantidad
+		dataType: int64
+		formatString: 0
+		lineageTag: d2fa7f0c-0bde-58e7-8cfd-3fbfe972a402
+		summarizeBy: sum
+		sourceColumn: Cantidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'precio unit'
+		dataType: double
+		lineageTag: 4ccee326-2514-5746-8f5c-806d83518a9a
+		summarizeBy: sum
+		sourceColumn: precio unit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Descuento_Pct
+		dataType: double
+		lineageTag: 231b9301-c3fb-5fd3-829d-24b3ec74b48b
+		summarizeBy: sum
+		sourceColumn: Descuento_Pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CostoUnitario
+		dataType: double
+		lineageTag: 84580b47-be93-5476-9e40-f791ed5cd254
+		summarizeBy: sum
+		sourceColumn: CostoUnitario
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ETL_LoadDate
+		dataType: string
+		lineageTag: ff382673-d7b6-54f7-bb50-557fbfeff48a
+		summarizeBy: none
+		sourceColumn: ETL_LoadDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column Columna1
+		dataType: string
+		lineageTag: 82d4df92-36b2-5a33-9198-246e84b8a1c2
+		summarizeBy: none
+		sourceColumn: Columna1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Margen Linea %' = DIVIDE((FACT_Ventas[precio unit] * (1 - FACT_Ventas[Descuento_Pct])) - FACT_Ventas[CostoUnitario], FACT_Ventas[precio unit] * (1 - FACT_Ventas[Descuento_Pct]))
+		dataType: double
+		lineageTag: 5940a230-71f3-5447-9338-a6a329525054
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FACT_Ventas = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "FACT_Ventas.csv"),[Delimiter=",", Columns=14, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"NumOrden", Int64.Type}, {"LineaOrden", Int64.Type}, {"FechaOrden", type date}, {"FechaEnvio", type date}, {"cust_id", Int64.Type}, {"ProductoKey", Int64.Type}, {"TiendaKey", Int64.Type}, {"Canal", type text}, {"Cantidad", Int64.Type}, {"precio unit", type number}, {"Descuento_Pct", type number}, {"CostoUnitario", type number}, {"ETL_LoadDate", type text}, {"Columna1", type text}}, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

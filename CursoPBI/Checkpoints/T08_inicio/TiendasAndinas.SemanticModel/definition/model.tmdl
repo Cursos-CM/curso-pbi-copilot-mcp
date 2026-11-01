@@ -1,0 +1,24 @@
+model Model
+	culture: es-CO
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-CO
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["FACT_Ventas","fact_devoluciones","Presupuesto","dim_producto","dim_subcategoria","Categoria","Cliente","tbl_Tienda","Calendario","RutaDatos"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table FACT_Ventas
+ref table fact_devoluciones
+ref table Presupuesto
+ref table dim_producto
+ref table dim_subcategoria
+ref table Categoria
+ref table Cliente
+ref table tbl_Tienda
+ref table Calendario
+

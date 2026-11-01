@@ -1,0 +1,221 @@
+table FACT_Ventas
+	lineageTag: f49893e2-f93c-56e3-a7e6-705447df7feb
+
+	measure 'Total Ventas' = SUMX(FACT_Ventas, FACT_Ventas[Cantidad] * FACT_Ventas[precio unit] * (1 - FACT_Ventas[Descuento_Pct]))
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Ventas
+		lineageTag: 8abd3a7c-24a9-518e-bc9f-4403b6a71565
+
+	measure 'Unidades Vendidas' = SUM(FACT_Ventas[Cantidad])
+		formatString: #,0
+		displayFolder: Ventas
+		lineageTag: 63afbd0b-32ed-518f-91ca-f8f59bdac0ad
+
+	measure '# Órdenes' = DISTINCTCOUNT(FACT_Ventas[NumOrden])
+		formatString: #,0
+		displayFolder: Ventas
+		lineageTag: 3ca814c0-372d-5dea-bfb6-935c2bab94c7
+
+	measure '# Clientes' = DISTINCTCOUNT(FACT_Ventas[cust_id])
+		formatString: #,0
+		displayFolder: Ventas
+		lineageTag: ffd45c83-26cd-5062-9ad5-4af3952aa1b4
+
+	measure 'Ticket Promedio' = DIVIDE([Total Ventas], [# Órdenes])
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Ventas
+		lineageTag: e9f0ca74-775d-5aed-8868-3aa17186267b
+
+	measure 'Ventas Online' = CALCULATE([Total Ventas], KEEPFILTERS(FACT_Ventas[Canal] = "Online"))
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Ventas
+		lineageTag: 35763ba7-360e-55e7-9ecb-b8a42ff559de
+
+	measure Costo = SUMX(FACT_Ventas, FACT_Ventas[Cantidad] * FACT_Ventas[CostoUnitario])
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Rentabilidad
+		lineageTag: f18ce31a-9b0a-5758-86b7-c280590e528a
+
+	measure margen = [Total Ventas] - [Costo]
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Rentabilidad
+		lineageTag: e5dee703-6a09-5d81-abd6-fb18c2a3aa31
+
+	measure 'Margen %' = DIVIDE([margen], [Total Ventas])
+		formatString: 0.0%
+		displayFolder: Rentabilidad
+		lineageTag: 1750ce73-c8a5-5331-9ca9-99f5d43efd22
+
+	measure 'Ventas YTD' = TOTALYTD([Total Ventas], Calendario[Fecha])
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Inteligencia de tiempo
+		lineageTag: 2e4f59e0-5958-51e9-b875-8e0236f871b2
+
+	measure 'Ventas AA' = CALCULATE([Total Ventas], SAMEPERIODLASTYEAR(Calendario[Fecha]))
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Inteligencia de tiempo
+		lineageTag: 8d6bc51e-d603-5daa-8089-0233d6954c2e
+
+	measure 'Crecimiento AA %' = DIVIDE([Total Ventas] - [Ventas AA], [Ventas AA])
+		formatString: 0.0%
+		displayFolder: Inteligencia de tiempo
+		lineageTag: 25e0ccef-c9cc-5d21-9dc2-e1552b0283cd
+
+	measure 'Ventas por Fecha de Envío' = CALCULATE([Total Ventas], USERELATIONSHIP(FACT_Ventas[FechaEnvio], Calendario[Fecha]))
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Ventas
+		lineageTag: 98912dcc-5e7c-55f6-816e-71fe13212baf
+
+	measure 'Unidades Devueltas' = SUM(fact_devoluciones[CantidadDevuelta])
+		formatString: #,0
+		displayFolder: Devoluciones
+		lineageTag: 11722315-fc31-533d-be4e-d188d1e85de8
+
+	measure 'Tasa Devolucion' = DIVIDE([Unidades Devueltas], [Unidades Vendidas])
+		formatString: 0.0%
+		displayFolder: Devoluciones
+		lineageTag: 595f5269-78ed-5b68-bf77-0aa8d46e6445
+
+	measure Presupuesto = SUM(Presupuesto[ValorPresupuesto])
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Presupuesto
+		lineageTag: 26a47151-06dd-526c-9f25-d6d732199cf7
+
+	measure Cumplimiento = DIVIDE([Total Ventas], [Presupuesto])
+		formatString: 0.0%
+		displayFolder: Presupuesto
+		lineageTag: 68182326-8efc-5bc1-b4bb-516e0e57392b
+
+	measure 'Diferencia vs Presupuesto' = [Total Ventas] - [Presupuesto]
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Presupuesto
+		lineageTag: 044f5df0-8af8-52f5-8498-a37cdef53152
+
+	column NumOrden
+		dataType: int64
+		formatString: 0
+		lineageTag: 525866b7-01e2-5621-8299-34cd33f1df2a
+		summarizeBy: none
+		sourceColumn: NumOrden
+
+		annotation SummarizationSetBy = User
+
+	column LineaOrden
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 0ed4411f-a235-51a2-8801-3bcdab896ea6
+		summarizeBy: none
+		sourceColumn: LineaOrden
+
+		annotation SummarizationSetBy = User
+
+	column FechaOrden
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3bd26653-e4d4-556b-b7ed-78dd41d57bab
+		summarizeBy: none
+		sourceColumn: FechaOrden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column FechaEnvio
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 392778dd-b0e5-5fcf-89e7-86e281327d01
+		summarizeBy: none
+		sourceColumn: FechaEnvio
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column cust_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: fd8bae28-5da8-5421-9d7d-1316aef39201
+		summarizeBy: none
+		sourceColumn: cust_id
+
+		annotation SummarizationSetBy = User
+
+	column ProductoKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 4eb5637d-5ca3-5343-b483-6bab24790156
+		summarizeBy: none
+		sourceColumn: ProductoKey
+
+		annotation SummarizationSetBy = User
+
+	column TiendaKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 5b30e15d-9c42-5d30-a253-0e5c697ff48b
+		summarizeBy: none
+		sourceColumn: TiendaKey
+
+		annotation SummarizationSetBy = User
+
+	column Canal
+		dataType: string
+		lineageTag: 2bdecdaf-ce38-5355-bf2a-5f17ff9438f7
+		summarizeBy: none
+		sourceColumn: Canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cantidad
+		dataType: int64
+		formatString: 0
+		lineageTag: d2fa7f0c-0bde-58e7-8cfd-3fbfe972a402
+		summarizeBy: sum
+		sourceColumn: Cantidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'precio unit'
+		dataType: double
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 4ccee326-2514-5746-8f5c-806d83518a9a
+		summarizeBy: none
+		sourceColumn: precio unit
+
+		annotation SummarizationSetBy = User
+
+	column Descuento_Pct
+		dataType: double
+		formatString: 0%
+		lineageTag: 231b9301-c3fb-5fd3-829d-24b3ec74b48b
+		summarizeBy: none
+		sourceColumn: Descuento_Pct
+
+		annotation SummarizationSetBy = User
+
+	column CostoUnitario
+		dataType: double
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 84580b47-be93-5476-9e40-f791ed5cd254
+		summarizeBy: none
+		sourceColumn: CostoUnitario
+
+		annotation SummarizationSetBy = User
+
+	partition FACT_Ventas = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "FACT_Ventas.csv"),[Delimiter=",", Columns=14, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    ColumnasQuitadas = Table.RemoveColumns(Encabezados, {"ETL_LoadDate", "Columna1"}),
+				    Tipos = Table.TransformColumnTypes(ColumnasQuitadas, {{"NumOrden", Int64.Type}, {"LineaOrden", Int64.Type}, {"FechaOrden", type date}, {"FechaEnvio", type date}, {"cust_id", Int64.Type}, {"ProductoKey", Int64.Type}, {"TiendaKey", Int64.Type}, {"Canal", type text}, {"Cantidad", Int64.Type}, {"precio unit", type number}, {"Descuento_Pct", type number}, {"CostoUnitario", type number}}, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

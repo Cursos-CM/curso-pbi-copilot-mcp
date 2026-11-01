@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "TiendasAndinas"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8eee0091-52df-4895-9b31-5847b8e64139"
+  }
+}

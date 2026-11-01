@@ -1,0 +1,87 @@
+table Cliente
+	lineageTag: 71b678e4-6846-5701-adff-c74ceb5ee67b
+
+	column cust_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 87c23a83-bbc4-5527-a67c-7e7dbd0408b4
+		summarizeBy: none
+		sourceColumn: cust_id
+
+		annotation SummarizationSetBy = User
+
+	column NombreCliente
+		dataType: string
+		lineageTag: 5422c5ee-bf02-536c-86bf-fe841e5e65b9
+		summarizeBy: none
+		sourceColumn: NombreCliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column Genero
+		dataType: string
+		lineageTag: b5dd31d7-e505-5f6f-bd36-9a0cdcfc5df3
+		summarizeBy: none
+		sourceColumn: Genero
+
+		annotation SummarizationSetBy = Automatic
+
+	column FechaNacimiento
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a7e6e0c3-17b3-5c43-9d98-774eb837d300
+		summarizeBy: none
+		sourceColumn: FechaNacimiento
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Segmento
+		dataType: string
+		lineageTag: 38b7ec70-844d-56d2-9849-88a7b8165120
+		summarizeBy: none
+		sourceColumn: Segmento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ciudad
+		dataType: string
+		lineageTag: 5b9dd7fb-5320-5204-b8c6-231c5b6c6d78
+		summarizeBy: none
+		sourceColumn: Ciudad
+
+		annotation SummarizationSetBy = Automatic
+
+	column Departamento
+		dataType: string
+		lineageTag: 43ed3114-66be-54f0-bb40-59a9ffcde198
+		summarizeBy: none
+		sourceColumn: Departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column FechaRegistro
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7af5f7be-eb7b-5415-9d53-bd708806d9af
+		summarizeBy: none
+		sourceColumn: FechaRegistro
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition Cliente = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "Cliente.csv"),[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"cust_id", Int64.Type}, {"NombreCliente", type text}, {"Genero", type text}, {"FechaNacimiento", type date}, {"Segmento", type text}, {"Ciudad", type text}, {"Departamento", type text}, {"FechaRegistro", type date}}, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

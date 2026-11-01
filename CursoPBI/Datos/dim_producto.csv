@@ -1,0 +1,185 @@
+ProductoKey,Producto,SubcategoriaKey,Marca,Color,PrecioLista,CostoEstandar
+1001,Celulares Altiplano Tech One 01,1,Altiplano Tech,Rojo,1072700,679300
+1002,Celulares Kóndor Lite 02,1,Kóndor,Rojo,642000,413700
+1003,Celulares Voltia Max 03,1,Voltia,Rojo,1763400,908700
+1004,Celulares Nexo Plus 04,1,Nexo,Blanco,916500,646700
+1005,Celulares Kóndor Eco 05,1,Kóndor,Azul,830900,454700
+1006,Celulares Nexo Max 06,1,Nexo,Rojo,664600,399700
+1007,Celulares Kóndor Clásico 07,1,Kóndor,Beige,549500,349900
+1008,Celulares Kóndor One 08,1,Kóndor,,2929200,1501300
+1009,Celulares Nexo One 09,1,Nexo,Negro,991200,655100
+1010,Celulares Altiplano Tech Eco 10,1,Altiplano Tech,,2806700,1747900
+1011,Celulares Altiplano Tech Max 11,1,Altiplano Tech,Verde,857400,501700
+1012,Celulares Altiplano Tech Urban 12,1,Altiplano Tech,Rojo,1780300,1184500
+1013,Celulares Kóndor Clásico 13,1,Kóndor,,1078700,630400
+1014,Portátiles Kóndor Plus 01,2,Kóndor,,2630200,1269000
+1015,Portátiles Altiplano Tech One 02,2,Altiplano Tech,Azul,2529500,1418700
+1016,Portátiles Kóndor Max 03,2,Kóndor,Azul,3540000,2367500
+1017,Portátiles Nexo Eco 04,2,Nexo,Verde,3388600,2400300
+1018,Portátiles Voltia Lite 05,2,Voltia,Negro,6363800,4165600
+1019,Portátiles Nexo Lite 06,2,Nexo,Verde,4985800,2627500
+1020,Portátiles Kóndor Lite 07,2,Kóndor,Rojo,5636600,3292300
+1021,Portátiles Altiplano Tech Lite 08,2,Altiplano Tech,Verde,2294600,1322200
+1022,Portátiles Voltia Plus 09,2,Voltia,Negro,1805500,869400
+1023,Portátiles Altiplano Tech Clásico 10,2,Altiplano Tech,Azul,6329600,4448000
+1024,Portátiles Altiplano Tech One 11,2,Altiplano Tech,Blanco,5645700,3870800
+1025,Portátiles Voltia Max 12,2,Voltia,,2346600,1454700
+1026,Portátiles Altiplano Tech Plus 13,2,Altiplano Tech,Blanco,4746900,3202600
+1027,Audio Kóndor One 01,3,Kóndor,Gris,320100,159700
+1028,Audio Voltia Plus 02,3,Voltia,Rojo,134200,80300
+1029,Audio Voltia Eco 03,3,Voltia,Azul,590500,374100
+1030,Audio Altiplano Tech One 04,3,Altiplano Tech,Negro,95500,48700
+1031,Audio Nexo Max 05,3,Nexo,Negro,399000,217400
+1032,Audio Altiplano Tech Max 06,3,Altiplano Tech,Beige,74200,36700
+1033,Audio Nexo Lite 07,3,Nexo,Azul,136300,76700
+1034,Audio Kóndor Pro 08,3,Kóndor,Azul,593700,408100
+1035,Audio Nexo Lite 09,3,Nexo,Gris,181400,98000
+1036,Audio Altiplano Tech Eco 10,3,Altiplano Tech,Beige,706300,347900
+1037,Audio Voltia Lite 11,3,Voltia,Blanco,704000,431500
+1038,Audio Nexo Max 12,3,Nexo,Beige,464100,331900
+1039,Audio Kóndor Pro 13,3,Kóndor,Beige,110200,74300
+1040,Audio Kóndor Clásico 14,3,Kóndor,Gris,493300,289600
+1041,Accesorios Nexo Clásico 01,4,Nexo,Beige,29000,18100
+1042,Accesorios Altiplano Tech Eco 02,4,Altiplano Tech,Beige,75900,44900
+1043,Accesorios Nexo Eco 03,4,Nexo,Negro,80000,42100
+1044,Accesorios Altiplano Tech Eco 04,4,Altiplano Tech,Gris,43400,27400
+1045,Accesorios Nexo Urban 05,4,Nexo,Blanco,38400,25600
+1046,Accesorios Altiplano Tech Eco 06,4,Altiplano Tech,Verde,154300,96500
+1047,Accesorios Nexo Plus 07,4,Nexo,Azul,140600,85900
+1048,Accesorios Altiplano Tech Eco 08,4,Altiplano Tech,Azul,152800,91100
+1049,Accesorios Altiplano Tech Max 09,4,Altiplano Tech,Gris,213400,130200
+1050,Accesorios Kóndor Max 10,4,Kóndor,Blanco,37900,26400
+1051,Accesorios Nexo Max 11,4,Nexo,,89400,60300
+1052,Cocina Hogarte Urban 01,5,Hogarte,Azul,423200,266800
+1053,Cocina Casa Viva Urban 02,5,Casa Viva,Blanco,248500,126300
+1054,Cocina Roble & Co One 03,5,Roble & Co,,1122800,605500
+1055,Cocina Roble & Co Clásico 04,5,Roble & Co,Beige,73700,40600
+1056,Cocina Roble & Co One 05,5,Roble & Co,Azul,213100,125400
+1057,Cocina Casa Viva Lite 06,5,Casa Viva,Negro,171600,117500
+1058,Cocina Casa Viva Lite 07,5,Casa Viva,Gris,105100,62800
+1059,Cocina Casa Viva Eco 08,5,Casa Viva,,653300,343700
+1060,Cocina Casa Viva Plus 09,5,Casa Viva,Azul,126400,70600
+1061,Cocina Casa Viva Eco 10,5,Casa Viva,Rojo,952700,648500
+1062,Muebles Roble & Co Urban 01,6,Roble & Co,Verde,1532600,788700
+1063,Muebles Hogarte Pro 02,6,Hogarte,Negro,411500,245300
+1064,Muebles Hogarte Max 03,6,Hogarte,Verde,279400,193100
+1065,Muebles Casa Viva Max 04,6,Casa Viva,Rojo,1057100,745200
+1066,Muebles Hogarte Urban 05,6,Hogarte,Blanco,252600,150600
+1067,Muebles Casa Viva Urban 06,6,Casa Viva,Azul,2606500,1515500
+1068,Muebles Roble & Co One 07,6,Roble & Co,Azul,838900,423000
+1069,Muebles Casa Viva Pro 08,6,Casa Viva,Verde,933200,548900
+1070,Muebles Hogarte Urban 09,6,Hogarte,,432500,228400
+1071,Decoración Roble & Co Lite 01,7,Roble & Co,Verde,116300,78800
+1072,Decoración Roble & Co Eco 02,7,Roble & Co,Negro,25600,14100
+1073,Decoración Roble & Co Eco 03,7,Roble & Co,Gris,25300,15400
+1074,Decoración Roble & Co Lite 04,7,Roble & Co,Beige,249500,163900
+1075,Decoración Hogarte Clásico 05,7,Hogarte,Azul,99200,60500
+1076,Decoración Casa Viva One 06,7,Casa Viva,Beige,33600,18300
+1077,Decoración Roble & Co Eco 07,7,Roble & Co,Verde,80100,44700
+1078,Decoración Roble & Co One 08,7,Roble & Co,Rojo,323900,178400
+1079,Decoración Casa Viva Pro 09,7,Casa Viva,,59100,37200
+1080,Decoración Hogarte Clásico 10,7,Hogarte,Blanco,185400,89600
+1081,Decoración Hogarte One 11,7,Hogarte,Gris,66100,36100
+1082,Decoración Roble & Co Pro 12,7,Roble & Co,Rojo,62000,30400
+1083,Decoración Roble & Co Pro 13,7,Roble & Co,Beige,54700,29800
+1084,Decoración Hogarte Lite 14,7,Hogarte,Azul,213100,140200
+1085,Electrodomésticos Hogarte One 01,8,Hogarte,,3798400,2731700
+1086,Electrodomésticos Roble & Co Plus 02,8,Roble & Co,Rojo,906100,589100
+1087,Electrodomésticos Hogarte Clásico 03,8,Hogarte,,1061500,702000
+1088,Electrodomésticos Hogarte Lite 04,8,Hogarte,Beige,423500,243100
+1089,Electrodomésticos Roble & Co Eco 05,8,Roble & Co,Rojo,315100,220900
+1090,Electrodomésticos Roble & Co Plus 06,8,Roble & Co,Azul,2357300,1515800
+1091,Electrodomésticos Roble & Co Urban 07,8,Roble & Co,Negro,1745600,1128800
+1092,Electrodomésticos Roble & Co Pro 08,8,Roble & Co,,683900,439700
+1093,Electrodomésticos Roble & Co Eco 09,8,Roble & Co,Gris,514900,321200
+1094,Camisetas Urbano One 01,9,Urbano,,87700,59500
+1095,Camisetas Lluvia Clásico 02,9,Lluvia,,70000,44800
+1096,Camisetas Andes Wear Plus 03,9,Andes Wear,Blanco,41700,27800
+1097,Camisetas Andes Wear One 04,9,Andes Wear,Gris,35500,18900
+1098,Camisetas Urbano Max 05,9,Urbano,,44200,22600
+1099,Camisetas Urbano Pro 06,9,Urbano,Azul,52100,27900
+1100,Camisetas Lluvia Eco 07,9,Lluvia,,107100,75500
+1101,Camisetas Lluvia Urban 08,9,Lluvia,Verde,64200,41100
+1102,Camisetas Urbano Eco 09,9,Urbano,Azul,42100,22200
+1103,Camisetas Andes Wear Lite 10,9,Andes Wear,Verde,36500,19600
+1104,Camisetas Andes Wear Pro 11,9,Andes Wear,Gris,64800,40100
+1105,Camisetas Lluvia Urban 12,9,Lluvia,Azul,77700,37800
+1106,Camisetas Lluvia Urban 13,9,Lluvia,Beige,35200,20700
+1107,Camisetas Andes Wear Clásico 14,9,Andes Wear,Verde,48300,27200
+1108,Pantalones Urbano Max 01,10,Urbano,Beige,160500,114500
+1109,Pantalones Urbano Eco 02,10,Urbano,Beige,127800,80300
+1110,Pantalones Lluvia Eco 03,10,Lluvia,Verde,114200,79000
+1111,Pantalones Lluvia Max 04,10,Lluvia,Negro,179300,110700
+1112,Pantalones Lluvia Lite 05,10,Lluvia,Blanco,114200,71800
+1113,Pantalones Lluvia Plus 06,10,Lluvia,Verde,195800,135400
+1114,Pantalones Lluvia One 07,10,Lluvia,Azul,111000,68000
+1115,Pantalones Andes Wear Urban 08,10,Andes Wear,Beige,93000,55400
+1116,Pantalones Urbano Lite 09,10,Urbano,Beige,114800,81400
+1117,Pantalones Andes Wear Urban 10,10,Andes Wear,Gris,96400,56800
+1118,Pantalones Urbano Plus 11,10,Urbano,Gris,102900,54000
+1119,Pantalones Urbano Pro 12,10,Urbano,Rojo,148800,73600
+1120,Pantalones Urbano Pro 13,10,Urbano,Blanco,109200,70700
+1121,Pantalones Andes Wear Eco 14,10,Andes Wear,Negro,178300,104600
+1122,Calzado Lluvia Max 01,11,Lluvia,Gris,130200,69600
+1123,Calzado Andes Wear Eco 02,11,Andes Wear,Rojo,322500,204400
+1124,Calzado Urbano Lite 03,11,Urbano,Azul,366500,236100
+1125,Calzado Andes Wear Plus 04,11,Andes Wear,Negro,163100,85400
+1126,Calzado Andes Wear One 05,11,Andes Wear,,169300,109900
+1127,Calzado Urbano Pro 06,11,Urbano,Negro,143500,100100
+1128,Calzado Urbano Pro 07,11,Urbano,Gris,217500,104800
+1129,Calzado Urbano Max 08,11,Urbano,Blanco,344800,214700
+1130,Calzado Andes Wear One 09,11,Andes Wear,,396100,225600
+1131,Calzado Lluvia Max 10,11,Lluvia,Beige,145900,89700
+1132,Calzado Lluvia One 11,11,Lluvia,Verde,204000,111200
+1133,Calzado Andes Wear Pro 12,11,Andes Wear,Verde,276400,171600
+1134,Calzado Andes Wear Clásico 13,11,Andes Wear,Negro,127700,88400
+1135,Calzado Lluvia One 14,11,Lluvia,Negro,202900,129300
+1136,Accesorios Urbano Clásico 01,12,Urbano,Blanco,34200,17600
+1137,Accesorios Urbano Plus 02,12,Urbano,Verde,121300,76800
+1138,Accesorios Lluvia Plus 03,12,Lluvia,Verde,205300,131900
+1139,Accesorios Urbano Urban 04,12,Urbano,Blanco,37500,24600
+1140,Accesorios Urbano Urban 05,12,Urbano,Beige,126200,78200
+1141,Accesorios Lluvia Lite 06,12,Lluvia,Beige,106600,73000
+1142,Accesorios Urbano Clásico 07,12,Urbano,Beige,44000,28600
+1143,Accesorios Urbano Urban 08,12,Urbano,Gris,34900,22200
+1144,Accesorios Urbano Max 09,12,Urbano,Gris,31800,19400
+1145,Accesorios Andes Wear Plus 10,12,Andes Wear,Gris,112600,63200
+1146,Accesorios Lluvia One 11,12,Lluvia,Rojo,168800,117500
+1147,Accesorios Lluvia Lite 12,12,Lluvia,Negro,34300,23600
+1148,Accesorios Lluvia Urban 13,12,Lluvia,Blanco,108400,59900
+1149,Accesorios Lluvia Plus 14,12,Lluvia,Verde,36600,22500
+1150,Ciclismo Pedalea Clásico 01,13,Pedalea,Gris,783600,446300
+1151,Ciclismo Pedalea Clásico 02,13,Pedalea,Azul,342000,217100
+1152,Ciclismo Cumbre Urban 03,13,Cumbre,Beige,198000,110600
+1153,Ciclismo Ruta Alta Pro 04,13,Ruta Alta,Gris,1815400,973200
+1154,Ciclismo Cumbre Eco 05,13,Cumbre,Beige,240000,154100
+1155,Ciclismo Cumbre Max 06,13,Cumbre,Negro,439300,243300
+1156,Ciclismo Cumbre Eco 07,13,Cumbre,Verde,908300,527300
+1157,Ciclismo Cumbre Max 08,13,Cumbre,Rojo,937500,569600
+1158,Ciclismo Pedalea Lite 09,13,Pedalea,Azul,336700,234500
+1159,Ciclismo Ruta Alta Eco 10,13,Ruta Alta,Negro,767600,444800
+1160,Ciclismo Cumbre Pro 11,13,Cumbre,Blanco,2383600,1290800
+1161,Fitness Ruta Alta Eco 01,14,Ruta Alta,,62100,35100
+1162,Fitness Ruta Alta Eco 02,14,Ruta Alta,Negro,525400,364800
+1163,Fitness Cumbre Clásico 03,14,Cumbre,,104100,56100
+1164,Fitness Ruta Alta Lite 04,14,Ruta Alta,Gris,287100,140400
+1165,Fitness Pedalea One 05,14,Pedalea,Blanco,267200,156900
+1166,Fitness Ruta Alta One 06,14,Ruta Alta,Gris,1467600,1029100
+1167,Fitness Pedalea Urban 07,14,Pedalea,Gris,139800,93800
+1168,Fitness Cumbre Clásico 08,14,Cumbre,Beige,280000,150200
+1169,Fitness Pedalea Urban 09,14,Pedalea,Verde,417500,269000
+1170,Fitness Cumbre Lite 10,14,Cumbre,,1424400,746500
+1171,Fitness Cumbre Max 11,14,Cumbre,Rojo,72600,48900
+1172,Fitness Pedalea One 12,14,Pedalea,Azul,396400,193900
+1173,Fitness Ruta Alta Pro 13,14,Ruta Alta,Rojo,618300,330200
+1174,Camping Ruta Alta Lite 01,15,Ruta Alta,,104800,69200
+1175,Camping Ruta Alta Max 02,15,Ruta Alta,Rojo,89800,44500
+1176,Camping Ruta Alta Plus 03,15,Ruta Alta,Verde,172600,102500
+1177,Camping Pedalea One 04,15,Pedalea,Negro,65500,47100
+1178,Camping Ruta Alta Eco 05,15,Ruta Alta,Beige,245900,170200
+1179,Camping Cumbre Max 06,15,Cumbre,Azul,413200,231700
+1180,Camping Cumbre Pro 07,15,Cumbre,,576900,341700
+1181,Camping Ruta Alta Eco 08,15,Ruta Alta,Blanco,756700,496200
+1182,Camping Cumbre Clásico 09,15,Cumbre,Negro,730000,361900
+1183,Camping Cumbre Clásico 10,15,Cumbre,Gris,61200,29800
+1184,Camping Cumbre Plus 11,15,Cumbre,Blanco,583400,310000

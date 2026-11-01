@@ -1,0 +1,85 @@
+table tbl_Tienda
+	lineageTag: 314ed86d-7f31-599e-b574-811f210b678f
+
+	column TiendaKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 07fa25ed-04dd-5252-bd91-f64f6f16c40a
+		summarizeBy: none
+		sourceColumn: TiendaKey
+
+		annotation SummarizationSetBy = User
+
+	column Tienda
+		dataType: string
+		lineageTag: 194cbdd2-b1b4-5cea-8682-3140f6387316
+		summarizeBy: none
+		sourceColumn: Tienda
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ciudad
+		dataType: string
+		lineageTag: 39df10e9-8c5a-5fa9-a458-e9001cd043af
+		summarizeBy: none
+		sourceColumn: Ciudad
+
+		annotation SummarizationSetBy = Automatic
+
+	column Departamento
+		dataType: string
+		lineageTag: bb4c6b62-57ea-5f31-93c2-2d629c9c8e29
+		summarizeBy: none
+		sourceColumn: Departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: 325d9834-da68-50f9-b659-c96d97cc37ea
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tipo
+		dataType: string
+		lineageTag: 8734c5f7-21b0-53d4-a1f6-27c182aa7383
+		summarizeBy: none
+		sourceColumn: Tipo
+
+		annotation SummarizationSetBy = Automatic
+
+	column FechaApertura
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7e5ff0ef-36b1-5a88-a640-d130ae54a07b
+		summarizeBy: none
+		sourceColumn: FechaApertura
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column MetrosCuadrados
+		dataType: int64
+		formatString: 0
+		lineageTag: 7950bf74-2bbb-5fc3-b340-347de7ca796a
+		summarizeBy: none
+		sourceColumn: MetrosCuadrados
+
+		annotation SummarizationSetBy = User
+
+	partition tbl_Tienda = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "tbl_Tienda.csv"),[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"TiendaKey", Int64.Type}, {"Tienda", type text}, {"Ciudad", type text}, {"Departamento", type text}, {"Region", type text}, {"Tipo", type text}, {"FechaApertura", type date}, {"MetrosCuadrados", Int64.Type}}, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

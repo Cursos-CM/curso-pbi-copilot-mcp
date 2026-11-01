@@ -1,0 +1,73 @@
+table fact_devoluciones
+	lineageTag: a391c58a-8aa3-5c9e-b587-de625ff82871
+
+	column NumOrden
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e80826ae-9c5e-56b2-ad7b-b5a58ba10aaf
+		summarizeBy: none
+		sourceColumn: NumOrden
+
+		annotation SummarizationSetBy = User
+
+	column ProductoKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 038d238e-06f5-5ff3-8975-a7f033e0e3cf
+		summarizeBy: none
+		sourceColumn: ProductoKey
+
+		annotation SummarizationSetBy = User
+
+	column TiendaKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 5476d44f-99c4-5bcf-8c60-602f15e60b28
+		summarizeBy: none
+		sourceColumn: TiendaKey
+
+		annotation SummarizationSetBy = User
+
+	column FechaDevolucion
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 86fff6a8-db41-5987-aeb8-317c8184bfad
+		summarizeBy: none
+		sourceColumn: FechaDevolucion
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column CantidadDevuelta
+		dataType: int64
+		formatString: 0
+		lineageTag: fa3e9fe0-7ab4-5a24-bf4b-03de191a86ae
+		summarizeBy: sum
+		sourceColumn: CantidadDevuelta
+
+		annotation SummarizationSetBy = Automatic
+
+	column Motivo
+		dataType: string
+		lineageTag: 67c019eb-110b-5fcd-84e0-369ba9d5d33d
+		summarizeBy: none
+		sourceColumn: Motivo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_devoluciones = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "fact_devoluciones.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"NumOrden", Int64.Type}, {"ProductoKey", Int64.Type}, {"TiendaKey", Int64.Type}, {"FechaDevolucion", type date}, {"CantidadDevuelta", Int64.Type}, {"Motivo", type text}}, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

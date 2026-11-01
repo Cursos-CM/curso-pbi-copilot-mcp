@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "43a03299a3c3fed3d8ce",
+  "position": {
+    "x": 950,
+    "y": 20,
+    "z": 1003,
+    "height": 120,
+    "width": 310,
+    "tabOrder": 1003
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FACT_Ventas"
+                    }
+                  },
+                  "Property": "Cumplimiento"
+                }
+              },
+              "queryRef": "FACT_Ventas.Cumplimiento",
+              "nativeQueryRef": "Cumplimiento"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Cumplimiento presupuesto'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

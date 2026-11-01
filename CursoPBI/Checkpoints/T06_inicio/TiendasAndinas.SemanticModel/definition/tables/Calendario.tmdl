@@ -1,0 +1,98 @@
+table Calendario
+	lineageTag: 116cdcd8-c5f5-5629-a8e4-ce0303672963
+	dataCategory: Time
+
+	column Fecha
+		dataType: dateTime
+		isKey
+		formatString: Long Date
+		lineageTag: a7b625b1-1e13-5b4e-9452-e3595774a0eb
+		summarizeBy: none
+		sourceColumn: Fecha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Anio
+		dataType: int64
+		formatString: 0
+		lineageTag: 22ed8bfe-c388-5dab-88fc-d4d04488f734
+		summarizeBy: none
+		sourceColumn: Anio
+
+		annotation SummarizationSetBy = User
+
+	column Mes
+		dataType: int64
+		formatString: 0
+		lineageTag: 179bf26b-6cc2-5fae-8318-53bd5bda7ae6
+		summarizeBy: none
+		sourceColumn: Mes
+
+		annotation SummarizationSetBy = User
+
+	column NombreMes
+		dataType: string
+		lineageTag: efda78fe-af2f-55a0-aad5-11a8cf718e0b
+		summarizeBy: none
+		sourceColumn: NombreMes
+		sortByColumn: Mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		dataType: string
+		lineageTag: 4285d068-ff23-509c-9da2-ca6fb1668e41
+		summarizeBy: none
+		sourceColumn: Trimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnioMes
+		dataType: string
+		lineageTag: 279cbfdb-1c5c-5bd9-8935-4c8d1cd22438
+		summarizeBy: none
+		sourceColumn: AnioMes
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaSemanaNum
+		dataType: int64
+		formatString: 0
+		lineageTag: b6d7e154-e880-57be-9364-43b663a6dae8
+		summarizeBy: none
+		sourceColumn: DiaSemanaNum
+
+		annotation SummarizationSetBy = User
+
+	column DiaSemana
+		dataType: string
+		lineageTag: 08605a75-0a25-580c-ab1f-2caa03603179
+		summarizeBy: none
+		sourceColumn: DiaSemana
+		sortByColumn: DiaSemanaNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column EsFinDeSemana
+		dataType: int64
+		formatString: 0
+		lineageTag: 6e273b24-a6cd-5313-a7eb-42eab14d2294
+		summarizeBy: none
+		sourceColumn: EsFinDeSemana
+
+		annotation SummarizationSetBy = User
+
+	partition Calendario = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "Calendario.csv"),[Delimiter=",", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"Fecha", type date}, {"Anio", Int64.Type}, {"Mes", Int64.Type}, {"NombreMes", type text}, {"Trimestre", type text}, {"AnioMes", type text}, {"DiaSemanaNum", Int64.Type}, {"DiaSemana", type text}, {"EsFinDeSemana", Int64.Type}}, "en-US")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

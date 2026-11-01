@@ -1,0 +1,25 @@
+relationship 819b72c2-2c64-5ac3-a6ba-8bbfb71375f7
+	fromColumn: FACT_Ventas.FechaOrden
+	toColumn: Calendario.Fecha
+
+relationship 46bdec4d-3a4c-5dd8-bb98-096930ff79fc
+	crossFilteringBehavior: bothDirections
+	fromColumn: FACT_Ventas.cust_id
+	toColumn: Cliente.cust_id
+
+relationship 59965a10-4b11-5d3f-b713-4dbce0487762
+	fromColumn: FACT_Ventas.ProductoKey
+	toColumn: dim_producto.ProductoKey
+
+relationship 54cd5c8e-c761-5cf7-880e-605fe5528474
+	fromColumn: FACT_Ventas.TiendaKey
+	toColumn: tbl_Tienda.TiendaKey
+
+relationship 978b19d4-7afd-5c0d-a6ec-41d47fbd148e
+	fromColumn: dim_producto.SubcategoriaKey
+	toColumn: dim_subcategoria.SubcategoriaKey
+
+relationship 0b185ebc-4158-5236-b26c-ca3b1a5a2520
+	fromColumn: fact_devoluciones.ProductoKey
+	toColumn: dim_producto.ProductoKey
+

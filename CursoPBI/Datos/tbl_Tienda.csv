@@ -1,0 +1,17 @@
+TiendaKey,Tienda,Ciudad,Departamento,Region,Tipo,FechaApertura,MetrosCuadrados
+1,TA Bogotá 1,Bogotá,Cundinamarca,Centro,Flagship,2023-06-18,1885
+2,TA Bogotá 2,Bogotá,Cundinamarca,Centro,Outlet,2022-02-17,1727
+3,TA Bogotá 3,Bogotá,Cundinamarca,Centro,Calle,2013-07-21,1078
+4,TA Medellín 1,Medellín,Antioquia,Noroccidente,Flagship,2022-03-08,1276
+5,TA Medellín 2,Medellín,Antioquia,Noroccidente,Outlet,2014-07-18,1535
+6,TA Cali 1,Cali,Valle del Cauca,Suroccidente,Flagship,2013-12-24,1368
+7,TA Cali 2,Cali,Valle del Cauca,Suroccidente,Outlet,2017-04-24,473
+8,TA Barranquilla 1,Barranquilla,Atlántico,Caribe,Flagship,2014-02-22,1110
+9,TA Barranquilla 2,Barranquilla,Atlántico,Caribe,Centro comercial,2023-02-08,1052
+10,TA Cartagena,Cartagena,Bolívar,Caribe,Calle,2016-07-21,760
+11,TA Bucaramanga,Bucaramanga,Santander,Nororiente,Centro comercial,2023-06-10,1781
+12,TA Pereira,Pereira,Risaralda,Eje Cafetero,Outlet,2016-11-04,1197
+13,TA Manizales,Manizales,Caldas,Eje Cafetero,Calle,2020-06-20,1410
+14,TA Zipaquirá,Zipaquirá,Cundinamarca,Centro,Centro comercial,2013-05-05,715
+15,TA Villavicencio,Villavicencio,Meta,Orinoquía,Centro comercial,2020-10-25,1564
+16,Tienda Online,Bogotá,Cundinamarca,Online,Online,2019-03-01,0
