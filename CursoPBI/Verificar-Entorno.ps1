@@ -21,7 +21,7 @@ if (Get-Command code -ErrorAction SilentlyContinue) {
   $mcp = $ext | Where-Object { $_ -like "analysis-services.powerbi-modeling-mcp*" }
   if ($mcp) { Linea "OK" "Extensión $mcp" } else { Linea "ERROR" "Falta la extensión analysis-services.powerbi-modeling-mcp" }
   $cop = $ext | Where-Object { $_ -like "github.copilot-chat*" }
-  if ($cop) { Linea "OK" "Extensión $cop" } else { Linea "ADVERTENCIA" "No se encontró github.copilot-chat (puede venir integrada en VS Code; verifiquen el chat)" }
+  if ($cop) { Linea "OK" "Extensión $cop" } else { Write-Host "[INFO] GitHub Copilot viene integrado en VS Code: verifiquen que el chat (Ctrl+Alt+I) responda" -ForegroundColor Cyan }
 }
 
 $pbi = Get-AppxPackage -Name "Microsoft.MicrosoftPowerBIDesktop" -ErrorAction SilentlyContinue
