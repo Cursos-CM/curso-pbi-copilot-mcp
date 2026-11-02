@@ -332,4 +332,4 @@ Comparen la respuesta con los casos de uso vistos en la teoría.
 - Servidor encendido (Running): 21 herramientas y EULA aceptada.
 - Primera respuesta del agente con el inventario del modelo y una exploración contrastada con Desktop.
 
-Dejen Desktop y VS Code abiertos: en el Laboratorio 2 se conectarán de varias formas al mismo modelo.
+Guarden el proyecto en Desktop (Ctrl+S) para conservar los datos cargados. Después pueden cerrar Desktop y VS Code: el Laboratorio 2 empieza con su propio arranque y deja todo listo de nuevo.
