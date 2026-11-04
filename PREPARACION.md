@@ -14,11 +14,13 @@ Hagan esta preparación **antes** de la primera sesión. Toma unos 30 minutos y 
 |---|---|
 | Visual Studio Code | Desde `https://code.visualstudio.com`. GitHub Copilot ya viene integrado. |
 | Power BI Desktop | Desde Microsoft Store (se actualiza solo). |
-| Git | En PowerShell: `winget install --id Git.Git -e --source winget` |
-| Node.js (20 o superior) | En PowerShell: `winget install --id OpenJS.NodeJS.LTS -e --source winget` |
+| Git (opcional, Temas 7 y 8) | En PowerShell: `winget install --id Git.Git -e --source winget` |
+| Node.js 20 o superior (opcional) | En PowerShell: `winget install --id OpenJS.NodeJS.LTS -e --source winget` |
 | Extensión del servidor MCP | En VS Code, vista de Extensiones (Ctrl+Shift+X): **Power BI Authoring MCP Server**, editor **Microsoft**, identificador `analysis-services.powerbi-modeling-mcp` |
 
-Después de instalar Git y Node.js, cierren y vuelvan a abrir VS Code y PowerShell.
+Git y Node.js son **opcionales**. Si al instalarlos Windows pide permisos de administrador que no tienen, omítanlos: el curso tiene alternativa. Si los instalan, cierren y vuelvan a abrir VS Code y PowerShell.
+
+Si no pueden instalar el software o no tienen licencia de Copilot, sigan los laboratorios en **modo demo** con el instructor: cada guía muestra el resultado esperado de cada paso.
 
 Si winget responde *Found an existing package already installed* y *No available upgrade found*, ese programa ya está instalado y al día: no hay que hacer nada más.
 
@@ -27,7 +29,8 @@ Si winget responde *Found an existing package already installed* y *No available
 ## 3. Descargar los materiales
 
 1. En la página del repositorio, abran **Releases** y descarguen `CursoPBI.zip` de la versión más reciente.
-2. Descompriman el archivo directamente en `C:\`. Debe quedar la carpeta `C:\CursoPBI` con `Datos`, `TiendasAndinas`, `Checkpoints` y `Prompts` adentro.
+2. Clic derecho sobre `CursoPBI.zip` → **Extraer todo…**. En el destino escriban solo `C:\` (no `C:\CursoPBI`) y hagan clic en **Extraer**.
+3. Comprueben que existe `C:\CursoPBI\Verificar-Entorno.ps1`. Si ven `C:\CursoPBI\CursoPBI`, muevan su contenido una carpeta arriba.
 
 ## 4. Verificar
 

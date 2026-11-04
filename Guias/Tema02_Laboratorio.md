@@ -21,6 +21,8 @@ El equipo de BI de Tiendas Andinas quiere usar el agente sobre modelos important
 
 > **Cómo leer esta guía:** cada recuadro gris con texto en español es un **mensaje para el chat de Copilot**: cópienlo, péguenlo en el cuadro *Chat with Copilot* y presionen **Enter**. Los recuadros de PowerShell o JSON se indican aparte.
 >
+> **Modo demo:** si no pueden ejecutar el laboratorio en su equipo, sigan al instructor en la pantalla compartida con esta misma guía. Debajo de los pasos, los recuadros **Resultado esperado** muestran lo que debe aparecer, para que puedan comprobarlo y responder las verificaciones.
+>
 > **Regla de hoy:** el proyecto de trabajo `C:\CursoPBI\TiendasAndinas` no se modifica. No guarden cambios en Desktop y no exporten a la carpeta original.
 
 ## Arranque: dejar el entorno listo (5 min)
@@ -30,7 +32,12 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
 1. Si Power BI Desktop o VS Code están abiertos de antes, ciérrenlos. Si Desktop pregunta si desean guardar, elijan **No guardar**.
 2. Hagan doble clic en `C:\CursoPBI\TiendasAndinas\TiendasAndinas.pbip` y esperen a que Power BI Desktop termine de abrirlo.
 3. En el panel **Datos** de Desktop, expandan `FACT_Ventas` y abran la **vista de tabla** (segundo icono de la barra izquierda). Si la tabla aparece vacía, vayan a **Inicio → Actualizar** y esperen a que termine.
+
+   > **Resultado esperado:** La vista de tabla de `FACT_Ventas` muestra filas con datos.
+
 4. Abran **Visual Studio Code**. Vayan a **File → Open Folder…**, elijan `C:\CursoPBI` y hagan clic en **Seleccionar carpeta**. Si VS Code pregunta si confían en los autores, elijan **Yes, I trust the authors**.
+
+   > **Resultado esperado:** El Explorador de VS Code muestra **CURSOPBI** y no aparece el aviso **Restricted Mode**.
 
 ✔ **Verificación**
 
@@ -44,6 +51,9 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
 1. En VS Code, con la carpeta `C:\CursoPBI` abierta, vayan al **Explorador** (primer icono de la barra izquierda, o **Ctrl+Shift+E**).
 2. Pasen el cursor sobre el nombre **CURSOPBI** y hagan clic en el icono **New Folder**. Escriban `.vscode` (con el punto al inicio) y presionen Enter.
 3. Hagan clic derecho sobre la carpeta `.vscode` → **New File…**, escriban `mcp.json` y presionen Enter. Se abre el archivo vacío.
+
+   > **Resultado esperado:** En el Explorador aparece `.vscode` con el archivo `mcp.json` adentro, abierto y vacío.
+
 4. Copien y peguen exactamente este contenido:
 
    ```json
@@ -68,6 +78,8 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
 
 5. Guarden con **Ctrl+S**.
 
+   > **Resultado esperado:** El archivo queda guardado sin subrayados rojos.
+
 ### B. Encender solo el servidor de solo lectura
 
 6. Abran una conversación nueva: **Ctrl+Shift+P** → `Chat: New Chat`. Ojo: el **+** que está *dentro* del cuadro de texto del chat es para adjuntar archivos, no para una conversación nueva. Confirmen **Agent** y **Manual permissions**, escriban `Hola` y esperen la respuesta.
@@ -76,6 +88,8 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    - **powerbi-authoring-local** y **github-mcp-server**: si dicen **Running**, hagan clic en su nombre → **Stop Server**.
 
    > Así el agente solo tiene a mano el servidor que no puede escribir.
+
+   > **Resultado esperado:** En la lista: **powerbi-solo-lectura** con **Running**; **powerbi-authoring-local** y **github-mcp-server** detenidos.
 
 ### C. Probar el bloqueo
 
@@ -86,11 +100,16 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    ```
 
    El agente no se conecta solo: en el chat aparece un recuadro que pide permiso para usar la herramienta `connection_operations`. Ábranlo para ver los detalles, comprueben que dice **powerbi-solo-lectura** y hagan clic en **Allow** (Permitir). Esperen la respuesta: el agente confirma que se conectó a TiendasAndinas.
+
+   > **Resultado esperado:** La aprobación de `connection_operations` muestra el servidor **powerbi-solo-lectura**. El agente confirma la conexión a TiendasAndinas.
+
 9. Pidan un dato de control. Escriban en el chat:
 
    ```text
    Sin hacer cambios, dime cuántas medidas tiene la tabla FACT_Ventas.
    ```
+
+   > **Resultado esperado:** El agente responde que FACT_Ventas tiene **16 medidas**.
 
 10. Ahora pidan un cambio. Escriban en el chat:
 
@@ -103,7 +122,12 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
     Cuando aparezca la aprobación de `measure_operations` con la operación **Create**, hagan clic en **Allow**: **permitan** la llamada a propósito. Lean la respuesta del servidor.
 
     > Si el agente contesta que no puede porque el servidor es de solo lectura y **no** pide aprobación, el agente se adelantó: vio que el servidor está en solo lectura y ni lo intentó. Envíen de nuevo el mensaje; la idea es ver el rechazo **del servidor**, no la opinión del agente.
+
+    > **Resultado esperado:** Respuesta real del servidor: `MCP server 'powerbi-solo-lectura': Operation 'Create' is not permitted: The MCP Server is currently running in read-only mode…`. El agente informa que no pudo crear la medida.
+
 11. En Power BI Desktop, en el panel **Datos**, abran la tabla `FACT_Ventas` y busquen la medida `Prueba Bloqueo`.
+
+    > **Resultado esperado:** La medida `Prueba Bloqueo` no existe en el panel Datos de Desktop.
 
 ✔ **Verificación**
 
@@ -124,6 +148,9 @@ Sigan en la misma conversación, con el servidor de solo lectura.
    ```
 
    En la aprobación de `connection_operations`, comprueben que la operación es **ConnectFolder** y permitan. Lean la advertencia que devuelve el servidor.
+
+   > **Resultado esperado:** El servidor carga el modelo desde la carpeta (8 tablas, 16 medidas, 6 relaciones) y advierte: *Changes made through MCP are not automatically written to disk. Run `ExportToTmdlFolder` before disconnecting to persist them.*
+
 2. Pregunten qué conexiones tiene abiertas. Escriban en el chat:
 
    ```text
@@ -131,12 +158,16 @@ Sigan en la misma conversación, con el servidor de solo lectura.
    línea (offline) y cuál estás usando ahora.
    ```
 
+   > **Resultado esperado:** Dos conexiones: la de Desktop y una cuyo nombre empieza por `TMDL-`, marcada como offline (fuera de línea). La activa es la última que se abrió, la de carpeta.
+
 3. Comparen el inventario de las dos conexiones. Escriban en el chat:
 
    ```text
    Sin hacer cambios, en la conexión de carpeta dime cuántas tablas, medidas
    y relaciones tiene el modelo. Luego haz lo mismo en la conexión de Desktop.
    ```
+
+   > **Resultado esperado:** Las dos conexiones reportan 8 tablas, 16 medidas en FACT_Ventas y 6 relaciones.
 
 4. Intenten una consulta DAX en cada conexión. Escriban en el chat el primer mensaje, esperen la respuesta y luego envíen el segundo:
 
@@ -149,6 +180,8 @@ Sigan en la misma conversación, con el servidor de solo lectura.
    Ahora ejecuta la misma consulta en la conexión de Desktop.
    ```
 
+   > **Resultado esperado:** En la carpeta: *DAX query operations are not supported on offline connections*. En Desktop: 2024 = 5.121.728.115 y 2025 = 6.287.796.955.
+
 5. Completen esta tabla con lo que observaron:
 
    | Pregunta | Desktop | Carpeta PBIP |
@@ -157,6 +190,8 @@ Sigan en la misma conversación, con el servidor de solo lectura.
    | Tablas, medidas de FACT_Ventas y relaciones | | |
    | ¿Se pueden ejecutar consultas DAX? | | |
    | ¿Dónde quedaría un cambio? | | |
+
+   > **Resultado esperado:** Desktop: en línea · 8, 16, 6 · DAX sí · el cambio queda en el modelo abierto. Carpeta: fuera de línea · 8, 16, 6 · DAX no · el cambio queda en memoria hasta exportarlo.
 
 ✔ **Verificación**
 
@@ -173,6 +208,9 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
 1. **Ctrl+Shift+P** → `MCP: List Servers`:
    - **powerbi-solo-lectura** → **Stop Server**.
    - **powerbi-authoring-local** → **▷ Start Server**. Debe quedar en **Running**.
+
+   > **Resultado esperado:** **powerbi-authoring-local** en **Running** y **powerbi-solo-lectura** detenido.
+
 2. Abran una conversación nueva (**Ctrl+Shift+P** → `Chat: New Chat`) y escriban `Hola`. Luego conéctense **solo** a la carpeta. Escriban en el chat:
 
    ```text
@@ -182,6 +220,8 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
    ```
 
    > Cada servidor tiene sus propias conexiones: al cambiar de servidor, hay que volver a conectarse.
+
+   > **Resultado esperado:** El agente se conecta solo a la carpeta y muestra de nuevo la advertencia de exportar.
 
 3. Creen un cambio de prueba. Escriban en el chat:
 
@@ -193,6 +233,9 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
    Esta vez la aprobación de `measure_operations` con **Create** sí funciona. El cambio queda **en memoria**.
 
    > Si después de crear la medida aparece otra aprobación de `database_operations` que ustedes no pidieron, **recházenla**: el agente intenta guardar por su cuenta.
+
+   > **Resultado esperado:** La aprobación de `measure_operations` con **Create** se ejecuta sin error. La medida existe solo en memoria.
+
 4. Exporten a una carpeta temporal, **no** a la original. Escriban en el chat:
 
    ```text
@@ -210,12 +253,17 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
    - Si dice `ExportToTmdlFolder` y la ruta termina en `Temp\export_prueba` → **Allow** (permitir).
    - Si la ruta termina en `definition` (la carpeta original) → rechacen la llamada y repitan el mensaje.
    - Si **no aparece** `TmdlFolderPath` → **rechacen**. Sin ruta, el servidor exporta a la carpeta de origen y sobrescribe el proyecto original.
+
+   > **Resultado esperado:** La aprobación muestra `ExportToTmdlFolder` y `TmdlFolderPath: C:\CursoPBI\Temp\export_prueba`. El servidor informa 12 archivos creados.
+
 5. Abran **Windows PowerShell** (tecla Windows, escriban `PowerShell`, Enter) y busquen la medida en las dos carpetas. Copien las dos líneas, péguenlas en PowerShell y presionen Enter:
 
    ```powershell
    Select-String -Path C:\CursoPBI\Temp\export_prueba\tables\FACT_Ventas.tmdl -Pattern "Prueba Export"
    Select-String -Path C:\CursoPBI\TiendasAndinas\TiendasAndinas.SemanticModel\definition\tables\FACT_Ventas.tmdl -Pattern "Prueba Export"
    ```
+
+   > **Resultado esperado:** El primer comando muestra `...\export_prueba\tables\FACT_Ventas.tmdl:52: measure 'Prueba Export' = 1`. El segundo no muestra nada.
 
 ✔ **Verificación**
 
@@ -233,6 +281,9 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
    ```
 
    Verán archivos `audit-AAAA-MM-DD-pNNNN.log`: uno por día y por cada vez que arrancó un servidor. Abran el más reciente con el Bloc de notas y miren una línea.
+
+   > **Resultado esperado:** Archivos con nombres como `audit-2026-11-02-p1234.log`. Cada línea es un texto en formato JSON que empieza por `{"SchemaVersion":2`.
+
 2. Para leerlo como tabla, copien todo el bloque, péguenlo en PowerShell y presionen Enter:
 
    ```powershell
@@ -247,11 +298,16 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
    ```
 
    **Cómo leer el resultado:** cada fila es una operación del servidor sobre un modelo. `CreationTime` está en hora UTC (en Colombia, 5 horas menos). `ReadByPowerBIMCP` es una lectura y `ModifiedByPowerBIMCP` es un cambio.
+
+   > **Resultado esperado:** Una tabla con las columnas CreationTime, Operation, ResultStatus, Herramienta y Accion. Ejemplo: `ReadByPowerBIMCP · Succeeded · measure_operations · List`.
+
 3. Busquen en la tabla:
    - Sus lecturas del Ejercicio 1 y 2, por ejemplo `measure_operations` con la acción `List` o `Get`, y `dax_query_operations` con `Execute`.
    - La creación de `Prueba Export`: `ModifiedByPowerBIMCP`, `measure_operations`, `Create`.
    - La exportación: `database_operations`, `ExportToTmdlFolder`.
    - La medida `Prueba Bloqueo` del Ejercicio 1.
+
+   > **Resultado esperado:** Una fila `ModifiedByPowerBIMCP · measure_operations · Create` (Prueba Export) y una `database_operations · ExportToTmdlFolder`. No hay ninguna fila por Prueba Bloqueo.
 
 ✔ **Verificación**
 

@@ -20,6 +20,8 @@
 
 Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 ciudades de Colombia y un canal en línea. Su equipo de BI heredó un modelo semántico con varios problemas. Durante el curso ustedes lo van a analizar, corregir, ampliar y documentar con ayuda de GitHub Copilot. Hoy dejan listo el taller.
 
+> **Modo demo:** si no pueden ejecutar el laboratorio en su equipo, sigan al instructor en la pantalla compartida con esta misma guía. Debajo de los pasos, los recuadros **Resultado esperado** muestran lo que debe aparecer, para que puedan comprobarlo y responder las verificaciones.
+>
 > **Regla de hoy:** no se cambia nada del modelo. Si el agente propone crear, modificar o eliminar algo, rechacen la llamada.
 
 ## Ejercicio 1: Verificar los materiales y el entorno (12 min)
@@ -40,6 +42,8 @@ Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 c
      Verificar-Entorno.ps1
    ```
 
+   > **Resultado esperado:** En `C:\CursoPBI` se ven las carpetas `Datos`, `TiendasAndinas`, `Checkpoints` y `Prompts`, y los archivos `LEAME.txt`, `ValoresEsperados.md` y `Verificar-Entorno.ps1`.
+
 ### B. Entorno
 
 3. Abran **Windows PowerShell** (tecla Windows, escriban `PowerShell` y presionen Enter).
@@ -50,6 +54,9 @@ Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 c
    ```
 
 5. Lean el resultado. Cada línea empieza con `[OK]`, `[INFO]`, `[ADVERTENCIA]` o `[ERROR]`.
+
+   > **Resultado esperado:** Una lista de líneas que empiezan con `[OK]`: VS Code, Git, Node.js, la extensión, Power BI Desktop, 8 archivos CSV y 5 proyectos `.pbip`. La línea de GitHub Copilot sale como `[INFO]`.
+
 6. Si aparece `[ERROR] Git para Windows no está instalado` o `[ADVERTENCIA] Node.js no instalado`, instálenlos en la misma ventana:
 
    ```powershell
@@ -59,10 +66,15 @@ Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 c
 
    Cierren PowerShell, ábranlo de nuevo y repitan el paso 4.
 7. Abran **Visual Studio Code**. Abran el chat con el **icono de chat** que está arriba, a la derecha del cuadro **Search** (o con **Ctrl+Alt+I**). Si VS Code pide iniciar sesión, elijan **GitHub** y completen el inicio de sesión en el navegador.
+
+   > **Resultado esperado:** El chat de Copilot se abre a la derecha. Al escribir `Hola`, Copilot responde con un saludo.
+
 8. Abran la vista de **Extensiones** (Ctrl+Shift+X), busquen `powerbi-modeling-mcp` y abran la extensión instalada. Comprueben:
    - Nombre: **Power BI Authoring MCP Server**
    - Editor: **Microsoft**
    - Identificador: `analysis-services.powerbi-modeling-mcp`
+
+   > **Resultado esperado:** La extensión se llama **Power BI Authoring MCP Server**, el editor es **Microsoft** y el identificador es `analysis-services.powerbi-modeling-mcp`.
 
 ✔ **Verificación**
 
@@ -74,9 +86,15 @@ Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 c
 ## Ejercicio 2: Abrir el modelo, cargar los datos y consultarlo con DAX (15 min)
 
 1. Hagan doble clic en `C:\CursoPBI\TiendasAndinas\TiendasAndinas.pbip`. Se abre en Power BI Desktop.
+
+   > **Resultado esperado:** Power BI Desktop abre el proyecto TiendasAndinas con la página **Resumen**.
+
 2. Si Desktop muestra avisos de datos o de actualización pendiente, ciérrenlos.
 3. Vayan a **Inicio → Transformar datos → Editar parámetros**. En `RutaDatos` confirmen o escriban `C:\CursoPBI\Datos\` (terminada en `\`) y acepten.
 4. Si aparece la barra de cambios pendientes, elijan **Aplicar cambios**. Luego, **Inicio → Actualizar**.
+
+   > **Resultado esperado:** Al terminar la actualización, las tarjetas muestran cifras: Total Ventas 11,41 mil M.
+
 5. Abran la **vista de consultas DAX**: es el cuarto icono de la barra izquierda de Desktop, debajo de las vistas de informe, de tabla y de modelo. Peguen esta consulta y ejecútenla con **Ejecutar** (o F5):
 
    ```dax
@@ -95,6 +113,8 @@ Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 c
 
    **Cómo leer esta consulta:** `COUNTROWS` cuenta las filas de una tabla; `ROW` arma una fila con dos columnas (el nombre de la tabla y su conteo); `UNION` junta las ocho filas en una sola tabla; y `EVALUATE` la devuelve como resultado. El resultado debe coincidir con la columna *Filas* de la diapositiva de Tiendas Andinas.
 
+   > **Resultado esperado:** Una tabla de dos columnas, *Tabla* y *Filas*: FACT_Ventas 34.330 · fact_devoluciones 2.386 · Presupuesto 1.532 · dim_producto 184 · dim_subcategoria 15 · Cliente 2.400 · tbl_Tienda 16 · Calendario 731.
+
 6. En una pestaña nueva de la vista de consultas DAX (botón **+**), ejecuten las ventas por año:
 
    ```dax
@@ -106,6 +126,8 @@ Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 c
    ```
 
    **Cómo leer el resultado:** `SUMMARIZECOLUMNS` agrupa por la columna que le indican (aquí, el año) y calcula la medida para cada grupo. Es lo mismo que haría una tabla visual con el año y la medida, pero sin crear el visual.
+
+   > **Resultado esperado:** Dos filas: 2024 → 5121728115 y 2025 → 6287796955.
 
 7. Ahora, por año **y** por canal de venta:
 
@@ -121,6 +143,8 @@ Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 c
 
    **Cómo leer el resultado:** al agregar una segunda columna, cada fila es una combinación de año y canal. Si suman las dos filas de un año, deben obtener el total de ese año del paso 6. `ORDER BY` solo ordena el resultado.
 
+   > **Resultado esperado:** Cuatro filas: 2024 Online 1061802370 · 2024 Tienda 4059925745 · 2025 Online 1967185175 · 2025 Tienda 4320611780.
+
 8. Por último, los cinco productos que más venden:
 
    ```dax
@@ -135,7 +159,12 @@ Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 c
 
    **Cómo leer el resultado:** `TOPN` toma una tabla (la de ventas por producto) y se queda con las primeras 5 filas según la columna que le indican, de mayor a menor (`DESC`).
 
+   > **Resultado esperado:** Cinco filas, encabezadas por *Portátiles Altiplano Tech Clásico 10* con 305649710.
+
 9. Revisen la página **Resumen** del informe. Van a notar cosas raras (por ejemplo, los meses en orden alfabético). **No las corrijan**: son errores sembrados a propósito para los próximos temas.
+
+   > **Resultado esperado:** En el gráfico de la página Resumen, los meses aparecen en orden alfabético (abr, ago, dic…) en lugar de enero a diciembre.
+
 10. Guarden el proyecto (Ctrl+S) y dejen Desktop **abierto**.
 
 ✔ **Verificación**
@@ -183,23 +212,36 @@ Paso 8, los cinco productos que más venden:
 1. En VS Code: **File → Open Folder…**, elijan `C:\CursoPBI` y hagan clic en **Seleccionar carpeta**.
 2. Cuando VS Code pregunte si confían en los autores, elijan **Yes, I trust the authors**.
    Si ya habían abierto la carpeta y ven el aviso **Restricted Mode**, hagan clic en él → **Manage** → **Trust**.
+
+   > **Resultado esperado:** Desaparece cualquier aviso **Restricted Mode** y el Explorador de VS Code muestra **CURSOPBI**.
+
 3. Abran el chat con el **icono de chat** que está arriba, a la derecha del cuadro **Search**. Revisen los controles que están debajo del cuadro de texto:
    - **Modo:** debe decir **Agent**.
    - **Modelo:** **Auto** (GitHub elige el modelo y les avisa cuál usó) o el que permita su plan.
    - **Permisos:** debe decir **Manual permissions**. Déjenlo así.
+
+   > **Resultado esperado:** Debajo del cuadro del chat se lee **Agent**, **Auto** y **Manual permissions**.
+
 4. Escriban `Hola` y esperen la respuesta.
 
    > Los servidores MCP se encienden **por conversación**: hasta que no envíen el primer mensaje, el servidor no puede arrancar. Normalmente arranca solo con ese mensaje.
 
+   > **Resultado esperado:** Copilot responde al saludo.
+
 5. Abran la paleta de comandos (**Ctrl+Shift+P**), escriban `MCP: List Servers` y presionen Enter. En la lista *Select an MCP Server for this session*:
    - **powerbi-authoring-local** debe decir **Running**. Si dice **Stopped** o **Error**, hagan clic en el triángulo **▷ (Start Server)** de su línea.
    - **github-mcp-server** no es del curso: hagan clic en su nombre y elijan **Stop Server**, para que el agente solo use las herramientas de Power BI.
+
+   > **Resultado esperado:** En la lista: **powerbi-authoring-local** con **Running** y **github-mcp-server** detenido.
+
 6. Comprueben las herramientas del servidor preguntándole al agente:
 
    ```text
    Sin hacer cambios, lista las herramientas que tienes disponibles del servidor
    powerbi-authoring-local y dime cuántas son.
    ```
+
+   > **Resultado esperado:** El agente responde que tiene **21 herramientas** de powerbi-authoring-local, entre ellas `connection_operations`, `table_operations`, `measure_operations` y `dax_query_operations`.
 
 7. **Solo si en la lista aparece `accept_eula`** (y suman 22), la licencia del servidor no está aceptada:
    1. Escriban:
@@ -234,6 +276,9 @@ Paso 8, los cinco productos que más venden:
    ```
 
    Lean la ventana de aprobación de `connection_operations` y permitan.
+
+   > **Resultado esperado:** Aparece la aprobación de `connection_operations` con la operación **Connect**. Al permitirla, el agente confirma que se conectó a TiendasAndinas.
+
 2. Pidan el inventario sin cambios:
 
    ```text
@@ -241,12 +286,16 @@ Paso 8, los cinco productos que más venden:
    columnas y de medidas, y dime cuántas relaciones hay.
    ```
 
+   > **Resultado esperado:** El agente lista 8 tablas de negocio, FACT_Ventas con 16 medidas, y 6 relaciones.
+
 3. Validen una cifra con una consulta DAX:
 
    ```text
    Ejecuta una consulta DAX que devuelva el número de filas de FACT_Ventas
    y el valor de la medida [Total Ventas] por Calendario[Anio].
    ```
+
+   > **Resultado esperado:** El agente muestra una tabla: FACT_Ventas con 34.330 filas y Total Ventas 5.121.728.115 en 2024 y 6.287.796.955 en 2025.
 
 4. En cada paso, observen qué herramienta se invoca y con qué parámetros. Si alguna llamada intenta **crear, actualizar o eliminar** algo, recházenla.
 
@@ -267,12 +316,16 @@ Sigan en la misma conversación, con el agente conectado a Desktop. En cada resp
    'Margen %' y muéstrame su expresión DAX y la de las medidas que usa.
    ```
 
+   > **Resultado esperado:** `Margen %` = `[margen] / [Total Ventas]`, y `margen` = `[Total Ventas] - [Costo]`: qué porcentaje de las ventas queda como ganancia.
+
 2. Una relación:
 
    ```text
    Describe la relación entre FACT_Ventas y Cliente: qué columnas une,
    su cardinalidad y la dirección del filtro.
    ```
+
+   > **Resultado esperado:** Une `FACT_Ventas[cust_id]` con `Cliente[cust_id]`, de varios a uno, con filtro en **ambas** direcciones.
 
 3. Una dimensión:
 
@@ -281,12 +334,16 @@ Sigan en la misma conversación, con el agente conectado a Desktop. En cada resp
    con FACT_Ventas?
    ```
 
+   > **Resultado esperado:** `tbl_Tienda` tiene 8 columnas (TiendaKey, Tienda, Ciudad, Departamento, Region, Tipo, FechaApertura, MetrosCuadrados) y se relaciona con FACT_Ventas por `TiendaKey`.
+
 4. Una explicación para otra audiencia:
 
    ```text
    Explícame este modelo en cinco líneas para un gerente comercial que no
    conoce Power BI.
    ```
+
+   > **Resultado esperado:** Cinco líneas sin términos técnicos: qué se vende, dónde, a quién y cómo se mide el resultado.
 
 5. Contrasten las respuestas 1 a 3 con Power BI Desktop: abran la medida `Margen %` en la vista de modelo y la relación entre `FACT_Ventas` y `Cliente` (doble clic sobre la línea de la relación).
 
