@@ -13,7 +13,7 @@
 - Abrir el proyecto PBIP de Tiendas Andinas, cargar los datos y validar los conteos de filas.
 - Ejecutar e interpretar consultas en la vista de consultas DAX de Power BI Desktop.
 - Confiar en la carpeta del curso, encender el servidor MCP y confirmar que el agente ve sus 21 herramientas.
-- Hacer la primera consulta de solo lectura al modelo con GitHub Copilot en modo Agent.
+- Hacer la primera consulta de solo lectura al modelo con el agente de GitHub Copilot.
 - Explorar el modelo con preguntas en lenguaje natural y contrastar las respuestas con lo que se ve en Power BI Desktop.
 
 ## Escenario
@@ -39,37 +39,28 @@ Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 c
      Prompts\
      LEAME.txt
      ValoresEsperados.md
-     Verificar-Entorno.ps1
+     Verificar-Entorno.ps1  (opcional, no se usa en clase)
    ```
 
    > **Resultado esperado:** En `C:\CursoPBI` se ven las carpetas `Datos`, `TiendasAndinas`, `Checkpoints` y `Prompts`, y los archivos `LEAME.txt`, `ValoresEsperados.md` y `Verificar-Entorno.ps1`.
 
 ### B. Entorno
 
-3. Abran **Windows PowerShell** (tecla Windows, escriban `PowerShell` y presionen Enter).
-4. Ejecuten:
+En este curso solo se usan **Visual Studio Code** y **Power BI Desktop**. No hace falta Git, Node.js, PowerShell ni la terminal: todo se comprueba con el Explorador de archivos y con VS Code.
 
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File C:\CursoPBI\Verificar-Entorno.ps1
-   ```
+3. En el Explorador de archivos, abran `C:\CursoPBI\Datos` y cuenten los archivos `.csv`. Luego abran `C:\CursoPBI\TiendasAndinas` y cada carpeta de `C:\CursoPBI\Checkpoints`, y comprueben que en cada una hay un archivo `TiendasAndinas.pbip`.
 
-5. Lean el resultado. Cada línea empieza con `[OK]`, `[INFO]`, `[ADVERTENCIA]` o `[ERROR]`.
+   > **Resultado esperado:** 8 archivos `.csv` en `Datos` y 5 archivos `TiendasAndinas.pbip`: uno en `TiendasAndinas` y uno en cada carpeta de `Checkpoints`.
 
-   > **Resultado esperado:** Una lista de líneas que empiezan con `[OK]`: VS Code, Git, Node.js, la extensión, Power BI Desktop, 8 archivos CSV y 5 proyectos `.pbip`. La línea de GitHub Copilot sale como `[INFO]`.
+4. Presionen la **tecla Windows** y escriban `Power BI Desktop`. No lo abran todavía: solo comprueben que aparece en la lista.
 
-6. Si aparece `[ERROR] Git para Windows no está instalado` o `[ADVERTENCIA] Node.js no instalado`, instálenlos en la misma ventana:
+   > **Resultado esperado:** **Power BI Desktop** aparece en el menú Inicio.
 
-   ```powershell
-   winget install --id Git.Git -e --source winget
-   winget install --id OpenJS.NodeJS.LTS -e --source winget
-   ```
-
-   Cierren PowerShell, ábranlo de nuevo y repitan el paso 4.
-7. Abran **Visual Studio Code**. Abran el chat con el **icono de chat** que está arriba, a la derecha del cuadro **Search** (o con **Ctrl+Alt+I**). Si VS Code pide iniciar sesión, elijan **GitHub** y completen el inicio de sesión en el navegador.
+5. Abran **Visual Studio Code**. Abran el chat con el **icono de chat** que está arriba, a la derecha del cuadro **Search** (o con **Ctrl+Alt+I**). Si VS Code pide iniciar sesión, elijan **GitHub** y completen el inicio de sesión en el navegador.
 
    > **Resultado esperado:** El chat de Copilot se abre a la derecha. Al escribir `Hola`, Copilot responde con un saludo.
 
-8. Abran la vista de **Extensiones** (Ctrl+Shift+X), busquen `powerbi-modeling-mcp` y abran la extensión instalada. Comprueben:
+6. Abran la vista de **Extensiones** (Ctrl+Shift+X), busquen `powerbi-modeling-mcp` y abran la extensión instalada. Comprueben:
    - Nombre: **Power BI Authoring MCP Server**
    - Editor: **Microsoft**
    - Identificador: `analysis-services.powerbi-modeling-mcp`
@@ -79,8 +70,9 @@ Tiendas Andinas es una cadena de retail ficticia con 15 tiendas físicas en 10 c
 ✔ **Verificación**
 
 - Existen las cuatro carpetas y los tres archivos de `C:\CursoPBI`.
-- El script muestra `[OK]` para VS Code, Git, Node.js, la extensión `analysis-services.powerbi-modeling-mcp`, Power BI Desktop, los 8 archivos CSV y los 5 proyectos `.pbip`.
-- La línea de GitHub Copilot sale como `[INFO]`: Copilot viene integrado en VS Code. Lo que importa es que el chat responda.
+- Hay 8 archivos `.csv` en `Datos` y 5 proyectos `TiendasAndinas.pbip`.
+- Power BI Desktop aparece en el menú Inicio.
+- La extensión instalada es `analysis-services.powerbi-modeling-mcp`, de Microsoft.
 - En el chat escriben `Hola` y Copilot responde.
 
 ## Ejercicio 2: Abrir el modelo, cargar los datos y consultarlo con DAX (15 min)
@@ -216,11 +208,11 @@ Paso 8, los cinco productos que más venden:
    > **Resultado esperado:** Desaparece cualquier aviso **Restricted Mode** y el Explorador de VS Code muestra **CURSOPBI**.
 
 3. Abran el chat con el **icono de chat** que está arriba, a la derecha del cuadro **Search**. Revisen los controles que están debajo del cuadro de texto:
-   - **Modo:** debe decir **Agent**.
-   - **Modelo:** **Auto** (GitHub elige el modelo y les avisa cuál usó) o el que permita su plan.
+   - **Modo:** debe decir **Copilot** (en algunos equipos dice **Agent**).
+   - **Modelo:** **Auto**. Con Copilot Free es el único disponible: GitHub elige el modelo y les avisa cuál usó.
    - **Permisos:** debe decir **Manual permissions**. Déjenlo así.
 
-   > **Resultado esperado:** Debajo del cuadro del chat se lee **Agent**, **Auto** y **Manual permissions**.
+   > **Resultado esperado:** Debajo del cuadro del chat se lee **Copilot** (o **Agent**), **Auto** y **Manual permissions**.
 
 4. Escriban `Hola` y esperen la respuesta.
 
@@ -269,7 +261,7 @@ Paso 8, los cinco productos que más venden:
 
 ## Ejercicio 4: Primera conversación de solo lectura (10 min)
 
-1. Con Tiendas Andinas abierto en Desktop, escriban en el chat (modo Agent):
+1. Con Tiendas Andinas abierto en Desktop, escriban en el chat (modo **Copilot** o **Agent**):
 
    ```text
    Conéctate al archivo 'TiendasAndinas' abierto en Power BI Desktop.
@@ -367,8 +359,7 @@ Comparen la respuesta con los casos de uso vistos en la teoría.
 
 | Síntoma | Causa probable | Acción |
 |---|---|---|
-| `git`, `node` o `npx` no se reconocen | Se instalaron con VS Code o PowerShell abiertos | Cerrar y volver a abrir VS Code o PowerShell |
-| El script no se ejecuta por política de ejecución | Falta `-ExecutionPolicy Bypass` | Copiar el comando exacto del Ejercicio 1 |
+| Faltan archivos `.csv` o `.pbip` | El paquete no se descomprimió completo o quedó en otra carpeta | Descomprimir de nuevo `CursoPBI.zip` (clic derecho → **Extraer todo…**) en `C:\` para que quede `C:\CursoPBI` |
 | Aparece el aviso Restricted Mode | La carpeta no es confiable | Clic en Restricted Mode → Manage → Trust |
 | En *MCP: List Servers* el servidor dice **Error** y no arranca | No hay conversación abierta en el chat (*Cannot start an MCP server before the session runtime has been created*) | Abrir el chat, enviar un mensaje y volver a intentar con ▷ Start Server |
 | El agente dice que no tiene herramientas de Power BI | El servidor está detenido en esta conversación | Ctrl+Shift+P → `MCP: List Servers` → ▷ en powerbi-authoring-local |
@@ -378,13 +369,13 @@ Comparen la respuesta con los casos de uso vistos en la teoría.
 | Copilot dice que los servidores MCP están deshabilitados | Política **MCP servers in Copilot** desactivada en la organización | Avisar al instructor; trabajar en pareja |
 | Error de origen de datos al actualizar en Desktop | `RutaDatos` mal escrita o sin `\` final | Corregir a `C:\CursoPBI\Datos\` y actualizar |
 | El agente no encuentra el archivo de Desktop | Desktop cerrado o aún cargando | Esperar a que cargue; pedir `Lista las instancias locales de Power BI Desktop disponibles` |
-| Copilot responde sin usar herramientas | Modo Ask seleccionado o servidor detenido | Cambiar a Agent y revisar *MCP: List Servers* |
+| Copilot responde sin usar herramientas | Modo Ask seleccionado o servidor detenido | Cambiar a **Copilot** (o **Agent**) y revisar *MCP: List Servers* |
 | Ctrl+Alt+I no abre el chat | El teclado o el foco interfiere con el atajo | Usar el icono de chat junto al cuadro Search |
 | La consulta DAX marca error | Se pegó incompleta o con comillas distintas | Volver a copiarla completa desde la guía |
 
 ## Resumen y entregables
 
-- Entorno verificado con `Verificar-Entorno.ps1`.
+- Entorno verificado con el Explorador de archivos y VS Code: 8 CSV, 5 proyectos `.pbip`, Power BI Desktop, la extensión oficial y el chat de Copilot.
 - Modelo con datos y conteos de filas correctos.
 - Servidor encendido (Running): 21 herramientas y EULA aceptada.
 - Primera respuesta del agente con el inventario del modelo y una exploración contrastada con Desktop.

@@ -19,9 +19,11 @@
 
 El equipo de BI de Tiendas Andinas quiere usar el agente sobre modelos importantes, pero el área de control interno pide tres garantías: que se pueda trabajar sin riesgo de cambiar nada, que se sepa siempre a qué modelo está conectado el agente y que quede evidencia de lo que hizo. En este laboratorio ustedes preparan esas tres garantías.
 
-> **Cómo leer esta guía:** cada recuadro gris con texto en español es un **mensaje para el chat de Copilot**: cópienlo, péguenlo en el cuadro *Chat with Copilot* y presionen **Enter**. Los recuadros de PowerShell o JSON se indican aparte.
+> **Cómo leer esta guía:** cada recuadro gris con texto en español es un **mensaje para el chat de Copilot**: cópienlo, péguenlo en el cuadro *Chat with Copilot* y presionen **Enter**. Los recuadros con contenido JSON se indican aparte. En este laboratorio **no se usa PowerShell ni la terminal**: todo se hace en VS Code, Power BI Desktop y el Explorador de archivos de Windows.
 >
 > **Modo demo:** si no pueden ejecutar el laboratorio en su equipo, sigan al instructor en la pantalla compartida con esta misma guía. Debajo de los pasos, los recuadros **Resultado esperado** muestran lo que debe aparecer, para que puedan comprobarlo y responder las verificaciones.
+>
+> **Copilot Free:** cada mensaje que envían al chat consume parte de su cuota mensual. Copien los mensajes de la guía tal cual, envíen uno a la vez y no repitan mensajes si el agente ya respondió. Si se les acaba la cuota, sigan el laboratorio en modo demo o en pareja con un compañero.
 >
 > **Regla de hoy:** el proyecto de trabajo `C:\CursoPBI\TiendasAndinas` no se modifica. No guarden cambios en Desktop y no exporten a la carpeta original.
 
@@ -39,6 +41,10 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
 
    > **Resultado esperado:** El Explorador de VS Code muestra **CURSOPBI** y no aparece el aviso **Restricted Mode**.
 
+5. Trabajen siempre en el **panel de chat de la derecha**. Si hay pestañas de chat abiertas en el centro de VS Code (por ejemplo *Greeting in Spanish*), ciérrenlas con la **X** de la pestaña: cada chat es una conversación distinta y los servidores se encienden por conversación.
+
+   > **Resultado esperado:** Solo está abierto el chat de la derecha. Abajo del cuadro de texto se ve **Copilot** (en algunos equipos dice **Agent**) y **Manual permissions**.
+
 ✔ **Verificación**
 
 - Desktop muestra Tiendas Andinas con datos en `FACT_Ventas`.
@@ -49,8 +55,8 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
 ### A. Crear el archivo mcp.json
 
 1. En VS Code, con la carpeta `C:\CursoPBI` abierta, vayan al **Explorador** (primer icono de la barra izquierda, o **Ctrl+Shift+E**).
-2. Pasen el cursor sobre el nombre **CURSOPBI** y hagan clic en el icono **New Folder**. Escriban `.vscode` (con el punto al inicio) y presionen Enter.
-3. Hagan clic derecho sobre la carpeta `.vscode` → **New File…**, escriban `mcp.json` y presionen Enter. Se abre el archivo vacío.
+2. Pasen el cursor sobre el nombre **CURSOPBI** y hagan clic en el icono **New Folder**. Escriban `.vscode` (con el punto al inicio) y presionen Enter. Si la carpeta .vscode ya existe (por ejemplo, porque ya hicieron este laboratorio), no la creen de nuevo: sigan con el paso 3.
+3. Hagan clic derecho sobre la carpeta `.vscode` → **New File…**, escriban `mcp.json` y presionen Enter. Se abre el archivo vacío. Si mcp.json ya existe, ábranlo con doble clic y borren todo su contenido (Ctrl+A y Supr) antes del paso 4.
 
    > **Resultado esperado:** En el Explorador aparece `.vscode` con el archivo `mcp.json` adentro, abierto y vacío.
 
@@ -61,10 +67,8 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
      "servers": {
        "powerbi-solo-lectura": {
          "type": "stdio",
-         "command": "npx",
+         "command": "${userHome}\\.vscode\\extensions\\analysis-services.powerbi-modeling-mcp-1.0.0-win32-x64\\server\\powerbi-modeling-mcp.exe",
          "args": [
-           "-y",
-           "@microsoft/powerbi-modeling-mcp@latest",
            "--start",
            "--readonly",
            "--accept-eula"
@@ -74,17 +78,19 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    }
    ```
 
-   **Cómo leer este archivo:** `powerbi-solo-lectura` es el nombre con el que verán el servidor; `npx` descarga y arranca el servidor publicado por Microsoft; `--start` lo enciende; `--readonly` lo deja en solo lectura; y `--accept-eula` registra la aceptación de la licencia que ya leyeron en el Laboratorio 1.
+   **Cómo leer este archivo:** `powerbi-solo-lectura` es el nombre con el que verán el servidor; `command` es la ruta del programa del servidor que ya instaló la extensión de Power BI (el mismo del Laboratorio 1; `${userHome}` es su carpeta de usuario de Windows, y no hace falta Node.js); `--start` lo enciende; `--readonly` lo deja en solo lectura; y `--accept-eula` registra la aceptación de la licencia que ya leyeron en el Laboratorio 1.
 
 5. Guarden con **Ctrl+S**.
 
    > **Resultado esperado:** El archivo queda guardado sin subrayados rojos.
 
+   > **Si su extensión es de otra versión:** la ruta de `command` incluye la carpeta `analysis-services.powerbi-modeling-mcp-1.0.0-win32-x64`. Para comprobarla, en el Explorador de archivos de Windows peguen `%USERPROFILE%\.vscode\extensions` en la barra de direcciones y presionen Enter. Si la carpeta tiene otro número de versión, corrijan ese nombre en `mcp.json` y guarden de nuevo.
+
 ### B. Encender solo el servidor de solo lectura
 
-6. Abran una conversación nueva: **Ctrl+Shift+P** → `Chat: New Chat`. Ojo: el **+** que está *dentro* del cuadro de texto del chat es para adjuntar archivos, no para una conversación nueva. Confirmen **Agent** y **Manual permissions**, escriban `Hola` y esperen la respuesta.
+6. Abran una conversación nueva con el **+** de la **parte superior del panel de chat** (*New Chat*). Ojo: el **+** que está *dentro* del cuadro de texto es para adjuntar archivos, no para una conversación nueva. Confirmen **Copilot** (o **Agent**) y **Manual permissions**, escriban `Hola` y esperen la respuesta.
 7. Abran la paleta de comandos (**Ctrl+Shift+P**) → `MCP: List Servers`. En la lista:
-   - **powerbi-solo-lectura**: si no dice **Running**, hagan clic en **▷ (Start Server)**. La primera vez puede tardar un poco, porque `npx` descarga el servidor.
+   - **powerbi-solo-lectura**: si no dice **Running**, hagan clic en **▷ (Start Server)**.
    - **powerbi-authoring-local** y **github-mcp-server**: si dicen **Running**, hagan clic en su nombre → **Stop Server**.
 
    > Así el agente solo tiene a mano el servidor que no puede escribir.
@@ -211,7 +217,7 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
 
    > **Resultado esperado:** **powerbi-authoring-local** en **Running** y **powerbi-solo-lectura** detenido.
 
-2. Abran una conversación nueva (**Ctrl+Shift+P** → `Chat: New Chat`) y escriban `Hola`. Luego conéctense **solo** a la carpeta. Escriban en el chat:
+2. Abran una conversación nueva con el **+** de la parte superior del panel de chat y escriban `Hola`. Luego conéctense **solo** a la carpeta. Escriban en el chat:
 
    ```text
    Abre el modelo semántico de la carpeta PBIP
@@ -246,78 +252,64 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
    En el chat aparece el recuadro de aprobación de la herramienta `database_operations`. **No hagan clic todavía.** Ábranlo para ver los detalles: muestra los datos que el agente le va a enviar al servidor, algo así:
 
    ```text
-   "Operation": "ExportToTmdlFolder",
-   "TmdlFolderPath": "C:\CursoPBI\Temp\export_prueba"
+   "operation": "ExportToTmdlFolder",
+   "tmdlFolderPath": "C:\CursoPBI\Temp\export_prueba"
    ```
 
    - Si dice `ExportToTmdlFolder` y la ruta termina en `Temp\export_prueba` → **Allow** (permitir).
    - Si la ruta termina en `definition` (la carpeta original) → rechacen la llamada y repitan el mensaje.
-   - Si **no aparece** `TmdlFolderPath` → **rechacen**. Sin ruta, el servidor exporta a la carpeta de origen y sobrescribe el proyecto original.
+   - Si **no aparece** `tmdlFolderPath` → **rechacen**. Sin ruta, el servidor exporta a la carpeta de origen y sobrescribe el proyecto original.
 
-   > **Resultado esperado:** La aprobación muestra `ExportToTmdlFolder` y `TmdlFolderPath: C:\CursoPBI\Temp\export_prueba`. El servidor informa 12 archivos creados.
+   > **Resultado esperado:** La aprobación muestra `ExportToTmdlFolder` y `tmdlFolderPath: C:\CursoPBI\Temp\export_prueba`. El servidor informa 12 archivos creados.
 
-5. Abran **Windows PowerShell** (tecla Windows, escriban `PowerShell`, Enter) y busquen la medida en las dos carpetas. Copien las dos líneas, péguenlas en PowerShell y presionen Enter:
+5. Busquen la medida en todos los archivos de `C:\CursoPBI`. En VS Code abran la vista **Search** (la lupa de la barra izquierda, o **Ctrl+Shift+F**), escriban `Prueba Export` en el cuadro de búsqueda y presionen **Enter**. Miren en qué archivos aparece.
 
-   ```powershell
-   Select-String -Path C:\CursoPBI\Temp\export_prueba\tables\FACT_Ventas.tmdl -Pattern "Prueba Export"
-   Select-String -Path C:\CursoPBI\TiendasAndinas\TiendasAndinas.SemanticModel\definition\tables\FACT_Ventas.tmdl -Pattern "Prueba Export"
-   ```
-
-   > **Resultado esperado:** El primer comando muestra `...\export_prueba\tables\FACT_Ventas.tmdl:52: measure 'Prueba Export' = 1`. El segundo no muestra nada.
+   > **Resultado esperado:** Un solo resultado, en `Temp\export_prueba\tables\FACT_Ventas.tmdl`, con la línea `measure 'Prueba Export' = 1`. No hay ningún resultado dentro de `TiendasAndinas`.
 
 ✔ **Verificación**
 
 - La exportación reporta **12 archivos** creados en `C:\CursoPBI\Temp\export_prueba`.
-- El primer `Select-String` muestra una línea con `measure 'Prueba Export'`.
-- El segundo no muestra nada: el proyecto original **no cambió**.
+- La búsqueda de VS Code encuentra `measure 'Prueba Export'` solo en `Temp\export_prueba\tables\FACT_Ventas.tmdl`.
+- No hay resultados dentro de `TiendasAndinas`: el proyecto original **no cambió**.
 - En Power BI Desktop tampoco existe `Prueba Export`.
 
 ## Ejercicio 4: Leer el registro de auditoría (10 min)
 
-1. En el Explorador de archivos de Windows, peguen esta ruta en la barra de direcciones y presionen Enter:
+1. En VS Code vayan a **File → Open File…**. En el cuadro **Nombre de archivo** peguen esta ruta y presionen **Enter**:
 
    ```text
    %LOCALAPPDATA%\Microsoft\powerbi-authoring-mcp\Logs
    ```
 
-   Verán archivos `audit-AAAA-MM-DD-pNNNN.log`: uno por día y por cada vez que arrancó un servidor. Abran el más reciente con el Bloc de notas y miren una línea.
+   Verán archivos `audit-AAAA-MM-DD-pNNNN.log`: uno por día y por cada vez que arrancó un servidor (la fecha del nombre está en hora UTC: después de las 7 p. m. de Colombia ya es el día siguiente). Cambien la vista a **Detalles** y ordenen por **Fecha de modificación**. Abran el **más reciente** (es el del servidor del Ejercicio 3). Presionen **Alt+Z** para que las líneas largas se ajusten a la pantalla y miren una línea.
 
-   > **Resultado esperado:** Archivos con nombres como `audit-2026-11-02-p1234.log`. Cada línea es un texto en formato JSON que empieza por `{"SchemaVersion":2`.
+   > **Resultado esperado:** Archivos con nombres como `audit-2026-11-05-p1234.log`. Cada línea es un texto en formato JSON que empieza por `{"SchemaVersion":2`.
 
-2. Para leerlo como tabla, copien todo el bloque, péguenlo en PowerShell y presionen Enter:
+2. Busquen dentro del archivo con **Ctrl+F**. Escriban cada texto en el cuadro de búsqueda y anoten cuántas coincidencias indica (por ejemplo *1 of 3*):
 
-   ```powershell
-   $logs = "$env:LOCALAPPDATA\Microsoft\powerbi-authoring-mcp\Logs"
-   Get-ChildItem $logs -Filter *.log |
-     Where-Object { $_.LastWriteTime -gt (Get-Date).Date } |
-     Get-Content | ConvertFrom-Json |
-     Select-Object CreationTime, Operation, ResultStatus,
-       @{n='Herramienta'; e={ ($_.OperationProperties | Where-Object Name -eq 'MCPTool').Value }},
-       @{n='Accion';      e={ ($_.OperationProperties | Where-Object Name -eq 'MCPOperation').Value }} |
-     Format-Table -AutoSize
-   ```
+   - `ModifiedByPowerBIMCP`
+   - `ExportToTmdlFolder`
+   - `ReadByPowerBIMCP`
 
-   **Cómo leer el resultado:** cada fila es una operación del servidor sobre un modelo. `CreationTime` está en hora UTC (en Colombia, 5 horas menos). `ReadByPowerBIMCP` es una lectura y `ModifiedByPowerBIMCP` es un cambio.
+   **Cómo leer el resultado:** cada línea es una operación del servidor sobre un modelo. `ReadByPowerBIMCP` es una lectura y `ModifiedByPowerBIMCP` es un cambio. En la misma línea, `"MCPTool"` dice qué herramienta se usó y `"MCPOperation"` qué acción. `CreationTime` está en hora UTC (en Colombia, 5 horas menos).
 
-   > **Resultado esperado:** Una tabla con las columnas CreationTime, Operation, ResultStatus, Herramienta y Accion. Ejemplo: `ReadByPowerBIMCP · Succeeded · measure_operations · List`.
+   > **Resultado esperado:** `ModifiedByPowerBIMCP` aparece al menos una vez, en la línea de `measure_operations` con `"MCPOperation","Value":"Create"` (Prueba Export). `ExportToTmdlFolder` aparece una vez. `ReadByPowerBIMCP` aparece al menos una vez: la exportación misma queda registrada como lectura.
 
-3. Busquen en la tabla:
-   - Sus lecturas del Ejercicio 1 y 2, por ejemplo `measure_operations` con la acción `List` o `Get`, y `dax_query_operations` con `Execute`.
-   - La creación de `Prueba Export`: `ModifiedByPowerBIMCP`, `measure_operations`, `Create`.
-   - La exportación: `database_operations`, `ExportToTmdlFolder`.
-   - La medida `Prueba Bloqueo` del Ejercicio 1.
+3. Ahora busquen el archivo del servidor de solo lectura (Ejercicios 1 y 2). Con **File → Open File…** y la misma ruta, abran los otros archivos de hoy, empezando por el segundo más reciente. El correcto es el que contiene `dax_query_operations` (la consulta DAX que funcionó en Desktop). En ese archivo busquen con **Ctrl+F**:
 
-   > **Resultado esperado:** Una fila `ModifiedByPowerBIMCP · measure_operations · Create` (Prueba Export) y una `database_operations · ExportToTmdlFolder`. No hay ninguna fila por Prueba Bloqueo.
+   - `ModifiedByPowerBIMCP`
+
+   > **Resultado esperado:** En el archivo que contiene `dax_query_operations`, `ModifiedByPowerBIMCP` no aparece (*No results*): el intento de crear `Prueba Bloqueo` no dejó ninguna línea.
 
 ✔ **Verificación**
 
-- Hay al menos una fila `ModifiedByPowerBIMCP` con `measure_operations` y `Create`: es `Prueba Export`.
-- Hay una fila con `ExportToTmdlFolder`.
-- **No** hay ninguna fila por `Prueba Bloqueo`: el servidor la rechazó antes de tocar el modelo, así que no hubo operación que registrar. Las consultas DAX que fallaron en la carpeta tampoco aparecen.
+- En el archivo del Ejercicio 3 hay al menos una línea `ModifiedByPowerBIMCP` con `measure_operations` y `Create`: es `Prueba Export`.
+- En ese mismo archivo hay una línea con `ExportToTmdlFolder`.
+- En el archivo de los Ejercicios 1 y 2 **no** hay ninguna línea `ModifiedByPowerBIMCP`: el servidor rechazó `Prueba Bloqueo` antes de tocar el modelo, así que no hubo operación que registrar. Las consultas DAX que fallaron en la carpeta tampoco aparecen.
 
 ## Cierre del laboratorio (4 min)
 
-1. **Ctrl+Shift+P** → `MCP: List Servers`: dejen **powerbi-authoring-local** en **Running** y **powerbi-solo-lectura** detenido. Lo usaremos de nuevo en el Tema 3.
+1. **Ctrl+Shift+P** → `MCP: List Servers`: dejen **powerbi-authoring-local** en **Running** y **powerbi-solo-lectura** detenido. Si usaron la alternativa de Args en Settings, borren ese valor para que vuelva a --start --accept-eula: esa configuración queda guardada en la carpeta y dejaría el servidor en solo lectura en los próximos laboratorios. Cada laboratorio empieza desde cero, así que pueden cerrar VS Code.
 2. Pueden borrar la carpeta `C:\CursoPBI\Temp`; ya cumplió su función.
 3. Cierren Power BI Desktop **sin guardar** si les pregunta.
 
@@ -338,22 +330,21 @@ Inicien sesión con su cuenta de Microsoft Entra ID cuando se les pida. Luego pi
 |---|---|---|
 | **powerbi-solo-lectura** no aparece en *MCP: List Servers* | `mcp.json` no está en `C:\CursoPBI\.vscode\` o tiene un error | Revisar el nombre de la carpeta (`.vscode`, con punto) y del archivo; VS Code marca en rojo los errores del JSON |
 | Aparece la opción *Show locally configured servers…* | VS Code agrupa los servidores de la carpeta aparte | Elegir esa opción y encender **powerbi-solo-lectura** desde ahí, o abrir `mcp.json` y usar **Start** sobre el nombre del servidor |
-| **powerbi-solo-lectura** queda en **Error** | No hay conversación abierta o `npx` no puede descargar el servidor (sin internet o con proxy) | Enviar un mensaje en el chat y volver a ▷; si sigue, usar la alternativa sin `npx` de abajo |
+| **powerbi-solo-lectura** queda en **Error** | No hay conversación abierta, o la ruta de `command` no coincide con la carpeta de su extensión | Enviar un mensaje en el chat y volver a ▷. Si sigue, revisar la ruta (paso 5 del Ejercicio 1). Si nada funciona, usar la alternativa de abajo |
+| El agente dice que no tiene herramientas de Power BI | El servidor se encendió en otra conversación, o sus herramientas están desmarcadas | Trabajar en un solo chat (el de la derecha); en la caja del chat, clic en el icono de herramientas y marcar el servidor; luego volver a preguntar |
 | El agente creó `Prueba Bloqueo` sin error | La llamada la atendió **powerbi-authoring-local**, que no está en solo lectura | Detener powerbi-authoring-local, eliminar la medida en Desktop (clic derecho → **Eliminar del modelo**) y repetir desde el paso 8 |
 | La ruta de la carpeta no funciona | No llega hasta `definition` | Usar la ruta completa que termina en `TiendasAndinas.SemanticModel\definition` |
-| Al hacer clic en **+** aparece *Search attachments* | Ese **+** del cuadro de texto adjunta archivos | Presionar Esc y usar **Ctrl+Shift+P** → `Chat: New Chat` |
+| Al hacer clic en **+** aparece *Search attachments* | Ese **+** del cuadro de texto adjunta archivos | Presionar Esc y usar el **+** de la parte superior del panel de chat |
+| El chat responde *Language model unavailable* | No inició sesión en GitHub dentro de VS Code o no activó Copilot Free | Clic en **Sign In** (abajo a la derecha) o **Ctrl+Shift+P** → *GitHub Copilot: Sign In*; activar Copilot Free en github.com/settings/copilot |
+| El chat deja de responder por límite de uso | Se acabó la cuota mensual de Copilot Free | Seguir en modo demo o en pareja; la cuota se renueva el primer día del mes |
 | El agente consulta la conexión equivocada | Varias conexiones abiertas | Nombrar la conexión en el prompt: "en la conexión de carpeta" o "en la conexión de Desktop" |
-| El segundo `Select-String` **sí** encuentra `Prueba Export` | Se aprobó una exportación sin ruta o con la ruta original, y se sobrescribió el proyecto | Avisar al instructor. Para recuperar el proyecto, descomprimir de nuevo `TiendasAndinas` desde `CursoPBI.zip` |
-| `Select-String` dice que no encuentra el archivo | La exportación no terminó o se hizo a otra ruta | Revisar en el Explorador la carpeta `C:\CursoPBI\Temp\export_prueba\tables` |
-| La tabla de auditoría sale vacía | El filtro de fecha usa la hora local y el archivo es de ayer en UTC | Quitar la línea `Where-Object` y volver a ejecutar |
+| La búsqueda **sí** encuentra `Prueba Export` dentro de `TiendasAndinas` | Se aprobó una exportación sin ruta o con la ruta original, y se sobrescribió el proyecto | Avisar al instructor. Para recuperar el proyecto, descomprimir de nuevo `TiendasAndinas` desde `CursoPBI.zip` |
+| La búsqueda no encuentra `Prueba Export` en ningún archivo | La exportación no terminó o se hizo a otra ruta | Revisar en el Explorador de VS Code la carpeta `Temp\export_prueba\tables` |
+| El archivo de auditoría más reciente no tiene `ExportToTmdlFolder` | Se abrió el archivo de otro arranque del servidor | Abrir los otros archivos de hoy; si el servidor se reinició, la exportación queda en el archivo de ese arranque |
+| La ruta `%LOCALAPPDATA%…` no abre nada en *Open File* | El cuadro de diálogo no reconoció la ruta | Pegarla en la barra de direcciones del Explorador de archivos de Windows y abrir el archivo con el Bloc de notas (Ctrl+F para buscar) |
 | Aparece `accept_eula` en las herramientas | Falta `--accept-eula` en `mcp.json` | Revisar el archivo y reiniciar el servidor |
 
-**Alternativa sin `npx`:** usen el programa que ya trae la extensión. En el Explorador de Windows, abran `%USERPROFILE%\.vscode\extensions`, busquen la carpeta que empieza por `analysis-services.powerbi-modeling-mcp` y, dentro de `server`, el archivo `powerbi-modeling-mcp.exe`. En `mcp.json` reemplacen `command` y `args` así (ajusten el nombre de la carpeta si su versión es distinta):
-
-```json
-"command": "${userHome}\\.vscode\\extensions\\analysis-services.powerbi-modeling-mcp-1.0.0-win32-x64\\server\\powerbi-modeling-mcp.exe",
-"args": ["--start", "--readonly", "--accept-eula"]
-```
+**Alternativa si powerbi-solo-lectura no arranca:** poner en solo lectura el servidor de la extensión. En VS Code: **File → Preferences → Settings**, pestaña **Workspace**, busquen `Power BI Authoring` y en el campo **Args** escriban `--start --accept-eula --readonly`. Luego **Ctrl+Shift+P** → `Developer: Reload Window`. Con eso **powerbi-authoring-local** queda en solo lectura y hace el papel de `powerbi-solo-lectura` en los Ejercicios 1 y 2. Antes del Ejercicio 3, borren ese valor de **Args** (vuelve a `--start --accept-eula`) y recarguen la ventana otra vez.
 
 ## Resumen y entregables
 

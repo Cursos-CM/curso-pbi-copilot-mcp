@@ -18,15 +18,15 @@ Durante el curso van a analizar, corregir, ampliar y documentar el modelo semán
 
 ## Antes de la primera sesión
 
-Sigan la **[guía de preparación](PREPARACION.md)**. Toma unos 30 minutos y deja su equipo listo: requisitos, instalación del software, descarga de los materiales y verificación automática.
+Sigan la **[guía de preparación](PREPARACION.md)**. Toma unos 20 minutos y deja su equipo listo: requisitos, instalación del software, descarga de los materiales y verificación.
 
 Requisitos en resumen:
 
 | Requisito | Detalle |
 |---|---|
 | Equipo | Windows 10 u 11 de 64 bits |
-| Licencia | GitHub Copilot con un plan pago (Pro o Business) |
-| Software (gratuito) | Visual Studio Code, Power BI Desktop, Git, Node.js 20 o superior y la extensión Power BI Authoring MCP Server |
+| Licencia | GitHub Copilot Free (gratuito) o cualquier plan pago |
+| Software (gratuito) | Visual Studio Code, Power BI Desktop y la extensión Power BI Authoring MCP Server. No hace falta Git, Node.js ni PowerShell |
 | Cuentas de empresa | Política **MCP servers in Copilot** habilitada por un administrador de GitHub |
 
 ## Descargar los materiales
@@ -34,7 +34,7 @@ Requisitos en resumen:
 1. Abran la **[última versión publicada](../../releases/latest)** y descarguen `CursoPBI.zip`.
 2. Descompriman el archivo directamente en `C:\`. Debe quedar la carpeta `C:\CursoPBI`.
 
-> No clonen este repositorio dentro de `C:\CursoPBI`. En el Tema 7 cada participante crea su propio repositorio Git en esa carpeta.
+> No clonen este repositorio dentro de `C:\CursoPBI`. En el Tema 7 cada participante crea su propio repositorio en GitHub, desde la página web.
 
 ## Ruta del curso
 
@@ -42,9 +42,10 @@ Requisitos en resumen:
 |---|---|---|
 | **Día 1** | 1. Fundamentos: GitHub Copilot, agentes y MCP | [Laboratorio 1](Guias/Tema01_Laboratorio.md) |
 | | 2. Configuración del entorno y conexión a modelos semánticos | [Laboratorio 2](Guias/Tema02_Laboratorio.md) |
-| **Día 2** | 3. Exploración y diagnóstico con lenguaje natural · 4. Ingeniería de instrucciones | Próximamente |
+| **Día 2** | 3. Exploración y diagnóstico con lenguaje natural | [Laboratorio 3](Guias/Tema03_Laboratorio.md) |
+| | 4. Ingeniería de instrucciones | Próximamente |
 | **Día 3** | 5. Creación y modificación del modelo · 6. DAX asistido por IA | Próximamente |
-| **Día 4** | 7. PBIP, TMDL y Git · 8. Operaciones masivas, documentación, seguridad y gobierno + laboratorio final | Próximamente |
+| **Día 4** | 7. PBIP, TMDL y control de versiones en GitHub · 8. Operaciones masivas, documentación, seguridad y gobierno + laboratorio final | Próximamente |
 
 El material de cada sesión se publica a medida que avanza el curso.
 
@@ -57,14 +58,14 @@ El material de cada sesión se publica a medida que avanza el curso.
 │   ├── Checkpoints/      Punto de partida de los laboratorios 5 a 8
 │   ├── Prompts/          Biblioteca base de instrucciones para Copilot
 │   ├── ValoresEsperados.md
-│   └── Verificar-Entorno.ps1
+│   └── Verificar-Entorno.ps1   (opcional, requiere PowerShell)
 ├── Guias/              Guías de laboratorio
 └── PREPARACION.md      Guía de preparación del equipo
 ```
 
 ## Soporte
 
-Si algo de la preparación no funciona, escriban al instructor antes de la primera sesión con una captura del resultado de `Verificar-Entorno.ps1`.
+Si algo de la preparación no funciona, escriban al instructor con una captura de pantalla.
 
 ---
 
