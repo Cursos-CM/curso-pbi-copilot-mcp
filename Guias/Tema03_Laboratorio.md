@@ -24,7 +24,7 @@ La gerencia comercial de Tiendas Andinas, una cadena de retail ficticia con 15 t
 >
 > **Copilot Free:** el laboratorio usa unos 9 mensajes. Copien los mensajes tal cual, envíen uno a la vez y no repitan un mensaje si el agente ya respondió: si falta algo, pidan solo lo que falta. Si se les acaba la cuota, sigan en modo demo o en pareja con un compañero.
 >
-> **Aprobaciones:** en este laboratorio el agente solo lee. Permitan (**Allow**) las llamadas de lectura: `List`, `Get`, `GetStats`, `Connect`, `Execute` de consultas DAX. Si aparece una operación `Create`, `Update`, `Delete` o `Rename`, recházenla.
+> **Aprobaciones:** en este laboratorio el agente solo lee, y en VS Code las lecturas (conexiones, `List`, `Get`, `GetStats` y consultas DAX) **no piden aprobación**. Si aparece una aprobación (**Allow tool from…?**), es porque el agente quiere cambiar algo: elijan **Skip**. La excepción es el Ejercicio 5, cuando el agente crea el archivo del diagnóstico.
 
 ## Arranque: dejar el entorno listo (6 min)
 
@@ -81,7 +81,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    No hagas cambios.
    ```
 
-   En la aprobación de `connection_operations`, comprueben que el servidor es **powerbi-solo-lectura** y permitan.
+   Es una lectura: el agente se conecta sin pedir aprobación.
 
    > **Resultado esperado:** El agente confirma la conexión a TiendasAndinas.
 
@@ -95,7 +95,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    Responde solo con esas dos tablas, sin explicaciones.
    ```
 
-   Permitan las llamadas de `model_operations` (**GetStats**) y `relationship_operations` (**List**).
+   El agente usa `model_operations` (**GetStats**) y `relationship_operations` (**List**) sin pedir aprobación.
 
    > **Resultado esperado:** 8 tablas, 16 medidas, 6 relaciones y 0 roles. La relación `FACT_Ventas[cust_id]` → `Cliente[cust_id]` aparece con dirección **BothDirections** (ambas). Las demás, **OneDirection**.
 
@@ -136,7 +136,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    Máximo 12 filas, ordenadas por severidad.
    ```
 
-   Permitan las llamadas de lectura que pida el agente (`table_operations`, `column_operations`, `relationship_operations`, `model_operations`).
+   El agente hace varias lecturas (`table_operations`, `column_operations`, `relationship_operations`, `model_operations`) sin pedir aprobación.
 
    > **Resultado esperado:** Una tabla de 8 a 12 hallazgos. Entre ellos, como mínimo: la relación bidireccional FACT_Ventas–Cliente, Presupuesto sin relaciones y `fact_devoluciones` sin relación con Calendario.
 
@@ -185,7 +185,7 @@ Un hallazgo entra al diagnóstico solo con evidencia. Van a demostrar con consul
    Ejecuta una consulta DAX que devuelva [Unidades Devueltas] por Calendario[Anio].
    ```
 
-   Antes de permitir `dax_query_operations`, abran la aprobación y lean la consulta: debe agrupar por `Calendario[Anio]`. Permitan.
+   La consulta no pide aprobación. Cuando el agente responda, comprueben qué consulta ejecutó: debajo de su mensaje hagan clic en **Completed … steps** y luego en **DAX Query Operations**; en **Input** está la consulta, y debe agrupar por `Calendario[Anio]`.
 
    > **Resultado esperado:** **2.929** en 2024 y **2.929** en 2025: el mismo total repetido, porque el filtro de año no le llega a `fact_devoluciones`. (Las devoluciones reales por año son 1.324 y 1.605.)
 
@@ -222,7 +222,7 @@ Un hallazgo entra al diagnóstico solo con evidencia. Van a demostrar con consul
    No modifiques el modelo.
    ```
 
-   VS Code pide permiso para crear el archivo. Permitan. Cuando el agente termine, el archivo aparece en el Explorador dentro de `TiendasAndinas`.
+   Si VS Code pide permiso para crear el archivo, elijan **Allow Once**. Cuando el agente termine, el archivo aparece en el Explorador dentro de `TiendasAndinas`.
 
    > **Resultado esperado:** El archivo `C:\CursoPBI\TiendasAndinas\diagnostico_inicial.md` existe y tiene las cuatro secciones. Si VS Code muestra los botones **Keep** y **Undo** sobre el archivo, elijan **Keep**.
 
@@ -262,9 +262,9 @@ Solo si les sobra tiempo y cuota. Elijan **uno**:
 | **powerbi-solo-lectura** queda en **Error** | No hay conversación abierta, o la ruta de `command` no coincide con la carpeta de su extensión | Enviar un mensaje en el chat y volver a **Start Server**. Comprobar en el Explorador de Windows (`%USERPROFILE%\.vscode\extensions`) el nombre de la carpeta `analysis-services.powerbi-modeling-mcp-…` y corregirlo en `mcp.json` |
 | El agente dice que no tiene herramientas de Power BI | El servidor se encendió en otra conversación, o sus herramientas están desmarcadas | Trabajar en un solo chat (el de la derecha); en la caja del chat, clic en el icono de herramientas y marcar **powerbi-solo-lectura** |
 | Las cifras de control no coinciden | Conexión a otro archivo de Desktop o inventario resumido | Cerrar los demás archivos de Power BI y repetir la conexión; si el agente resumió, pedir solo el conteo que falta |
-| La aprobación muestra **powerbi-authoring-local** | Ese servidor sigue encendido | Detenerlo en *MCP: List Servers* y repetir el mensaje |
+| Aparece una aprobación de **powerbi-authoring-local** | Ese servidor sigue encendido | Detenerlo en *MCP: List Servers* y repetir el mensaje |
 | «DAX query operations are not supported on offline connections» | El agente usó una conexión de carpeta | Escribir: `Usa la conexión de Power BI Desktop.` |
-| El agente quiere crear o cambiar algo en el modelo | Interpretó el diagnóstico como una corrección | Rechazar la aprobación. Con el servidor de solo lectura, el cambio se rechaza de todas formas |
+| El agente quiere crear o cambiar algo en el modelo | Interpretó el diagnóstico como una corrección | Elegir **Skip** en la aprobación. Con el servidor de solo lectura, el cambio se rechaza de todas formas |
 | El archivo `diagnostico_inicial.md` quedó en otra carpeta | El agente eligió otra ruta | Arrastrarlo en el Explorador de VS Code a la carpeta `TiendasAndinas` |
 | El chat responde *Language model unavailable* | No inició sesión en GitHub dentro de VS Code o no activó Copilot Free | Clic en **Sign In** (abajo a la derecha) o **Ctrl+Shift+P** → *GitHub Copilot: Sign In*; activar Copilot Free en github.com/settings/copilot |
 | El chat deja de responder por límite de uso | Se acabó la cuota mensual de Copilot Free | Seguir en modo demo o en pareja; la cuota se renueva el primer día del mes |

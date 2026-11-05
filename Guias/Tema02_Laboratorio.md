@@ -105,9 +105,9 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    Conéctate al archivo 'TiendasAndinas' abierto en Power BI Desktop.
    ```
 
-   El agente no se conecta solo: en el chat aparece un recuadro que pide permiso para usar la herramienta `connection_operations`. Ábranlo para ver los detalles, comprueben que dice **powerbi-solo-lectura** y hagan clic en **Allow** (Permitir). Esperen la respuesta: el agente confirma que se conectó a TiendasAndinas.
+   El agente usa la herramienta `connection_operations` y se conecta **sin pedir aprobación**: en esta versión de VS Code las lecturas no piden aprobación; solo los cambios. Como el único servidor de Power BI encendido es **powerbi-solo-lectura**, es él quien responde. Esperen la respuesta: el agente confirma que se conectó a TiendasAndinas.
 
-   > **Resultado esperado:** La aprobación de `connection_operations` muestra el servidor **powerbi-solo-lectura**. El agente confirma la conexión a TiendasAndinas.
+   > **Resultado esperado:** El agente confirma la conexión a TiendasAndinas (por ejemplo, `PBIDesktop-TiendasAndinas-52774`) sin pedir aprobación.
 
 9. Pidan un dato de control. Escriban en el chat:
 
@@ -125,7 +125,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
     se puede. Quiero ver la respuesta exacta del servidor.
     ```
 
-    Cuando aparezca la aprobación de `measure_operations` con la operación **Create**, hagan clic en **Allow**: **permitan** la llamada a propósito. Lean la respuesta del servidor.
+    Esta vez sí aparece una aprobación: **Allow tool from powerbi-solo-lectura?**, con **powerbi-solo-lectura: Measure Operations**. Comprueben que dice **powerbi-solo-lectura**, abran la flecha junto a **Allow in this Session** y elijan **Allow Once** (permitir una vez): **permitan** la llamada a propósito. Lean la respuesta del servidor.
 
     > Si el agente contesta que no puede porque el servidor es de solo lectura y **no** pide aprobación, el agente se adelantó: vio que el servidor está en solo lectura y ni lo intentó. Envíen de nuevo el mensaje; la idea es ver el rechazo **del servidor**, no la opinión del agente.
 
@@ -153,7 +153,7 @@ Sigan en la misma conversación, con el servidor de solo lectura.
    'C:\CursoPBI\TiendasAndinas\TiendasAndinas.SemanticModel\definition'
    ```
 
-   En la aprobación de `connection_operations`, comprueben que la operación es **ConnectFolder** y permitan. Lean la advertencia que devuelve el servidor.
+   Es una lectura, así que no pide aprobación. Lean la advertencia que devuelve el servidor.
 
    > **Resultado esperado:** El servidor carga el modelo desde la carpeta (8 tablas, 16 medidas, 6 relaciones) y advierte: *Changes made through MCP are not automatically written to disk. Run `ExportToTmdlFolder` before disconnecting to persist them.*
 
@@ -217,17 +217,17 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
 
    > **Resultado esperado:** **powerbi-authoring-local** en **Running** y **powerbi-solo-lectura** detenido.
 
-2. Abran una conversación nueva con el **+** de la parte superior del panel de chat y escriban `Hola`. Luego conéctense **solo** a la carpeta. Escriban en el chat:
+2. Primero hagan una copia del modelo para que el agente trabaje sobre ella: en el Explorador de archivos de Windows, copien la carpeta `C:\CursoPBI\TiendasAndinas\TiendasAndinas.SemanticModel` y péguenla dentro de `C:\CursoPBI\Temp` (si `Temp` no existe, créenla con clic derecho → **Nuevo → Carpeta**). Luego, en VS Code, abran una conversación nueva con el **+** de la parte superior del panel de chat y escriban `Hola`. Después conéctense **solo** a la copia. Escriban en el chat:
 
    ```text
    Abre el modelo semántico de la carpeta PBIP
-   'C:\CursoPBI\TiendasAndinas\TiendasAndinas.SemanticModel\definition'
+   'C:\CursoPBI\Temp\TiendasAndinas.SemanticModel\definition'
    No te conectes a Power BI Desktop.
    ```
 
    > Cada servidor tiene sus propias conexiones: al cambiar de servidor, hay que volver a conectarse.
 
-   > **Resultado esperado:** El agente se conecta solo a la carpeta y muestra de nuevo la advertencia de exportar.
+   > **Resultado esperado:** El agente se conecta solo a la copia de `Temp` y muestra de nuevo la advertencia de exportar.
 
 3. Creen un cambio de prueba. Escriban en el chat:
 
@@ -236,11 +236,11 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
    'Prueba Export' con la expresión 1. No exportes ni guardes nada todavía.
    ```
 
-   Esta vez la aprobación de `measure_operations` con **Create** sí funciona. El cambio queda **en memoria**.
+   Aparece la aprobación **Allow tool from powerbi-authoring-local?**, con **Measure Operations**: abran la flecha junto a **Allow in this Session** y elijan **Allow Once**. Esta vez el cambio sí se hace y queda **en memoria**.
 
-   > Si después de crear la medida aparece otra aprobación de `database_operations` que ustedes no pidieron, **recházenla**: el agente intenta guardar por su cuenta.
+   > Si después aparece otra aprobación que ustedes no pidieron (por ejemplo, **Database Operations**, o **Measure Operations** para «verificar»), elijan **Skip**: el agente intenta guardar o revisar por su cuenta. No se guíen por su resumen: la comprobación real es la búsqueda del paso 5.
 
-   > **Resultado esperado:** La aprobación de `measure_operations` con **Create** se ejecuta sin error. La medida existe solo en memoria.
+   > **Resultado esperado:** La llamada a **Measure Operations** se ejecuta sin error. La medida existe solo en memoria.
 
 4. Exporten a una carpeta temporal, **no** a la original. Escriban en el chat:
 
@@ -249,18 +249,12 @@ Para ver dónde quedan los cambios hace falta un servidor que sí pueda escribir
    'C:\CursoPBI\Temp\export_prueba'. No exportes a la carpeta original.
    ```
 
-   En el chat aparece el recuadro de aprobación de la herramienta `database_operations`. **No hagan clic todavía.** Ábranlo para ver los detalles: muestra los datos que el agente le va a enviar al servidor, algo así:
+   En el chat aparece la aprobación **Allow tool from powerbi-authoring-local?**, con **Database Operations**. Elijan **Allow Once**. En esta versión de VS Code la aprobación **no muestra la ruta** de la exportación; por eso el agente trabaja sobre la copia de `Temp`:
 
-   ```text
-   "operation": "ExportToTmdlFolder",
-   "tmdlFolderPath": "C:\CursoPBI\Temp\export_prueba"
-   ```
+   - Si el agente incluye la ruta (`tmdlFolderPath`), el servidor escribe en `Temp\export_prueba`.
+   - Si la omite, el servidor exporta a la carpeta de origen y sobrescribe lo que haya allí. Como se conectaron a la copia, el proyecto original queda a salvo.
 
-   - Si dice `ExportToTmdlFolder` y la ruta termina en `Temp\export_prueba` → **Allow** (permitir).
-   - Si la ruta termina en `definition` (la carpeta original) → rechacen la llamada y repitan el mensaje.
-   - Si **no aparece** `tmdlFolderPath` → **rechacen**. Sin ruta, el servidor exporta a la carpeta de origen y sobrescribe el proyecto original.
-
-   > **Resultado esperado:** La aprobación muestra `ExportToTmdlFolder` y `tmdlFolderPath: C:\CursoPBI\Temp\export_prueba`. El servidor informa 12 archivos creados.
+   > **Resultado esperado:** El servidor informa 12 archivos creados en `C:\CursoPBI\Temp\export_prueba`.
 
 5. Busquen la medida en todos los archivos de `C:\CursoPBI`. En VS Code abran la vista **Search** (la lupa de la barra izquierda, o **Ctrl+Shift+F**), escriban `Prueba Export` en el cuadro de búsqueda y presionen **Enter**. Miren en qué archivos aparece.
 
