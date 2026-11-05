@@ -67,7 +67,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
      "servers": {
        "powerbi-solo-lectura": {
          "type": "stdio",
-         "command": "${userHome}\\.vscode\\extensions\\analysis-services.powerbi-modeling-mcp-1.0.0-win32-x64\\server\\powerbi-modeling-mcp.exe",
+         "command": "${env:USERPROFILE}\\.vscode\\extensions\\analysis-services.powerbi-modeling-mcp-1.0.0-win32-x64\\server\\powerbi-modeling-mcp.exe",
          "args": [
            "--start",
            "--readonly",
@@ -78,7 +78,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    }
    ```
 
-   **Cómo leer este archivo:** `powerbi-solo-lectura` es el nombre con el que verán el servidor; `command` es la ruta del programa del servidor que ya instaló la extensión de Power BI (el mismo del Laboratorio 1; `${userHome}` es su carpeta de usuario de Windows, y no hace falta Node.js); `--start` lo enciende; `--readonly` lo deja en solo lectura; y `--accept-eula` registra la aceptación de la licencia que ya leyeron en el Laboratorio 1.
+   **Cómo leer este archivo:** `powerbi-solo-lectura` es el nombre con el que verán el servidor; `command` es la ruta del programa del servidor que ya instaló la extensión de Power BI (el mismo del Laboratorio 1; `${env:USERPROFILE}` es su carpeta de usuario de Windows, y no hace falta Node.js); `--start` lo enciende; `--readonly` lo deja en solo lectura; y `--accept-eula` registra la aceptación de la licencia que ya leyeron en el Laboratorio 1.
 
 5. Guarden con **Ctrl+S**.
 
@@ -330,7 +330,7 @@ Inicien sesión con su cuenta de Microsoft Entra ID cuando se les pida. Luego pi
 |---|---|---|
 | **powerbi-solo-lectura** no aparece en *MCP: List Servers* | `mcp.json` no está en `C:\CursoPBI\.vscode\` o tiene un error | Revisar el nombre de la carpeta (`.vscode`, con punto) y del archivo; VS Code marca en rojo los errores del JSON |
 | Aparece la opción *Show locally configured servers…* | VS Code agrupa los servidores de la carpeta aparte | Elegir esa opción y encender **powerbi-solo-lectura** desde ahí, o abrir `mcp.json` y usar **Start** sobre el nombre del servidor |
-| **powerbi-solo-lectura** queda en **Error** | No hay conversación abierta, o la ruta de `command` no coincide con la carpeta de su extensión | Enviar un mensaje en el chat y volver a ▷. Si sigue, revisar la ruta (paso 5 del Ejercicio 1). Si nada funciona, usar la alternativa de abajo |
+| **powerbi-solo-lectura** queda en **Error** | No hay conversación abierta, o la ruta de `command` no coincide con la carpeta de su extensión | Enviar un mensaje en el chat y volver a ▷. Si sigue, revisar la ruta (paso 5 del Ejercicio 1) y que command empiece por ${env:USERPROFILE}: con ${userHome} esta versión de VS Code no arranca el servidor. Si nada funciona, usar la alternativa de abajo |
 | El agente dice que no tiene herramientas de Power BI | El servidor se encendió en otra conversación, o sus herramientas están desmarcadas | Trabajar en un solo chat (el de la derecha); en la caja del chat, clic en el icono de herramientas y marcar el servidor; luego volver a preguntar |
 | El agente creó `Prueba Bloqueo` sin error | La llamada la atendió **powerbi-authoring-local**, que no está en solo lectura | Detener powerbi-authoring-local, eliminar la medida en Desktop (clic derecho → **Eliminar del modelo**) y repetir desde el paso 8 |
 | La ruta de la carpeta no funciona | No llega hasta `definition` | Usar la ruta completa que termina en `TiendasAndinas.SemanticModel\definition` |

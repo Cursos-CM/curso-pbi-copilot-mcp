@@ -38,7 +38,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
 
 4. Abran **Visual Studio Code** → **File → Open Folder…** → `C:\CursoPBI` → **Seleccionar carpeta**. Si pregunta si confían en los autores, elijan **Yes, I trust the authors**.
 5. En el **Explorador** de VS Code (Ctrl+Shift+E), comprueben que existe `.vscode\mcp.json`, el archivo del Laboratorio 2. Si existe, ábranlo.
-   - Si existe y define **powerbi-solo-lectura** con `--readonly`, no lo cambien. Si en command dice npx, o la ruta no termina en powerbi-modeling-mcp.exe, borren todo su contenido (Ctrl+A y Supr), peguen el bloque de abajo y guarden con Ctrl+S.
+   - Si existe y define **powerbi-solo-lectura** con `--readonly`, no lo cambien. Si en command dice npx o ${userHome}, o la ruta no termina en powerbi-modeling-mcp.exe, borren todo su contenido (Ctrl+A y Supr), peguen el bloque de abajo y guarden con Ctrl+S.
    - Si **no existe**, créenlo: pasen el cursor sobre **CURSOPBI** → icono **New Folder** → `.vscode`; clic derecho sobre `.vscode` → **New File…** → `mcp.json`; peguen este contenido y guarden con **Ctrl+S**:
 
    ```json
@@ -46,7 +46,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
      "servers": {
        "powerbi-solo-lectura": {
          "type": "stdio",
-         "command": "${userHome}\\.vscode\\extensions\\analysis-services.powerbi-modeling-mcp-1.0.0-win32-x64\\server\\powerbi-modeling-mcp.exe",
+         "command": "${env:USERPROFILE}\\.vscode\\extensions\\analysis-services.powerbi-modeling-mcp-1.0.0-win32-x64\\server\\powerbi-modeling-mcp.exe",
          "args": [
            "--start",
            "--readonly",
