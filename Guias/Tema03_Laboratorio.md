@@ -24,7 +24,7 @@ La gerencia comercial de Tiendas Andinas, una cadena de retail ficticia con 15 t
 >
 > **Copilot Free:** el laboratorio usa unos 9 mensajes. Copien los mensajes tal cual, envíen uno a la vez y no repitan un mensaje si el agente ya respondió: si falta algo, pidan solo lo que falta. Si se les acaba la cuota, sigan en modo demo o en pareja con un compañero.
 >
-> **Aprobaciones:** en este laboratorio el agente solo lee, y en VS Code las lecturas (conexiones, `List`, `Get`, `GetStats` y consultas DAX) **no piden aprobación**. Si aparece una aprobación (**Allow tool from…?**), es porque el agente quiere cambiar algo: elijan **Skip**. La excepción es el Ejercicio 5, cuando el agente crea el archivo del diagnóstico.
+> **Aprobaciones:** en este laboratorio el agente solo lee. Conectarse y las consultas DAX no piden aprobación. Las demás herramientas de Power BI (**Model Operations**, **Table Operations**, **Relationship Operations**, **Measure Operations**…) sí la piden, aunque solo lean, porque también pueden escribir. Cuando aparezca **Allow tool from powerbi-solo-lectura?**, elijan **Allow in this Session** (o **Allow All** si hay varias): el servidor es de solo lectura y no puede cambiar nada. Si la aprobación dice **powerbi-authoring-local**, elijan **Skip** y revisen *MCP: List Servers*.
 
 ## Arranque: dejar el entorno listo (6 min)
 
@@ -95,7 +95,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    Responde solo con esas dos tablas, sin explicaciones.
    ```
 
-   El agente usa `model_operations` (**GetStats**) y `relationship_operations` (**List**) sin pedir aprobación.
+   Aparecerán las aprobaciones de **Model Operations** (GetStats) y **Relationship Operations** (List): elijan **Allow in this Session**.
 
    > **Resultado esperado:** 8 tablas, 16 medidas, 6 relaciones y 0 roles. La relación `FACT_Ventas[cust_id]` → `Cliente[cust_id]` aparece con dirección **BothDirections** (ambas). Las demás, **OneDirection**.
 
@@ -136,7 +136,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    Máximo 12 filas, ordenadas por severidad.
    ```
 
-   El agente hace varias lecturas (`table_operations`, `column_operations`, `relationship_operations`, `model_operations`) sin pedir aprobación.
+   El agente hace varias lecturas (`table_operations`, `column_operations`, `relationship_operations`, `model_operations`); si aparecen aprobaciones de **powerbi-solo-lectura**, elijan **Allow in this Session** o **Allow All**.
 
    > **Resultado esperado:** Una tabla de 8 a 12 hallazgos. Entre ellos, como mínimo: la relación bidireccional FACT_Ventas–Cliente, Presupuesto sin relaciones y `fact_devoluciones` sin relación con Calendario.
 

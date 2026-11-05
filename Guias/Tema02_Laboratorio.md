@@ -105,11 +105,11 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
    Conéctate al archivo 'TiendasAndinas' abierto en Power BI Desktop.
    ```
 
-   El agente usa la herramienta `connection_operations` y se conecta **sin pedir aprobación**: en esta versión de VS Code las lecturas no piden aprobación; solo los cambios. Como el único servidor de Power BI encendido es **powerbi-solo-lectura**, es él quien responde. Esperen la respuesta: el agente confirma que se conectó a TiendasAndinas.
+   El agente usa la herramienta `connection_operations` y se conecta **sin pedir aprobación**, porque esa herramienta solo lee. Las herramientas que también pueden escribir sí piden aprobación, aunque solo vayan a leer. Como el único servidor de Power BI encendido es **powerbi-solo-lectura**, es él quien responde. Esperen la respuesta: el agente confirma que se conectó a TiendasAndinas.
 
    > **Resultado esperado:** El agente confirma la conexión a TiendasAndinas (por ejemplo, `PBIDesktop-TiendasAndinas-52774`) sin pedir aprobación.
 
-9. Pidan un dato de control. Escriban en el chat:
+9. Pidan un dato de control. Si aparece la aprobación de **Measure Operations**, elijan **Allow Once**: aunque aquí solo va a listar, esa herramienta también puede escribir. Escriban en el chat:
 
    ```text
    Sin hacer cambios, dime cuántas medidas tiene la tabla FACT_Ventas.
@@ -125,7 +125,7 @@ Cada laboratorio empieza desde cero: no supongan que algo quedó abierto de la s
     se puede. Quiero ver la respuesta exacta del servidor.
     ```
 
-    Esta vez sí aparece una aprobación: **Allow tool from powerbi-solo-lectura?**, con **powerbi-solo-lectura: Measure Operations**. Comprueben que dice **powerbi-solo-lectura**, abran la flecha junto a **Allow in this Session** y elijan **Allow Once** (permitir una vez): **permitan** la llamada a propósito. Lean la respuesta del servidor.
+    Aparece la aprobación **Allow tool from powerbi-solo-lectura?** (si en el paso 9 eligieron **Allow in this Session**, ya no pregunta; el resultado es el mismo), con **powerbi-solo-lectura: Measure Operations**. Comprueben que dice **powerbi-solo-lectura**, abran la flecha junto a **Allow in this Session** y elijan **Allow Once** (permitir una vez): **permitan** la llamada a propósito. Lean la respuesta del servidor.
 
     > Si el agente contesta que no puede porque el servidor es de solo lectura y **no** pide aprobación, el agente se adelantó: vio que el servidor está en solo lectura y ni lo intentó. Envíen de nuevo el mensaje; la idea es ver el rechazo **del servidor**, no la opinión del agente.
 
@@ -166,7 +166,7 @@ Sigan en la misma conversación, con el servidor de solo lectura.
 
    > **Resultado esperado:** Dos conexiones: la de Desktop y una cuyo nombre empieza por `TMDL-`, marcada como offline (fuera de línea). La activa es la última que se abrió, la de carpeta.
 
-3. Comparen el inventario de las dos conexiones. Escriban en el chat:
+3. Comparen el inventario de las dos conexiones. Aparecerán aprobaciones de herramientas como **Model Operations** o **Measure Operations**: con el servidor de solo lectura pueden elegir **Allow in this Session** sin riesgo. Escriban en el chat:
 
    ```text
    Sin hacer cambios, en la conexión de carpeta dime cuántas tablas, medidas
