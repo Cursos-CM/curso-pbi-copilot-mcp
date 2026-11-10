@@ -45,7 +45,7 @@ Requisitos en resumen:
 | | 3. Exploración y diagnóstico con lenguaje natural | [Laboratorio 3](Guias/Tema03_Laboratorio.md) |
 | **Día 3** | 4. Ingeniería de instrucciones | [Laboratorio 4](Guias/Tema04_Laboratorio.md) |
 | | 5. Creación y modificación del modelo | [Laboratorio 5](Guias/Tema05_Laboratorio.md) |
-| | 6. DAX asistido por IA | Próximamente |
+| | 6. DAX asistido por IA | [Laboratorio 6](Guias/Tema06_Laboratorio.md) |
 | **Día 4** | 7. PBIP, TMDL y control de versiones en GitHub · 8. Operaciones masivas, documentación, seguridad y gobierno + laboratorio final | Próximamente |
 
 El material de cada sesión se publica a medida que avanza el curso.
