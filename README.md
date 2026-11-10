@@ -41,10 +41,10 @@ Requisitos en resumen:
 | Sesión | Temas | Material |
 |---|---|---|
 | **Día 1** | 1. Fundamentos: GitHub Copilot, agentes y MCP | [Laboratorio 1](Guias/Tema01_Laboratorio.md) |
-| | 2. Configuración del entorno y conexión a modelos semánticos | [Laboratorio 2](Guias/Tema02_Laboratorio.md) |
-| **Día 2** | 3. Exploración y diagnóstico con lenguaje natural | [Laboratorio 3](Guias/Tema03_Laboratorio.md) |
-| | 4. Ingeniería de instrucciones | Próximamente |
-| **Día 3** | 5. Creación y modificación del modelo · 6. DAX asistido por IA | Próximamente |
+| **Día 2** | 2. Configuración del entorno y conexión a modelos semánticos | [Laboratorio 2](Guias/Tema02_Laboratorio.md) |
+| | 3. Exploración y diagnóstico con lenguaje natural | [Laboratorio 3](Guias/Tema03_Laboratorio.md) |
+| **Día 3** | 4. Ingeniería de instrucciones | [Laboratorio 4](Guias/Tema04_Laboratorio.md) |
+| | 5. Creación y modificación del modelo · 6. DAX asistido por IA | Próximamente |
 | **Día 4** | 7. PBIP, TMDL y control de versiones en GitHub · 8. Operaciones masivas, documentación, seguridad y gobierno + laboratorio final | Próximamente |
 
 El material de cada sesión se publica a medida que avanza el curso.
