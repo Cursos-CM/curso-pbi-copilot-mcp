@@ -269,7 +269,7 @@ Con el trabajo terminado y validado, llega el momento de entregarlo al equipo.
    - Clic en **Commit changes**.
 7. Vuelvan a la página principal del repositorio (clic en el nombre del repositorio, arriba). Aparece un aviso amarillo *«pagina-ana had recent pushes»* con el botón verde **Compare & pull request**: hagan clic. (Si no aparece: pestaña **Pull requests** → **New pull request** → en *base* dejen `main` y en *compare* elijan su rama → **Create pull request**.)
 8. Título: `Página de <Nombre> · encargo <número>`. En la descripción ya viene la plantilla del equipo: escriban su nombre y su encargo, y en *Carpeta de la página* reemplacen `...` por el nombre de su carpeta. Marquen solo las casillas de **Cómo la validé**, cambiando `[ ]` por `[x]`; las de **Para quien revisa** las marca su compañero.
-9. Clic en **Create pull request** y abran la pestaña **Files changed**.
+9. Clic en **Create pull request**. Si aparece la ventana *«Try the new pull requests Overview page!»*, elijan **Not now**. Después abran la pestaña **Files changed**.
 
    > **Resultado esperado:** Aparecen **3 archivos**, todos dentro de la carpeta de su página, en verde (agregados).
 
