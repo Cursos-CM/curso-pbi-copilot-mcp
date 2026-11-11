@@ -61,7 +61,7 @@ Antes de empezar, anoten estos datos. Los van a usar en todo el laboratorio.
    >
    > Si aparece un error de «referencia cíclica» en Presupuesto, elijan **Cerrar** y vuelvan a **Actualizar**: la segunda vez funciona. Si aparece una franja de **Autorrecuperación**, ciérrenla con la **X**.
 
-7. Abran **Visual Studio Code** → **File → Open Folder…** → la carpeta del proyecto → **Seleccionar carpeta**. Si pregunta si confían en los autores, elijan **Yes, I trust the authors**. Si se abre una pestaña de **Release Notes** o **Welcome**, pueden cerrarla.
+7. Abran **Visual Studio Code** → **File → Open Folder…** → la carpeta del proyecto → **Seleccionar carpeta**. Si pregunta si confían en los autores, elijan **Yes, I trust the authors**. Si se abre una pestaña de **Release Notes** o **Welcome**, pueden cerrarla. Si abajo a la derecha aparece el aviso *«5 workspace customizations need an update»* (o un panel **Keep your customizations working** con un botón **Migrate**), **no migren**: cierren el aviso con la **X**. Los prompts del equipo funcionan tal como están en el chat **Local**.
 
    > **Resultado esperado:** A la izquierda, en el Explorador de VS Code, se ven `.github`, `TiendasAndinas.Report`, `TiendasAndinas.SemanticModel`, `ENCARGOS.md`, `README.md` y `TiendasAndinas.pbip`.
 
@@ -130,7 +130,7 @@ Un modelo que se va a compartir necesita que cualquiera entienda sus medidas. El
    APROBADO
    ```
 
-5. Aparece una aprobación de escritura (**⚠**, *Updates measures in FACT_Ventas… changes workspace source*). Es **una sola** escritura para las 18 medidas: eso es una operación masiva. Elijan **Allow Once**.
+5. Aparece una aprobación de escritura (**⚠**, *Updates measures…*). Es **una sola** escritura para las 18 medidas: eso es una operación masiva. Elijan **Allow Once**.
 
    > **Resultado esperado:** «Se actualizaron las descripciones de las 18 medidas… en una sola operación».
 
@@ -156,13 +156,15 @@ La gerencia regional del Caribe solo debe ver los datos de sus tiendas. Eso se r
    ```
 
 2. Aprueben las lecturas (**✓**) con **Allow Once** (pueden ser varias). Lean el plan: rol **Región Caribe**, permiso de lectura, tabla `tbl_Tienda` y filtro `[Region] = "Caribe"`.
-3. Escriban `APROBADO` y aprueben las escrituras (**⚠**, *Creates a security role…*) con **Allow Once**.
+3. Escriban `APROBADO` y aprueben las escrituras (**⚠**, *Creates a security role…* y *Creates permissions…*) con **Allow Once**. Son dos: primero el rol y después el filtro.
 
-   > **Resultado esperado:** El agente crea el rol y su filtro, y dice que con el rol Total Ventas debería ser **1.866.538.345**. Puede que corrija algo por su cuenta (por ejemplo, crear el filtro como un permiso de tabla aparte) y pida otra aprobación: es normal.
+   > **Resultado esperado:** El agente termina con una tabla de comprobación donde aparece el permiso de `tbl_Tienda` con el filtro `[Region] = "Caribe"`. Si el agente dice que el permiso **no** aparece, avisen al instructor antes de seguir.
 
 4. **Probar el rol en Desktop:** pestaña **Modelado** (arriba) → botón **Ver como** (grupo *Seguridad*). En la ventana *Ver como roles* marquen la casilla **Región Caribe** → **Aceptar**.
 
    > **Resultado esperado:** Arriba aparece *Se muestra como Región Caribe*. Total Ventas **$2 mil M**, Margen % **33,1 %**, Cumplimiento **98,4 %**, y la tabla *Ventas por región* muestra solo **Caribe: $1.866.538.345**.
+   >
+   > Si sigue mostrando $11 mil M, el rol quedó sin filtro: vean **Solución de problemas**. Si aparece una ventana *ProviderMessage* que dice que el usuario «no tiene acceso a la base de datos», elijan **Cerrar**: sale cuando el agente consulta el modelo mientras *Ver como* está activo.
 
 5. Clic en **Detener la visualización**, a la derecha de la franja *Se muestra como Región Caribe*. El informe vuelve a mostrar todo ($11 mil M).
 6. Con la ventana de **Power BI Desktop** al frente, **guarden con Ctrl+S** (o el ícono de disquete, arriba a la izquierda). Así el modelo queda guardado en los archivos antes de pasar al informe. No aparece ninguna ventana: se guarda directamente.
@@ -321,7 +323,9 @@ Con el trabajo terminado y validado, llega el momento de entregarlo al equipo.
 | Al escribir `/` no aparecen los prompts del equipo | El chat está en **Copilot**, o VS Code no abrió la carpeta del proyecto | Cambiar a **Local**; **File → Open Folder** sobre la carpeta del proyecto. Si siguen sin aparecer: **Ctrl+Shift+P** → `Reload Window` |
 | El agente escribe en el modelo sin pedir aprobación | Antes se eligió *Allow in this Session* | Desde ahora, **Allow Once**; abrir un chat nuevo reinicia los permisos |
 | El agente dice que no tiene herramientas del modelo | **powerbi-authoring-local** está desmarcado | Configure Tools: marcar **powerbi-authoring-local** → **OK** |
-| Con *Ver como* se ven todos los datos | El rol se creó sin filtro de tabla | `/crear-rol Región Caribe, agrega el filtro [Region] = "Caribe" sobre tbl_Tienda` |
+| Con *Ver como* se ven todos los datos ($11 mil M) | El rol se creó sin el permiso de tabla (pasó en una de las pruebas) | **Detener la visualización**. Abrir un chat nuevo en **Local** y escribir: `/crear-rol Región Caribe. El rol ya existe: crea solo el permiso de tabla con CreatePermissions sobre tbl_Tienda con el filtro [Region] = "Caribe" y compruébalo con ListPermissions`. Después, **Ver como** otra vez |
+| Aparece la ventana *ProviderMessage* «no tiene acceso a la base de datos» | El agente consultó el modelo mientras *Ver como* estaba activo | **Cerrar** y **Detener la visualización** |
+| Aviso *«workspace customizations need an update»* o botón **Migrate** | VS Code 1.146 propone convertir los prompts al modo Copilot | No migrar: cerrar el aviso. En **Local** los prompts funcionan igual |
 | Las descripciones o el rol desaparecieron después de reabrir Desktop | No guardaron con **Ctrl+S** al final del Tramo 4 | Repetir el Tramo 3 o 4 y guardar |
 | El agente pide ejecutar código, abrir un navegador o usar una terminal | Intenta validar por su cuenta | **Skip**; dejar `execute` y `browser` desmarcados |
 | La página no aparece en Desktop | Desktop seguía abierto, o se guardó después del cambio | Cerrar Desktop **sin guardar** y abrir de nuevo. Si se guardó: Configure Tools → marcar `edit`, pedir otra vez `/crear-pagina` y, al terminar, desmarcar `edit` |
