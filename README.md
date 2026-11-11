@@ -34,7 +34,7 @@ Requisitos en resumen:
 1. Abran la **[última versión publicada](../../releases/latest)** y descarguen `CursoPBI.zip`.
 2. Descompriman el archivo directamente en `C:\`. Debe quedar la carpeta `C:\CursoPBI`.
 
-> No clonen este repositorio dentro de `C:\CursoPBI`. En el Tema 7 cada participante crea su propio repositorio en GitHub, desde la página web.
+> No clonen este repositorio dentro de `C:\CursoPBI`. En el Día 4 cada grupo trabaja en su propio repositorio de práctica (`tiendas-andinas-grupo1` o `tiendas-andinas-grupo2`), desde la página web de GitHub. Para escribir en él hay que aceptar antes la invitación a la organización Cursos-CM.
 
 ## Ruta del curso
 
@@ -46,7 +46,8 @@ Requisitos en resumen:
 | **Día 3** | 4. Ingeniería de instrucciones | [Laboratorio 4](Guias/Tema04_Laboratorio.md) |
 | | 5. Creación y modificación del modelo | [Laboratorio 5](Guias/Tema05_Laboratorio.md) |
 | | 6. DAX asistido por IA | [Laboratorio 6](Guias/Tema06_Laboratorio.md) |
-| **Día 4** | 7. PBIP, TMDL y control de versiones en GitHub · 8. Operaciones masivas, documentación, seguridad y gobierno + laboratorio final | Próximamente |
+| **Día 4** | 7. Proyectos PBIP y trabajo en equipo con GitHub | Práctica en el laboratorio final |
+| | 8. El agente en el informe, operaciones masivas y gobierno | [Laboratorio final: el informe del equipo](Guias/Tema08_Laboratorio.md) |
 
 El material de cada sesión se publica a medida que avanza el curso.
 
