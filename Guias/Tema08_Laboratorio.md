@@ -67,10 +67,13 @@ Antes de empezar, anoten estos datos. Los van a usar en todo el laboratorio.
 
 8. En el chat de la derecha, abran una conversación nueva con el **+** (arriba del chat). Debajo del cuadro donde se escribe, a la izquierda, hay un selector que dice **Local**, **Copilot** o **Cloud**: debe decir **Local**. Si dice otra cosa, hagan clic sobre esa palabra y elijan **Local**.
 9. **Configure Tools** (icono pequeño de controles, a la derecha de **Auto**, en la parte de abajo del cuadro del chat; si no lo ven: **Ctrl+Shift+P** → escriban `Configure Tools` → Enter):
-   - **Marcados:** `read`, `search` y **powerbi-authoring-local**.
-   - **Desmarcados:** `edit`, `execute` y `browser`.
+   - Se abre una lista arriba en la pantalla. Cada línea tiene una casilla a la izquierda: con **✓** está marcada; un clic en la casilla la marca o la desmarca.
+   - Dejen **marcados** `read`, `search` y la línea **powerbi-authoring-local** (al marcar esa línea se marcan todas sus herramientas; si la lista está recogida, despliéguenla con la flecha **>**).
+   - Dejen **desmarcados** `edit`, `execute` y `browser`.
    - Lo demás (`agent`, `todo`, `vscode`, `web` u otros) déjenlo como está.
-   - Clic en **OK**.
+   - Clic en el botón azul **OK**, arriba a la derecha de la lista.
+
+   > **Resultado esperado:** Al lado de **OK** se ve el número de herramientas seleccionadas. Si vuelven a abrir la lista, `edit`, `execute` y `browser` aparecen sin ✓.
 10. En el cuadro del chat escriban `/` seguido de las primeras letras (por ejemplo `/con`, `/doc`, `/cre`) y comprueben que aparecen los cinco prompts del equipo: **/consultar-encargo**, **/documentar-medidas**, **/crear-rol**, **/crear-pagina** y **/cambiar-visual**. Después borren lo que escribieron.
 
 ✔ **Punto de control 1**
@@ -180,7 +183,11 @@ La gerencia regional del Caribe solo debe ver los datos de sus tiendas. Eso se r
 
 En este tramo el agente **sí** va a crear archivos del informe. Por eso, y solo por este tramo y el siguiente, abrimos la llave de edición.
 
-1. **Configure Tools:** marquen `edit`. Dejen `execute` y `browser` desmarcados. **OK**.
+1. **Configure Tools**, igual que en el Tramo 1:
+   - Abajo del cuadro del chat, a la derecha de **Auto**, hagan clic en el icono pequeño de controles (si no lo ven: **Ctrl+Shift+P** → escriban `Configure Tools` → Enter).
+   - Se abre una lista arriba en la pantalla. Busquen la línea **edit** (*Edit files in your workspace*) y hagan clic en su casilla para **marcarla**.
+   - Comprueben que **execute** y **browser** siguen **sin** marca, y que **powerbi-authoring-local** sigue marcado.
+   - Clic en el botón azul **OK**, arriba a la derecha de la lista.
 2. Escriban, con su nombre y su encargo:
 
    ```text
@@ -239,7 +246,7 @@ En este tramo el agente **sí** va a crear archivos del informe. Por eso, y solo
 
 2. Revisen la tabla de cambios (propiedad, valor actual, valor nuevo) y escriban `APROBADO`. Si el agente pide ejecutar código o abrir un navegador, elijan **Skip**. Cuando aparezca **1 file changed**, elijan **Keep**.
 3. Cierren Desktop con la **X** → **No guardar** → doble clic en `TiendasAndinas.pbip` → **Inicio → Actualizar** (si sale «referencia cíclica», **Cerrar** y **Actualizar** otra vez). Revisen su página.
-4. **Configure Tools:** desmarquen `edit`. **OK**. La llave se devuelve al terminar.
+4. **Configure Tools** otra vez (icono de controles a la derecha de **Auto**): hagan clic en la casilla de **edit** para **quitarle la marca** → **OK**. La llave se devuelve al terminar.
 
 ✔ **Punto de control 6**
 
