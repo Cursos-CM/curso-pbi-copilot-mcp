@@ -28,6 +28,36 @@ La gerencia de Tiendas Andinas pidió doce análisis. El equipo trabaja como en 
 >
 > En este laboratorio **no se usa PowerShell ni la terminal**.
 
+## Requisito previo: su cuenta de GitHub
+
+Para trabajar en el repositorio del equipo necesitan una cuenta de GitHub y aceptar la invitación del instructor. Háganlo **antes** del Tramo 1. Si ya tienen cuenta, salten al paso 7.
+
+**Crear la cuenta (gratis, unos 3 minutos)**
+
+1. Abran el navegador y entren a **https://github.com/signup**.
+2. Escriban su correo electrónico y hagan clic en **Continue**.
+3. Escriban una contraseña y hagan clic en **Continue**. Anótenla en un lugar seguro.
+4. Escriban un **nombre de usuario** (*Username*): sin espacios ni tildes, por ejemplo `ana-perez-pbi`. Si GitHub dice que ya existe, agreguen números. Clic en **Continue**.
+5. Resuelvan la verificación que aparece en pantalla (un pequeño rompecabezas) y hagan clic en **Create account**.
+6. GitHub envía un **código** a su correo. Ábranlo, copien el código y escríbanlo en la página de GitHub.
+
+   > **Resultado esperado:** Quedan dentro de GitHub, con su cuenta abierta. Si GitHub hace preguntas sobre cómo lo van a usar, pueden hacer clic en **Skip personalization** (abajo).
+
+**Encontrar su nombre de usuario y enviarlo al instructor**
+
+7. En GitHub, arriba a la derecha, hagan clic en el **círculo con su foto o ícono**. Arriba del menú que se abre aparece su **nombre de usuario** (en negrita).
+8. Escriban ese nombre de usuario en el **chat de la reunión**, junto con su nombre. Por ejemplo: `Ana Pérez · ana-perez-pbi`. El instructor los invita al equipo de su grupo.
+
+**Aceptar la invitación**
+
+9. Cuando el instructor les avise, entren a **https://github.com/orgs/Cursos-CM/invitation** (con su cuenta abierta) y hagan clic en el botón verde **Join Cursos-CM**. También llega un correo de GitHub con el botón **Join @Cursos-CM**: sirve igual.
+
+   > **Resultado esperado:** Al abrir el repositorio de su grupo (`https://github.com/Cursos-CM/tiendas-andinas-grupo1` o `-grupo2`) ven los archivos y, arriba, la pestaña **Pull requests**. Si ven una página *404*, la invitación todavía no está aceptada: repitan el paso 9.
+
+**Usar la misma cuenta en VS Code**
+
+10. En VS Code, abajo a la izquierda, hagan clic en el **ícono de la persona** (*Accounts*). Si no aparece su cuenta, elijan **Sign in with GitHub to use GitHub Copilot**, inicien sesión con la cuenta que acaban de crear y hagan clic en **Authorize** cuando el navegador lo pida. Así queda activo **Copilot Free**, sin costo.
+
 ## Datos de su trabajo
 
 Antes de empezar, anoten estos datos. Los van a usar en todo el laboratorio.
