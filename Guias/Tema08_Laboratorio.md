@@ -30,7 +30,9 @@ La gerencia de Tiendas Andinas pidió doce análisis. El equipo trabaja como en 
 
 ## Requisito previo: su cuenta de GitHub
 
-Para trabajar en el repositorio del equipo necesitan una cuenta de GitHub y aceptar la invitación del instructor. Háganlo **antes** del Tramo 1. Si ya tienen cuenta, salten al paso 7.
+Para trabajar en el repositorio del equipo necesitan una cuenta de GitHub y aceptar la invitación del instructor. Háganlo **antes** del Tramo 1. Si ya tienen cuenta personal, salten al paso 7.
+
+> **Importante: debe ser una cuenta personal**, creada por ustedes en github.com. No usen una cuenta administrada por su empresa (las que entran con el usuario corporativo o tienen un nombre como `usuario_empresa`): esas cuentas no pueden unirse a la organización del curso.
 
 **Crear la cuenta (gratis, unos 3 minutos)**
 
