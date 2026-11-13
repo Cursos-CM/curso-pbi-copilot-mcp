@@ -38,16 +38,16 @@ Requisitos en resumen:
 
 ## Ruta del curso
 
-| Sesión | Temas | Material | Presentación |
-|---|---|---|---|
-| **Día 1** | 1. Fundamentos: GitHub Copilot, agentes y MCP | [Laboratorio 1](Guias/Tema01_Laboratorio.md) | [PDF](Presentaciones/Dia1/Tema01_Presentacion.pdf) |
-| **Día 2** | 2. Configuración del entorno y conexión a modelos semánticos | [Laboratorio 2](Guias/Tema02_Laboratorio.md) | [PDF](Presentaciones/Dia2/Tema02_Presentacion.pdf) |
-| | 3. Exploración y diagnóstico con lenguaje natural | [Laboratorio 3](Guias/Tema03_Laboratorio.md) | [PDF](Presentaciones/Dia2/Tema03_Presentacion.pdf) |
-| **Día 3** | 4. Ingeniería de instrucciones | [Laboratorio 4](Guias/Tema04_Laboratorio.md) | [PDF](Presentaciones/Dia3/Tema04_Presentacion.pdf) |
-| | 5. Creación y modificación del modelo | [Laboratorio 5](Guias/Tema05_Laboratorio.md) | [PDF](Presentaciones/Dia3/Tema05_Presentacion.pdf) |
-| | 6. DAX asistido por IA | [Laboratorio 6](Guias/Tema06_Laboratorio.md) | [PDF](Presentaciones/Dia3/Tema06_Presentacion.pdf) |
-| **Día 4** | 7. Proyectos PBIP y trabajo en equipo con GitHub | Práctica en el laboratorio final | [PDF](Presentaciones/Dia4/Temas07_08_Presentacion.pdf) |
-| | 8. El agente en el informe, operaciones masivas y gobierno | [Laboratorio final: el informe del equipo](Guias/Tema08_Laboratorio.md) | La misma de los Temas 7 y 8 |
+| Sesión | Temas | Material | Presentación | Video demo |
+|---|---|---|---|---|
+| **Día 1** | 1. Fundamentos: GitHub Copilot, agentes y MCP | [Laboratorio 1](Guias/Tema01_Laboratorio.md) | [PDF](Presentaciones/Dia1/Tema01_Presentacion.pdf) | — |
+| **Día 2** | 2. Configuración del entorno y conexión a modelos semánticos | [Laboratorio 2](Guias/Tema02_Laboratorio.md) | [PDF](Presentaciones/Dia2/Tema02_Presentacion.pdf) | [Video](<Videos/Dia2/Demostración Tema 2.mp4>) |
+| | 3. Exploración y diagnóstico con lenguaje natural | [Laboratorio 3](Guias/Tema03_Laboratorio.md) | [PDF](Presentaciones/Dia2/Tema03_Presentacion.pdf) | [Video](<Videos/Dia2/Demostración Tema 3.mp4>) |
+| **Día 3** | 4. Ingeniería de instrucciones | [Laboratorio 4](Guias/Tema04_Laboratorio.md) | [PDF](Presentaciones/Dia3/Tema04_Presentacion.pdf) | [Video](<Videos/Dia3/Demostración Tema 4.mp4>) |
+| | 5. Creación y modificación del modelo | [Laboratorio 5](Guias/Tema05_Laboratorio.md) | [PDF](Presentaciones/Dia3/Tema05_Presentacion.pdf) | [Video](<Videos/Dia3/Demostración Tema 5.mp4>) |
+| | 6. DAX asistido por IA | [Laboratorio 6](Guias/Tema06_Laboratorio.md) | [PDF](Presentaciones/Dia3/Tema06_Presentacion.pdf) | [Video](<Videos/Dia3/Demostración Tema 6.mp4>) |
+| **Día 4** | 7. Proyectos PBIP y trabajo en equipo con GitHub | Práctica en el laboratorio final | [PDF](Presentaciones/Dia4/Temas07_08_Presentacion.pdf) | [Video](<Videos/Dia4/Demostración Tema 7.mp4>) |
+| | 8. El agente en el informe, operaciones masivas y gobierno | [Laboratorio final: el informe del equipo](Guias/Tema08_Laboratorio.md) | La misma de los Temas 7 y 8 | [Video](<Videos/Dia4/Demostración Tema 8.mp4>) |
 
 El material de cada sesión se publica a medida que avanza el curso.
 
@@ -63,6 +63,7 @@ El material de cada sesión se publica a medida que avanza el curso.
 │   └── Verificar-Entorno.ps1   (opcional, requiere PowerShell)
 ├── Guias/              Guías de laboratorio
 ├── Presentaciones/     Presentaciones de cada día en PDF
+├── Videos/             Videos de demostración de cada día
 └── PREPARACION.md      Guía de preparación del equipo
 ```
 
